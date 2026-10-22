@@ -17,6 +17,8 @@
 A static GitHub Pages home page is ready at [`docs/index.html`](docs/index.html). Deployment instructions: [`PUBLISH.md`](PUBLISH.md). The site is not automatically published.
 
 ## Contents
+- [`governance/COMPLETENESS_AUDIT_2026-10-22.md`](governance/COMPLETENESS_AUDIT_2026-10-22.md): verified gaps and acceptance criteria
+- [`governance/DEEP_RESEARCH_MISSIONS.md`](governance/DEEP_RESEARCH_MISSIONS.md): scoped evidence-acquisition briefs, currently unexecuted
 - [`curriculum/ROADMAP.md`](curriculum/ROADMAP.md): adaptive phases, scope, mastery gates
 - [`curriculum/AVOID.md`](curriculum/AVOID.md): excluded/deferred curricula and re-entry rules
 - [`reading/PAPERS.md`](reading/PAPERS.md): primary reading and reproduction candidates
