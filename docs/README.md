@@ -24,3 +24,9 @@ Actual pure renderer and progress/checker functions executed against frozen data
 - PASS: Fraction diagram, answer form and protected key not linked
 - PASS: Next action advances after independent completion
 - PASS: No undefined resource link
+
+## ChatGPT progress update
+
+After learning, say: “I completed FRA-01 [assisted or independently]. Actual result: [describe privately]. Validate the ID and evidence status; give one exact next action.” If you explicitly choose to publish a non-sensitive status, add “Update my public Zulearn progress summary on GitHub.” The tutor must read the latest `docs/progress.json`, resolve the canonical ID (paper URL → existing paper ID; actual TensorTonic problem URL → canonical URL; never record a catalogue landing page as a task), preserve unrelated records, reject unsupported mastery, commit only the minimal change with the current blob SHA, then re-read and report the commit. Without write access, use the website's validated JSON draft and GitHub editor or local Git. Private evidence never enters the public repository.
+
+Additional post-push test: the committed JavaScript was fetched and executed against the actual frozen records using a simulated DOM and fixture fetch. Nine checks passed: initialization/handler binding; correct equivalent fraction; rejection of zero denominator; tutor clipboard handoff; canonical record selection; insufficient mastery rejection; explicit draft generation; serialized progress recovery/next action; corrupt state fails closed. These are runtime simulation tests, not desktop/mobile browser tests or a real learner progress commit. The public Pages URL could not be reached by the verification tool; GitHub main commit was verified independently.
