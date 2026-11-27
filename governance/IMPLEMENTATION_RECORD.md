@@ -40,7 +40,7 @@ Environment: Linux sandbox, Node **24.22.3**, Python **3.12.14**. This is not th
 - `python3 scripts/fetch-ioai-originals.py <private-directory>`: PASS. Original notebook byte sizes: Radar 22,496; Chicken Counting 26,741; Concepts 40,924; Restroom 12,846; Antique 8,702; Pixel 29,987. All six Git blob SHA-1 pins matched. Nothing executed; no datasets/models downloaded.
 - The nine opening OpenStax URLs, the exact next distribution reference and Python tutorial URL resolved to their intended primary-source sections on 27 November 2026. Original archive statements/rules were inspected during the bounded mapping pass. Full paid-platform item accessibility and graders remain item-specific and unresolved where unavailable.
 
-GitHub final commit/tree read-back is performed after publication of this implementation; Git object identity verifies the committed bytes. CI is supplied for Ubuntu/Windows Node 24, but a CI result or native Windows pass must not be inferred from the workflow's presence.
+GitHub read-back of implementation commit `80d088f9f5176c3c2b63d148945c5dbea0a07559` matched all 112 file identities and the changed-file sizes; critical approval, checksum, server and plugin files were read back separately. Initial CI passed on Ubuntu but caught Windows Git line-ending conversion before application tests. A follow-up `.gitattributes` fix preserves approved/historical bytes and makes ordinary text checkouts use LF. The approved files themselves were not changed. The final Windows/Linux CI result is verified separately after that commit; it must not be inferred merely from the workflow's presence.
 
 ## Implemented versus remaining limits
 

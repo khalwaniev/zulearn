@@ -1,0 +1,5 @@
+# Preserve reproducible text checkouts on Windows as well as Linux.
+* text=auto eol=lf
+# Approved and historical evidence must retain its original bytes exactly.
+curriculum/v1/** -text
+**/legacy/** -text
