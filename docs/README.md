@@ -89,7 +89,7 @@ All 1,757 preserved Deep-ML inventory observations have neither an exposed provi
 
 ## Visual learning atlas and complementary coverage
 
-The six hash-routed views (Today, Master path, Problem bank, Progress, Tutor, Challenges) share the existing static app and canonical progress. The atlas renders seven competency DAGs from actual frozen within-lane entry-operation edges. Cross-lane prerequisite links remain on each competency card. Deep-Path concepts are grouped in their 14 observed parts in ordinal order, without claiming sequence edges as prerequisites. On narrow screens the graph switches to grouped node cards with entry links in the detail view. Domain colors are categorical, not readiness gates. Current markers are status-derived *next candidates*, not a requirement to study eight things concurrently. Clicking a module reveals its existing canonical card and grouped assigned work. Search across registry or problem bank links to those same cards. No duplicated progress state, runtime package, external font, build step, or agent framework.
+At the original atlas revision, six hash-routed views (Today, Master path, Problem bank, Progress, Tutor, Challenges) shared the existing static app and canonical progress. The atlas renders seven competency DAGs from actual frozen within-lane entry-operation edges. Cross-lane prerequisite links remain on each competency card. Deep-Path concepts are grouped in their 14 observed parts in ordinal order, without claiming sequence edges as prerequisites. On narrow screens the graph switches to grouped node cards with entry links in the detail view. Domain colors are categorical, not readiness gates. Current markers are status-derived *next candidates*, not a requirement to study eight things concurrently. Clicking a module reveals its existing canonical card and grouped assigned work. Search across registry or problem bank links to those same cards. No duplicated progress state, runtime package, external font, build step, or agent framework.
 
 All 52 approved original worksheet bodies are included as a **derived display copy** in activities.json; the three frozen source documents are authoritative and unchanged. This is not a redistribution of third-party problem banks. Original worksheet links and provenance are retained. 20 opening actions each have at least one original exercise and a local independent check. The supplemental bank now has 46 original exercises (31 additions, including early arithmetic and computing, proof/spectral/algorithmic reasoning and scientific-method/domain transfer). Numeric answers have exact rational checking; proof/coding/science responses require independent written reasoning or actual execution and review. The 17 external locators include the existing AoPS, OTIS, Harvard and Putnam selections and newly inspected MathNet rou_2017_ff7e31, MIT Mathematics for Computer Science Ch.5 problems 5.7 and 5.8, and Boyd–Vandenberghe exercises 2.1 and 2.7 as assigned in Stanford EE364A HW1. Links only for external problem bodies; source rights retained. These are ordinary practice, not reserved challenges.
 
@@ -121,3 +121,30 @@ Final integrated interaction regression (production code in simulated DOM, not l
 - PASS: Landing page still rejected
 - PASS: Corrupt progress fails closed
 - PASS: Coverage and public state integrity
+
+## Final navigation simplification
+
+The current primary navigation is Today, Master Path, Problem Bank, Progress and Challenges. The standalone Tutor view and its route are removed; an old #tutor bookmark falls back to Today. ChatGPT Web remains the primary adaptive tutor. Open ChatGPT directly whenever needed; no website handoff is required. Optional **Copy Tutor Prompt** buttons remain on relevant cards, with local clipboard feedback and an inline selectable prompt if clipboard access fails. The prompt, teaching protocol, canonical context and explicit-permission GitHub progress workflow are unchanged. The teaching protocol and Anki links remain accessible in the footer. Earlier six-view test results above are historical.
+
+Regression checks on actual production JS with frozen data and simulated DOM:
+- PASS: Exactly five primary navigation links in requested order
+- PASS: Exactly five rendered views
+- PASS: No obsolete Tutor links, DOM targets or redirects
+- PASS: Legacy Tutor bookmark safely falls back to Today
+- PASS: Five primary routes resolve
+- PASS: All canonical rendered activity IDs preserved
+- PASS: Registry, progress and competency coverage unchanged
+- PASS: Next-action selection unchanged
+- PASS: All 421 canonical item routes unchanged
+- PASS: Optional prompts remain in lesson, problem and competency
+- PASS: Exact answer checking unchanged
+- PASS: Unregistered catalogue rejection unchanged
+- PASS: Validated progress merge unchanged
+- PASS: Task context and GitHub teaching/update prompt unchanged verbatim
+- PASS: Production initialization and handler binding
+- PASS: Clipboard success preserves lesson and full task-specific context
+- PASS: Clipboard denial exposes selectable inline prompt without navigation
+- PASS: Successful retry hides inline fallback
+- PASS: Legacy Tutor hash shows Today in integrated routing
+- PASS: No learner progress fabricated
+No live Pages or actual browser test was performed in this runtime.
