@@ -504,6 +504,6 @@
       "task_redistribution": "Pinned original notebook URLs and blob hashes; licensed CC-BY-4.0 repository, separate data/model notices apply."
     }
   ],
-  "pool_policy": "All listed held-out slots are reserved. Exposing a task in practice permanently removes that slot from unseen eligibility. New original local variants use distinct content and private random parameters. Public archives cannot prove a person has never seen them; require explicit attestation.",
-  "limits": "The app blocks its own tutoring/hints during attempts; it cannot proctor external devices or disable other LearnHarness host views. Use the portable assessment window, close other AI apps and record continuously for strict livestreams."
+  "pool_policy": "All reserved archived slots require unseen attestation. Exposing a task in practice removes unseen eligibility. A reviewer prepares a fresh local instance before an independent attempt; a previously seen/self-prepared instance is a known-task local check, not unseen transfer.",
+  "limits": "No application or automated enforcement. Close ChatGPT/assistants/hints, use a declared timer, record continuously, keep original tasks and independent grading evidence. Public archives and self-report do not prove unseen status."
 }

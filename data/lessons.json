@@ -372,7 +372,7 @@
       "explanation": [
         "Use an existing Python 3 interpreter or notebook. A name can hold a value; print displays the result of an expression.",
         "Type: parts = 8, then print(parts + 4). Change parts = 3 and type print(parts * 4). The outputs are 12 and 12.",
-        "Predict before running. Use your own changed numbers. This app stores code evidence but does not execute arbitrary submitted code."
+        "Predict before running. Use your own changed numbers. Save your own source and actual output privately; the tutor must not claim execution it has not observed."
       ],
       "worked_example": {
         "text": "parts = 8\nprint(parts + 4)\nparts = 3\nprint(parts * 4)",

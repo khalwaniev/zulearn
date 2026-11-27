@@ -93,5 +93,8 @@
     "learn": "7cfd8942f82ab9476e63572387e1fe9bcea5082c",
     "janestreet_agent_skills": "469868f4489cbdbe178c775a0af05bb6bef63689",
     "IOAI_official_2025": "39558e9a639d170bd92de91958fcdc915f670463"
-  }
+  },
+  "current_architecture": "GitHub, ChatGPT Web, Deep-ML, TensorTonic, selective LeetCode, Anki; no application or agent dependency",
+  "application_status": "Discontinued for the current phase by final human decision; earlier implementation preserved in Git history at 80d088f and fa859de",
+  "retained_content": "Unchanged approved V1; registry/subcompetencies/catalogue/checkpoints; original opening lessons; current Markdown queues/checklists/protocols"
 }

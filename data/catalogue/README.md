@@ -22,4 +22,4 @@ Open the next relevant Deep-Path activity. Privately record its actual canonical
 
 Status vocabulary: **required, completed, complementary, duplicated, deferred, excluded, unresolved**. Everything concepts start required for exploration. Unresolved item relationships stay unresolved. TensorTonic starts complementary unless a specific gap makes an item required. Record reason and evidence before exclusion/deferral. No AI-for-finance or other context exception is silently overridden.
 
-The app permits private progressive URL curation and evidence notes. It never scrapes paid task bodies, infers mastery from completion or publishes private records. Exact duplicate pair count is currently zero **verified**, which describes missing identity evidence rather than absence of real platform overlap.
+Use the private activity-log template for progressive URL curation and evidence notes. Do not scrape paid task bodies, infer mastery from completion or publish private records. Exact duplicate pair count is currently zero **verified**, which describes missing identity evidence rather than absence of real platform overlap.
