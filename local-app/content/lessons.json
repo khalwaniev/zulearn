@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "lessons": [
+    {
+      "id": "FRA-01",
+      "title": "What a fraction means",
+      "skill": "F01.fraction_meaning",
+      "kind": "fraction_meaning",
+      "lane": "mathematics",
+      "why": "Fractions let us describe equal shares, probabilities, averages and measurements. Today we only need equal parts.",
+      "explanation": [
+        "Choose one whole and split it into equal-sized parts. The denominator counts how many such parts make one whole. The numerator counts how many you take.",
+        "For 1/3, split a rectangle into three equal pieces and shade one. Two rectangles of different whole sizes need not represent equal amounts even if both say 1/3.",
+        "Split each third into two equal parts. The same shaded amount is now 2/6, so 1/3 = 2/6. The amount stays the same; only its name changes.",
+        "A denominator cannot be zero: division by zero does not describe a valid equal partition. You do not need decimals, negative numbers or powers today."
+      ],
+      "worked_example": {
+        "text": "One of three equal pieces is 1/3. Split all three pieces in half: two of six equal pieces are shaded, so 1/3 = 2/6.",
+        "fractions": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            6
+          ]
+        ]
+      },
+      "practice": "On paper, draw 2/3 of a rectangle. Label the top and bottom numbers. Draw 1/2 and 3/6 using the same-sized whole.",
+      "discovery": "Repartition your own drawing. Give the same shaded amount two fraction names. Explain the equal-parts rule.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+        "section": "§4.1 meaning and equivalent-fraction subsections only; skip readiness quiz",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "What does a fraction denominator count?",
+          "back": "The equal-sized parts that make one whole."
+        },
+        {
+          "front": "Why can 1/2 and 2/4 name the same amount?",
+          "back": "Splitting each half into two equal parts gives two quarters without changing the amount."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "FRA-02",
+      "title": "Adding and subtracting fractions",
+      "skill": "F01.fraction_operations",
+      "kind": "fraction_add",
+      "lane": "mathematics",
+      "why": "We can combine shares only after expressing them in the same-sized pieces.",
+      "explanation": [
+        "For 1/4 + 2/4, the pieces have the same size. Count three quarters: 3/4.",
+        "For 1/2 + 1/4, first split the half into two quarters. Then 2/4 + 1/4 = 3/4.",
+        "The denominator describes the size of the pieces; adding it would silently change the unit. Subtraction uses the same common-unit idea."
+      ],
+      "worked_example": {
+        "text": "1/2 + 1/4 = 2/4 + 1/4 = 3/4. A whole plus nothing is still a whole; 1/2 + 1/2 = 1, which refutes adding numerators and denominators together.",
+        "fractions": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "practice": "Draw and calculate 1/3 + 1/6. Then 3/4 − 1/4. Explain which pieces you counted.",
+      "discovery": "Construct a counterexample to “add tops and add bottoms.” Say exactly why it fails.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators",
+        "section": "§4.4 common denominators, then §4.5 initial different-denominator examples",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "Why use a common denominator before adding fractions?",
+          "back": "It expresses both quantities in the same-sized parts."
+        },
+        {
+          "front": "Does 1/2 + 1/2 equal 2/4?",
+          "back": "No. Two halves make one whole; 2/4 is only one half."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "FRA-03",
+      "title": "Multiplying and dividing fractions",
+      "skill": "F01.fraction_operations",
+      "kind": "fraction_multiply",
+      "lane": "mathematics",
+      "why": "Multiplication can describe a part of a part. Division asks how many units of one amount fit in another.",
+      "explanation": [
+        "Half of three quarters is three eighths: (1/2) × (3/4) = 3/8. Draw a rectangle split in both directions.",
+        "How many quarter-units fit in a half? Two, so (1/2) ÷ (1/4) = 2.",
+        "Dividing by a nonzero fraction equals multiplying by its reciprocal. Numerator/denominator cancellation needs genuine common factors; never cancel across a sum."
+      ],
+      "worked_example": {
+        "text": "(2/3) × (3/4) = 6/12 = 1/2. Also (3/4) ÷ (1/2) = (3/4) × 2 = 3/2.",
+        "fractions": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "practice": "Calculate (2/3) × (3/5) and (1/2) ÷ (1/4). Draw the second as a counting question.",
+      "discovery": "Can dividing a positive number make it larger? Give an example and explain the unit being counted.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+        "section": "§4.2, one operation at a time",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "What does division by 1/4 ask?",
+          "back": "How many quarter-units fit in the given amount."
+        },
+        {
+          "front": "When is a fraction reciprocal defined?",
+          "back": "When the fraction is nonzero; its numerator and denominator exchange roles."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "DEC-01",
+      "title": "Decimals name fractional parts",
+      "skill": "F01.decimals",
+      "kind": "decimal",
+      "lane": "mathematics",
+      "why": "Decimals are a place-value notation for tenths, hundredths and smaller equal parts.",
+      "explanation": [
+        "0.3 means three tenths: 3/10. 0.25 means twenty-five hundredths: 25/100 = 1/4.",
+        "Write 0.5 as 5/10 and 0.50 as 50/100. These represent the same amount.",
+        "Align equal place values when adding. Decimal multiplication and division must preserve the scale, not just the visible digits."
+      ],
+      "worked_example": {
+        "text": "0.2 + 0.45 = 0.20 + 0.45 = 0.65. Half of 0.4 is 0.2; 0.8 ÷ 0.2 = 4.",
+        "fractions": [
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "practice": "Convert 3/4 to a decimal. Calculate 0.4 + 0.35, 0.6 × 0.5 and 0.9 ÷ 0.3 on paper.",
+      "discovery": "Explain why writing an extra zero at the end of a decimal need not change its value.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+        "section": "§§5.1–5.3 place value, operations and conversion subsections",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "What does 0.25 mean as a fraction?",
+          "back": "25/100, which equals 1/4."
+        },
+        {
+          "front": "Why are 0.5 and 0.50 equal?",
+          "back": "Five tenths and fifty hundredths describe the same amount."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "RAT-01",
+      "title": "Ratios, rates and percentages",
+      "skill": "F01.ratios_percent",
+      "kind": "percent",
+      "lane": "mathematics",
+      "why": "A comparison is meaningful only when we know which quantities and units it compares.",
+      "explanation": [
+        "With 2 red tokens and 3 blue tokens, red:blue is 2:3. Red as a fraction of all tokens is 2/5, because there are five tokens in total.",
+        "A unit rate compares an amount per one unit, such as 12 kilometers in 3 hours giving 4 kilometers per hour.",
+        "Percent means per hundred. 25% = 25/100 = 1/4, so 25% of 80 equals 20. The reference amount matters."
+      ],
+      "worked_example": {
+        "text": "1/5 = 0.2 = 20%. In 3 red and 2 blue tokens, red:blue = 3:2, while red/total = 3/5.",
+        "fractions": [
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      "practice": "Find 10% of 60. With 4 red and 6 blue tokens, write red:blue and red/total. Keep the comparisons separate.",
+      "discovery": "A 20% decrease then a 20% increase do not generally cancel. After learning percent changes, test this on 50 and explain the changing base.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent",
+        "section": "§5.6 ratios/unit rates and §6.1 percent; §6.2 percent changes later",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "What does percent mean?",
+          "back": "Per hundred: p% means p/100 of the reference amount."
+        },
+        {
+          "front": "With 2 red and 3 blue tokens, what fraction of all tokens is red?",
+          "back": "2/5. The part:part ratio 2:3 uses a different comparison."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "INT-01",
+      "title": "Negative numbers and signed operations",
+      "skill": "F01.signed_numbers",
+      "kind": "signed",
+      "lane": "mathematics",
+      "why": "Negative numbers extend the number line so that subtraction and directional changes can be described consistently.",
+      "explanation": [
+        "Place zero on a line. Positive numbers lie to its right; negative numbers lie to its left. −2 is greater than −5 because it lies further right.",
+        "Starting at −2 and moving five units right gives −2 + 5 = 3. Subtracting three from two gives 2 − 3 = −1.",
+        "Multiplication sign rules must agree with distribution and additive inverses. For example, 0 = (−2)×(3 + (−3)) forces (−2)×(−3) = 6. Divide only by nonzero numbers."
+      ],
+      "worked_example": {
+        "text": "−3 + 5 = 2; 4 − 7 = −3; (−2)×(−3) = 6; (−8)÷2 = −4.",
+        "fractions": []
+      },
+      "practice": "Draw −3 and −1, then calculate −4 + 6, 3 − 8 and (−3)×(−2). Explain each direction/sign.",
+      "discovery": "Create two examples where a number with a larger absolute magnitude is actually smaller.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
+        "section": "§§3.1–3.4; one operation at a time",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "Which is greater, −2 or −5?",
+          "back": "−2, because it lies to the right of −5 on the number line."
+        },
+        {
+          "front": "Why does multiplying two negative integers give a positive integer?",
+          "back": "The sign rule follows from distribution and additive inverses; it keeps arithmetic consistent."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "POW-01",
+      "title": "Powers and grouping",
+      "skill": "F01.powers_order",
+      "kind": "power",
+      "lane": "mathematics",
+      "why": "Exponent notation compresses repeated multiplication. Grouping determines which operation acts on which value.",
+      "explanation": [
+        "3² means 3×3 = 9. It does not mean 3×2.",
+        "Do grouped operations first, then powers, then multiplication/division from left to right, then addition/subtraction from left to right.",
+        "2 + 3×4 = 14, while (2+3)×4 = 20. −(2²) = −4, while (−2)² = 4. Zero/negative exponents and roots remain separate later lessons."
+      ],
+      "worked_example": {
+        "text": "2³ = 2×2×2 = 8. Parentheses make the base explicit: (−3)² = 9, while −(3²) = −9.",
+        "fractions": []
+      },
+      "practice": "Calculate 3², 2+3×4, (2+3)×4, −(2²) and (−2)². Rewrite each power as multiplication.",
+      "discovery": "Invent two expressions with the same digits but different grouping and different values.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+        "section": "§2.1 exponent/order subsections only",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "What does 2³ mean?",
+          "back": "2×2×2 = 8."
+        },
+        {
+          "front": "Why do −(2²) and (−2)² differ?",
+          "back": "The first negates a square; the second squares a negative base."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "ALG-01",
+      "title": "Variables, expressions and equations",
+      "skill": "F02.notation",
+      "kind": "expression",
+      "lane": "mathematics",
+      "why": "Algebra lets us describe a calculation or relationship without fixing every number in advance.",
+      "explanation": [
+        "In this lesson a variable is a symbol for a number. An expression, such as 3x+2, represents a value. An equation, such as 3x+2=14, states equality.",
+        "To evaluate an expression, replace each occurrence of a variable by the given number, keeping grouping clear. At x=4, 3x+2 = 3×4+2 = 14.",
+        "In Python, = assigns a value to a name; it does not solve an algebraic equation."
+      ],
+      "worked_example": {
+        "text": "At z=3, 5z+1 = 16. The expression 5z+1 and the equation 5z+1=16 play different roles.",
+        "fractions": []
+      },
+      "practice": "Evaluate 2x+1 at x=0 and x=4. Write an expression describing three groups of a number plus two.",
+      "discovery": "Compare (x+2)+3 with x+5. Explain why two examples alone do not prove an identity for every x.",
+      "source": {
+        "url": "https://openstax.org/books/elementary-algebra-2e/pages/1-2-use-the-language-of-algebra",
+        "section": "§1.2 expression/equation definitions",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "How does an equation differ from an expression?",
+          "back": "An equation states equality between two expressions; an expression represents a value."
+        },
+        {
+          "front": "What does substitution mean?",
+          "back": "Replace a variable by a given value, preserving the expression’s grouping."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "ALG-02",
+      "title": "Preserving equality",
+      "skill": "F02.equality",
+      "kind": "equation",
+      "lane": "mathematics",
+      "why": "Solving an equation means finding values that make its equality true, while keeping equivalent conditions.",
+      "explanation": [
+        "For x+5=12, subtract 5 from both sides to obtain x=7. Check by substitution: 7+5=12.",
+        "Adding or subtracting the same number on both sides preserves the solution set. Multiplication/division by a nonzero number is reversible.",
+        "Multiplication by zero can lose information. Division by zero is undefined. Learn distribution and equations on both sides later through MAT-ALG."
+      ],
+      "worked_example": {
+        "text": "For t+3=11, subtract 3 from both sides: t=8. Substitution checks the result.",
+        "fractions": []
+      },
+      "practice": "Solve x−4=9 and 3x=18. Explain why your operation preserves the same solutions.",
+      "discovery": "Show how changing only one side can destroy equality using a numerical example.",
+      "source": {
+        "url": "https://openstax.org/books/elementary-algebra-2e/pages/2-1-solve-equations-using-the-subtraction-and-addition-properties-of-equality",
+        "section": "§2.1 first equality examples; §2.2 multiplication/division next",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "Why apply the same valid operation to both sides of an equation?",
+          "back": "To preserve the equality and, for a reversible operation, its solution set."
+        },
+        {
+          "front": "Why can multiplying an equation by zero lose information?",
+          "back": "Different original conditions can all become 0=0, so the original solution restriction is lost."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    },
+    {
+      "id": "CODE-01",
+      "title": "Your first Python names and outputs",
+      "skill": "C01.assignment",
+      "kind": "code",
+      "lane": "programming",
+      "why": "Programming can begin with whole numbers while the mathematics lane develops.",
+      "explanation": [
+        "Use an existing Python 3 interpreter or notebook. A name can hold a value; print displays the result of an expression.",
+        "Type: parts = 8, then print(parts + 4). Change parts = 3 and type print(parts * 4). The outputs are 12 and 12.",
+        "Predict before running. Use your own changed numbers. This app stores code evidence but does not execute arbitrary submitted code."
+      ],
+      "worked_example": {
+        "text": "parts = 8\nprint(parts + 4)\nparts = 3\nprint(parts * 4)",
+        "fractions": []
+      },
+      "practice": "Write and run your own assignment/output example. Save the source and observed output; no AI-written code during an independent challenge.",
+      "discovery": "Explain why changing a name changes later calculations but does not solve an algebraic equation.",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/introduction.html",
+        "section": "Python tutorial §3.1 numbers and assignment",
+        "use": "selected explanation; Zulearn wording/exercises are original"
+      },
+      "cards": [
+        {
+          "front": "What does Python = do here?",
+          "back": "It binds a name to a value."
+        },
+        {
+          "front": "What does print do?",
+          "back": "It displays the supplied value or expression result."
+        }
+      ],
+      "license": "Original Zulearn explanation and exercises; AGPL-3.0-only for this app/content. Source links are attribution, not copied book text."
+    }
+  ]
+}

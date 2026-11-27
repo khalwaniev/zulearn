@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "checkpoints": [
+    {
+      "id": "ZC-FRA-01",
+      "title": "Fresh equal-parts challenge",
+      "track": "Introductory",
+      "official": false,
+      "pool": "held_out",
+      "local_lesson": "FRA-01",
+      "competencies": [
+        "F01.fraction_meaning"
+      ],
+      "readiness": "Begin the relevant integrated lesson. No global diagnostic.",
+      "difficulty": "introductory",
+      "minutes": 8,
+      "protocol": "Original Zulearn local challenge; not an olympiad task or medal simulation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Exact numeric oracle where applicable; written reasoning and executed code require review."
+    },
+    {
+      "id": "ZC-FRA-02",
+      "title": "Fresh fraction addition challenge",
+      "track": "Introductory",
+      "official": false,
+      "pool": "held_out",
+      "local_lesson": "FRA-02",
+      "competencies": [
+        "F01.fraction_operations"
+      ],
+      "readiness": "Begin the relevant integrated lesson. No global diagnostic.",
+      "difficulty": "introductory",
+      "minutes": 8,
+      "protocol": "Original Zulearn local challenge; not an olympiad task or medal simulation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Exact numeric oracle where applicable; written reasoning and executed code require review."
+    },
+    {
+      "id": "ZC-CODE-01",
+      "title": "Own Python assignment/output challenge",
+      "track": "Introductory",
+      "official": false,
+      "pool": "held_out",
+      "local_lesson": "CODE-01",
+      "competencies": [
+        "C01.assignment"
+      ],
+      "readiness": "Begin the relevant integrated lesson. No global diagnostic.",
+      "difficulty": "introductory",
+      "minutes": 8,
+      "protocol": "Original Zulearn local challenge; not an olympiad task or medal simulation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Exact numeric oracle where applicable; written reasoning and executed code require review."
+    },
+    {
+      "id": "IMO-1959-P1",
+      "title": "IMO 1959 — Problem 1",
+      "track": "IMO",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1959/1959_eng.pdf",
+      "source_locator": "1959/1, page 1",
+      "competencies": [
+        "F02",
+        "F07",
+        "F08"
+      ],
+      "readiness": "Fractions, elementary algebra and divisibility/proof reasoning; teach the exact needed divisibility fact first.",
+      "difficulty": "developing",
+      "minutes": 45,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Complete original proof evaluated by an independent reader; historical point allocation not verified, so no invented 7-point score.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "IMO-1959-P3",
+      "title": "IMO 1959 — Problem 3",
+      "track": "IMO",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1959/1959_eng.pdf",
+      "source_locator": "1959/3, page 1",
+      "competencies": [
+        "F02",
+        "F03",
+        "F04",
+        "F07"
+      ],
+      "readiness": "Polynomial manipulation, trigonometric identities and equivalence of solution sets.",
+      "difficulty": "advanced",
+      "minutes": 60,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Independent proof/solution review; preserve every original condition and comparison.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "IOI-2018-COMBO",
+      "title": "IOI 2018 — Combo",
+      "track": "IOI",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://ioinformatics.org/files/ioi2018problem1.pdf",
+      "source_locator": "Day 1, Task 1; statement pages 1–3",
+      "competencies": [
+        "C01",
+        "C04",
+        "C05",
+        "C08"
+      ],
+      "readiness": "String implementation, adversarial cases, query-budget analysis and original interactive grader.",
+      "difficulty": "developing",
+      "minutes": 90,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Use the original subtasks/query-score function and grader. Sample-only results remain sample-only; no generic pass score is substituted.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "IOI-2018-SEATS",
+      "title": "IOI 2018 — Seats",
+      "track": "IOI",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://ioinformatics.org/files/ioi2018problem2.pdf",
+      "source_locator": "Day 1, Task 2",
+      "competencies": [
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "readiness": "Dynamic data structures and proof of maintained invariants; original interface and tests.",
+      "difficulty": "advanced",
+      "minutes": 120,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Preserve original subtask points and original grader/time/memory constraints; external result pending until supplied.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "ICPC-2023-E",
+      "title": "ICPC World Finals 2023 — A Recurring Problem",
+      "track": "ICPC",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://icpc.global/worldfinals/problems/2023-ICPC-World-Finals/icpc2023.pdf",
+      "source_locator": "Problem E, PDF pages 9–10",
+      "competencies": [
+        "F05",
+        "C04",
+        "C05",
+        "C07"
+      ],
+      "readiness": "Recurrences, ordering/enumeration, integer cost model and independently written implementation.",
+      "difficulty": "advanced",
+      "minutes": 120,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Original input/output and 20-second program limit; accepted only with a suitable original judge receipt. Solo/time selection differs from team contest.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "ICPC-2023-F",
+      "title": "ICPC World Finals 2023 — Tilting Tiles",
+      "track": "ICPC",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://icpc.global/worldfinals/problems/2023-ICPC-World-Finals/icpc2023.pdf",
+      "source_locator": "Problem F, PDF pages 11–12",
+      "competencies": [
+        "C04",
+        "C06",
+        "C08"
+      ],
+      "readiness": "Grid transformations, invariants and implementation within the original constraints.",
+      "difficulty": "advanced",
+      "minutes": 120,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Original input/output and 3-second program limit; sample checking does not establish acceptance.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "PUTNAM-2024-A1",
+      "title": "Putnam 2024 — A1",
+      "track": "Putnam",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://maa.org/wp-content/uploads/2026/02/2024-Putnam-Problems.pdf",
+      "source_locator": "Session A, problem 1. Text crosschecked against author-maintained https://kskedlaya.org/putnam-archive/2024.pdf; organizer archive is primary.",
+      "competencies": [
+        "F02",
+        "F07",
+        "F08"
+      ],
+      "readiness": "Integer powers, elementary divisibility and complete necessity/sufficiency proof.",
+      "difficulty": "developing",
+      "minutes": 60,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Written proof reviewed on the original ten-point problem scale where a qualified reviewer supplies a rubric; no medal/eligibility claim.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "PUTNAM-2024-B1",
+      "title": "Putnam 2024 — B1",
+      "track": "Putnam",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://maa.org/wp-content/uploads/2026/02/2024-Putnam-Problems.pdf",
+      "source_locator": "Session B, problem 1. Text crosschecked against author-maintained https://kskedlaya.org/putnam-archive/2024.pdf; organizer archive is primary.",
+      "competencies": [
+        "F07",
+        "F08",
+        "M17"
+      ],
+      "readiness": "Permutation/grid reasoning, invariants and constructive proof.",
+      "difficulty": "developing",
+      "minutes": 60,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Written proof reviewed on the original ten-point problem scale where a qualified reviewer supplies a rubric; no medal/eligibility claim.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "PUTNAM-2024-B4",
+      "title": "Putnam 2024 — B4",
+      "track": "Putnam",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "source_url": "https://maa.org/wp-content/uploads/2026/02/2024-Putnam-Problems.pdf",
+      "source_locator": "Session B, problem 4. Text crosschecked against author-maintained https://kskedlaya.org/putnam-archive/2024.pdf; organizer archive is primary.",
+      "competencies": [
+        "M07",
+        "M18",
+        "F07"
+      ],
+      "readiness": "Finite random processes, conditional expectation and a justified limit.",
+      "difficulty": "advanced",
+      "minutes": 60,
+      "protocol": "Selected original archived task; solo timed personal simulation. Task unmodified; selection, timing and solo format are modified protocols, not official participation.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score."
+      ],
+      "grading": "Written proof reviewed on the original ten-point problem scale where a qualified reviewer supplies a rubric; no medal/eligibility claim.",
+      "task_redistribution": "Link to original source; no unlicensed statement/solution copied."
+    },
+    {
+      "id": "IOAI-2025-DAY1",
+      "title": "IOAI 2025 Individual Contest — Day 1",
+      "track": "IOAI",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "tasks": [
+        {
+          "id": "IOAI2025-T1",
+          "title": "Radar",
+          "path": "Individual-Contest/Radar/Radar.ipynb",
+          "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Radar/Radar.ipynb",
+          "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+          "git_blob_sha1": "57cc6c6003c111f31b92e00ef5fd1dcd6c78230e",
+          "competencies": [
+            "L01",
+            "L12",
+            "C12",
+            "S02"
+          ],
+          "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+          "attribution": "IOAI 2025 authors listed in upstream README",
+          "task_modifications": "none; original notebook remains upstream",
+          "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+          "pool": "held_out",
+          "initial_status": "reserved; unseen status must be declared by learner"
+        },
+        {
+          "id": "IOAI2025-T2",
+          "title": "Chicken Counting",
+          "path": "Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb",
+          "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb",
+          "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+          "git_blob_sha1": "cf7278905fb99b992242a7bbb19847f7f64534db",
+          "competencies": [
+            "L12",
+            "L11",
+            "L01"
+          ],
+          "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+          "attribution": "IOAI 2025 authors listed in upstream README",
+          "task_modifications": "none; original notebook remains upstream",
+          "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+          "pool": "held_out",
+          "initial_status": "reserved; unseen status must be declared by learner"
+        },
+        {
+          "id": "IOAI2025-T3",
+          "title": "Concepts",
+          "path": "Individual-Contest/Concepts/Concepts.ipynb",
+          "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Concepts/Concepts.ipynb",
+          "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+          "git_blob_sha1": "3e29e38202d4cf97438397e52118800a0021d248",
+          "competencies": [
+            "L15",
+            "L23",
+            "L28"
+          ],
+          "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+          "attribution": "IOAI 2025 authors listed in upstream README",
+          "task_modifications": "none; original notebook remains upstream",
+          "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+          "pool": "held_out",
+          "initial_status": "reserved; unseen status must be declared by learner"
+        }
+      ],
+      "source_url": "https://github.com/IOAI-official/IOAI-2025",
+      "source_locator": "Individual Contest Day 1; all three original tasks, no research-domain filtering",
+      "competencies": [
+        "C12",
+        "L01",
+        "L11",
+        "L12",
+        "L15",
+        "L23",
+        "L28",
+        "S02"
+      ],
+      "readiness": "Full 2025 syllabus coverage for this edition, Python/PyTorch/data/model training and the original task assets/environment. All syllabus topics retained, including topics outside the five research domains.",
+      "difficulty": "advanced",
+      "minutes": 360,
+      "protocol": "Original 2025 tasks unchanged. Six-hour personal solo simulation with a stricter no-AI-assistant policy. The 2025 rules allowed a limited organizer chatbot; this simulation intentionally omits it. Model training/inference required by the task is allowed.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score.",
+        "Training, inference, supplied pretrained models and necessary local computation are allowed. No external AI coding/chat assistant.",
+        "Keep original datasets, metrics, limits and inputs. If hidden evaluation/data/services are unavailable, report the result as an ungraded attempt or an explicitly changed retrospective protocol, never an original-task score."
+      ],
+      "rules_url": "https://ioai-official.org/wp-content/uploads/2025/08/Contest-Rules-for-IOAI-2025-version-2.3-1.pdf",
+      "rules_version": "PDF heading Version 2.4 (August 3, 2025); filename still says 2.3",
+      "grading": "Use each original metric/scoring procedure. Hidden-test/organizer-service availability is task-specific; score unification is not re-created from guesses.",
+      "task_redistribution": "Pinned original notebook URLs and blob hashes; licensed CC-BY-4.0 repository, separate data/model notices apply."
+    },
+    {
+      "id": "IOAI-2025-DAY2",
+      "title": "IOAI 2025 Individual Contest — Day 2",
+      "track": "IOAI",
+      "official": true,
+      "pool": "held_out",
+      "local_lesson": null,
+      "tasks": [
+        {
+          "id": "IOAI2025-T4",
+          "title": "Restroom Icon Matching",
+          "path": "Individual-Contest/Restroom/Restroom.ipynb",
+          "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Restroom/Restroom.ipynb",
+          "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+          "git_blob_sha1": "d8d24c2332bf515da16e643fad0a46c4cb679cc2",
+          "competencies": [
+            "L09",
+            "L12",
+            "L26"
+          ],
+          "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+          "attribution": "IOAI 2025 authors listed in upstream README",
+          "task_modifications": "none; original notebook remains upstream",
+          "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+          "pool": "held_out",
+          "initial_status": "reserved; unseen status must be declared by learner"
+        },
+        {
+          "id": "IOAI2025-T5",
+          "title": "Antique Painting Authentication",
+          "path": "Individual-Contest/Antique/Antique.ipynb",
+          "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Antique/Antique.ipynb",
+          "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+          "git_blob_sha1": "fc0929e463a8d5bfc5cd0f80fabdac4b9ef7b770",
+          "competencies": [
+            "L03",
+            "L07",
+            "L25"
+          ],
+          "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+          "attribution": "IOAI 2025 authors listed in upstream README",
+          "task_modifications": "none; original notebook remains upstream",
+          "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+          "pool": "held_out",
+          "initial_status": "reserved; unseen status must be declared by learner"
+        },
+        {
+          "id": "IOAI2025-T6",
+          "title": "Pixel Efficiency",
+          "path": "Individual-Contest/Pixel/Pixel.ipynb",
+          "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Pixel/Pixel.ipynb",
+          "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+          "git_blob_sha1": "aa75be65c1e605b5885a19e8b81441a52bd8638e",
+          "competencies": [
+            "L12",
+            "L26",
+            "C13"
+          ],
+          "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+          "attribution": "IOAI 2025 authors listed in upstream README",
+          "task_modifications": "none; original notebook remains upstream",
+          "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+          "pool": "held_out",
+          "initial_status": "reserved; unseen status must be declared by learner"
+        }
+      ],
+      "source_url": "https://github.com/IOAI-official/IOAI-2025",
+      "source_locator": "Individual Contest Day 2; all three original tasks, no research-domain filtering",
+      "competencies": [
+        "C13",
+        "L03",
+        "L07",
+        "L09",
+        "L12",
+        "L25",
+        "L26"
+      ],
+      "readiness": "Full 2025 syllabus coverage for this edition, Python/PyTorch/data/model training and the original task assets/environment. All syllabus topics retained, including topics outside the five research domains.",
+      "difficulty": "advanced",
+      "minutes": 360,
+      "protocol": "Original 2025 tasks unchanged. Six-hour personal solo simulation with a stricter no-AI-assistant policy. The 2025 rules allowed a limited organizer chatbot; this simulation intentionally omits it. Model training/inference required by the task is allowed.",
+      "rules": [
+        "No AI tutor, generated solution, external hints, live chat or editing during the attempt.",
+        "Keep the continuous recording and record interruptions; no claim of official participation or a medal.",
+        "Only the original permitted statement, data, computation and declared tools may be used.",
+        "Submit source/working, result and evidence; independent review is separate from numeric score.",
+        "Training, inference, supplied pretrained models and necessary local computation are allowed. No external AI coding/chat assistant.",
+        "Keep original datasets, metrics, limits and inputs. If hidden evaluation/data/services are unavailable, report the result as an ungraded attempt or an explicitly changed retrospective protocol, never an original-task score."
+      ],
+      "rules_url": "https://ioai-official.org/wp-content/uploads/2025/08/Contest-Rules-for-IOAI-2025-version-2.3-1.pdf",
+      "rules_version": "PDF heading Version 2.4 (August 3, 2025); filename still says 2.3",
+      "grading": "Use each original metric/scoring procedure. Hidden-test/organizer-service availability is task-specific; score unification is not re-created from guesses.",
+      "task_redistribution": "Pinned original notebook URLs and blob hashes; licensed CC-BY-4.0 repository, separate data/model notices apply."
+    }
+  ],
+  "pool_policy": "All listed held-out slots are reserved. Exposing a task in practice permanently removes that slot from unseen eligibility. New original local variants use distinct content and private random parameters. Public archives cannot prove a person has never seen them; require explicit attestation.",
+  "limits": "The app blocks its own tutoring/hints during attempts; it cannot proctor external devices or disable other LearnHarness host views. Use the portable assessment window, close other AI apps and record continuously for strict livestreams."
+}

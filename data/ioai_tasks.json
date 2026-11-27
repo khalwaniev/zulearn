@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "IOAI2025-T1",
+      "title": "Radar",
+      "path": "Individual-Contest/Radar/Radar.ipynb",
+      "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Radar/Radar.ipynb",
+      "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+      "git_blob_sha1": "57cc6c6003c111f31b92e00ef5fd1dcd6c78230e",
+      "competencies": [
+        "L01",
+        "L12",
+        "C12",
+        "S02"
+      ],
+      "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+      "attribution": "IOAI 2025 authors listed in upstream README",
+      "task_modifications": "none; original notebook remains upstream",
+      "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+      "pool": "held_out",
+      "initial_status": "reserved; unseen status must be declared by learner"
+    },
+    {
+      "id": "IOAI2025-T2",
+      "title": "Chicken Counting",
+      "path": "Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb",
+      "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb",
+      "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+      "git_blob_sha1": "cf7278905fb99b992242a7bbb19847f7f64534db",
+      "competencies": [
+        "L12",
+        "L11",
+        "L01"
+      ],
+      "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+      "attribution": "IOAI 2025 authors listed in upstream README",
+      "task_modifications": "none; original notebook remains upstream",
+      "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+      "pool": "held_out",
+      "initial_status": "reserved; unseen status must be declared by learner"
+    },
+    {
+      "id": "IOAI2025-T3",
+      "title": "Concepts",
+      "path": "Individual-Contest/Concepts/Concepts.ipynb",
+      "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Concepts/Concepts.ipynb",
+      "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+      "git_blob_sha1": "3e29e38202d4cf97438397e52118800a0021d248",
+      "competencies": [
+        "L15",
+        "L23",
+        "L28"
+      ],
+      "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+      "attribution": "IOAI 2025 authors listed in upstream README",
+      "task_modifications": "none; original notebook remains upstream",
+      "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+      "pool": "held_out",
+      "initial_status": "reserved; unseen status must be declared by learner"
+    },
+    {
+      "id": "IOAI2025-T4",
+      "title": "Restroom Icon Matching",
+      "path": "Individual-Contest/Restroom/Restroom.ipynb",
+      "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Restroom/Restroom.ipynb",
+      "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+      "git_blob_sha1": "d8d24c2332bf515da16e643fad0a46c4cb679cc2",
+      "competencies": [
+        "L09",
+        "L12",
+        "L26"
+      ],
+      "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+      "attribution": "IOAI 2025 authors listed in upstream README",
+      "task_modifications": "none; original notebook remains upstream",
+      "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+      "pool": "held_out",
+      "initial_status": "reserved; unseen status must be declared by learner"
+    },
+    {
+      "id": "IOAI2025-T5",
+      "title": "Antique Painting Authentication",
+      "path": "Individual-Contest/Antique/Antique.ipynb",
+      "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Antique/Antique.ipynb",
+      "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+      "git_blob_sha1": "fc0929e463a8d5bfc5cd0f80fabdac4b9ef7b770",
+      "competencies": [
+        "L03",
+        "L07",
+        "L25"
+      ],
+      "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+      "attribution": "IOAI 2025 authors listed in upstream README",
+      "task_modifications": "none; original notebook remains upstream",
+      "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+      "pool": "held_out",
+      "initial_status": "reserved; unseen status must be declared by learner"
+    },
+    {
+      "id": "IOAI2025-T6",
+      "title": "Pixel Efficiency",
+      "path": "Individual-Contest/Pixel/Pixel.ipynb",
+      "source_url": "https://github.com/IOAI-official/IOAI-2025/blob/39558e9a639d170bd92de91958fcdc915f670463/Individual-Contest/Pixel/Pixel.ipynb",
+      "source_commit": "39558e9a639d170bd92de91958fcdc915f670463",
+      "git_blob_sha1": "aa75be65c1e605b5885a19e8b81441a52bd8638e",
+      "competencies": [
+        "L12",
+        "L26",
+        "C13"
+      ],
+      "license": "CC-BY-4.0 (repository); check separate dataset/model notices",
+      "attribution": "IOAI 2025 authors listed in upstream README",
+      "task_modifications": "none; original notebook remains upstream",
+      "score_availability": "Original scorer/hidden test and data availability must be confirmed before claiming an original-task score",
+      "pool": "held_out",
+      "initial_status": "reserved; unseen status must be declared by learner"
+    }
+  ]
+}

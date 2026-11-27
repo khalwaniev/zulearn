@@ -1,0 +1,795 @@
+{
+  "schema_version": 1,
+  "edition": 2025,
+  "selection_policy": "ALL official edition topics; no selection or prioritization toward the five research domains",
+  "original_pdf": "https://ioai-official.org/wp-content/uploads/2025/06/Syllabus-2025-Final.pdf",
+  "original_pdf_sha256": "06fa4464334c593060af9eda34cc1786cd6b719a4cce1462444b086c90f28ab3",
+  "original_pages": 4,
+  "classifications": {
+    "T": "Theory",
+    "P": "Practice",
+    "B": "Both"
+  },
+  "topics": [
+    {
+      "id": "IOAI25.S1.01",
+      "section": 1,
+      "source_row": 1,
+      "label": "Python",
+      "classification": "P",
+      "competencies": [
+        "C01"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.02",
+      "section": 1,
+      "source_row": 2,
+      "label": "NumPy/pandas",
+      "classification": "P",
+      "competencies": [
+        "C02",
+        "C16"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.03",
+      "section": 1,
+      "source_row": 3,
+      "label": "Plotting",
+      "classification": "P",
+      "competencies": [
+        "C02",
+        "S07"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.04",
+      "section": 1,
+      "source_row": 4,
+      "label": "sklearn",
+      "classification": "P",
+      "competencies": [
+        "L02",
+        "C03"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.05",
+      "section": 1,
+      "source_row": 5,
+      "label": "PyTorch",
+      "classification": "P",
+      "competencies": [
+        "C12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.06",
+      "section": 1,
+      "source_row": 6,
+      "label": "Tensors",
+      "classification": "P",
+      "competencies": [
+        "C02"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.07",
+      "section": 1,
+      "source_row": 7,
+      "label": "Reproducibility",
+      "classification": "P",
+      "competencies": [
+        "C03",
+        "S06"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.08",
+      "section": 1,
+      "source_row": 8,
+      "label": "CPU/GPU",
+      "classification": "P",
+      "competencies": [
+        "C12",
+        "C13"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.09",
+      "section": 1,
+      "source_row": 9,
+      "label": "Experiment tracking",
+      "classification": "P",
+      "competencies": [
+        "S06"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.10",
+      "section": 1,
+      "source_row": 10,
+      "label": "Linear regression",
+      "classification": "B",
+      "competencies": [
+        "L02"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.11",
+      "section": 1,
+      "source_row": 11,
+      "label": "Logistic regression",
+      "classification": "B",
+      "competencies": [
+        "L03"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.12",
+      "section": 1,
+      "source_row": 12,
+      "label": "kNN",
+      "classification": "B",
+      "competencies": [
+        "L09"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.13",
+      "section": 1,
+      "source_row": 13,
+      "label": "Trees",
+      "classification": "B",
+      "competencies": [
+        "L05"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.14",
+      "section": 1,
+      "source_row": 14,
+      "label": "Random forests",
+      "classification": "P",
+      "competencies": [
+        "L05"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.15",
+      "section": 1,
+      "source_row": 15,
+      "label": "Boosting",
+      "classification": "P",
+      "competencies": [
+        "L05"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.16",
+      "section": 1,
+      "source_row": 16,
+      "label": "SVM",
+      "classification": "B",
+      "competencies": [
+        "L06"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.17",
+      "section": 1,
+      "source_row": 17,
+      "label": "k-means",
+      "classification": "B",
+      "competencies": [
+        "L07"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.18",
+      "section": 1,
+      "source_row": 18,
+      "label": "PCA",
+      "classification": "B",
+      "competencies": [
+        "L08"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.19",
+      "section": 1,
+      "source_row": 19,
+      "label": "Other embeddings",
+      "classification": "P",
+      "competencies": [
+        "L08"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.20",
+      "section": 1,
+      "source_row": 20,
+      "label": "DBSCAN",
+      "classification": "P",
+      "competencies": [
+        "L07"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.21",
+      "section": 1,
+      "source_row": 21,
+      "label": "Hierarchical clustering",
+      "classification": "P",
+      "competencies": [
+        "L07"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.22",
+      "section": 1,
+      "source_row": 22,
+      "label": "Metrics",
+      "classification": "B",
+      "competencies": [
+        "L01",
+        "L03"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.23",
+      "section": 1,
+      "source_row": 23,
+      "label": "Fitting/generalization",
+      "classification": "T",
+      "competencies": [
+        "L04"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.24",
+      "section": 1,
+      "source_row": 24,
+      "label": "Tuning",
+      "classification": "P",
+      "competencies": [
+        "L04"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.25",
+      "section": 1,
+      "source_row": 25,
+      "label": "Cross-validation",
+      "classification": "P",
+      "competencies": [
+        "L01"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S1.26",
+      "section": 1,
+      "source_row": 26,
+      "label": "Confusion/ROC",
+      "classification": "B",
+      "competencies": [
+        "L03"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.01",
+      "section": 2,
+      "source_row": 1,
+      "label": "Perceptrons",
+      "classification": "B",
+      "competencies": [
+        "L10"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.02",
+      "section": 2,
+      "source_row": 2,
+      "label": "Gradient descent",
+      "classification": "B",
+      "competencies": [
+        "M12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.03",
+      "section": 2,
+      "source_row": 3,
+      "label": "Backprop",
+      "classification": "B",
+      "competencies": [
+        "C11",
+        "L10"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.04",
+      "section": 2,
+      "source_row": 4,
+      "label": "Activations",
+      "classification": "B",
+      "competencies": [
+        "L10"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.05",
+      "section": 2,
+      "source_row": 5,
+      "label": "Losses",
+      "classification": "B",
+      "competencies": [
+        "L10"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.06",
+      "section": 2,
+      "source_row": 6,
+      "label": "MLP",
+      "classification": "B",
+      "competencies": [
+        "L10"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.07",
+      "section": 2,
+      "source_row": 7,
+      "label": "SGD/minibatches",
+      "classification": "B",
+      "competencies": [
+        "M12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.08",
+      "section": 2,
+      "source_row": 8,
+      "label": "Momentum/Adam",
+      "classification": "P",
+      "competencies": [
+        "L11"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.09",
+      "section": 2,
+      "source_row": 9,
+      "label": "Adaptive rates",
+      "classification": "P",
+      "competencies": [
+        "L11"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.10",
+      "section": 2,
+      "source_row": 10,
+      "label": "Convergence",
+      "classification": "B",
+      "competencies": [
+        "L11"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.11",
+      "section": 2,
+      "source_row": 11,
+      "label": "Regularization",
+      "classification": "P",
+      "competencies": [
+        "L04"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.12",
+      "section": 2,
+      "source_row": 12,
+      "label": "Early stopping",
+      "classification": "P",
+      "competencies": [
+        "L11"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.13",
+      "section": 2,
+      "source_row": 13,
+      "label": "Dropout/noise",
+      "classification": "P",
+      "competencies": [
+        "L11"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.14",
+      "section": 2,
+      "source_row": 14,
+      "label": "Initialization",
+      "classification": "P",
+      "competencies": [
+        "L11"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.15",
+      "section": 2,
+      "source_row": 15,
+      "label": "Batchnorm",
+      "classification": "P",
+      "competencies": [
+        "L11"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S2.16",
+      "section": 2,
+      "source_row": 16,
+      "label": "Autoencoders/sparsity",
+      "classification": "P",
+      "competencies": [
+        "L16",
+        "L26"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.01",
+      "section": 3,
+      "source_row": 1,
+      "label": "Convolutions",
+      "classification": "B",
+      "competencies": [
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.02",
+      "section": 3,
+      "source_row": 2,
+      "label": "Pooling",
+      "classification": "B",
+      "competencies": [
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.03",
+      "section": 3,
+      "source_row": 3,
+      "label": "Image classification",
+      "classification": "B",
+      "competencies": [
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.04",
+      "section": 3,
+      "source_row": 4,
+      "label": "Detection",
+      "classification": "P",
+      "competencies": [
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.05",
+      "section": 3,
+      "source_row": 5,
+      "label": "Segmentation",
+      "classification": "P",
+      "competencies": [
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.06",
+      "section": 3,
+      "source_row": 6,
+      "label": "Transfer",
+      "classification": "P",
+      "competencies": [
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.07",
+      "section": 3,
+      "source_row": 7,
+      "label": "Augmentation",
+      "classification": "P",
+      "competencies": [
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.08",
+      "section": 3,
+      "source_row": 8,
+      "label": "Pretrained features",
+      "classification": "P",
+      "competencies": [
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.09",
+      "section": 3,
+      "source_row": 9,
+      "label": "GANs",
+      "classification": "P",
+      "competencies": [
+        "L16"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.10",
+      "section": 3,
+      "source_row": 10,
+      "label": "Vision SSL",
+      "classification": "P",
+      "competencies": [
+        "L26"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.11",
+      "section": 3,
+      "source_row": 11,
+      "label": "ViT",
+      "classification": "P",
+      "competencies": [
+        "L14",
+        "L12"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.12",
+      "section": 3,
+      "source_row": 12,
+      "label": "CLIP/multimodality",
+      "classification": "P",
+      "competencies": [
+        "L26"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S3.13",
+      "section": 3,
+      "source_row": 13,
+      "label": "Image generators",
+      "classification": "P",
+      "competencies": [
+        "L16"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.01",
+      "section": 4,
+      "source_row": 1,
+      "label": "Word vectors",
+      "classification": "P",
+      "competencies": [
+        "L13"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.02",
+      "section": 4,
+      "source_row": 2,
+      "label": "Attention",
+      "classification": "B",
+      "competencies": [
+        "L14"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.03",
+      "section": 4,
+      "source_row": 3,
+      "label": "Text classification",
+      "classification": "P",
+      "competencies": [
+        "L15"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.04",
+      "section": 4,
+      "source_row": 4,
+      "label": "Pretrained NLP",
+      "classification": "P",
+      "competencies": [
+        "L15"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.05",
+      "section": 4,
+      "source_row": 5,
+      "label": "QA",
+      "classification": "P",
+      "competencies": [
+        "L15"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.06",
+      "section": 4,
+      "source_row": 6,
+      "label": "LLMs",
+      "classification": "P",
+      "competencies": [
+        "L15"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.07",
+      "section": 4,
+      "source_row": 7,
+      "label": "Chatbots",
+      "classification": "P",
+      "competencies": [
+        "L23"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.08",
+      "section": 4,
+      "source_row": 8,
+      "label": "Adaptation limits",
+      "classification": "P",
+      "competencies": [
+        "L27"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    },
+    {
+      "id": "IOAI25.S4.09",
+      "section": 4,
+      "source_row": 9,
+      "label": "Agents",
+      "classification": "P",
+      "competencies": [
+        "L23"
+      ],
+      "status": "required",
+      "mapping_is": "navigation only; original edition topic/requirements unchanged"
+    }
+  ],
+  "topic_labels": "Compact navigation metadata. Original PDF row identified by section/source_row is authoritative; no rewritten or shortened IOAI curriculum. The original dimensionality-reduction row spells MAP; no silent correction is made.",
+  "known_task_runtime": "2025 original repository specifies Python 3.12.7 and locked dependencies. Required training and inference remain permitted.",
+  "scope_boundary": "This is the 2025 archived edition; no claim of a current/future IOAI syllabus. Model/tool/time differences in a personal simulation must be disclosed."
+}
