@@ -85,3 +85,39 @@ Actual isolated remote Git object test (not attached to any branch): fixture see
 - PASS: Exact fraction checker regression
 
 All 1,757 preserved Deep-ML inventory observations have neither an exposed provider item ID nor item URL. This is an observation-bound limitation, not a claim that these tasks lack identity on the platform. No invented mapping or completion is permitted. Actual exact source identities must be inspected and registered progressively; when a stable item locator is unavailable, leave it unresolved. Known external document exercise locators are separately distinguished by their exact question numbers.
+
+
+## Visual learning atlas and complementary coverage
+
+The six hash-routed views (Today, Master path, Problem bank, Progress, Tutor, Challenges) share the existing static app and canonical progress. The atlas renders seven competency DAGs from actual frozen within-lane entry-operation edges. Cross-lane prerequisite links remain on each competency card. Deep-Path concepts are grouped in their 14 observed parts in ordinal order, without claiming sequence edges as prerequisites. On narrow screens the graph switches to grouped node cards with entry links in the detail view. Domain colors are categorical, not readiness gates. Current markers are status-derived *next candidates*, not a requirement to study eight things concurrently. Clicking a module reveals its existing canonical card and grouped assigned work. Search across registry or problem bank links to those same cards. No duplicated progress state, runtime package, external font, build step, or agent framework.
+
+All 52 approved original worksheet bodies are included as a **derived display copy** in activities.json; the three frozen source documents are authoritative and unchanged. This is not a redistribution of third-party problem banks. Original worksheet links and provenance are retained. 20 opening actions each have at least one original exercise and a local independent check. The supplemental bank now has 46 original exercises (31 additions, including early arithmetic and computing, proof/spectral/algorithmic reasoning and scientific-method/domain transfer). Numeric answers have exact rational checking; proof/coding/science responses require independent written reasoning or actual execution and review. The 17 external locators include the existing AoPS, OTIS, Harvard and Putnam selections and newly inspected MathNet rou_2017_ff7e31, MIT Mathematics for Computer Science Ch.5 problems 5.7 and 5.8, and Boyd–Vandenberghe exercises 2.1 and 2.7 as assigned in Stanford EE364A HW1. Links only for external problem bodies; source rights retained. These are ordinary practice, not reserved challenges.
+
+Coverage is computed for all 109 competencies from the frozen mapping, canonical IDs and explicit skill/worksheet links; a related worksheet is separately identified rather than presented as direct evidence. Counts: Embedded practice present = 79; Selected external assignment = 22; Primary concept; complementary review = 8. This is **assignment availability, not demonstrated coverage sufficiency or mastery**. Eight primary-concept-only entries need exact platform task inspection and selective supplementation if actual work misses the independent evidence target. The remaining linked competencies still require readiness and scope checks. The source metadata audit inspected 1853 observations by platform/modality; 3185 Deep-Path occurrences remain unresolved at individual item level; zero exposed provider IDs/URLs in Deep-ML inventory, 96 observed TensorTonic URLs including quizzes (only 11 selected complements). No title-based deduplication or unique-problem claims. No new TensorTonic selection was needed for the identified opening/theory gaps.
+
+Verification: executable production renderer, seven graph edge sets, all 109 coverage rows and references, six route targets, unique HTML IDs, all 52 worksheet bodies, all 20 opening practice/check pairings, and independent arithmetic oracle recomputation for nine new numerical exercises. M14 QR residual orthogonality checked independently. Browser-network blocker: DNS failed for Pages and raw GitHub in this environment. Learner confirmed the prior live deployment; that does not verify this new revision. Desktop/mobile visual acceptance is pending human or network-enabled browser inspection. No fabricated learner progress.
+
+Final integrated interaction regression (production code in simulated DOM, not live browser):
+- PASS: Initial render and Today-only view
+- PASS: Master path routing
+- PASS: Lane navigation
+- PASS: Clickable module selects only its detail
+- PASS: Deep-Path item opens correct part
+- PASS: Deep-Path part navigation
+- PASS: Paper opens relevant lane
+- PASS: Direct lesson opens bank
+- PASS: Challenge routing
+- PASS: Tutor routing
+- PASS: Progress routing
+- PASS: Search returns canonical concept
+- PASS: Bank search constrained to bank
+- PASS: Equivalent fraction accepted
+- PASS: Zero denominator rejected
+- PASS: Tutor handoff still works
+- PASS: Record button routes and focuses
+- PASS: Unsupported mastery rejected
+- PASS: Progress draft still explicit
+- PASS: Recovered fixture advances opening sequence
+- PASS: Landing page still rejected
+- PASS: Corrupt progress fails closed
+- PASS: Coverage and public state integrity

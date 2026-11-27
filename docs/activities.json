@@ -217,268 +217,802 @@
       "lesson": null,
       "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
       "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-FRA-006",
+      "skill": "F01.fraction_operations",
+      "title": "Reduce the share",
+      "prompt": "Simplify 18/24. Explain the common factor that preserves the value.",
+      "purpose": "New simplification example.",
+      "hint": "Both numbers are divisible by six.",
+      "solution": "18/24=3/4.",
+      "answer": [
+        3,
+        4
+      ],
+      "lesson": "FRA-SIM",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-FRA-007",
+      "skill": "F01.fraction_operations",
+      "title": "Beyond one whole",
+      "prompt": "Calculate (2 1/4) × (2/3).",
+      "purpose": "Convert mixed numbers before multiplication.",
+      "hint": "2 1/4=9/4.",
+      "solution": "9/4 × 2/3=3/2.",
+      "answer": [
+        3,
+        2
+      ],
+      "lesson": "FRA-04",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-ARITH-001",
+      "skill": "F01.ratios_percent",
+      "title": "The changing base",
+      "prompt": "250 units decrease by 20%, then increase by 20%. What is the final value?",
+      "purpose": "Distinguish absolute and relative changes.",
+      "hint": "Multiply by 0.8 then 1.2.",
+      "solution": "250×0.8×1.2=240.",
+      "answer": [
+        240,
+        1
+      ],
+      "lesson": "ARITH-02",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-ARITH-002",
+      "skill": "F01.ratios_percent",
+      "title": "Units without guessing",
+      "prompt": "Express 3.75 milliseconds in seconds.",
+      "purpose": "Unit conversion.",
+      "hint": "Divide by 1000.",
+      "solution": "0.00375 seconds.",
+      "answer": [
+        3,
+        800
+      ],
+      "lesson": "ARITH-02",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-INT-001",
+      "skill": "F01.signed_numbers",
+      "title": "Signed movement",
+      "prompt": "Start at −6 on a number line, move 9 right, then 5 left. Where do you finish?",
+      "purpose": "Signed arithmetic as direction.",
+      "hint": "Add 9, subtract 5.",
+      "solution": "−6+9−5=−2.",
+      "answer": [
+        -2,
+        1
+      ],
+      "lesson": "INT-01",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-POW-001",
+      "skill": "F01.powers_order",
+      "title": "Order of operations",
+      "prompt": "Evaluate 2+3×(4−1)².",
+      "purpose": "Grouping and powers.",
+      "hint": "Compute the parentheses first.",
+      "solution": "2+3×9=29.",
+      "answer": [
+        29,
+        1
+      ],
+      "lesson": "POW-01",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-POW-002",
+      "skill": "F01.extended_powers_roots",
+      "title": "Reciprocal powers",
+      "prompt": "Evaluate 5⁻² exactly.",
+      "purpose": "Negative exponents as reciprocals.",
+      "hint": "Use 1/5².",
+      "solution": "1/25.",
+      "answer": [
+        1,
+        25
+      ],
+      "lesson": "POW-02",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-POW-003",
+      "skill": "F01.extended_powers_roots",
+      "title": "Root versus equation",
+      "prompt": "Explain why √81 has one value but x²=81 has two real solutions.",
+      "purpose": "Notation distinction.",
+      "hint": "What does the radical denote?",
+      "solution": "√81 denotes 9; the equation also admits −9.",
+      "answer": null,
+      "lesson": "POW-02",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-ALG-003",
+      "skill": "F02.notation",
+      "title": "Substitution",
+      "prompt": "Evaluate 4x−3 at x=−2.",
+      "purpose": "Substitution.",
+      "hint": "Use parentheses around −2.",
+      "solution": "4(−2)−3=−11.",
+      "answer": [
+        -11,
+        1
+      ],
+      "lesson": "ALG-01",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-ALG-004",
+      "skill": "F02.equality",
+      "title": "Preserve equality",
+      "prompt": "Solve 4(x−1)=2x+10. Enter x and check by substitution.",
+      "purpose": "Distribution and equality.",
+      "hint": "Expand left-hand side.",
+      "solution": "4x−4=2x+10, so x=7.",
+      "answer": [
+        7,
+        1
+      ],
+      "lesson": "ALG-03",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-ALG-005",
+      "skill": "F02.equality",
+      "title": "Inequality direction",
+      "prompt": "Solve −2x+1≤7. Explain the reversal and test the boundary.",
+      "purpose": "Written inequality reasoning.",
+      "hint": "Subtract one, divide by −2.",
+      "solution": "x≥−3; multiplying by a negative reverses order.",
+      "answer": null,
+      "lesson": "ALG-03",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-CODE-001",
+      "skill": "C01.assignment",
+      "title": "Trace assignment",
+      "prompt": "Predict outputs of a=7; b=a+2; a=3; print(b,a). Write and execute a changed example.",
+      "purpose": "Assignment is not algebraic equality.",
+      "hint": "b does not recompute automatically.",
+      "solution": "9 and 3.",
+      "answer": null,
+      "lesson": "CODE-01",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-CODE-002",
+      "skill": "C01.loops",
+      "title": "Trace an accumulator",
+      "prompt": "Trace total=0; for x in [3,1,5]: total+=x. Record each update; run a changed example.",
+      "purpose": "Understand state.",
+      "hint": "Write a row per iteration.",
+      "solution": "3,4,9.",
+      "answer": null,
+      "lesson": "CODE-02",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-CODE-003",
+      "skill": "C01",
+      "title": "Return versus display",
+      "prompt": "Write a function returning 2x−1. Predict f(3)+f(5). Explain why print is not return.",
+      "purpose": "Function semantics.",
+      "hint": "Evaluate calls separately.",
+      "solution": "5+9=14; print-only function returns None.",
+      "answer": null,
+      "lesson": "CODE-03",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-CODE-004",
+      "skill": "C01",
+      "title": "Boundary reasoning",
+      "prompt": "Write an if statement printing 'inside' exactly when 2≤x<5. Predict results for 1,2,4,5; execute.",
+      "purpose": "Boundary tests.",
+      "hint": "Use both comparisons.",
+      "solution": "2 and 4 only.",
+      "answer": null,
+      "lesson": "CODE-04",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-CODE-005",
+      "skill": "C01",
+      "title": "Count, not sum",
+      "prompt": "Design and run a loop counting values strictly below 4 in [4,1,3,7]. Explain the empty-list result.",
+      "purpose": "Correct accumulator.",
+      "hint": "Increment by one on a true predicate.",
+      "solution": "2; empty list yields 0.",
+      "answer": null,
+      "lesson": "CODE-05",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-CODE-006",
+      "skill": "C03",
+      "title": "Find the boundary bug",
+      "prompt": "count_at_least uses x>threshold. Give a minimal distinguishing test for the intended ≥ contract, repair and rerun.",
+      "purpose": "Test design and debugging.",
+      "hint": "Choose an equal element.",
+      "solution": "xs=[3], threshold=3; expected 1, actual 0. Change > to >=.",
+      "answer": null,
+      "lesson": "CODE-06",
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-LIN-002",
+      "skill": "M02",
+      "title": "Rank and nullspace",
+      "prompt": "For A=[[1,2,3],[2,4,6]], give rank and a nullspace basis. Prove its dimension. Is R³→R² injective or surjective?",
+      "purpose": "Proof beyond numerical rank.",
+      "hint": "Second row is redundant.",
+      "solution": "Rank 1; basis (−2,1,0),(−3,0,1); neither injective nor surjective.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-LIN-003",
+      "skill": "M04",
+      "title": "PSD versus invertibility",
+      "prompt": "For A=[[1,1],[1,1]], derive eigenvalues and orthonormal eigenvectors. Prove PSD and give the rank-one SVD.",
+      "purpose": "Spectral reasoning.",
+      "hint": "Try (1,1),(1,−1).",
+      "solution": "Eigenvalues 2,0; normalized (1,±1)/√2. xᵀAx=(x₁+x₂)²≥0. SVD 2uuᵀ, u=(1,1)/√2.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-GRAPH-001",
+      "skill": "M17",
+      "title": "Degrees as an invariant",
+      "prompt": "Prove the sum of degrees of a finite undirected simple graph is twice its number of edges. Deduce an even number of odd-degree vertices.",
+      "purpose": "Double counting.",
+      "hint": "Count edge incidences.",
+      "solution": "Each edge contributes two; odd-degree contributions must have even total.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-TCS-002",
+      "skill": "C05",
+      "title": "Choose a data structure",
+      "prompt": "Compare a hash set, binary heap and balanced search tree for distinct-key insertions, membership, and repeated extract-min. State costs and invariants.",
+      "purpose": "Selection and tradeoffs.",
+      "hint": "Heap has min but not fast arbitrary lookup.",
+      "solution": "Hash expected O(1) insertion/lookup, min O(n); heap O(log n) insert/extract, lookup O(n); balanced BST O(log n) all three.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-TCS-003",
+      "skill": "C06",
+      "title": "When BFS is not optimal",
+      "prompt": "Construct a three-vertex directed graph where BFS returns a path of greater total positive weight than another path. Explain BFS's unweighted invariant.",
+      "purpose": "Correctness counterexample.",
+      "hint": "A direct edge may cost more than two edges.",
+      "solution": "s→t weight 5; s→u and u→t weight 1 each. BFS minimizes edge count, not cost.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-TCS-004",
+      "skill": "C07",
+      "title": "Derive before coding",
+      "prompt": "Derive unit-cost edit distance recurrence, base cases, reconstruction and proof of exhaustiveness.",
+      "purpose": "Recurrence and correctness.",
+      "hint": "Classify final edit.",
+      "solution": "D(i,0)=i,D(0,j)=j; min of D(i−1,j)+1,D(i,j−1)+1,D(i−1,j−1)+[aᵢ≠bⱼ]. Reconstruct chosen predecessors; O(mn) time and table space.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-PDE-001",
+      "skill": "M22",
+      "title": "Check a diffusion solution",
+      "prompt": "Verify u=e^(−t)sin(x) solves u_t=u_xx on 0<x<π, t≥0, zero endpoints and initial sin(x). Explain instability of inferring arbitrary initial fields from noisy late measurements.",
+      "purpose": "PDE and inverse reasoning.",
+      "hint": "Differentiate twice in x, once in t.",
+      "solution": "Both derivatives −e^(−t)sin(x); endpoints vanish and initial condition holds. Higher modes decay as e^(−k²t), so inversion amplifies noise.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-SCI-002",
+      "skill": "S08",
+      "title": "What was reproduced?",
+      "prompt": "A paper reports a benchmark improvement after large training. You implement one block on synthetic data. State a defensible claim, differences, and required evidence for reproduction.",
+      "purpose": "Reproduction versus implementation.",
+      "hint": "Compare data, training and measured endpoint.",
+      "solution": "Claim component implementation only; different data, compute/training and metric. Reproduction needs the specified experiment and provenance.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-SCI-003",
+      "skill": "S09",
+      "title": "Competing mechanisms",
+      "prompt": "A method improves on long sequences. Propose two mechanisms and an experiment whose predictions differ.",
+      "purpose": "Discriminating experiment.",
+      "hint": "Separate longer-context use from compute.",
+      "solution": "E.g. memory versus compute: match compute and vary access to distant evidence; predeclare predictions and controls.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-SCI-004",
+      "skill": "S10",
+      "title": "Benchmark boundary audit",
+      "prompt": "A benchmark forbids test labels during development; a colleague proposes leaked-label tuning. Identify violation and compliant alternative.",
+      "purpose": "Research integrity.",
+      "hint": "What may influence development?",
+      "solution": "Reject leaked-label tuning; use permitted validation, keep test independent, document provenance.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-SCI-005",
+      "skill": "S12",
+      "title": "Independent criticism",
+      "prompt": "A reviewer argues the gain comes from candidate sets rather than scoring. Draft an experiment and response that could falsify your claim.",
+      "purpose": "Adversarial criticism.",
+      "hint": "Hold candidate sets fixed.",
+      "solution": "Matched query/candidate sets; change only scorer, paired effects and uncertainty; revise attribution if gain disappears.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-BIO-002",
+      "skill": "B09",
+      "title": "Image split leakage",
+      "prompt": "Images from each specimen are randomly split across train/test. Design evaluation targeting new specimens and report uncertainty.",
+      "purpose": "Domain evaluation.",
+      "hint": "Identify independent sampling unit.",
+      "solution": "Split by specimen (and site if needed); prevent leakage, aggregate appropriately, resample independent specimens.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-BIO-003",
+      "skill": "B10",
+      "title": "Prediction is not validation",
+      "prompt": "A protein function model assigns high confidence to an unannotated protein. Distinguish computational claim, biological evidence and collaboration boundary.",
+      "purpose": "Scientific interpretation.",
+      "hint": "Separate prediction from empirical evidence.",
+      "solution": "Report prediction/uncertainty only; orthogonal evidence and qualified domain validation are required.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original Zulearn practice or transfer; conditional where platform overlap unresolved.",
+      "provenance": "Independently authored; no third-party problem text copied."
+    },
+    {
+      "id": "ZP-NUM-001",
+      "skill": "M14",
+      "title": "Least squares without squaring the condition number",
+      "prompt": "For A with columns (1,1,0)ᵀ and (1,0,1)ᵀ, and b=(2,1,0)ᵀ, derive a thin QR factorization and solve min‖Ax−b‖₂. Check the residual is orthogonal to both columns. Then show why for a full-column-rank matrix the 2-norm condition number of AᵀA is κ₂(A)²; explain why a nearly rank-deficient problem can need a rank-revealing method. Compare the exact answer to your own numerical implementation only if needed.",
+      "purpose": "M14 solver derivation, conditioning and verification; not an extra general ML coding assignment.",
+      "hint": "Normalize the first column, subtract its projection from the second, and solve Rx=Qᵀb. Use singular values to reason about conditioning.",
+      "solution": "q₁=(1,1,0)/√2; q₂=(1,−1,2)/√6. R=[[√2,1/√2],[0,√(3/2)]]. Qᵀb=(3/√2,1/√6); x₂=1/3 and x₁=4/3. Ax−b=(−1/3,1/3,1/3), orthogonal to both columns. The eigenvalues of AᵀA are σᵢ(A)², so its spectral condition number is (σmax/σmin)². Near rank deficiency use a suitable pivoted QR or SVD and declare tolerance. No general stability claim follows from this toy problem.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Original conditional theoretical/numerical transfer; compare with inspected Deep-ML project before assignment.",
+      "provenance": "Independently authored; no third-party problem text copied."
     }
   ],
   "sheets": [
     {
       "id": "MAT-ARITH",
       "title": "Systematic arithmetic extensions after four basic operations; no entrance test",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-ARITH — arithmetic extensions, learned in subskills.** Start with START-01 fraction meaning/equivalence, then follow the arithmetic-bridge rows above. Original practice: (1) draw and compare 1/2,2/4,3/4 with equal reference wholes; (2) calculate 1/3+1/6, (2/3)×(3/4), (3/4)÷(1/2), stating nonzero-denominator conditions; (3) connect 1/4,0.25,25% and distinguish 2:3 from a fraction of the total; (4) add/subtract/multiply/divide simple negative numbers and explain order on a number line; (5) compare 2+3×4,(2+3)×4,−(2²),(−2)²; (6) learn zero/negative powers, roots and scientific notation from the explicit row; (7) after percent changes are taught, calculate a 12% decrease followed by a 12% increase and explain its base; (8) learn milli as one thousandth, convert 2.5 milliseconds to seconds, and estimate the count in an hour; (9) later distinguish rational from irrational representation and exact from finite-precision values. These are teaching tasks, not evidence already achieved or an admission test. Do not assume any extension from four-operation fluency.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-ALG",
       "title": "Elementary→intermediate algebra, equality/inequality and domain progression",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-ALG — algebra in levels.** Start with (1) translate “three groups of x and two more” into an expression, evaluate it at two values, and distinguish an expression from an equation; (2) solve x+6=13 and 4x=20 by doing the same valid operation to both sides, then check by substitution. Next learn (3) expand 3(x+2) and compare it with 3x+2 using a counterexample; (4) solve 2(3x−1)=4x+10; (5) solve −2x+3>9 and explain sign reversal. Later, when intermediate algebra is active, (6) factor x²−5x+6 and solve its zero equation; (7) simplify (x²−1)/(x−1) with its original domain; (8) solve (x−2)/(x+1)>0 with exclusions. Do not require items 6–8 before beginning functions, programming or simple prediction.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-GEO",
       "title": "Coordinate/trigonometry and geometric-series practice",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-GEO — geometry/precalculus.** (1) For u=(3,4), v=(−4,3), find lengths, dot product, angle and projection; draw the geometry. (2) Derive sin²θ+cos²θ=1 from coordinates and compute a rotation of u by a right angle. (3) Derive the first n terms of a geometric sum, its infinite limit conditions, and the special case ratio 1. (4) Give a convergent sequence whose associated series diverges.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-LIN",
       "title": "Matrices and least squares",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-LIN — matrices and first regression.** (1) Let X have rows (1,0),(1,1),(1,2) and y=(1,2,2). Solve least squares by projection/normal equations, then via a linear solver; verify residual orthogonality. (2) Replace the second column by twice the first and characterize all minimizers. (3) Explain why forming an explicit inverse is unnecessary. Implement only after deriving the equations.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-CALC",
       "title": "Derivatives, matrix gradient and integration",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-CALC — calculus bridge and transfer.** (1) Derive d/dx log(1+exp(3x)); evaluate it stably at x=1000. (2) Differentiate a composition f(g(x)) and construct a domain-boundary counterexample. (3) For f(w)=0.5‖Xw−y‖²+λ‖w‖², derive gradient/Hessian and their shapes. (4) Integrate p(x)=2x on [0,1], check normalization and compute its expectation. (5) Explain the difference between a derivative's value, a finite difference and a symbolic expression.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-PROOF",
       "title": "Proof, quantifiers, induction and counterexamples",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-PROOF — proof and discovery.** (1) Prove that the sum of the first n odd positive integers is n² using induction and a geometric argument. (2) Negate “for every ε>0 there exists N such that for every n>N, |a_n−L|<ε.” (3) Prove that a finite tree with n vertices has n−1 edges, stating what “tree” means. (4) Refute “pairwise independence implies mutual independence” with a constructed distribution. Record an abandoned proof idea and why it failed.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-PROB",
       "title": "Finite→continuous probability",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-PROB — probability.** (1) A disease prevalence is 1%, sensitivity 90%, specificity 95%. Derive a positive-test posterior and explain the denominator. (2) For correlated Bernoulli variables, show which expectation identities survive without independence. (3) Build a joint table, calculate marginal/conditional distributions and verify total expectation. (4) Transform a continuous random variable with an invertible map, checking support and normalization. Use different values from the diagnostic when retesting.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-PROC",
       "title": "Markov chains and dependent samples",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-PROC — processes.** (1) For transition matrix [[0.8,0.2],[0.3,0.7]], find a stationary law and verify it. (2) Give a periodic chain with a stationary law but nonconvergent state distribution from some starts. (3) Distinguish a stationary marginal from independent samples and state how autocorrelation affects inference. Activate continuous-time material only when the research method needs it.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-INF",
       "title": "Likelihood/Bayesian inference",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-INF — inference.** (1) Observe 7 successes in 10 Bernoulli trials. Derive MLE and a posterior under a stated Beta prior; distinguish MAP from posterior mean. (2) Derive Gaussian regression likelihood and connect it to squared loss under stated variance assumptions. (3) Construct two mechanisms yielding similar prediction performance but different causal interpretations.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-UNC",
       "title": "Dependence-aware uncertainty and measurement",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-UNC — uncertainty and measurement.** (1) Design a bootstrap comparison for two algorithms on 30 patients with 10 images each. Specify the resampling unit, pairing and estimand; contrast with an image-level bootstrap. (2) Describe when missing labels are “unknown” rather than negative. (3) Make a measurement-provenance table and identify one selection bias. No synthetic numerical result may be reported without executing the simulation.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-EXP",
       "title": "Experimental design/selection",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-EXP — experiments and selection.** (1) Plan a paired model comparison with a meaningful effect threshold, interval, tuning budget and primary metric. (2) Explain why choosing the best of 100 validation configurations affects the winning estimate. (3) Contrast confirmatory, secondary and exploratory analyses; specify how multiplicity and adaptive choices will be reported. (4) Explain a confidence interval without assigning a post-data frequentist probability to a fixed parameter.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-CAUS",
       "title": "Causal identification and intervention",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-CAUS — causal identification.** (1) Construct a latent common-cause graph with high predictive association and no direct effect. (2) State assumptions under which randomization identifies an average effect. (3) Compare intervention on a neural activation with selecting examples that correlate with it; propose a matched negative control. Explain why an ablation's performance effect alone does not fully identify a unique mechanism.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-NUM",
       "title": "Numerical stability and conditioning",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-NUM — numerical reliability.** (1) Evaluate log(exp(1000)+exp(999)) stably; compare subtraction of nearly equal numbers in two precisions. (2) Construct an ill-conditioned 2×2 system where a small residual accompanies substantial solution error. (3) Compare normal equations and QR on a nearly collinear design using condition estimates; state what was actually measured. (4) Check a smooth loss gradient by central differences across a range of step sizes and explain the U-shaped error tradeoff.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-CONVEX",
       "title": "Convexity/KKT/duality",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-CONVEX — convex optimization.** (1) Prove convexity of a PSD quadratic and give a nonconvex quadratic counterexample. (2) Minimize x²+y² subject to x+y=1, x,y≥0 using KKT; verify feasibility, stationarity and complementary slackness. (3) Construct a case where constraint qualification fails and explain which conclusion becomes unsafe. Read the relevant duality section rather than memorizing a universal KKT sufficiency claim.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-SGD",
       "title": "Stochastic optimization and controlled comparisons",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-SGD — stochastic optimization.** (1) Derive the expected minibatch gradient for uniform sampling. (2) Bias the sampling probabilities, show what estimator changes, and construct a valid correction if probabilities are known. (3) Compare SGD/momentum/Adam on one tiny loss under equal data, initialization and tuning budget; plot learning curves only after execution. Do not generalize a single toy outcome into universal optimizer superiority.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-INFO",
       "title": "Entropy/KL/information",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-INFO — information.** (1) Compute entropy, cross-entropy and KL for two valid three-outcome distributions. (2) Explain the infinite-KL support case. (3) Derive nonnegativity of KL with a legitimate inequality or convexity argument. (4) Explain why high mutual information does not establish a causal direction.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-BOUND",
       "title": "Concentration and adaptive-selection limits",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-BOUND — learning theory.** (1) Apply a bounded independent-variable concentration inequality with explicit assumptions. (2) Explain how a union bound changes when selecting among finitely many models. (3) Construct a data-leakage/adaptive-testing counterexample to an unjustified independence assumption. Focus on whether the theorem applies, not just substituting numbers.\n\n**MAT-BOUND enhancement.** In addition to the existing sheet, derive Markov's inequality for nonnegative variables and Chebyshev from it; apply Hoeffding only under its bounded independent-sample assumptions. Compare a single-model bound with a finite union bound and an adaptively selected score. Distinguish expectations, high-probability guarantees and empirical confidence procedures. This is concentration literacy before advanced empirical-process theory.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-ANALYSIS",
       "title": "Research-triggered analysis",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-ANALYSIS — analysis trigger.** (1) Give an ε–N proof of a sequence limit. (2) State and prove or correctly invoke the exact condition needed to interchange a limit with an expectation in the active paper. (3) Produce a counterexample when that condition is removed. Select one relevant theorem; no whole analysis sequence is imposed.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-SYM",
       "title": "Symmetry/equivariance/chirality",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-SYM — geometry trigger.** (1) Prove preservation of pairwise distances under x↦Rx+t for RᵀR=I. (2) Show why reflection can preserve distances while changing chirality. (3) Define invariance/equivariance under permutations and rigid motions and test a simple message-passing layer. Connect the proof to actual coordinate and feature conventions.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-DYN",
       "title": "ODE/time-step/rollout stability",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-DYN — dynamics trigger.** (1) Solve x′=−kx and derive explicit Euler's stability region for real k>0. (2) Compare one-step prediction error with multi-step rollout error. (3) Identify what observation noise and partial observability change; do not infer a physical mechanism solely from predictive fit.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-LOG",
       "title": "Functions before later exponential/logarithm depth",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-LOG — functions, exponents and logarithms.** (1) For f(x)=2x+1, evaluate f(0),f(3), state an input/output rule and distinguish f(x) from f×x. (2) Compose f with g(x)=x² and compare the two orders. (3) Derive exponential laws for positive bases and explain which extensions need conditions. (4) For f(x)=ln(2x+1), give the real domain and inverse. (5) Refute ln(a+b)=ln a+ln b with positive a,b and justify ln(ab)=ln a+ln b under valid conditions. Start items 1–2 before items 3–5.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-TAYLOR",
       "title": "Taylor approximation, error conditions, Jacobian/Hessian",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-TAYLOR — Taylor approximation, Jacobians, Hessians and error.** (1) For exp(x), derive its degree-two polynomial at zero and a Lagrange-form remainder; for |x|≤a, bound the absolute remainder by exp(a)a³/6 under the needed differentiability. Evaluate the bound at x=0.1 and compare with actual error. (2) For f(x,y)=x²+xy+3y², derive gradient and Hessian; write the second-order Taylor expression about a point and show it is exact. (3) For a vector-valued map, state the Jacobian's input/output dimensions; distinguish a Hessian of a scalar function from a Jacobian. State conditions before exchanging derivatives or invoking an error theorem. MML Ch.5/selected MIT 18.02SC supports the calculus; full real analysis is not the first lesson.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-TRANSFORM",
       "title": "Conditional expectation and change of variables",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-TRANSFORM — conditional expectation and change of variables.** (1) Let joint probabilities for (X,Y)=(0,0),(0,1),(1,0),(1,1) be 0.1,0.2,0.3,0.4. Compute E[X|Y=0], E[X|Y=1], and verify E[E[X|Y]]=E[X]. (2) After basic integration, transform X uniform on (0,1) to Y=X²; derive the support/density, including the inverse derivative, and check normalization. (3) After Jacobians, transform uniform (X,Y) on the unit square by U=X+Y,V=X−Y; derive the image region and absolute inverse-Jacobian determinant. Distinguish probability mass, density, conditional expectation and a point estimate.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-REC",
       "title": "Recurrences and formal generating functions",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-REC — recurrences and generating functions.** For a₀=0, aₙ₊₁=2aₙ+1: (1) generate values and guess a formula; (2) prove aₙ=2ⁿ−1 by induction; (3) derive A(z)=Σₙ≥₀aₙzⁿ=z/[(1−z)(1−2z)] as a formal power series; (4) if discussing analytic convergence, state its radius instead of silently using a formal identity numerically. Compare with the operation counts of a recursive algorithm. This requires algebra/induction, not a completed calculus course.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-FIX",
       "title": "Numerical/Bellman fixed-point reasoning and limits",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-FIX — fixed points and their different meanings.** (1) Find the fixed point of g(x)=(x+2)/3 and compute iterations from x₀=0. Show contraction factor 1/3 and bound |xₙ−x*|. (2) Give a map with a fixed point but divergent iteration from some starts, such as g(x)=2x. (3) When studying finite discounted MDPs, prove the Bellman optimality operator is a γ-contraction in the sup norm for 0≤γ<1 and bounded rewards. Existence, uniqueness and convergence are separate assertions with assumptions. Logical fixed-point/self-reference results in C09/C17 are a later, different topic; a numerical contraction is not a Gödel-machine theorem.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-MC",
       "title": "Monte Carlo, importance weights/support and uncertainty",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-MC — Monte Carlo and importance sampling.** Let p=(0.2,0.3,0.5), h=(0,1,4), and proposal q=(0.5,0.25,0.25). (1) Calculate the exact expectation. (2) Estimate it from IID p samples and report Monte Carlo variability without inventing runs. (3) Derive the ordinary importance estimator using p/q and check its expectation exactly under q. (4) Replace q by a proposal missing positive-p support and explain failure. (5) Compare ordinary with self-normalized importance sampling: the latter is generally biased at finite sample size; consistency/variance require conditions. Treat effective-sample-size summaries as diagnostics, not automatic confidence guarantees. Begin with finite cases; continuous integrals enter after M05.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-VI",
       "title": "ELBO/posterior-KL and amortized inference",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-VI — variational and amortized inference.** A model assigns p(x,z=0)=0.1 and p(x,z=1)=0.3 for the observed x. With q(z)=(0.5,0.5), compute evidence, posterior, ELBO=E_q[log p(x,z)−log q(z)] and KL(q||p(z|x)); verify log p(x)=ELBO+KL under valid support/finite-value conditions. Repeat using q equal to the posterior. Explain approximation-family bias versus sampling/optimization error and how q_φ(z|x) shares inference across inputs. Use the [Blei–Kucukelbir–McAuliffe review](https://arxiv.org/abs/1601.00670) only for the relevant definitions/ELBO section, not as an additional full-paper reproduction obligation.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "MAT-MDL",
       "title": "Two-part coding and algorithmic probability distinctions",
-      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "body": "**MAT-MDL — codes, algorithmic probability and model choice.** Given valid two-part coding schemes with model/data lengths (2,14) and (10,3) bits, compare total description lengths and explain why “choose the simplest model” is incomplete without residual-data coding. State the codebook assumptions. Distinguish a computable MDL scheme from universal algorithmic probability over prefix programs, which gives a semimeasure with important uncomputability/constant/prior limits. Relate to entropy, generalization and OOPS only after the relevant topics are active; no claim that practical compression achieves a universal intelligence guarantee.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/MATHEMATICS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ALG-SOFT",
       "title": "Independent software/tests/provenance",
-      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "body": "**ALG-SOFT — independent software.** Write a small command-line program that reads a local table, checks required columns and types, reports missing/duplicate entity IDs and calculates a specified aggregate. Create deterministic synthetic fixtures, including an empty table, malformed row and duplicate key. Commit locally or retain a code revision and environment file. Then deliberately introduce a bug, write a failing test and repair it. Do not use an AI-generated implementation for independent evidence. This artifact comes after basic variables/loops; it is not the first Python lesson.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/ALGORITHMS_TCS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ALG-SEARCH",
       "title": "Graph/path/CSP and heuristic-search controls",
-      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "body": "**ALG-SEARCH — search and constraints.** (1) Solve a small grid shortest-path problem by BFS, with walls, no-solution and start=goal cases; reconstruct the path. (2) Add nonuniform nonnegative costs and demonstrate where BFS fails; implement Dijkstra and compare with an exhaustive small oracle. (3) Formulate a tiny CSP with domains/constraints, implement backtracking plus one sound pruning rule, and prove that pruning never removes a valid solution. (4) Explain A*'s heuristic and graph-search reopening assumptions before claiming optimality. Report expanded nodes and runtime as measured, not inferred.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/ALGORITHMS_TCS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ALG-TCS",
       "title": "Computability/reductions/complexity",
-      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "body": "**ALG-TCS — TCS and feasibility.** (1) Explain recognizer versus decider with a halting example. (2) Prove one simple reduction: a decider for program equivalence would decide whether a program halts, using a carefully specified construction or a suitably restricted equivalent formulation. State semantic assumptions. (3) Distinguish polynomial time in numeric magnitude from bit length using subset sum. (4) State P, NP, NP-hard and NP-complete correctly; a problem being NP-hard does not establish that no practical structured instances can be solved. (5) Explain how exponential search, uncomputability and implementation inefficiency are different obstacles.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/ALGORITHMS_TCS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ALG-SYN",
       "title": "Typed-DSL synthesis and constraint-guided search",
-      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "body": "**ALG-SYN — program synthesis.** Define a finite typed DSL with constants, input variables, addition and multiplication with an explicit size limit. Enumerate programs fitting a few integer examples; canonicalize or track equivalent candidates to avoid obvious duplicates. Hold out both input values and task families. Construct two programs fitting the training examples but disagreeing elsewhere, then choose a discriminating query. Compare a plain search with a stated reuse/prior scheme under a matched evaluation budget. This is a toy synthesis experiment, not a reproduction of DreamCoder's full empirical results.\n\n**ALG-SYN enhancement — DSL, SAT/SMT and counterexamples.** For the existing bounded typed arithmetic DSL, distinguish syntactic programs, denotational behavior on inputs, search order/prior and an examples-consistent version space. Translate a small finite constraint into Boolean conditions and enumerate a truth table. Then inspect one official [Z3 logical-modeling example](https://microsoft.github.io/z3guide/docs/logic/intro/) or an equivalent locally checked solver task. Compare enumeration with constraint-guided candidate search under the same candidate/evaluation budget. A returned model must be checked against the original examples; additional examples should discriminate remaining candidate programs. Do not claim that a timeout proves absence of a solution.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/ALGORITHMS_TCS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ALG-VERIFY",
       "title": "Specifications, SAT/SMT and trusted-base limits",
-      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "body": "**ALG-VERIFY — specification and verification.** Specify pre/postconditions for binary search, prove the loop invariant and termination, and identify the assumptions the proof needs (sorted order, immutable input, integer indexing). Add property-based tests on small generated arrays and compare to a simple linear oracle. Distinguish finite tests, mathematical proof, proof-assistant checking and the trusted implementation/runtime. A formal proof applies to its model, not automatically to every compiled execution.\n\n**ALG-VERIFY enhancement — formal verification and solver semantics.** Over integer x, encode 0≤x≤2 and x>1; verify a satisfying model by substitution. Add x<1 and explain unsatisfiability. Distinguish integers from reals and bounded machine integers, `sat` from `unsat` from `unknown`, and a proof/counterexample about an encoding from correctness of the original intended program. Write pre/postconditions and a small loop invariant, then compare an exhaustive finite oracle, unit tests and a mathematical proof. Solver libraries are optional for this first finite example; no installation or platform build is required. Later logical fixed-point/diagonal reasoning belongs to the computability/RSI branch, not numerical fixed-point iteration.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/ALGORITHMS_TCS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ALG-AMORT",
       "title": "Aggregate/potential analysis and cost models",
-      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "body": "**ALG-AMORT — worst-case, expected and amortized work.** Start a dynamic array at capacity 1. On an append to a full array, allocate twice the capacity, copy existing entries, then append. (1) List capacity and actual copies for the first 10 appends. (2) Bound total copies over n appends by summing the geometric growth sizes, and include ordinary writes. (3) Prove O(1) amortized append by an aggregate or valid potential argument. (4) Explain why one append can cost Θ(n), why no random input assumption is needed, and why an expected hash-table bound is a different statement. Add a divide-and-conquer recurrence and a greedy exchange argument only as the selected algorithm demands. Use MAT-REC for generating functions, not a calculus entrance gate.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/ALGORITHMS_TCS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ALG-LANG",
       "title": "Abstraction/recursion/types/AST/grammar/automata",
-      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "body": "**ALG-LANG — abstraction, formal languages and semantics in levels.** Begin with (1) write one pure function and one list-mutating function, predict aliasing effects, and repair a test that confuses returned value with side effects; (2) define a recursive list-sum with base case and compare it with a loop. Later, (3) define an expression AST for integer constants, one variable, addition and multiplication; implement evaluation without using unrestricted `eval`; state types and size limits. (4) Give a finite automaton for binary strings ending in 01 and test empty/short strings. (5) Define a grammar for balanced parentheses and explain why its recognition problem differs from the finite automaton example. (6) Connect recognizer/decider, Turing-complete computation and reductions only when that theoretical depth is active. Python's [tutorial functions/control flow](https://docs.python.org/3/tutorial/controlflow.html) and [data structures](https://docs.python.org/3/tutorial/datastructures.html) are the initial source; MIT 6.045J supplies selected formal-language topics later. No C/OCaml/Racket course is a universal prerequisite.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/ALGORITHMS_TCS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ALG-SYSTEMS",
       "title": "Minimal CPU/memory/process/resource literacy",
-      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "body": "**ALG-SYSTEMS — minimum computational systems literacy.** For one small existing Python/data task: (1) explain CPU execution, RAM versus disk, numeric representation/precision and references versus copied values; (2) trace file paths, process/environment and code/data revision needed to reproduce it; (3) explain why parallel workers, shared mutable state and random-number state can introduce nondeterminism; (4) measure or correctly estimate one memory/work bound and distinguish it from a measured runtime. Use C03/C13 and a tiny checked example, not a full OS/architecture/networking course. For scientific entity tables, also verify C16 primary keys, join cardinality and temporal cutoff before computing a metric. Do not execute an untrusted notebook/tool command just because an AI proposes it; apply existing provenance/permission standards.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/curriculum/ALGORITHMS_TCS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "RES-QUESTION",
       "title": "Research question/claim/alternative explanation",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**RES-QUESTION — question and criticism.** Make a one-page ledger of one paper's exact question, claim, evidence, assumptions, strongest competing explanation and smallest meaningful next experiment. Include one plausible negative outcome and what it would teach. Identify which part you cannot yet derive.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "RES-AGENT",
       "title": "Agent versus no-agent controlled evaluation",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**RES-AGENT — agent reliability.** On a fixed set of locally defined code/data tasks, compare a simple no-agent baseline with a supervised tool-using system. Record tool calls, invalid outputs, runtime, manual interventions, permission boundaries and task success with a checked oracle. Hold out task families; test interruption/malformed-tool failures. Do not infer an agent's correctness from another agent agreeing with it.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "RES-ARTIFACT",
       "title": "Reproducibility and artifact provenance",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**RES-ARTIFACT — artifact provenance.** Create a compact manifest of data revision/license, split entities, code revision, environment, config/seed, generated outputs and SHA-256 values. Re-execute one small result from that manifest. Record every deviation and manual step; do not include restricted data or credentials.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "RES-COMM",
       "title": "Scientific writing/oral defense",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**RES-COMM — communication and defense.** Write 300–500 words answering question/method/evidence/limitations for your own artifact. Give a five-minute oral explanation of the central equation and answer two adversarial questions. The word/time counts are local practice bounds, not validated optimal doses. Keep claims at the narrowest supported level.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "RES-EFF",
       "title": "Measured efficiency claim",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**RES-EFF — efficiency.** Prespecify a correct reference, data/model size and hardware. Measure end-to-end wall time, memory and a meaningful task-quality metric, including warm-up/synchronization as relevant. Separate kernel microbenchmark gains from end-to-end study gains; include data/preprocessing/tuning costs. Never count unattended training runtime as focused learning time.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "BIO-FOUND",
       "title": "Domain biology/evolution foundations",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "Domain BIO-FOUND: sequence biology/cell/evolution\n\nSelected foundational sections from *Molecular Biology of the Cell* (NCBI Bookshelf 4th ed. for stable principles): protein/DNA/RNA concepts; current dataset documentation for modern facts\n\nDiagram sequence→expression→structure/function and an exception; explain evolutionary conservation and why correlation need not imply mechanism",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "BIO-PHYS",
       "title": "Protein chemistry/biophysics",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "Domain BIO-PHYS: protein chemistry/biophysics\n\n[EMBL-EBI Foundations of Protein Structure](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/) plus [The Shape and Structure of Proteins](https://www.ncbi.nlm.nih.gov/books/NBK26830/)\n\nIdentify backbone/side chains, secondary/tertiary/quaternary structure, noncovalent interactions, disulfide bonds, chirality and conformations; distinguish free energy/equilibrium from kinetics; state what additional physical-chemistry material the active method needs",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "BIO-REP",
       "title": "Molecular/sequence/graph representation",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "Domain BIO-REP: molecular representation\n\nP13/P14 plus dataset atom/bond/charge/stereochemistry conventions\n\nEncode a small molecule/sequence graph, test permutations/rotations/reflections and explain what features lose chirality or state information",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "BIO-STRUCT",
       "title": "Structure evaluation and CASP data boundaries",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "Domain BIO-STRUCT: structure data and CASP\n\nP15 plus official current CASP track methods and structure-file documentation\n\nTrace sequence/template/MSA/structure dates; distinguish structural scores from confidence and physical plausibility; compare a homology/template baseline on a held-out family",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "BIO-ONTO",
       "title": "GO semantics/labels/function assessment",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "Domain BIO-ONTO: function and ontologies\n\n[GO ontology documentation](https://geneontology.org/docs/ontology-documentation/), relation semantics, P16 and official CAFA edition rules\n\nOn a small valid child→ancestor subgraph, implement justified propagation, specify negative/unknown labels and evaluate one baseline; do not propagate across relations without checking semantics",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "BIO-LEAK",
       "title": "Homology/time/template/annotation leakage",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "Domain BIO-LEAK: leakage/domain validation\n\nDataset accession/version dates, homology clusters, assay/annotation provenance and selected benchmark methods\n\nAudit sequence similarity, temporal cutoffs, templates and label acquisition; report sensitivity to split design and what cannot be validated computationally",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "RL-R1",
       "title": "Finite MDP/value/TD/planning worksheet, now defined",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**RL-R1 — finite MDPs, values, tabular TD and planning.** This resolves the baseline's undefined R1 locator. (1) Specify a finite discounted MDP: state/action sets, transition probabilities, rewards, initial/terminal conditions, objective and 0≤γ<1. (2) In a one-state/one-action process with reward 2 each step and γ=1/2, derive v=2+v/2 and solve it; iterate T(v)=2+v/2 from v₀=0 and relate error to contraction. (3) In a separate observed transition with current estimate v(s)=1, next estimate v(s')=3, reward 2, γ=1/2 and step size α=0.2, hand-compute one TD(0) update using the old values. For a terminal next state use the declared zero continuation value. (4) Compare exact finite-state Bellman solutions, sampled Monte Carlo returns and tabular TD under a fixed data budget; quantify variability from actual executions. (5) Add a learned table model and a fixed number of planning updates; deliberately bias the model and test real-environment performance versus model-predicted utility. No RNN, Transformer or full convex-optimization course is needed. Neural function approximation/off-policy instability comes later in L19. Primary conceptual support: Sutton–Barto 2nd ed., selected finite-MDP/DP/TD/planning chapters, plus D069–075.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ML-GEN",
       "title": "Generative objective evidence",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**ML-GEN — generative objective.** On a finite distribution, specify valid probabilities, compute a normalized likelihood and sample from it. Then reconstruct one latent/generative objective (MAT-VI supplies a tiny ELBO) or one diffusion objective only when needed. Separate density/sample quality from learned representation utility and downstream task evaluation. One selected method suffices; do not complete GAN, VAE, every diffusion family and video generation as a cumulative common-core gate.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ML-SSL",
       "title": "Separate SSL representation evidence",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**ML-SSL — independent representation evidence.** Define a prediction/contrastive target or two data views with explicit augmentations and label/data provenance. Compare the representation with a random/simple baseline under a matched training/evaluation budget. Include a collapsed/constant representation as a diagnostic and a held-out downstream or transfer test using only training-derived preprocessing. State which augmentations are scientifically valid and what information they remove. Do not treat “trained without labels,” a low pretext loss, generative likelihood or a guided implementation as full SSL mastery. Pick one objective from D039–040; no new mandatory paper reproduction is added.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ML-POST",
       "title": "SFT/reward/preference/DPO/RL distinctions",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**ML-POST — SFT, rewards and preferences.** (1) Define a tiny instruction/response task and train/evaluate splits; identify which tokens an SFT loss should include. (2) For a preferred/dispreferred response pair, model preference as σ(r_w−r_l), derive its negative log likelihood and explain why a learned reward may exploit length/style or label artifacts. (3) For β>0 and a fixed reference policy, derive the DPO loss −log σ(β[(log π(y_w|x)−log π_ref(y_w|x))−(log π(y_l|x)−log π_ref(y_l|x))]); state support, sequence/masking and preference-model assumptions rather than treating it as a universal truth. (4) Compare outcome correctness, held-out preference accuracy and distribution shift; no public-test tuning. (5) Only if a research question needs RL post-training, extend to policy-gradient/actor-critic/PPO/GRPO after L18–L20 and report the extra sampling/compute. D054–056 and the inspected TensorTonic SFT/preference examples provide practice. The relevant sections of [InstructGPT](https://arxiv.org/abs/2203.02155) or [DPO](https://arxiv.org/abs/2305.18290) are targeted method references, not two additional compulsory reproductions.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     },
     {
       "id": "ML-VERIFY",
       "title": "Verifier-guided reasoning and matched-budget evaluation",
-      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "body": "**ML-VERIFY — verifier-guided reasoning.** Use a finite arithmetic/DSL task family with a known checked oracle. Distinguish final-answer correctness from validity of intermediate steps, process supervision from outcome supervision, and a true finite verifier from a learned reward/judge. Compare a baseline generator/search, a verifier/reranker and one controlled variant with equal candidate/token/compute budgets and untouched task families. Introduce a faulty/permissive verifier to detect reward hacking or evaluator exploitation. Report search coverage, valid solutions, false acceptance, costs and ambiguous/no-solution/timeout cases separately. A learned judge's agreement is not a proof. [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) is an optional targeted comparison of supervision choices; do not import its headline results into the toy study.",
+      "provenance": "Verbatim approved worksheet row/paragraph(s), curriculum/v1/research/RESEARCH_SPECIALISATIONS.md at 4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1. Derived display copy; immutable source authority."
     }
   ],
   "papers": [
@@ -1283,11 +1817,141 @@
       "purpose": "Product differentiation and threshold after calculus/trig. Not a reserved 2024 checkpoint.",
       "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
       "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "MATHNET-ROU-2017-JR2",
+      "title": "Stars of Mathematics 2017 · Junior 2",
+      "skill": "F07",
+      "after": "F07",
+      "url": "https://mathnet.mit.edu/explorer.html?p=rou_2017_ff7e31",
+      "locator": "MathNet rou_2017_ff7e31; Romania 2017 Junior Level problem 2",
+      "purpose": "Inequality discovery after radicals, algebra and proof; check equality cases.",
+      "relationship": "Inspected original source locator; conditional transfer; item-level overlap unresolved",
+      "notice": "Link only; solution exists on source page; do not expand before attempt."
+    },
+    {
+      "id": "MIT6042-2015-5.7",
+      "title": "MIT Mathematics for Computer Science · 5.7",
+      "skill": "F07",
+      "after": "F07",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf#page=156",
+      "locator": "Chapter 5, problem 5.7, printed pp.146–147",
+      "purpose": "Locate exact logical error in a bogus induction proof.",
+      "relationship": "Inspected original source locator; conditional transfer; item-level overlap unresolved",
+      "notice": "Original source link; retain source terms."
+    },
+    {
+      "id": "MIT6042-2015-5.8",
+      "title": "MIT Mathematics for Computer Science · 5.8",
+      "skill": "F05",
+      "after": "F05",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf#page=156",
+      "locator": "Chapter 5, problem 5.8, printed p.147",
+      "purpose": "Fibonacci identity after recurrence and induction.",
+      "relationship": "Inspected original source locator; conditional transfer; item-level overlap unresolved",
+      "notice": "Original source link; not copied."
+    },
+    {
+      "id": "EE364A-2008-2.1",
+      "title": "Convex Optimization · exercise 2.1",
+      "skill": "M11",
+      "after": "M11",
+      "url": "https://stanford.edu/~boyd/cvxbook/",
+      "locator": "Boyd–Vandenberghe Ch.2 exercise 2.1; Stanford EE364A HW1",
+      "purpose": "Prove finite convex combinations from binary convexity.",
+      "relationship": "Inspected original source locator; conditional transfer; item-level overlap unresolved",
+      "notice": "Book freely hosted; copyright retained. Read original book question, not homework solution."
+    },
+    {
+      "id": "EE364A-2008-2.7",
+      "title": "Convex Optimization · exercise 2.7",
+      "skill": "M11",
+      "after": "M11",
+      "url": "https://stanford.edu/~boyd/cvxbook/",
+      "locator": "Boyd–Vandenberghe Ch.2 exercise 2.7; Stanford EE364A HW1",
+      "purpose": "Derive a halfspace from a distance inequality.",
+      "relationship": "Inspected original source locator; conditional transfer; item-level overlap unresolved",
+      "notice": "Original book link; no copied body."
     }
   ],
   "registered": [],
   "curation": {
     "deepml": "All preserved Deep-ML item URLs are null; the 3,185 occurrences remain individually unresolved. Tutor inspects and registers actual source identity before completion.",
-    "later": "Tutor selects exact problem and checks readiness, original rights, identity/overlap and reserved checkpoint exclusion before assignment. MathNet explorer and Stanford EE364A course inspected but no exact exercise resolved in this audit; progressive curation. No learner resource search needed in opening queue."
+    "later": "Exact MathNet, MIT and Stanford locators added. Other archive tasks remain progressive. Original frozen worksheets now embedded as derived display text; source files remain authoritative."
+  },
+  "coverageAudit": {
+    "schema_version": 1,
+    "inventoryObservations": 1853,
+    "inventoryByKind": {
+      "Deep-ML:math": 861,
+      "Deep-ML:intuition": 130,
+      "Deep-ML:project": 157,
+      "Deep-ML:lab": 120,
+      "Deep-ML:collection": 24,
+      "TensorTonic:problem": 79,
+      "TensorTonic:quiz": 17,
+      "Deep-ML:historical_path": 10,
+      "Deep-ML:historical_math": 217,
+      "Deep-ML:historical_collection": 77,
+      "Deep-ML:historical_lab": 90,
+      "Deep-ML:historical_project": 71
+    },
+    "deepPathOccurrences": 3185,
+    "deepMLResolvedItems": 0,
+    "tensorTonicObservedUrls": 96,
+    "relatedSheets": {
+      "M02": [
+        "MAT-LIN"
+      ],
+      "M04": [
+        "MAT-LIN",
+        "MAT-NUM"
+      ],
+      "M14": [
+        "MAT-NUM"
+      ],
+      "M17": [
+        "MAT-PROOF"
+      ],
+      "M22": [
+        "MAT-DYN"
+      ],
+      "C02": [
+        "MAT-NUM"
+      ],
+      "C05": [
+        "ALG-AMORT"
+      ],
+      "C06": [
+        "ALG-SEARCH"
+      ],
+      "C07": [
+        "ALG-SEARCH"
+      ],
+      "C18": [
+        "ALG-SYSTEMS"
+      ],
+      "S08": [
+        "RES-ARTIFACT"
+      ],
+      "S09": [
+        "RES-QUESTION"
+      ],
+      "S10": [
+        "RES-ARTIFACT"
+      ],
+      "S12": [
+        "RES-COMM"
+      ],
+      "B09": [
+        "BIO-LEAK"
+      ],
+      "B10": [
+        "BIO-FOUND",
+        "BIO-LEAK"
+      ]
+    },
+    "method": "Coverage derived from frozen competency references, explicit exercise skills, concept mappings and reviewed worksheet relevance. Inventory counts are observations, not unique tasks or evidence of equivalence. A linked resource is not sufficient depth or mastery.",
+    "laterRule": "Tutor checks actual task constraints, proof, implementation, transfer demands, readiness, prior work and grader before selecting missing work; avoid another general ML coding set. Preserve independent assessments."
   }
 }
