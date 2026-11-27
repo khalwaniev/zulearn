@@ -1,3 +1,5 @@
+> Supplementary historical reference. The approved V1 curriculum and current execution policy are authoritative: [CURRICULUM_STATE.md](../CURRICULUM_STATE.md). This file adds no mandatory course, entrance gate or daily queue.
+
 # IELTS Academic: Band 9 as an aspirational target
 
 Band 9 denotes expert language control; scoring depends on four components. Official: https://www.ielts.org/take-a-test/your-results/ielts-scoring-in-detail and https://takeielts.britishcouncil.org/teach-ielts/test-information/assessment

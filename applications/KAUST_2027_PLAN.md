@@ -1,3 +1,5 @@
+> Supplementary historical reference. The approved V1 curriculum and current execution policy are authoritative: [CURRICULUM_STATE.md](../CURRICULUM_STATE.md). This file adds no mandatory course, entrance gate or daily queue.
+
 # KAUST prospective application (around Sep 2027) — uncertainty controlled
 
 September 2027 is **user's intended application timing**, not a published application opening or deadline. Confirm the relevant KAUST cycle and start term closer to application.

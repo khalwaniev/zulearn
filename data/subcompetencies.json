@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "subcompetencies": [
+    {
+      "id": "F01.basic_ops",
+      "parent": "F01",
+      "title": "Basic addition, subtraction, multiplication and division",
+      "entry_subskills": [],
+      "initial_state": "assumed_self_report",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F01.fraction_meaning",
+      "parent": "F01",
+      "title": "Equal parts, numerator/denominator and equivalent fractions",
+      "entry_subskills": [
+        "F01.basic_ops"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F01.fraction_operations",
+      "parent": "F01",
+      "title": "Fraction arithmetic",
+      "entry_subskills": [
+        "F01.fraction_meaning"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F01.decimals",
+      "parent": "F01",
+      "title": "Decimal place value, conversions and operations",
+      "entry_subskills": [
+        "F01.fraction_meaning"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F01.ratios_percent",
+      "parent": "F01",
+      "title": "Ratios, rates and percentages",
+      "entry_subskills": [
+        "F01.fraction_meaning",
+        "F01.decimals"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F01.signed_numbers",
+      "parent": "F01",
+      "title": "Negative numbers and signed operations",
+      "entry_subskills": [
+        "F01.basic_ops"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F01.powers_order",
+      "parent": "F01",
+      "title": "Exponents, grouping and order",
+      "entry_subskills": [
+        "F01.basic_ops",
+        "F01.signed_numbers"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F01.extended_powers_roots",
+      "parent": "F01",
+      "title": "Zero/negative powers, roots and scientific notation",
+      "entry_subskills": [
+        "F01.powers_order",
+        "F01.fraction_operations"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F02.notation",
+      "parent": "F02",
+      "title": "Variable, expression and equation",
+      "entry_subskills": [
+        "F01.basic_ops"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "F02.equality",
+      "parent": "F02",
+      "title": "Equality-preserving equation operations",
+      "entry_subskills": [
+        "F02.notation"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "C01.assignment",
+      "parent": "C01",
+      "title": "Assignment and output",
+      "entry_subskills": [],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "C01.loops",
+      "parent": "C01",
+      "title": "Lists and loops",
+      "entry_subskills": [
+        "C01.assignment"
+      ],
+      "initial_state": "new",
+      "source": "Approved v1 arithmetic/starting queue"
+    },
+    {
+      "id": "R01.compositional_generalization",
+      "parent": "R01",
+      "title": "Composition beyond memorized combinations",
+      "entry_or_depth": [
+        "C10",
+        "S03"
+      ],
+      "initial_state": "new",
+      "evidence": "Hold out combinations and task families; compare reuse, memorization and search under matched budgets.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "L21.hierarchical_planning",
+      "parent": "L21",
+      "title": "Temporal abstractions and hierarchical planning",
+      "entry_or_depth": [
+        "L18",
+        "C08"
+      ],
+      "initial_state": "new",
+      "evidence": "Specify option/subgoal termination and compare flat versus hierarchical planning; count total interactions, failures and reuse.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "M12.learned_optimization",
+      "parent": "M12",
+      "title": "Learned update rules",
+      "entry_or_depth": [
+        "M12",
+        "S03"
+      ],
+      "initial_state": "new",
+      "evidence": "Separate meta-train/meta-test problems; compare hand-designed optimizers at matched total training/tuning/compute cost.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "R02.self_generated_training_signals",
+      "parent": "R02",
+      "title": "Checked self-generated training signals",
+      "entry_or_depth": [
+        "L27",
+        "L28",
+        "S04"
+      ],
+      "initial_state": "new",
+      "evidence": "Audit the label/verifier source; separate solver improvement from evaluation leakage, selection and reward exploitation.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "R03.neural_symbolic_reasoning",
+      "parent": "R03",
+      "title": "Neural proposals with symbolic constraints",
+      "entry_or_depth": [
+        "C10",
+        "C17",
+        "L28"
+      ],
+      "initial_state": "new",
+      "evidence": "Check candidate programs/constraints with an independent finite oracle; distinguish valid proofs from plausible generated text.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "L28.inference_time_compute",
+      "parent": "L28",
+      "title": "Reasoning and inference-time computation",
+      "entry_or_depth": [
+        "C08",
+        "L28"
+      ],
+      "initial_state": "new",
+      "evidence": "Measure search/sample/verification budgets and held-out utility; compare equal-token/compute baselines and error composition.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "R04.superposition",
+      "parent": "R04",
+      "title": "Superposition and representational capacity",
+      "entry_or_depth": [
+        "M03",
+        "L24"
+      ],
+      "initial_state": "new",
+      "evidence": "Construct a toy feature model; separate feature direction, neuron, activation correlation and causal contribution.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "R04.sparse_autoencoders",
+      "parent": "R04",
+      "title": "Sparse autoencoders",
+      "entry_or_depth": [
+        "L10",
+        "L24",
+        "R04.superposition"
+      ],
+      "initial_state": "new",
+      "evidence": "Report reconstruction versus sparsity and held-out stability; compare controls and avoid assuming a learned atom is a unique causal feature.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "R04.feature_decomposition",
+      "parent": "R04",
+      "title": "Feature decomposition and causal tests",
+      "entry_or_depth": [
+        "R04.superposition",
+        "M24"
+      ],
+      "initial_state": "new",
+      "evidence": "Compare nonunique bases and intervention controls; test whether a decomposition explains a specified behavior.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "B04.protein_language_models",
+      "parent": "B04",
+      "title": "Protein language models",
+      "entry_or_depth": [
+        "B04",
+        "L15"
+      ],
+      "initial_state": "new",
+      "evidence": "Trace sequence corpus/homology/time cutoffs; compare sequence-model baseline with relevant structural/domain evidence.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    },
+    {
+      "id": "B04.multiple_sequence_alignment",
+      "parent": "B04",
+      "title": "Multiple sequence alignment",
+      "entry_or_depth": [
+        "B04",
+        "C07"
+      ],
+      "initial_state": "new",
+      "evidence": "Explain alignment uncertainty, gaps, conservation and phylogenetic dependence; audit MSA/template/database dates before claims.",
+      "source": "Human-approved narrow final-audit refinement; no new mandatory course/paper"
+    }
+  ],
+  "boundary": "Refines retained v1 IDs; does not alter frozen entry graph or infer mastery."
+}

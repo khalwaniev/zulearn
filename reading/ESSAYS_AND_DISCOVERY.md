@@ -1,3 +1,5 @@
+> Supplementary historical reference. The approved V1 curriculum and current execution policy are authoritative: [CURRICULUM_STATE.md](../CURRICULUM_STATE.md). This file adds no mandatory course, entrance gate or daily queue.
+
 # Quanta, Aeon, JSTOR Daily and science news: source hierarchy
 
 **Primary source priority:** original paper / data / code / textbooks > scientific reviews > expert lectures > journalism / essays > social posts.

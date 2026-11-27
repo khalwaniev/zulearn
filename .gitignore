@@ -1,0 +1,20 @@
+# Private local records and credentials never belong in this repository.
+node_modules/
+.next/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+.zulearn/
+private/
+raw-exports/
+backups/
+.env
+.env.*
+!.env.example
+auth.json
+*credentials*.json
+*.log
+__pycache__/
+*.pyc
+.DS_Store

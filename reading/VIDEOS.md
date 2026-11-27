@@ -1,3 +1,5 @@
+> Supplementary historical reference. The approved V1 curriculum and current execution policy are authoritative: [CURRICULUM_STATE.md](../CURRICULUM_STATE.md). This file adds no mandatory course, entrance gate or daily queue.
+
 # Video curriculum: the smallest sufficient set
 
 **Exhaustive only within a known weakness; otherwise selected lectures.**

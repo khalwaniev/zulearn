@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-27",
+  "baseline_commit": "bd639216c753a2df527c8311177148ece8614410",
+  "approved_zip": {
+    "filename": "zulearn_final_curriculum_v1.zip",
+    "sha256": "87a7dcf011a1beadad66ea9f546a71446942093dfcd21e6fbc7af544737981a2",
+    "bytes": 165281,
+    "files": 30,
+    "archive_test": "PASS",
+    "all_members_byte_equal_to_curriculum_v1": true
+  },
+  "authority": "Current human approval for integration and learning; archived pending-approval language superseded by CURRICULUM_STATE.md",
+  "legacy_preservation": [
+    {
+      "original_path": "assessment/ELITE_EXAMS.md",
+      "preserved_path": "assessment/legacy/ELITE_EXAMS.md",
+      "sha256": "97caec960754d52ce45cb6fd482222573168dc9c7e0455738589e3202e9edca1",
+      "original_git_blob_sha1": "e199451cf9d3d5ce9a42dfcf42003ddb262ae647"
+    },
+    {
+      "original_path": "assessment/MASTERY_GATES.md",
+      "preserved_path": "assessment/legacy/MASTERY_GATES.md",
+      "sha256": "71ef76bf6c3d53fb63230b49c9d5db2bae068176f3eb0c8734ecc0d76a45d935",
+      "original_git_blob_sha1": "d8b345b7b2971553c7a4600e6d037cf1251cdbbd"
+    },
+    {
+      "original_path": "curriculum/AVOID.md",
+      "preserved_path": "curriculum/legacy/AVOID.md",
+      "sha256": "48cd6390e21a6fc4f375c1487d938cf7ca368405606c5ae35fcee79651d45cfd",
+      "original_git_blob_sha1": "b152c138d1e827105b34b0c3c708fe7ffdb31322"
+    },
+    {
+      "original_path": "curriculum/ML_PLATFORM_AUDIT_2026-11-27.md",
+      "preserved_path": "curriculum/legacy/ML_PLATFORM_AUDIT_2026-11-27.md",
+      "sha256": "be27e8f13f4139dc3af0cbf773440e00aad193802f0b3cfd244077a3242e0d11",
+      "original_git_blob_sha1": "5567aefc569890c4855462c379625676f7407c72"
+    },
+    {
+      "original_path": "curriculum/ROADMAP.md",
+      "preserved_path": "curriculum/legacy/ROADMAP.md",
+      "sha256": "18986c4c622f8dc08f1390529007c45148ed557450e06704f3911763d7d96c7d",
+      "original_git_blob_sha1": "a377b0eae64aaaae22619f8b1d4b0a00497fc5bc"
+    },
+    {
+      "original_path": "curriculum/TRIPOS.md",
+      "preserved_path": "curriculum/legacy/TRIPOS.md",
+      "sha256": "9b368d8bb3304eaadfc3a3796c075e870aa70cdfa08cc8f508e32f6ff68833f5",
+      "original_git_blob_sha1": "de87498884452f3e7df96b5532e9b55b03c86d55"
+    },
+    {
+      "original_path": "curriculum/WHAT_TO_SKIP.md",
+      "preserved_path": "curriculum/legacy/WHAT_TO_SKIP.md",
+      "sha256": "aa402c0d584280eb642e2c6e0c71b75fe8fb4ea68d6bcfc3054e96d7d18a3504",
+      "original_git_blob_sha1": "6d6f225b2ee0ff7228a8f1de500c894cf3806d71"
+    },
+    {
+      "original_path": "operations/OPERATING_SYSTEM.md",
+      "preserved_path": "operations/legacy/OPERATING_SYSTEM.md",
+      "sha256": "996e38b4674a40e5337871390258c9cb22d1fd277051810210e0a4fa59d5890c",
+      "original_git_blob_sha1": "cde461b79998c325ea45417ced9b505fce208f28"
+    },
+    {
+      "original_path": "practice/ALGORITHMS.md",
+      "preserved_path": "practice/legacy/ALGORITHMS.md",
+      "sha256": "7b93a7171110139426f9528571b4981e55aae068a880b50e44df085b2d8fd168",
+      "original_git_blob_sha1": "fcac6cd7dc9c2d6a9084e1fa25350e4c67e0521d"
+    },
+    {
+      "original_path": "practice/DEEP_ML.md",
+      "preserved_path": "practice/legacy/DEEP_ML.md",
+      "sha256": "bdd6692b9086f8d0c297b721d7050a67cfd8670d731bd1a8a3d47c4d35b9da1a",
+      "original_git_blob_sha1": "6b20145b40441f991254f1eaff24c6200f5d3ff8"
+    },
+    {
+      "original_path": "research/COMPETITIONS.md",
+      "preserved_path": "research/legacy/COMPETITIONS.md",
+      "sha256": "213b7b85eddc57d071ee88d921d4852b13d0e7df13880aa2ff17b8fb47e4f12e",
+      "original_git_blob_sha1": "2e57ad234aff4ab9a7755d28e02cc54fb20fb070"
+    }
+  ],
+  "private_materials": "Raw proprietary exports, original archive downloads, learner state, credentials, local test profiles and screenshots remain outside the public repository.",
+  "newly_authored": [
+    "local-app original code, lessons, diagrams and exercise generators",
+    "LearnHarness adapter and installer",
+    "structured-data transcriptions and factual catalogue metadata",
+    "source-pinned challenge mappings and personal simulation protocol",
+    "narrow research subcompetencies and execution overlays"
+  ],
+  "source_scope": "Approved V1 and factual catalogue observations were retained; item-level private content was not reconstructed or invented.",
+  "upstream_revisions": {
+    "learnharness": "e3cfff6ee7b91d94cd7ed3eea0dcbf8807773fe8",
+    "learn": "7cfd8942f82ab9476e63572387e1fe9bcea5082c",
+    "janestreet_agent_skills": "469868f4489cbdbe178c775a0af05bb6bef63689",
+    "IOAI_official_2025": "39558e9a639d170bd92de91958fcdc915f670463"
+  }
+}

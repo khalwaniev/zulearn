@@ -1,52 +1,43 @@
 # Zulearn Programme
 
-**Public research-learning portfolio for mathematical AI, scientific machine learning, computer vision, bioinformatics, and cheminformatics.**
+Learn one thing well, then take the next step. The approved curriculum is frozen; the application starts with fractions. Only basic addition, subtraction, multiplication and division are provisionally fluent.
 
-> Mission: Acquire independently demonstrable mathematical, scientific, and engineering abilities that contribute to reproducible, beneficial research. This repository records learning artifacts and evidence; it is not a claim of credentials, mastery, or results not independently earned.
+## Start learning
 
-## Tracks
-1. Mathematical maturity: linear algebra, calculus, probability, statistics, optimization, numerical analysis, geometry, theory.
-2. AI architectures: statistical ML, CNNs, Transformers, GNNs, multimodal and generative learning.
-3. Scientific depth: molecular/cell biology, structural biology, biochemistry, biophysics, analytical chemistry, omics.
-4. Vision for science: segmentation, tracking, 3D, video, microscopy, medical images.
-5. Research engineering: rigor, reproducibility, evaluation, profiling, GPU systems, agentic workflows.
-6. Original research: reproductions, negative controls, independent hypotheses, collaborations.
+Use Node.js 24 or newer. The portable app has no npm dependencies and works without an AI account.
 
-## Public site
+```bash
+git clone https://github.com/khalwaniev/zulearn.git
+cd zulearn
+node scripts/validate-curriculum.cjs
+node --test local-app/tests/engine.test.cjs
+node local-app/server.cjs
+```
 
-A static GitHub Pages home page is ready at [`docs/index.html`](docs/index.html). Deployment instructions: [`PUBLISH.md`](PUBLISH.md). The site is not automatically published.
+Open **http://127.0.0.1:8765**. Read the equal-parts explanation, draw the example on paper, and click **Try one changed exercise**. The app saves your work and resumes automatically. Optional help stays under **Ask for help**. There is no entrance examination.
 
-## Contents
-- [`governance/COMPLETENESS_AUDIT_2026-10-22.md`](governance/COMPLETENESS_AUDIT_2026-10-22.md): verified gaps and acceptance criteria
-- [`governance/DEEP_RESEARCH_MISSIONS.md`](governance/DEEP_RESEARCH_MISSIONS.md): scoped evidence-acquisition briefs, currently unexecuted
-- [`curriculum/ROADMAP.md`](curriculum/ROADMAP.md): adaptive phases, scope, mastery gates
-- [`curriculum/AVOID.md`](curriculum/AVOID.md): excluded/deferred curricula and re-entry rules
-- [`reading/PAPERS.md`](reading/PAPERS.md): primary reading and reproduction candidates
-- [`reading/BOOKS.md`](reading/BOOKS.md): deep-read and selective references
-- [`reading/ILYA-30.md`](reading/ILYA-30.md): the rumored list's evidence status
-- [`practice/DEEP_ML.md`](practice/DEEP_ML.md): near-complete relevant practice
-- [`practice/ALGORITHMS.md`](practice/ALGORITHMS.md): selected LeetCode, CP filters
-- [`research/RESEARCH_SYSTEM.md`](research/RESEARCH_SYSTEM.md): paper/experiment standards
-- [`research/AGENTIC_ENGINEERING.md`](research/AGENTIC_ENGINEERING.md): supervised agentic workflows
-- [`research/COMPETITIONS.md`](research/COMPETITIONS.md): Kaggle, CASP, CAFA
-- [`assessment/MASTERY_GATES.md`](assessment/MASTERY_GATES.md): independent evaluations
-- [`applications/KAUST_2027.md`](applications/KAUST_2027.md): admissions preparation and research fit
-- [`applications/IELTS.md`](applications/IELTS.md): band-9 stretch plan
-- [`reading/EVIDENCE.md`](reading/EVIDENCE.md): evidence and limitations
-- [`templates/`](templates): paper review and reproducibility templates
+For an existing checkout, use `git pull --ff-only` before starting, with local changes committed or preserved. [Windows/WSL instructions and optional LearnHarness plugin](local-app/README.md) include backup, Anki and provider setup.
 
-## Truthfulness & privacy
-- Distinguish **planned**, **attempted**, **reproduced**, **independently verified**, **published**, and **rejected** results.
-- Respect unpublished data, licenses, ethics, benchmark secrecy, and competition restrictions.
-- No personal or private goals belong in this public repo or its git history.
-- Never publish raw proprietary study data, identifying health information, API keys, credentials, confidential papers, or unpublished collaboration results without permission.
+## Authority and purpose
 
-## Current status
-**Initial curriculum design.** No entries imply that a book has been read, a problem solved, or a paper reproduced.
+[Curriculum state](CURRICULUM_STATE.md) defines the current authority. All **30 approved V1 files** are preserved byte for byte in [curriculum/v1](curriculum/v1/README.md), including the 12 deliverables, evidence, audit and provenance records. Approved ZIP SHA-256:
 
-## Zulearn 2.0 additional documents
-- [Scientific AI Tripos](curriculum/TRIPOS.md)
-- [Research-adjusted Olympiad and algorithmic exams](assessment/ELITE_EXAMS.md)
-- [Course registry](reading/COURSES.md), [Video registry](reading/VIDEOS.md), [Essays](reading/ESSAYS_AND_DISCOVERY.md), [Repository study](reading/REPOSITORIES.md)
-- [Labs map](research/LABS_REFERENCE.md), [Rosalind practice](practice/ROSALIND.md)
-- [Learning evidence](reading/LEARNING_EVIDENCE_2026.md), [Operations](operations/OPERATING_SYSTEM.md)
+`87a7dcf011a1beadad66ea9f546a71446942093dfcd21e6fbc7af544737981a2`
+
+The objectives remain PhD research preparation under Professor Jürgen Schmidhuber; AGI, RSI, reasoning, mechanistic interpretability and AI for Science; ARC, CASP and CAFA competence; and independent mathematical discovery, algorithm invention, architecture design and scientific experimentation. No admissions, credential or research-result claim follows from this plan.
+
+Deep-Path Everything is the primary ML backbone: explore all **112 concepts and relevant activities**, curate actual items as encountered, and merge only verified identical exercises. TensorTonic provides complementary depth, implementation, systems work and transfer. Keep selective LeetCode and Anki. The app integrates original explanations so external references need not become a daily navigation burden.
+
+## Implementation map
+
+| Need | Location |
+|---|---|
+| Current execution policy and changes | [CURRICULUM_STATE.md](CURRICULUM_STATE.md) |
+| Local app, fraction lessons, persistence and checks | [local-app](local-app/README.md) |
+| LearnHarness architecture, execution, costs and licensing audit | [feasibility audit](integrations/learnharness/FEASIBILITY.md) |
+| Competencies, entry prerequisites, targeted refinements | [data](data/README.md) |
+| Deep-ML/TensorTonic catalogue observations and provenance | [catalogue inventory](data/catalogue/README.md) |
+| Original archive challenge mappings and livestream protocol | [challenge policy](assessment/CHALLENGE_PROTOCOL.md) |
+| Integration, verification and implementation limits | [integration record](governance/IMPLEMENTATION_RECORD.md) |
+
+Private learning records, proprietary raw exports and API credentials stay outside Git. The code does not infer independent competence from AI assistance or a completed platform activity. Earlier reference documents remain supplementary; superseded schedules are explicitly archived.

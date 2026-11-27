@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "verified_identical_pairs": [],
+  "relationships": [
+    {
+      "from": "Deep-Path Everything",
+      "to": "puzzles",
+      "relationship": "modality_occurrences",
+      "verified": true,
+      "count": 130,
+      "evidence": "Supplied Deep-Path export aggregate; not a verified mapping to individual standalone items"
+    },
+    {
+      "from": "Deep-Path Everything",
+      "to": "math",
+      "relationship": "modality_occurrences",
+      "verified": true,
+      "count": 605,
+      "evidence": "Supplied Deep-Path export aggregate; not a verified mapping to individual standalone items"
+    },
+    {
+      "from": "Deep-Path Everything",
+      "to": "problems",
+      "relationship": "modality_occurrences",
+      "verified": true,
+      "count": 2214,
+      "evidence": "Supplied Deep-Path export aggregate; not a verified mapping to individual standalone items"
+    },
+    {
+      "from": "Deep-Path Everything",
+      "to": "projects",
+      "relationship": "modality_occurrences",
+      "verified": true,
+      "count": 120,
+      "evidence": "Supplied Deep-Path export aggregate; not a verified mapping to individual standalone items"
+    },
+    {
+      "from": "Deep-Path Everything",
+      "to": "labs",
+      "relationship": "modality_occurrences",
+      "verified": true,
+      "count": 116,
+      "evidence": "Supplied Deep-Path export aggregate; not a verified mapping to individual standalone items"
+    }
+  ],
+  "curation_rule": "Save both memberships for a verified shared item; use duplicated only with inspected identity/constraint/oracle evidence. Shared title/topic alone is unresolved. Retain distinct implementations, theory and transfer."
+}

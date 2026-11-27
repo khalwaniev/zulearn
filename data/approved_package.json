@@ -1,0 +1,10 @@
+{
+  "curriculum_id": "zulearn-v1",
+  "approved_zip_sha256": "87a7dcf011a1beadad66ea9f546a71446942093dfcd21e6fbc7af544737981a2",
+  "source_filename": "zulearn_final_curriculum_v1.zip",
+  "file_count": 30,
+  "bytes": 165281,
+  "approval": "Independent final V1 audit and approval for learning/integration reported by human in current implementation request",
+  "source_repo_head_before_integration": "bd639216c753a2df527c8311177148ece8614410",
+  "preservation": "All approved package files copied byte for byte under curriculum/v1; existing historical approval-pending text is superseded by CURRICULUM_STATE.md."
+}

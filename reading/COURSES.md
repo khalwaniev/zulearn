@@ -1,3 +1,5 @@
+> Supplementary historical reference. The approved V1 curriculum and current execution policy are authoritative: [CURRICULUM_STATE.md](../CURRICULUM_STATE.md). This file adds no mandatory course, entrance gate or daily queue.
+
 # Course and playlist selection — complete some, mine others
 
 **Policy:** only mark COMPLETE when problems and independent exam are passed. Video completion alone = viewed.

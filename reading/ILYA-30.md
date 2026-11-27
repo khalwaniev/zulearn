@@ -1,3 +1,5 @@
+> Supplementary historical reference. The approved V1 curriculum and current execution policy are authoritative: [CURRICULUM_STATE.md](../CURRICULUM_STATE.md). This file adds no mandatory course, entrance gate or daily queue.
+
 # The rumored "30 papers" associated with Ilya Sutskever
 
 **Evidence status: NOT AUTHENTICATED.** Some web lists claim Ilya Sutskever supplied John Carmack with a learning list of ~30 papers, but the provenance is unverified; one site currently openly describes its list of 27 as *rumored*. Do not cite it as an actual confirmed Ilya recommendation.

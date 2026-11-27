@@ -1,3 +1,5 @@
+> Supplementary historical reference. The approved V1 curriculum and current execution policy are authoritative: [CURRICULUM_STATE.md](../CURRICULUM_STATE.md). This file adds no mandatory course, entrance gate or daily queue.
+
 # KAUST preparation — September 2027 intended application window
 
 IMPORTANT: September 2027 is a personal application target, not a confirmed KAUST deadline. Check official admission timeline and actual entry term prior to applying: https://admissions.kaust.edu.sa/how-to-apply/admission-timelines ; https://admissions.kaust.edu.sa/how-to-apply/entry-requirements
