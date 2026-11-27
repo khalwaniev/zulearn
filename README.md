@@ -4,6 +4,8 @@
 
 ## Start here
 
+**[Open the Zulearn learning interface](https://khalwaniev.github.io/zulearn/)** (GitHub Pages; see [operational notes](docs/README.md)).
+
 Open **[Today's lesson](learning/NOW.md)**. Read the integrated explanation, draw on paper, attempt the short local check without AI, and continue to the next unfinished task. Only basic addition, subtraction, multiplication and division are provisionally fluent. All later arithmetic starts new. There is no entrance examination.
 
 | Need | Open |

@@ -1,0 +1,735 @@
+{
+  "schema_version": 1,
+  "baseline": "4852fb9eb0ff89379fdba806f635fe3f6a4a6ef1",
+  "bank": [
+    {
+      "id": "ZP-FRA-001",
+      "skill": "F01.fraction_meaning",
+      "title": "Name a share",
+      "prompt": "A rectangle has eight equal pieces. Three are shaded. Write the shaded fraction.",
+      "purpose": "Meaning of numerator and denominator.",
+      "hint": "Count shaded pieces and all equal pieces.",
+      "solution": "Three of eight equal parts: 3/8.",
+      "answer": [
+        3,
+        8
+      ],
+      "lesson": "FRA-01",
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-FRA-002",
+      "skill": "F01.fraction_meaning",
+      "title": "Repartition",
+      "prompt": "One of four equal pieces is shaded. Split each piece into three equal pieces. Write the new shaded fraction.",
+      "purpose": "Equivalence in a new partition.",
+      "hint": "Each original piece has three smaller pieces.",
+      "solution": "3/12 = 1/4. The amount stays fixed.",
+      "answer": [
+        3,
+        12
+      ],
+      "lesson": "FRA-01",
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-FRA-003",
+      "skill": "F01.fraction_meaning",
+      "title": "When counting fails",
+      "prompt": "Draw a rectangle split into two unequal pieces. Explain why shading one piece need not give 1/2. Compare halves of two differently sized wholes.",
+      "purpose": "Repair equal-parts and reference-whole misconceptions.",
+      "hint": "Equal size and the reference whole matter.",
+      "solution": "A valid drawing uses unequal areas, and explains why equal fractional names need not represent equal absolute amounts.",
+      "answer": null,
+      "lesson": "FRA-01",
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-FRA-004",
+      "skill": "F01.fraction_operations",
+      "title": "Common units",
+      "prompt": "Calculate 1/3 + 1/4.",
+      "purpose": "Independent common-denominator practice.",
+      "hint": "Use twelfths.",
+      "solution": "4/12 + 3/12 = 7/12.",
+      "answer": [
+        7,
+        12
+      ],
+      "lesson": "FRA-02",
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-FRA-005",
+      "skill": "F01.fraction_operations",
+      "title": "Count fractional units",
+      "prompt": "Calculate (3/5) ÷ (1/10).",
+      "purpose": "Connect division with measurement.",
+      "hint": "Write three fifths in tenths.",
+      "solution": "6/10 contains six tenths.",
+      "answer": [
+        6,
+        1
+      ],
+      "lesson": "FRA-03",
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-DEC-001",
+      "skill": "F01.decimals",
+      "title": "Place value",
+      "prompt": "Calculate 0.7 − 0.28.",
+      "purpose": "Check alignment of decimal places.",
+      "hint": "Write 0.70.",
+      "solution": "0.70 − 0.28 = 0.42.",
+      "answer": [
+        42,
+        100
+      ],
+      "lesson": "DEC-01",
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-RAT-001",
+      "skill": "F01.ratios_percent",
+      "title": "Part of a whole",
+      "prompt": "A box has 15 red and 5 blue counters. What fraction is blue?",
+      "purpose": "Distinguish part-to-part and part-to-whole.",
+      "hint": "Count the total.",
+      "solution": "5/20 = 1/4.",
+      "answer": [
+        1,
+        4
+      ],
+      "lesson": "RAT-01",
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-ALG-001",
+      "skill": "F02.equality",
+      "title": "Preserve equality",
+      "prompt": "Solve 3x + 5 = 20. Enter x and explain the transformations on paper.",
+      "purpose": "Check equation reasoning.",
+      "hint": "Subtract five on both sides.",
+      "solution": "3x = 15, so x = 5.",
+      "answer": [
+        5,
+        1
+      ],
+      "lesson": "ALG-02",
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-PROOF-001",
+      "skill": "F07",
+      "title": "Odd numbers",
+      "prompt": "Prove the sum of two odd integers is even. Does the converse hold?",
+      "purpose": "Proof and counterexample.",
+      "hint": "Represent odd integers as 2k+1.",
+      "solution": "(2a+1)+(2b+1)=2(a+b+1). Converse false: 2+4 is even.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-ALG-002",
+      "skill": "C04",
+      "title": "Correctness before code",
+      "prompt": "A loop scans a nonempty list and retains the largest value. State an invariant and prove initialization, maintenance and termination. Why can initializing to zero fail?",
+      "purpose": "Algorithm correctness independent of code acceptance.",
+      "hint": "Think about the first k items.",
+      "solution": "After k≥1 items the value is the maximum of the first k. Initialize with the first item, update by max; all-negative input refutes zero initialization.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-MATH-001",
+      "skill": "M03",
+      "title": "Derive least squares",
+      "prompt": "Minimize f(t)=(t−1)²+(t−4)². Derive the minimizer and prove it is global.",
+      "purpose": "Analytic derivation and global optimality.",
+      "hint": "Complete the square.",
+      "solution": "f(t)=2(t−5/2)²+9/2; the unique minimizer is 5/2.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-TCS-001",
+      "skill": "C09",
+      "title": "Finite-state memory",
+      "prompt": "Construct a finite-state machine accepting strings with an even number of 1s. Prove its correctness by induction.",
+      "purpose": "Formal language semantics.",
+      "hint": "Track parity.",
+      "solution": "Two states E and O; start and accept E; 0 leaves state unchanged, 1 toggles. Induction on prefixes gives the invariant.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-SCI-001",
+      "skill": "S03",
+      "title": "Controlled comparison",
+      "prompt": "A improves accuracy over B, but uses double compute and a different split. Design a comparison and state what would weaken the architecture-only explanation.",
+      "purpose": "Confounders, controls, scientific falsification.",
+      "hint": "Hold split and budget fixed.",
+      "solution": "Use identical splits, preprocessing, evaluation and matched compute/tuning; vary architecture, quantify seed uncertainty. Gain disappearance under controls weakens the architecture-only claim.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-BIO-001",
+      "skill": "B08",
+      "title": "Homology leakage",
+      "prompt": "A random protein split puts close homologs in both train and test. Explain its supported generalization claim; propose a stronger split and limitations.",
+      "purpose": "Domain-specific scientific validity.",
+      "hint": "Separate sequence identity groups.",
+      "solution": "Random split can measure interpolation among related sequences, not distant-family generalization. Group by a declared homology threshold, check residual similarity and state family/time biases.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    },
+    {
+      "id": "ZP-RES-001",
+      "skill": "R04",
+      "title": "Intervention versus correlation",
+      "prompt": "A feature activation correlates with correctness. Design a causal intervention and negative control; identify a limitation.",
+      "purpose": "Mechanistic interpretability reasoning.",
+      "hint": "Compare a targeted intervention with a matched control.",
+      "solution": "Use ablation or patching, intact baseline and matched control; measure output changes and examine distribution shift and alternative pathways.",
+      "answer": null,
+      "lesson": null,
+      "relationship": "Intentional retention/transfer; original Zulearn practice, cross-platform exclusivity unresolved",
+      "provenance": "Original authored exercise; no third-party task body copied"
+    }
+  ],
+  "sheets": [
+    {
+      "id": "MAT-ARITH",
+      "title": "Systematic arithmetic extensions after four basic operations; no entrance test",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-ALG",
+      "title": "Elementary→intermediate algebra, equality/inequality and domain progression",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-GEO",
+      "title": "Coordinate/trigonometry and geometric-series practice",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-LIN",
+      "title": "Matrices and least squares",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-CALC",
+      "title": "Derivatives, matrix gradient and integration",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-PROOF",
+      "title": "Proof, quantifiers, induction and counterexamples",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-PROB",
+      "title": "Finite→continuous probability",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-PROC",
+      "title": "Markov chains and dependent samples",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-INF",
+      "title": "Likelihood/Bayesian inference",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-UNC",
+      "title": "Dependence-aware uncertainty and measurement",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-EXP",
+      "title": "Experimental design/selection",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-CAUS",
+      "title": "Causal identification and intervention",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-NUM",
+      "title": "Numerical stability and conditioning",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-CONVEX",
+      "title": "Convexity/KKT/duality",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-SGD",
+      "title": "Stochastic optimization and controlled comparisons",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-INFO",
+      "title": "Entropy/KL/information",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-BOUND",
+      "title": "Concentration and adaptive-selection limits",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-ANALYSIS",
+      "title": "Research-triggered analysis",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-SYM",
+      "title": "Symmetry/equivariance/chirality",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-DYN",
+      "title": "ODE/time-step/rollout stability",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-LOG",
+      "title": "Functions before later exponential/logarithm depth",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-TAYLOR",
+      "title": "Taylor approximation, error conditions, Jacobian/Hessian",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-TRANSFORM",
+      "title": "Conditional expectation and change of variables",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-REC",
+      "title": "Recurrences and formal generating functions",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-FIX",
+      "title": "Numerical/Bellman fixed-point reasoning and limits",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-MC",
+      "title": "Monte Carlo, importance weights/support and uncertainty",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-VI",
+      "title": "ELBO/posterior-KL and amortized inference",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "MAT-MDL",
+      "title": "Two-part coding and algorithmic probability distinctions",
+      "file": "curriculum/v1/curriculum/MATHEMATICS.md"
+    },
+    {
+      "id": "ALG-SOFT",
+      "title": "Independent software/tests/provenance",
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+    },
+    {
+      "id": "ALG-SEARCH",
+      "title": "Graph/path/CSP and heuristic-search controls",
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+    },
+    {
+      "id": "ALG-TCS",
+      "title": "Computability/reductions/complexity",
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+    },
+    {
+      "id": "ALG-SYN",
+      "title": "Typed-DSL synthesis and constraint-guided search",
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+    },
+    {
+      "id": "ALG-VERIFY",
+      "title": "Specifications, SAT/SMT and trusted-base limits",
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+    },
+    {
+      "id": "ALG-AMORT",
+      "title": "Aggregate/potential analysis and cost models",
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+    },
+    {
+      "id": "ALG-LANG",
+      "title": "Abstraction/recursion/types/AST/grammar/automata",
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+    },
+    {
+      "id": "ALG-SYSTEMS",
+      "title": "Minimal CPU/memory/process/resource literacy",
+      "file": "curriculum/v1/curriculum/ALGORITHMS_TCS.md"
+    },
+    {
+      "id": "RES-QUESTION",
+      "title": "Research question/claim/alternative explanation",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "RES-AGENT",
+      "title": "Agent versus no-agent controlled evaluation",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "RES-ARTIFACT",
+      "title": "Reproducibility and artifact provenance",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "RES-COMM",
+      "title": "Scientific writing/oral defense",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "RES-EFF",
+      "title": "Measured efficiency claim",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "BIO-FOUND",
+      "title": "Domain biology/evolution foundations",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "BIO-PHYS",
+      "title": "Protein chemistry/biophysics",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "BIO-REP",
+      "title": "Molecular/sequence/graph representation",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "BIO-STRUCT",
+      "title": "Structure evaluation and CASP data boundaries",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "BIO-ONTO",
+      "title": "GO semantics/labels/function assessment",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "BIO-LEAK",
+      "title": "Homology/time/template/annotation leakage",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "RL-R1",
+      "title": "Finite MDP/value/TD/planning worksheet, now defined",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "ML-GEN",
+      "title": "Generative objective evidence",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "ML-SSL",
+      "title": "Separate SSL representation evidence",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "ML-POST",
+      "title": "SFT/reward/preference/DPO/RL distinctions",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    },
+    {
+      "id": "ML-VERIFY",
+      "title": "Verifier-guided reasoning and matched-budget evaluation",
+      "file": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md"
+    }
+  ],
+  "papers": [
+    {
+      "id": "P01",
+      "title": "Long Short-Term Memory",
+      "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+      "skills": "L13,M06",
+      "task": "R,D,I: derive recurrent gradient flow; identify original 1997 cell versus modern forget-gate LSTM; one toy long-lag task",
+      "limit": "P only after choosing an original task/protocol and reporting architecture/truncation differences"
+    },
+    {
+      "id": "P02",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "skills": "L14",
+      "task": "R,D,I: attention shapes/masks/complexity; reconstruct one block; explain encoder-decoder versus GPT",
+      "limit": "Translation-scale BLEU is not reproduced by a tiny character LM"
+    },
+    {
+      "id": "P03",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "url": "https://arxiv.org/abs/1412.6980",
+      "skills": "L11,M12",
+      "task": "R,D,I: moments/bias correction, one tested update and controlled optimizer comparison",
+      "limit": "A toy advantage is not universal superiority or a proof of convergence in every setting"
+    },
+    {
+      "id": "P04",
+      "title": "World Models",
+      "url": "https://arxiv.org/abs/1803.10122",
+      "skills": "L21",
+      "task": "R,D; I only the needed representation/dynamics/planning component",
+      "limit": "Narrow P to a specified experiment; match real-environment evaluation, data and compute"
+    },
+    {
+      "id": "P05",
+      "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+      "url": "https://arxiv.org/abs/1703.03400",
+      "skills": "L22,M06",
+      "task": "R,D,I: one-/two-step meta-gradient on a toy regression family; hold out tasks",
+      "limit": "P/X compare adaptation against tuned pretraining and simple baselines with equal budgets"
+    },
+    {
+      "id": "P06",
+      "title": "Optimal Ordered Problem Solver",
+      "url": "https://arxiv.org/abs/cs/0207097",
+      "skills": "C09,C10,M23",
+      "task": "R,D: explain search priors, incremental reuse and assumptions behind efficiency; optional tiny program-search I",
+      "limit": "A toy enumerator is not the original full OOPS system; theorem scope and constants matter"
+    },
+    {
+      "id": "P07",
+      "title": "Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+      "url": "https://arxiv.org/abs/cs/0309048",
+      "skills": "C09,C17,M23",
+      "task": "R,D: formal utility/axioms/proof-search/rewrite conditions and unprovability/computational limits",
+      "limit": "No casual implementation/P claim required; distinguish conditional theorem from a practical autonomous agent"
+    },
+    {
+      "id": "P08",
+      "title": "Mastering Diverse Domains through World Models",
+      "url": "https://arxiv.org/abs/2301.04104",
+      "skills": "P04,L20,L21",
+      "task": "R,D of one selected stability/objective choice; I only after a concrete question",
+      "limit": "Multi-domain headline reproduction is compute-intensive and optional; no task-suite equivalence for a toy experiment"
+    },
+    {
+      "id": "P09",
+      "title": "On the Measure of Intelligence",
+      "url": "https://arxiv.org/abs/1911.01547",
+      "skills": "C09,M15",
+      "task": "R,D: distinguish skill, priors, experience and acquisition efficiency; critique a proposed benchmark",
+      "limit": "A conceptual framework is not a settled universal measurement theory; no unreleased ARC format inferred"
+    },
+    {
+      "id": "P10",
+      "title": "DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning",
+      "url": "https://arxiv.org/abs/2006.08381",
+      "skills": "C10,M08",
+      "task": "R,D; I a tiny DSL/search/reuse component; inspect abstraction-learning/evaluation choices",
+      "limit": "P requires original tasks and full method details; task-family separation is central to X"
+    },
+    {
+      "id": "P11",
+      "title": "A Mathematical Framework for Transformer Circuits",
+      "url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "skills": "L14,M03",
+      "task": "R,D,I: residual stream, QK/OV decomposition and a tiny circuit calculation",
+      "limit": "Use the simplified model's assumptions; do not generalize every result to all architectures"
+    },
+    {
+      "id": "P12",
+      "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
+      "url": "https://arxiv.org/abs/2211.00593",
+      "skills": "P11,M24",
+      "task": "R,D; select one causal intervention and evaluation criterion; I/P if feasible",
+      "limit": "Controls, faithfulness/completeness/minimality and prompt distribution constrain claims"
+    },
+    {
+      "id": "P13",
+      "title": "Neural Message Passing for Quantum Chemistry",
+      "url": "https://arxiv.org/abs/1704.01212",
+      "skills": "L17,B05",
+      "task": "R,D,I: message, aggregation and readout; prove permutation behavior",
+      "limit": "A synthetic GNN build is not quantum-chemistry accuracy reproduction"
+    },
+    {
+      "id": "P14",
+      "title": "E(n) Equivariant Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2102.09844",
+      "skills": "M20,L17",
+      "task": "R,D,I: equivariance proof and coordinate-update numerical check",
+      "limit": "Explicitly examine reflection/chirality limits and dataset conventions"
+    },
+    {
+      "id": "P15",
+      "title": "Highly accurate protein structure prediction with AlphaFold",
+      "url": "https://doi.org/10.1038/s41586-021-03819-2",
+      "skills": "B02–B06,L17",
+      "task": "R,D of one selected mechanism; explain data/templates/MSA/confidence/evaluation",
+      "limit": "Full training reproduction is not a default assignment; running released inference is a separate status"
+    },
+    {
+      "id": "P16",
+      "title": "The CAFA challenge reports improved protein function prediction and new functional annotations for hundreds of genes through experimental screens",
+      "url": "https://doi.org/10.1186/s13059-019-1835-8",
+      "skills": "B04,B07,S02",
+      "task": "R,D of time-delayed/ontology-aware evaluation; build a tiny baseline with explicit unknown-label policy",
+      "limit": "Historical CAFA evaluation does not fix future-round metrics/rules"
+    },
+    {
+      "id": "P17",
+      "title": "On Calibration of Modern Neural Networks",
+      "url": "https://arxiv.org/abs/1706.04599",
+      "skills": "L03,M09",
+      "task": "R,D,I: temperature scaling on held-out calibration data; compare proper scores and bin-dependent estimates",
+      "limit": "Evaluate on an untouched test set; calibration on one distribution need not transfer under shift"
+    }
+  ],
+  "tt": [
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step",
+      "title": "Gradient Accumulation Equivalence",
+      "url": "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step?studyPlan=language-modeling-from-scratch",
+      "skills": "L11 / C12",
+      "task": "Unequal microbatch sizes, full-example weighting, PyTorch backward accumulation and input preservation",
+      "purpose": "Useful L11/C12 transfer if these conditions were absent from the first training loop",
+      "relationship": "Bounded detailed prompt inspection; conditional variation"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity",
+      "title": "Compute Conditional Perplexity",
+      "url": "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity?studyPlan=language-modeling-from-scratch",
+      "skills": "L15",
+      "task": "Response-mask evaluation, correct token aggregation and declared empty-mask convention",
+      "purpose": "Useful L15 evaluation task; no need to repeat ordinary unmasked perplexity",
+      "relationship": "Bounded detailed prompt inspection; conditional variation"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood",
+      "title": "Score Multiple-Choice Continuations",
+      "url": "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood?studyPlan=language-modeling-from-scratch",
+      "skills": "L23",
+      "task": "Continuation likelihood with explicit length/tie/mask conventions",
+      "purpose": "Useful L23 transfer; distinguish the task's scoring convention from universal benchmark correctness",
+      "relationship": "Bounded detailed prompt inspection; conditional variation"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication",
+      "title": "Perform Stable Exact Deduplication",
+      "url": "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication?studyPlan=language-modeling-from-scratch",
+      "skills": "C03 / C16 / L01",
+      "task": "Stable data deduplication rather than approximate semantic deduplication",
+      "purpose": "C03/C16/L01 data-integrity practice if missing; hash collisions must not be treated as equality",
+      "relationship": "Official URL observed; latest full constraints unresolved"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages",
+      "title": "Normalize GRPO Group Advantages",
+      "url": "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages?studyPlan=language-modeling-from-scratch",
+      "skills": "L20 / R03",
+      "task": "Within-group standardization and edge-case conventions",
+      "purpose": "Later L20/R03 variation, after policy gradients; not a first RL lesson",
+      "relationship": "Official URL observed; latest full constraints unresolved"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/bootstrap-mean",
+      "title": "Bootstrap Mean & Confidence Interval",
+      "url": "https://www.tensortonic.com/problems/bootstrap-mean?roadmap=tt100&step=16",
+      "skills": "M09",
+      "task": "Repeated resampling under an explicit unit and reproducibility convention",
+      "purpose": "Basic M09 implementation; add an original cluster/paired transfer, since ordinary IID bootstrap does not assess dependence-aware science",
+      "relationship": "Official URL observed; latest full constraints unresolved"
+    }
+  ],
+  "resources": [
+    [
+      "MIT 18.06",
+      "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-videos/",
+      "Approved linear algebra selections"
+    ],
+    [
+      "MIT 18.02SC",
+      "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/",
+      "Selected multivariable calculus"
+    ],
+    [
+      "MIT 6.042J",
+      "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/",
+      "Proof and discrete mathematics"
+    ],
+    [
+      "Harvard Stat 110",
+      "https://stat110.hsites.harvard.edu/",
+      "Selected probability"
+    ],
+    [
+      "Stanford EE364A",
+      "https://web.stanford.edu/class/ee364a/",
+      "Selected convex optimization"
+    ],
+    [
+      "MathNet",
+      "https://mathnet.mit.edu/",
+      "Local-readiness creativity; exact task not assigned"
+    ],
+    [
+      "AoPS",
+      "https://artofproblemsolving.com/",
+      "Non-routine mathematical discovery; exact task not assigned"
+    ],
+    [
+      "OTIS Excerpts",
+      "https://web.evanchen.cc/excerpts.html",
+      "Proof discovery; exact task not assigned"
+    ],
+    [
+      "Putnam archive",
+      "https://maa.org/maa-putnam-archive/",
+      "Practice must exclude reserved tasks"
+    ],
+    [
+      "LeetCode catalogue",
+      "https://leetcode.com/problemset/",
+      "Two Sum, Valid Anagram, Valid Parentheses, Binary Search only for named gaps; inspect actual URL"
+    ],
+    [
+      "CSES catalogue",
+      "https://cses.fi/problemset/",
+      "Selected Message Route, Building Roads, Course Schedule, Shortest Routes I, Edit Distance, Book Shop"
+    ]
+  ]
+}
