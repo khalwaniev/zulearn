@@ -627,7 +627,10 @@
       "skills": "L11 / C12",
       "task": "Unequal microbatch sizes, full-example weighting, PyTorch backward accumulation and input preservation",
       "purpose": "Useful L11/C12 transfer if these conditions were absent from the first training loop",
-      "relationship": "Bounded detailed prompt inspection; conditional variation"
+      "relationship": "Bounded detailed prompt inspection; conditional variation",
+      "source_observation": "tensortonic:problem:cs336-l02-gradient-accumulation-step",
+      "platform": "TensorTonic",
+      "kind": "problem"
     },
     {
       "id": "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity",
@@ -636,7 +639,10 @@
       "skills": "L15",
       "task": "Response-mask evaluation, correct token aggregation and declared empty-mask convention",
       "purpose": "Useful L15 evaluation task; no need to repeat ordinary unmasked perplexity",
-      "relationship": "Bounded detailed prompt inspection; conditional variation"
+      "relationship": "Bounded detailed prompt inspection; conditional variation",
+      "source_observation": "tensortonic:problem:cs336-l12-conditional-perplexity",
+      "platform": "TensorTonic",
+      "kind": "problem"
     },
     {
       "id": "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood",
@@ -645,7 +651,10 @@
       "skills": "L23",
       "task": "Continuation likelihood with explicit length/tie/mask conventions",
       "purpose": "Useful L23 transfer; distinguish the task's scoring convention from universal benchmark correctness",
-      "relationship": "Bounded detailed prompt inspection; conditional variation"
+      "relationship": "Bounded detailed prompt inspection; conditional variation",
+      "source_observation": "tensortonic:problem:cs336-l12-multiple-choice-likelihood",
+      "platform": "TensorTonic",
+      "kind": "problem"
     },
     {
       "id": "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication",
@@ -654,7 +663,10 @@
       "skills": "C03 / C16 / L01",
       "task": "Stable data deduplication rather than approximate semantic deduplication",
       "purpose": "C03/C16/L01 data-integrity practice if missing; hash collisions must not be treated as equality",
-      "relationship": "Official URL observed; latest full constraints unresolved"
+      "relationship": "Official URL observed; latest full constraints unresolved",
+      "source_observation": "tensortonic:problem:cs336-l14-stable-exact-deduplication",
+      "platform": "TensorTonic",
+      "kind": "problem"
     },
     {
       "id": "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages",
@@ -663,7 +675,10 @@
       "skills": "L20 / R03",
       "task": "Within-group standardization and edge-case conventions",
       "purpose": "Later L20/R03 variation, after policy gradients; not a first RL lesson",
-      "relationship": "Official URL observed; latest full constraints unresolved"
+      "relationship": "Official URL observed; latest full constraints unresolved",
+      "source_observation": "tensortonic:problem:cs336-l16-grpo-group-advantages",
+      "platform": "TensorTonic",
+      "kind": "problem"
     },
     {
       "id": "https://www.tensortonic.com/problems/bootstrap-mean",
@@ -672,7 +687,70 @@
       "skills": "M09",
       "task": "Repeated resampling under an explicit unit and reproducibility convention",
       "purpose": "Basic M09 implementation; add an original cluster/paired transfer, since ordinary IID bootstrap does not assess dependence-aware science",
-      "relationship": "Official URL observed; latest full constraints unresolved"
+      "relationship": "Official URL observed; latest full constraints unresolved",
+      "source_observation": "tensortonic:problem:bootstrap-mean",
+      "platform": "TensorTonic",
+      "kind": "problem"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant",
+      "title": "Mixed-Precision Training Memory Accountant",
+      "url": "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant?studyPlan=language-modeling-from-scratch",
+      "skills": "C13 / C12",
+      "task": "Exact training bytes including optimizer state, scalar and empty shapes.",
+      "purpose": "After memory accounting.",
+      "relationship": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved",
+      "source_observation": "tensortonic:problem:cs336-l02-training-memory-accountant",
+      "platform": "TensorTonic",
+      "kind": "problem"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts",
+      "title": "Shared-Memory Bank Conflict Analyzer",
+      "url": "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts?studyPlan=language-modeling-from-scratch",
+      "skills": "C14 / C13",
+      "task": "Bank mapping and broadcast versus distinct-address conflict.",
+      "purpose": "After memory layout.",
+      "relationship": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved",
+      "source_observation": "tensortonic:problem:cs336-l05-shared-memory-bank-conflicts",
+      "platform": "TensorTonic",
+      "kind": "problem"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner",
+      "title": "Plan KV-Cache Capacity",
+      "url": "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner?studyPlan=language-modeling-from-scratch",
+      "skills": "C15 / L15",
+      "task": "KV versus query heads; memory and bandwidth capacity model.",
+      "purpose": "After attention/inference; model not hardware measurement.",
+      "relationship": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved",
+      "source_observation": "tensortonic:problem:cs336-l10-kv-cache-capacity-planner",
+      "platform": "TensorTonic",
+      "kind": "problem"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask",
+      "title": "Build an Assistant-Only SFT Loss Mask",
+      "url": "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask?studyPlan=language-modeling-from-scratch",
+      "skills": "L27 / C12",
+      "task": "Shift targets using both attention positions and target role.",
+      "purpose": "After SFT; conditional complement.",
+      "relationship": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved",
+      "source_observation": "tensortonic:problem:cs336-l15-assistant-only-sft-mask",
+      "platform": "TensorTonic",
+      "kind": "problem"
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss",
+      "title": "Implement Symmetric CLIP Contrastive Loss",
+      "url": "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss?studyPlan=language-modeling-from-scratch",
+      "skills": "L26 / L12",
+      "task": "Two contrastive directions, normalization, zero vectors and ties.",
+      "purpose": "After contrastive objectives.",
+      "relationship": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved",
+      "source_observation": "tensortonic:problem:cs336-l17-symmetric-clip-loss",
+      "platform": "TensorTonic",
+      "kind": "problem"
     }
   ],
   "resources": [
@@ -731,5 +809,485 @@
       "https://cses.fi/problemset/",
       "Selected Message Route, Building Roads, Course Schedule, Shortest Routes I, Edit Distance, Book Shop"
     ]
-  ]
+  ],
+  "opening": [
+    {
+      "id": "FRA-SIM",
+      "title": "Simplify equal shares",
+      "skill": "F01.fraction_operations",
+      "lane": "mathematics",
+      "why": "Simplify equal shares",
+      "explanation": [
+        "Divide both numerator and denominator by the same nonzero common factor. The name changes, not the amount."
+      ],
+      "worked_example": {
+        "text": "6/8 = 3/4",
+        "fractions": []
+      },
+      "practice": "Simplify 12/18; draw 2/6 and 1/3.",
+      "discovery": "Why does dividing only the numerator change the value?",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+        "section": "§4.2 simplify fractions",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "FRA-04",
+      "title": "Mixed and complex fractions",
+      "skill": "F01.fraction_operations",
+      "lane": "mathematics",
+      "why": "Mixed and complex fractions",
+      "explanation": [
+        "1 1/2 means 1+1/2=3/2. A complex fraction is division by a nonzero divisor."
+      ],
+      "worked_example": {
+        "text": "1 1/2 × 2/3 = 1",
+        "fractions": []
+      },
+      "practice": "Convert 2 1/3 to a single fraction; calculate (1/2)/(3/4).",
+      "discovery": "Explain why division can increase a positive value.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/4-3-multiply-and-divide-mixed-numbers-and-complex-fractions",
+        "section": "§4.3 selected subsections",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "ARITH-02",
+      "title": "Rounding, percent changes and units",
+      "skill": "F01.ratios_percent",
+      "lane": "mathematics",
+      "why": "Rounding, percent changes and units",
+      "explanation": [
+        "Round at the requested place using the first dropped digit. A percentage is relative to the current base. A millisecond is 1/1000 second."
+      ],
+      "worked_example": {
+        "text": "100 → 88 → 98.56 after 12% decrease then increase",
+        "fractions": []
+      },
+      "practice": "Round 2.346 to hundredths; convert 2.5 ms to seconds; apply 20% down then up to 50.",
+      "discovery": "Explain why the two percentages do not cancel.",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/6-2-solve-general-percent-applications",
+        "section": "§6.2 and MAT-ARITH items 7–8; §5.1 rounding",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "POW-02",
+      "title": "Extended powers, roots and scientific notation",
+      "skill": "F01.extended_powers_roots",
+      "lane": "mathematics",
+      "why": "Extended powers, roots and scientific notation",
+      "explanation": [
+        "For nonzero a, a⁰=1 and a⁻ⁿ=1/aⁿ. The nonnegative square root of b≥0 squares to b.",
+        "Scientific notation for a nonzero number has 1≤|a|<10 in a×10ⁿ. Distinguish a ratio of integers from an irrational number and exact from rounded representations."
+      ],
+      "worked_example": {
+        "text": "2⁻³=1/8; √49=7, but x²=49 has two real solutions.",
+        "fractions": []
+      },
+      "practice": "Compute 2⁰,2⁻³,3.2×10⁴,√49; compare exact 1/3 to 0.33.",
+      "discovery": "Why must a be nonzero for negative powers?",
+      "source": {
+        "url": "https://openstax.org/books/prealgebra-2e/pages/10-5-integer-exponents-and-scientific-notation",
+        "section": "§10.5 and MAT-ARITH items 6,9",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "ALG-03",
+      "title": "Distribute, solve and check",
+      "skill": "F02.equality",
+      "lane": "mathematics",
+      "why": "Distribute, solve and check",
+      "explanation": [
+        "Multiplication distributes over addition. Collect terms and perform the same valid operation on both sides. Multiplication by a negative reverses an inequality."
+      ],
+      "worked_example": {
+        "text": "3(x+2)=3x+6; 2x+3=9 gives x=3.",
+        "fractions": []
+      },
+      "practice": "MAT-ALG items 1–5: translate, solve x+6=13 and 4x=20, compare 3(x+2) with 3x+2, solve 2(3x−1)=4x+10 and −2x+3>9.",
+      "discovery": "Construct a counterexample to false distribution.",
+      "source": {
+        "url": "https://openstax.org/books/elementary-algebra-2e/pages/2-3-solve-equations-with-variables-and-constants-on-both-sides",
+        "section": "§§1.9,2.2–2.3,2.7; MAT-ALG items 1–5",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "CODE-02",
+      "title": "Lists and loops",
+      "skill": "C01.loops",
+      "lane": "programming",
+      "why": "Lists and loops",
+      "explanation": [
+        "A list holds ordered values. A for loop visits each value. Initialize the accumulator before the loop and update inside the loop."
+      ],
+      "worked_example": {
+        "text": "total = 0\nfor x in [2,4,6]:\n    total += x\nprint(total)",
+        "fractions": []
+      },
+      "practice": "Trace each update and write a changed list-sum program.",
+      "discovery": "Why does resetting total inside the loop fail?",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/controlflow.html",
+        "section": "§4.2 for; §3.1 lists",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "CODE-03",
+      "title": "Functions and return values",
+      "skill": "C01",
+      "lane": "programming",
+      "why": "Functions and return values",
+      "explanation": [
+        "A function names a computation. Parameters receive arguments. Return supplies the result to the caller; print displays it."
+      ],
+      "worked_example": {
+        "text": "def f(x):\n    return 2*x+1\nprint(f(3))",
+        "fractions": []
+      },
+      "practice": "Write a function returning 3*x+2 and run two calls.",
+      "discovery": "Explain return versus print.",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/controlflow.html",
+        "section": "Defining Functions",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "CODE-04",
+      "title": "Conditions and comparisons",
+      "skill": "C01",
+      "lane": "programming",
+      "why": "Conditions and comparisons",
+      "explanation": [
+        "A comparison is true or false. An if block runs only when its condition is true. > is strict; >= includes equality."
+      ],
+      "worked_example": {
+        "text": "x = 5\nif x > 3:\n    print('greater')",
+        "fractions": []
+      },
+      "practice": "Test a condition with 2,3,4.",
+      "discovery": "Why does the equality boundary matter?",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/controlflow.html",
+        "section": "§4.1 if",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "CODE-05",
+      "title": "Combine loops, arithmetic and conditions",
+      "skill": "C01",
+      "lane": "programming",
+      "why": "Combine loops, arithmetic and conditions",
+      "explanation": [
+        "A mean divides the sum by the number of items; the list must be nonempty. To count qualifying items, increment a counter only when the predicate holds."
+      ],
+      "worked_example": {
+        "text": "count = 0\nfor x in [2,5,7]:\n    if x > 3:\n        count += 1\nprint(count)",
+        "fractions": []
+      },
+      "practice": "Write mean and count-above-threshold functions separately.",
+      "discovery": "How should each handle an empty list?",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/controlflow.html",
+        "section": "START-06/07; §4.1,4.2 and functions",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    },
+    {
+      "id": "CODE-06",
+      "title": "Test and debug your own code",
+      "skill": "C03",
+      "lane": "programming",
+      "why": "Test and debug your own code",
+      "explanation": [
+        "State the contract. Check normal, boundary and empty/invalid cases. Trace the smallest failing input."
+      ],
+      "worked_example": {
+        "text": "def count_positive(xs):\n    return sum(1 for x in xs if x > 0)\nassert count_positive([-1,0,2]) == 1",
+        "fractions": []
+      },
+      "practice": "Implement count_above(xs,threshold) with an explicit loop; test empty, equality and mixed inputs; introduce and repair a bug.",
+      "discovery": "Why are finite tests not a proof?",
+      "source": {
+        "url": "https://docs.python.org/3/tutorial/controlflow.html",
+        "section": "Selected control flow; bridge to ALG-SOFT",
+        "use": "Approved reference; original Zulearn explanation and practice"
+      },
+      "cards": [],
+      "license": "Original Zulearn content; existing content notice applies"
+    }
+  ],
+  "openingOrder": {
+    "F": [
+      "FRA-01",
+      "FRA-SIM",
+      "FRA-02",
+      "FRA-03",
+      "DEC-01",
+      "RAT-01",
+      "INT-01",
+      "POW-01",
+      "ALG-01",
+      "ALG-02",
+      "FRA-04",
+      "ARITH-02",
+      "POW-02",
+      "ALG-03"
+    ],
+    "C": [
+      "CODE-01",
+      "CODE-02",
+      "CODE-03",
+      "CODE-04",
+      "CODE-05",
+      "CODE-06"
+    ]
+  },
+  "localChecks": {
+    "FRA-01": {
+      "ref": "LC-01",
+      "task": "Draw 1/4 of a whole; explain both numbers, then why 1/2=2/4 using a drawing."
+    },
+    "FRA-SIM": {
+      "ref": "START-02 variation",
+      "task": "Simplify 9/12 and explain why the amount stays fixed."
+    },
+    "FRA-02": {
+      "ref": "LC-02 addition/subtraction",
+      "task": "Calculate 1/3+1/6 and 3/4−1/4; explain common units."
+    },
+    "FRA-03": {
+      "ref": "LC-02 multiplication/division",
+      "task": "Calculate (2/3)×(3/4), (3/4)÷(1/2); explain why 3/0 is undefined."
+    },
+    "DEC-01": {
+      "ref": "LC-03 mathematics",
+      "task": "Convert 1/4 to decimal; calculate 0.4+0.35, 0.6×0.5, 0.9÷0.3."
+    },
+    "RAT-01": {
+      "ref": "LC-04 mathematics",
+      "task": "With 2 red and 3 blue give red:blue and red/total; convert 1/5 to decimal and percent; find 25% of 80."
+    },
+    "INT-01": {
+      "ref": "LC-05 mathematics",
+      "task": "Compute −3+5, 4−7, (−2)×(−3), (−8)÷2; order −2 and −5."
+    },
+    "POW-01": {
+      "ref": "LC-06 mathematics",
+      "task": "Calculate 3², 2+3×4, (2+3)×4, −(2²) versus (−2)²."
+    },
+    "ALG-01": {
+      "ref": "LC-07 notation",
+      "task": "Distinguish 5z+1 from 5z+1=16 and evaluate at z=3."
+    },
+    "ALG-02": {
+      "ref": "LC-07 equality",
+      "task": "Solve t+3=11 and check by substitution."
+    },
+    "FRA-04": {
+      "ref": "MAT-ARITH variation",
+      "task": "Convert 1 2/5; calculate (2/3)/(4/5)."
+    },
+    "ARITH-02": {
+      "ref": "MAT-ARITH variation",
+      "task": "Round 4.276 to hundredths; convert 7 ms to seconds; explain 10% down then up on 200."
+    },
+    "POW-02": {
+      "ref": "MAT-ARITH variation",
+      "task": "Explain 3⁰,4⁻²,√64 and 6.1×10³; distinguish exact and approximate."
+    },
+    "ALG-03": {
+      "ref": "MAT-ALG variation",
+      "task": "Expand 4(x−2), solve 3(x+2)=2x+11, then −3x+1>7."
+    },
+    "CODE-01": {
+      "ref": "LC-01 programming",
+      "task": "Write and run a changed assignment/output example; keep own code and actual output."
+    },
+    "CODE-02": {
+      "ref": "LC-03 programming",
+      "task": "Write and run a loop summing [1,3,5]; explain each update."
+    },
+    "CODE-03": {
+      "ref": "LC-04 programming",
+      "task": "Write and run your own function returning 2*x+1 at x=4."
+    },
+    "CODE-04": {
+      "ref": "LC-05 programming",
+      "task": "Write a condition identifying 5 as greater than 3; test equality boundary."
+    },
+    "CODE-05": {
+      "ref": "LC-06/07 programming",
+      "task": "Implement mean of [2,4,9] with a loop; independently count values >3 in [1,4,6]."
+    },
+    "CODE-06": {
+      "ref": "ALG-SOFT variation",
+      "task": "Write changed count function, three assertions, actual outputs and explain one bug repair."
+    }
+  },
+  "assignments": [
+    {
+      "id": "OS-PA2-4.1-6",
+      "title": "OpenStax 4.1 #6",
+      "skill": "F01.fraction_meaning",
+      "after": "FRA-01",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+      "locator": "Section exercises #6",
+      "purpose": "Draw a new fraction.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "OS-PA2-4.1-46",
+      "title": "OpenStax 4.1 #46",
+      "skill": "F01.fraction_meaning",
+      "after": "FRA-01",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+      "locator": "Section exercises #46",
+      "purpose": "Equivalent shares by repartitioning.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "OS-PA2-4.2-78",
+      "title": "OpenStax 4.2 #78",
+      "skill": "F01.fraction_operations",
+      "after": "FRA-SIM",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+      "locator": "Section exercises #78",
+      "purpose": "Reduce by a common factor.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "OS-PA2-4.4-254",
+      "title": "OpenStax 4.4 #254",
+      "skill": "F01.fraction_operations",
+      "after": "FRA-02",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-4-add-and-subtract-fractions-with-common-denominators",
+      "locator": "Section exercises #254",
+      "purpose": "Draw common-unit addition.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "AOPS-AMC8-2024-2",
+      "title": "AMC 8 2024 #2 (AoPS archive)",
+      "skill": "F01.decimals",
+      "after": "DEC-01",
+      "url": "https://artofproblemsolving.com/downloads/printable_post_collections/4066274",
+      "locator": "Page 1, problem 2",
+      "purpose": "Non-routine fraction/decimal arithmetic; explain without options.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "AOPS-AMC8-2024-3",
+      "title": "AMC 8 2024 #3 (AoPS archive)",
+      "skill": "F04",
+      "after": "F04",
+      "url": "https://artofproblemsolving.com/downloads/printable_post_collections/4066274",
+      "locator": "Page 1, problem 3",
+      "purpose": "Nested areas; after area is taught.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "MIT6006-S20-PS0-6",
+      "title": "MIT 6.006 PS0 0-6",
+      "skill": "C04",
+      "after": "C04",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/60f0a029ab154553cad51b54cc25605b_MIT6_006S20_ps0-questions.pdf",
+      "locator": "Page 1, problem 0-6",
+      "purpose": "Independent scan after loops and invariants; not an entrance gate.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "MIT6006-S20-PS0-4",
+      "title": "MIT 6.006 PS0 0-4",
+      "skill": "F07",
+      "after": "F07",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/60f0a029ab154553cad51b54cc25605b_MIT6_006S20_ps0-questions.pdf",
+      "locator": "Page 1, problem 0-4",
+      "purpose": "Induction after sums and induction taught; no outside help.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "STAT110-F11-SP1-3",
+      "title": "Stat 110 Strategic Practice 1 #3",
+      "skill": "F08",
+      "after": "F08",
+      "url": "https://stat110.hsites.harvard.edu/sites/g/files/omnuum10111/files/stat110/files/strategic_practice_and_homework_1.pdf",
+      "locator": "Page 1, problem 3(a,b)",
+      "purpose": "Lattice-path counting; PDF includes later solutions, do not scroll to them before attempt.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "STAT110-F11-SP1-7",
+      "title": "Stat 110 Strategic Practice 1 #7",
+      "skill": "F08",
+      "after": "F08",
+      "url": "https://stat110.hsites.harvard.edu/sites/g/files/omnuum10111/files/stat110/files/strategic_practice_and_homework_1.pdf",
+      "locator": "Page 2, problem 7",
+      "purpose": "Algebraic and combinatorial proof; PDF includes later solutions.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "OTIS-2026-1-8",
+      "title": "OTIS Excerpts proof chapter #8",
+      "skill": "F07",
+      "after": "F07",
+      "url": "https://web.evanchen.cc/textbooks/OTIS-Excerpts.pdf",
+      "locator": "Aug 9 2026 edition, §1.3, printed p15, problem 8",
+      "purpose": "Invariant discovery after roots and proof; verify edition; personal use only.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    },
+    {
+      "id": "PUTNAM-2023-A1-PRACTICE",
+      "title": "Putnam 2023 A1 (practice)",
+      "skill": "M05",
+      "after": "M05",
+      "url": "https://maa.org/wp-content/uploads/2025/02/2023-Putnam-Problems.pdf",
+      "locator": "Session A, A1",
+      "purpose": "Product differentiation and threshold after calculus/trig. Not a reserved 2024 checkpoint.",
+      "relationship": "Inspected original source locator; optional complementary/transfer after local readiness; no proven cross-platform uniqueness",
+      "notice": "Link only; original rights retained. No third-party problem body or solution copied."
+    }
+  ],
+  "registered": [],
+  "curation": {
+    "deepml": "All preserved Deep-ML item URLs are null; the 3,185 occurrences remain individually unresolved. Tutor inspects and registers actual source identity before completion.",
+    "later": "Tutor selects exact problem and checks readiness, original rights, identity/overlap and reserved checkpoint exclusion before assignment. MathNet explorer and Stanford EE364A course inspected but no exact exercise resolved in this audit; progressive curation. No learner resource search needed in opening queue."
+  }
 }
