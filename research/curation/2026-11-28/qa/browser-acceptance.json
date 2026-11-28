@@ -1,7 +1,7 @@
 {
-  "result": "PARTIAL_ACCEPTANCE",
-  "site": "https://khalwaniev.github.io/zulearn/#bank",
-  "tested_content_commit": "0025e41fe40589dab21a12377557aecd03fac4d3",
+  "result": "PASS_FOR_OBSERVED_VIEWPORTS",
+  "site": "https://khalwaniev.github.io/zulearn/?review=curation-20261128#bank",
+  "tested_content_commit": "e6a1b604a94ca913ce2279052f85481c332f9ab4",
   "observed_desktop_css_width": 1348,
   "bank_light_overflow": false,
   "bank_dark_overflow": false,
@@ -16,11 +16,70 @@
     "Fraction 6/16 accepted for 3/8; 0.3 rejected",
     "Verified source URL and collapsed solution available",
     "New point-in-time native referral visible",
-    "Light and dark rendering visually inspected"
+    "Light and dark rendering visually inspected",
+    "MathNet source search returns the retained unresolved candidate after versioned-script deployment",
+    "Confirmed order starts OpenStax Try It 4.1, 4.11, 4.25",
+    "Static script cache keys observed in live DOM",
+    "Desktop width restored to 1348 and light theme after narrow testing"
   ],
-  "narrow_screen_checks": "NOT RUN on the current content. Automated browser provisioning was unavailable; scoped browser APIs did not expose resizing. Automatic review rejected full-desktop capture/native-window controls due unrelated private tabs and a blocked browser route. No claim that current 320/390px acceptance passed.",
-  "pending_question": "Owner asked whether to approve a Zulearn-only temporary browser resize; no permission inferred from elapsed time.",
+  "narrow_screen_checks": [
+    {
+      "css_width": 337,
+      "css_height": 234,
+      "zoom_percent": 400,
+      "view": "Problem Bank, light",
+      "scroll_width": 337,
+      "result": "PASS",
+      "checks": [
+        "all five status counts",
+        "all seven thematic groups",
+        "source disclosure and exact original link",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "css_width": 269,
+      "css_height": 187,
+      "zoom_percent": 500,
+      "view": "Problem Bank dark and Learning Resources light",
+      "scroll_width": 269,
+      "result": "PASS",
+      "checks": [
+        "navigation within viewport",
+        "source and verified solution disclosure",
+        "resource navigation",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "css_width": 449,
+      "css_height": 312,
+      "zoom_percent": 300,
+      "view": "Learning Resources, light",
+      "scroll_width": 449,
+      "result": "PASS",
+      "checks": [
+        "resource search",
+        "single UNIT-PRACTICE-F completion proposal",
+        "review batch",
+        "discard produces empty changes array",
+        "no horizontal overflow"
+      ]
+    }
+  ],
   "console_observation": "Browser-extension metadata errors were visible in the scoped log. The actual site loaded and the tested handlers worked. This is not a complete JavaScript error-instrumentation audit.",
   "progress_changes_committed": false,
-  "followup_fix": "Stable ID/URL/locator search and documented problem ordering are implemented. Existing and fresh live tabs retained earlier script behavior; explicit cache keys added to the two existing script references. Browser confirmation after cache-key deployment is pending."
+  "followup_fix": "Live verification confirmed stable ID/URL/locator search and documented order after the existing script references gained explicit static cache keys.",
+  "initial_desktop_tested_content_commit": "0025e41fe40589dab21a12377557aecd03fac4d3",
+  "recorded_at": "2026-11-28T11:37:42.101057+00:00",
+  "responsive_method": "The owner explicitly approved a Zulearn-only temporary resize. An isolated one-tab window was created. Native window geometry remained fixed and organization policy disabled DevTools; neither restriction was bypassed. Standard browser zoom exercised real CSS viewport widths. DOM viewport/scroll widths and visible controls were inspected; screenshots are original browser captures. Zoom restored to 100%, light theme restored, test proposal discarded, isolated window closed.",
+  "viewport_limits": "Exact 320px/390px viewports and physical mobile devices were not tested. These are observed desktop Chromium CSS viewports, not device emulation. Full-page captures show the document; zoomed visible viewport heights were short.",
+  "screenshots": [
+    "problem-bank-desktop.jpg",
+    "problem-bank-337.jpg",
+    "problem-bank-269-dark.jpg",
+    "resources-449-staged.jpg"
+  ],
+  "screenshot_note": "The 449px screenshot intentionally shows a test-only staged proposal. It was discarded immediately afterward; no learner progress was committed.",
+  "full_page_capture_note": "Full-page browser captures can place the sticky header at the capture scroll offset; the 449px capture retains this behavior. The control interactions and viewport measurements are separately recorded."
 }

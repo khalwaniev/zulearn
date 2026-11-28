@@ -81,7 +81,7 @@ Three provenance corrections matter: the historical 2023 Putnam problems-only PD
 
 This was a structured adversarial self-review with independently reconstructed calculations, not a second external scientific reviewer. Future theorem, empirical and frontier-competence claims still require their actual proof/experiment and appropriate criticism.
 
-## Implementation, acceptance and remaining block
+## Implementation, acceptance and measured limits
 
 The existing buildless architecture, two navigation pages, three groups, 8/6/4 parent categories, fourteen Deep-Path part checkboxes, all historical canonical identities and actual learner progress remain preserved. Layout markup and CSS bytes did not change; the two existing script references gained explicit static cache keys after live tabs retained the earlier script. The renderer/model now validate and display all five dispositions from data; non-native entries are no longer automatically called pending. One scientifically bounded foundational branch is activated. No individual-problem checkbox, framework, database or new application runtime was introduced.
 
@@ -89,7 +89,9 @@ The actual production suite passed **222 assertions**; the provenance/schema/exa
 
 The live scoped Chromium review passed desktop light/dark rendering, actual status counts, original-source/solution disclosure, exact fraction grading, fourteen Deep-Path controls, isolated foundational staging, review/discard and unchanged committed 0/41 progress. The bank measured 1348 CSS pixels with no horizontal overflow. A review-found source-discovery issue is corrected by searching IDs/URLs/locators as well as titles, and confirmed display order starts at the documented first activity.
 
-**Current 320/390-pixel acceptance is not claimed.** Browser provisioning was unavailable and the scoped browser API had no resize control. Automatic approval review rejected full-desktop capture and native-window controls because unrelated private tabs could be exposed and a blocked browser route must not be bypassed. A decision on a Zulearn-only temporary resize was requested; elapsed time is not approval. Earlier narrow screenshots are historical evidence for the approved design, not acceptance of this new content. The outstanding check is explicit in `qa/browser-acceptance.json`.
+After explicit owner approval, an isolated Zulearn window was used for narrow acceptance. Native geometry stayed fixed and organization policy disabled DevTools; neither restriction was bypassed. Ordinary browser zoom exercised actual CSS viewport widths of **337px, 269px and 449px**, all without horizontal overflow. Navigation, source/solution disclosures, resource search and isolated foundational staging/review/discard passed. The checked solution showed (a) 3/8 and (b) 4/9. The test proposal was discarded, zoom restored to 100%, light theme restored and the isolated window closed. Original captures and measured viewport heights are in `qa/browser-acceptance.json`.
+
+**Exact 320/390-pixel viewports and physical mobile devices are not claimed.** The current result is acceptance for the observed desktop Chromium CSS viewports. Versioned-script deployment also passed live MathNet source discovery and the confirmed first-problem order. `deployment-receipt.json` records successful Pages workflow and full deployed-asset byte comparisons for its named content commit.
 
 ## Actual repository artifacts
 
@@ -106,6 +108,7 @@ All paths below are relative to this directory:
 - `baseline-manifest.json` — initial repository inventory/hash receipt.
 - `verify_science.py`, `verification-receipt.json`, `production-test-receipt.json` — actual validation and its limits.
 - `implementation-handoff.md` — ownership, maintenance and progress-scope constraints.
-- `qa/browser-acceptance.json`, `qa/problem-bank-desktop.jpg` — scoped live review and unverified narrow-screen boundary.
+- `qa/browser-acceptance.json` and four original JPEG captures — scoped desktop/narrow review, methods and limits.
+- `deployment-receipt.json` — named content commit, successful Pages workflow and exact deployed-asset hashes.
 
 Production changes are in `docs/resources.json`, `docs/activities.json`, `docs/complementary-audit.json`, `docs/app.js`, `docs/model.js`, the shared progress loader, and `scripts/test-learning.cjs`. `docs/README.md` records current operating rules. The old generator remains historical and must not overwrite the curation projection.
