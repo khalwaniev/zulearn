@@ -177,9 +177,7 @@ async function verifyCommitted() {
   try {
     const latest = await readJSON(MAIN_PROGRESS + '?verify=' + Date.now());
     if (!M.validProgress(data, latest.value)) throw Error('Latest GitHub progress does not match the validated registry.');
-    for (const [id, change] of Object.entries(edits)) {
-      if (change.record && !M.equal(latest.value.records[id], change.record) || change.selection && !M.equal(latest.value.selections?.[id], change.selection)) throw Error('The staged change for ' + branchMap().get(id).title + ' is not committed in GitHub yet, or differs from this proposal.');
-    }
+    if (!M.committedMatches(data, progress, edits, latest.value)) throw Error('The latest GitHub records and learning scopes do not exactly match this proposal. Review the staged branches before clearing them.');
     progress = latest.value; progressDigest = await digest(latest.text); edits = {}; render();
     el('savePanel').open = true;
     el('saveFeedback').textContent = 'Verified against the latest committed GitHub file. Displayed progress is up to date.';

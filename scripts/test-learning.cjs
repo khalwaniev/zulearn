@@ -54,6 +54,8 @@ const b=bs.find(b=>b.id==='UNIT-DP-01'), id=b.id;
 const draft=M.batchDraft(d,blank,{[id]:{record:{status:'completed_reported',evidence:[]}}},'fixture-digest');
 rejects(()=>M.applyBatch(d,blank,draft),/authorization/,'explicit authorization required');
 const merged=M.applyBatch(d,blank,draft,{authorized:true});
+ok(M.committedMatches(d,blank,{[id]:draft.changes[0]},merged),'read-back matches exact part proposal');
+ok(!M.committedMatches(d,blank,{[id]:draft.changes[0]},{...merged,selections:{[id]:{selected:true,scope_mode:'relevant_selection',scope:'A concurrent scope change must not be silently accepted.'}}}),'read-back rejects scope drift even when completion matches');
 eq(Object.keys(merged.records),[id],'one part creates only one record');
 eq(M.checklistStats(d,merged,d.extras.hierarchy.derived['UNIT-PATH-D'].children),{total:14,done:1},'1/14 reported parts');
 ok(!merged.records.D001,'no constituent completion fabricated');
@@ -78,6 +80,8 @@ rejects(()=>M.batchDraft(d,blank,{[optional.id]:{record:{status:'completed_repor
 const choice={selected:true,scope_mode:'local_selection',scope:'Selected reverse-mode scalar backpropagation exercises only.'};
 const choose=M.batchDraft(d,blank,{[optional.id]:{selection:choice}});
 const chosen=M.applyBatch(d,blank,choose,{authorized:true});
+ok(M.committedMatches(d,blank,{[optional.id]:{selection:choice}},chosen),'selection read-back matches unchanged completion state');
+ok(!M.committedMatches(d,blank,{[optional.id]:{selection:choice}},{...chosen,records:{[optional.id]:{status:'completed_reported',evidence:[]}}}),'selection read-back rejects concurrent completion drift');
 eq(M.checklistStats(d,chosen).total,41,'explicit selection adds exactly one branch');
 eq(Object.keys(chosen.records).length,0,'selection never completes a problem');
 const complete=M.applyBatch(d,chosen,M.batchDraft(d,chosen,{[optional.id]:{record:{status:'completed_reported',evidence:[]}}}),{authorized:true});

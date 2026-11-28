@@ -140,6 +140,13 @@
     if (!validProgress(d, next)) throw Error('Merged progress is invalid.');
     return next;
   }
+  function committedMatches(d, previous, edits, latest) {
+    if (!validProgress(d, latest)) return false;
+    const by = new Map(branches(d).map(b=>[b.id,b]));
+    return Object.entries(edits).every(([id,c]) => by.get(id)?.trackable &&
+      equal(latest.records[id] || null, own(c,'record') ? c.record : previous.records[id] || null) &&
+      equal(latest.selections?.[id] || null, own(c,'selection') ? c.selection : previous.selections?.[id] || null));
+  }
   function rational(value) {
     const s = String(value).trim().replace(/−/g, '-');
     if (!/^[+-]?(?:\d{1,30}(?:\.\d{1,20})?|\.\d{1,20})(?:\s*\/\s*[+-]?\d{1,30})?$/.test(s)) return null;
@@ -170,7 +177,7 @@
     if (id.startsWith('category-') || id === 'savePanel' || id === 'legacyNotice') return {view: 'resources', target: id};
     return {view: 'resources', target: 'resources'};
   }
-  const api = {statuses, done, equal, branches, legacyItems, allItems, canonical, resolveId, validRecord, validSelection, validProgress, selection, checklistStats, validateHierarchy, validateRegistry, batchDraft, applyBatch, rational, checkAnswer, viewIds, routeView};
+  const api = {statuses, done, equal, branches, legacyItems, allItems, canonical, resolveId, validRecord, validSelection, validProgress, selection, checklistStats, validateHierarchy, validateRegistry, batchDraft, applyBatch, committedMatches, rational, checkAnswer, viewIds, routeView};
   if (typeof module !== 'undefined') module.exports = api;
   else root.ZulearnModel = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

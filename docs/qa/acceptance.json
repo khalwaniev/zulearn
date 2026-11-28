@@ -2,7 +2,7 @@
   "baseline": "0dd9efc2960ece62712b2df753663197ee7934ac",
   "regression": {
     "command": "node scripts/test-learning.cjs",
-    "assertions": 203,
+    "assertions": 207,
     "result": "PASS",
     "protected_files_byte_identical": 83
   },
