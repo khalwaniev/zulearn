@@ -1,21 +1,17 @@
-# Persistent progress without a dashboard
+# Progress and learning evidence
 
-GitHub contains the authoritative curriculum, stable IDs, public checklist scaffolds and original source mappings. Only a few evidence lines are needed after a session.
+The active website has two destinations: Learning Resources and Problem Bank. Its checklist is **first-level branches only**, with exactly fourteen Deep-Path part records. Concept-level and individual-problem checklists are no longer required. This policy supersedes older tracking granularity while preserving the source templates and their historical use.
 
-| Record | Purpose |
+[docs/progress.json](../docs/progress.json) on GitHub is the single authoritative committed completion/selection store. The static interface stages a proposal in tab memory; it cannot commit automatically. Explicit learner authorization, latest-record and scope comparisons, write-time conflict protection, undo/discard and committed-file read-back are required. See [the complete publication procedure](../docs/README.md#chatgpt-progress-update).
+
+| Preserved source | Current purpose |
 |---|---|
-| [Deep-Path concept checklist](DEEP_PATH_EVERYTHING.md) | All 112 concepts, fixed ordering and completion accounting |
-| [Competency record](COMPETENCIES.md) | All 109 competencies; independent evidence is distinct from activity completion |
-| [Activity log template](ACTIVITY_LOG_TEMPLATE.md) | Actual Deep-ML / TensorTonic / selective LeetCode item IDs, memberships, status, assistance and identity evidence |
-| [Learner state template](LEARNER_STATE_TEMPLATE.md) | One current task and the few facts needed to resume across chats |
-| [Challenge log template](CHALLENGE_LOG_TEMPLATE.md) | Original task, attempt conditions, actual work, grader/reviewer and competency evidence |
+| [Deep-Path concept inventory](DEEP_PATH_EVERYTHING.md) | All 112 stable concept IDs, fixed order, counts and historical template; informational, no compulsory concept checkbox |
+| [Competency record](COMPETENCIES.md) | All 109 scientific competencies; reviewed evidence remains distinct from reported completion |
+| [Activity log template](ACTIVITY_LOG_TEMPLATE.md) | Optional private detail for an actual inspected task, provider identity, memberships and evidence |
+| [Learner state template](LEARNER_STATE_TEMPLATE.md) | Optional private context for resuming tutoring |
+| [Challenge log template](CHALLENGE_LOG_TEMPLATE.md) | Preserved independent-assessment protocol; challenges are deferred from the current website |
 
-**Privacy default:** templates and curriculum metadata are public. Real learner evidence, chats, drafts, grades and private research materials stay in an ignored `private/` folder or a private GitHub repository. Do not commit private information to this public repository. If you choose to publish non-sensitive completion summaries, review them first; a public checkbox is never proof of mastery.
+A completed part or selected resource never completes its constituent concepts/problems or certifies independent mastery. Old records and aliases remain valid. Independent performance, delayed retention and transfer require actual scoped evidence; no such evidence is fabricated by the interface.
 
-The [static learning interface](https://khalwaniev.github.io/zulearn/) adds an optional public, non-sensitive status summary at [docs/progress.json](../docs/progress.json). The page prepares validated updates but cannot commit automatically. If explicitly authorized, ChatGPT can update that file using GitHub's writing capability; otherwise use the GitHub editor or Git. See [operational instructions](../docs/README.md#chatgpt-progress-update). Private evidence remains separate. Choose one authoritative status record, not parallel public/private ledgers.
-
-At the end of a session ChatGPT returns the four-line update. Paste it into your private learner-state Markdown file. Bring that note to the next conversation. This manual save is necessary: neither this repository nor ChatGPT automatically updates your files. Keep a private backup; a private GitHub repository can provide version history without a new application. No private repository is created automatically by this plan.
-
-Use one activity row for a real inspected task, with multiple interface memberships when verified. A concept checkbox means all its relevant activities have been accounted for as completed/complementary/verified-duplicate/deferred/excluded with reasons; it does not mean every associated competency is mastered. If relevant work is incomplete, leave it unchecked. Do not fill 1,853 inventory rows as a preliminary administrative task.
-
-Record evidence at subskill level. Only F01.basic_ops is initially assumed by self-report. All other skills begin unassessed. Useful evidence labels: learning, assisted, independent-now, retained, transfer-supported, needs-repair; these are observations with scope, not universal certifications. Use different problems/representations and later checks before broad claims.
+Public completion summaries must contain only explicitly authorized non-sensitive information. Detailed private notes, conversations, scores, drafts and research can stay in ignored private files or an existing private repository. Those notes are supporting evidence, not a second authoritative completion ledger. No private records or repository are created automatically.

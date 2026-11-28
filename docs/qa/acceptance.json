@@ -1,0 +1,76 @@
+{
+  "baseline": "0dd9efc2960ece62712b2df753663197ee7934ac",
+  "regression": {
+    "command": "node scripts/test-learning.cjs",
+    "assertions": 203,
+    "result": "PASS",
+    "protected_files_byte_identical": 83
+  },
+  "production_data": {
+    "canonical_ids": 994,
+    "legacy_ids_preserved": 508,
+    "named_resource_branches": 561,
+    "selected_manual_units": 40,
+    "deep_path_part_units": 14,
+    "deep_path_concept_checkboxes": 0,
+    "individual_problem_checkboxes": 0,
+    "platforms": 3,
+    "parent_categories": [
+      8,
+      6,
+      4
+    ],
+    "primary_navigation": [
+      "Learning Resources",
+      "Problem Bank"
+    ]
+  },
+  "browser": {
+    "engine": "actual Chromium via cloud browser",
+    "desktop": {
+      "css_viewport_width": 1363,
+      "client_width": 1348,
+      "content_width": 1348
+    },
+    "narrow_method": "Real production app rendered in a same-origin iframe; CSS viewport check, not physical-device, touch or user-agent emulation. Desktop surrounding harness is visible in screenshots.",
+    "narrow_390": {
+      "css_viewport_width": 390,
+      "client_width": 375,
+      "content_width": 375
+    },
+    "narrow_320": {
+      "css_viewport_width": 320,
+      "client_width": 305,
+      "content_width": 305
+    },
+    "both_pages_no_narrow_horizontal_overflow": true,
+    "light_and_dark_screenshots_inspected": true,
+    "all_14_part_checkboxes_right_of_titles": true,
+    "observed_interactions": [
+      "part completion staging",
+      "per-branch undo",
+      "optional resource selection",
+      "local/full scope distinction",
+      "batch preview",
+      "copy batch",
+      "discard",
+      "provider/resource search",
+      "Problem Bank search",
+      "exact equivalent fraction checker",
+      "GitHub committed-progress verification"
+    ],
+    "committed_learner_records_changed": false
+  },
+  "complementary_curation": {
+    "confirmed_unique_gaps": 0,
+    "native_conditional_referrals": 11,
+    "pending_candidates": 119,
+    "exhaustive_provider_coverage": false,
+    "verified_cross_platform_exact_duplicate_pairs": 0
+  },
+  "limits": [
+    "Not an accessibility conformance certification or real touch-device test.",
+    "Full provider task contracts remain unavailable for many catalogue observations.",
+    "Deployment verification is recorded by the delivery message and GitHub Pages workflow, separately from this preview receipt."
+  ]
+}

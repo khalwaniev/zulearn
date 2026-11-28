@@ -1,5 +1,8 @@
 # Zulearn Programme
 
+> **Current website (2026-11-28):** [Learning Resources](https://khalwaniev.github.io/zulearn/) and [Problem Bank](https://khalwaniev.github.io/zulearn/#bank) are the only two primary pages. The active checklist has 14 Deep-Path part records and selected first-level complementary branches. Earlier concept-level templates and scientific material remain preserved. See [interface, inventory and progress rules](docs/README.md).
+
+
 **The curriculum is frozen. Start learning fractions.** GitHub is the authoritative curriculum and checklist system; ChatGPT Web is the adaptive tutor; Anki handles spaced retrieval. No application, framework, agent, API key or provider setup is required.
 
 ## Start here
