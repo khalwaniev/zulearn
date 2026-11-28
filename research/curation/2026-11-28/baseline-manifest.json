@@ -1,0 +1,611 @@
+{
+  "baseline": "6a482af3b8758730ff8662cd4c5b862def219c1f",
+  "purpose": "Byte-preservation and source inventory; a hash is not a scientific reading or learning-outcome claim.",
+  "files": [
+    {
+      "path": "CURRICULUM_STATE.md",
+      "sha256": "16f25dd095722b9e4b6c1396d8bdb8b173a4fd6e30d38d63eb566ad20b5d2ff1",
+      "bytes": 3718
+    },
+    {
+      "path": "PUBLISH.md",
+      "sha256": "d13b890b1e58df20116b03c37e06562a39b6c8571bd82209125a4ab37680c053",
+      "bytes": 1256
+    },
+    {
+      "path": "README.md",
+      "sha256": "7fdae4a8281e248c0ec34ca8f4c0157dc2dcc5b94cb058ad4b607087053220ce",
+      "bytes": 3615
+    },
+    {
+      "path": "applications/IELTS.md",
+      "sha256": "ce4dcaf04b98fb0a24da2ad2633d1613062c614b6adc009dabe8ddb8211419a3",
+      "bytes": 1391
+    },
+    {
+      "path": "applications/KAUST_2027.md",
+      "sha256": "7f5e4eb2d74af24e4e89271e8231ebdd279221270f864d0e1b0ccd02a12c9245",
+      "bytes": 2121
+    },
+    {
+      "path": "applications/KAUST_2027_PLAN.md",
+      "sha256": "c889de40a0f441e4aa8d92ce93538f1f57eae6b0e4df2bbb82674f9b77f554a8",
+      "bytes": 1214
+    },
+    {
+      "path": "assessment/CHALLENGE_PROTOCOL.md",
+      "sha256": "e413aff180be1eeb2e29e78b4de37c6b5cc6e1c2b70d46b6373d8d0d45d2fe71",
+      "bytes": 8530
+    },
+    {
+      "path": "assessment/ELITE_EXAMS.md",
+      "sha256": "73cb6a9f7859c926a3a1d12437be38255ccfa48f5a9a004b24ff011778023cec",
+      "bytes": 361
+    },
+    {
+      "path": "assessment/IOAI_2025_SYLLABUS.md",
+      "sha256": "4685ec21bfc4e47727b07df159b15d65587b87476c23a7d33531ffcebaf94564",
+      "bytes": 5423
+    },
+    {
+      "path": "assessment/MASTERY_GATES.md",
+      "sha256": "66043ebec8b19299987952bfadadb89e211a1ee53842a9af89ee3c597f5dd17a",
+      "bytes": 400
+    },
+    {
+      "path": "assessment/legacy/ELITE_EXAMS.md",
+      "sha256": "97caec960754d52ce45cb6fd482222573168dc9c7e0455738589e3202e9edca1",
+      "bytes": 3388
+    },
+    {
+      "path": "assessment/legacy/MASTERY_GATES.md",
+      "sha256": "71ef76bf6c3d53fb63230b49c9d5db2bae068176f3eb0c8734ecc0d76a45d935",
+      "bytes": 1297
+    },
+    {
+      "path": "curriculum/AVOID.md",
+      "sha256": "75a4ec1742dc4bbfef0a1aea2b1c17240f3a3101166d5aef8fe3d75e2f0cf9b9",
+      "bytes": 362
+    },
+    {
+      "path": "curriculum/ML_PLATFORM_AUDIT_2026-11-27.md",
+      "sha256": "cf6d19097e682279ca1183e716cbc4f4d445764d4386e13bb45c8885081e7283",
+      "bytes": 404
+    },
+    {
+      "path": "curriculum/ROADMAP.md",
+      "sha256": "e6dede3ef425c8d6fd26921c3b31592f3914028c5b2fa5c8add57311e3977149",
+      "bytes": 358
+    },
+    {
+      "path": "curriculum/TRIPOS.md",
+      "sha256": "bd16bc21cc5609684107f446a9df60629de55735f9d463e1b4f0d4cb3fe65e58",
+      "bytes": 356
+    },
+    {
+      "path": "curriculum/WHAT_TO_SKIP.md",
+      "sha256": "40d15572ea57e067d0f1e70e25d80fcdc9e14a1a4b3082e504397a4e8b5695a0",
+      "bytes": 376
+    },
+    {
+      "path": "curriculum/legacy/AVOID.md",
+      "sha256": "48cd6390e21a6fc4f375c1487d938cf7ca368405606c5ae35fcee79651d45cfd",
+      "bytes": 1868
+    },
+    {
+      "path": "curriculum/legacy/ML_PLATFORM_AUDIT_2026-11-27.md",
+      "sha256": "be27e8f13f4139dc3af0cbf773440e00aad193802f0b3cfd244077a3242e0d11",
+      "bytes": 9737
+    },
+    {
+      "path": "curriculum/legacy/ROADMAP.md",
+      "sha256": "18986c4c622f8dc08f1390529007c45148ed557450e06704f3911763d7d96c7d",
+      "bytes": 4033
+    },
+    {
+      "path": "curriculum/legacy/TRIPOS.md",
+      "sha256": "9b368d8bb3304eaadfc3a3796c075e870aa70cdfa08cc8f508e32f6ff68833f5",
+      "bytes": 3985
+    },
+    {
+      "path": "curriculum/legacy/WHAT_TO_SKIP.md",
+      "sha256": "aa402c0d584280eb642e2c6e0c71b75fe8fb4ea68d6bcfc3054e96d7d18a3504",
+      "bytes": 918
+    },
+    {
+      "path": "curriculum/v1/PATCH_MANIFEST.md",
+      "sha256": "4740bf52d032cd388d8c6652ffb7a7b136107170fe76f03b1dfeb1c57ed2eaf7",
+      "bytes": 9790
+    },
+    {
+      "path": "curriculum/v1/README.md",
+      "sha256": "d9b8cd8b934c128c619db1d8ea55e4157d051ef9a6f0d18c35c8b36aa08a6210",
+      "bytes": 4865
+    },
+    {
+      "path": "curriculum/v1/assessment/DIAGNOSTIC_KEY.md",
+      "sha256": "fb56f0912cabe2d725a496403de3d78ab28cf034cc628d998a559bff3eeea68e",
+      "bytes": 20327
+    },
+    {
+      "path": "curriculum/v1/assessment/DIAGNOSTIC_PROTOCOL.md",
+      "sha256": "3911da5b234ef12e8edb5818242d892dd5e99edf10893aec19d320a466bc983e",
+      "bytes": 8479
+    },
+    {
+      "path": "curriculum/v1/assessment/DIAGNOSTIC_QUESTIONS.md",
+      "sha256": "a87e7c8e9f22b10fd2cdf5ec30c32565fa5f6639c915a98e87e8199075bff75b",
+      "bytes": 10779
+    },
+    {
+      "path": "curriculum/v1/curriculum/ALGORITHMS_TCS.md",
+      "sha256": "7dcd0aa4a66dd3b9a06e40c7c7232ae684efb9aef6ac15e558a562c313d82bac",
+      "bytes": 15526
+    },
+    {
+      "path": "curriculum/v1/curriculum/COMPETENCY_REGISTRY.md",
+      "sha256": "0484b79d252edccc45e84491bd7bb9ede763ef8a2f3a87b0b454dfd46ad59cba",
+      "bytes": 41158
+    },
+    {
+      "path": "curriculum/v1/curriculum/DEEP_PATH_CONCEPT_MAP.md",
+      "sha256": "be9d69e2662733bce8e4096ff0501f18c93889ab84112699f1bb7a789266291f",
+      "bytes": 20768
+    },
+    {
+      "path": "curriculum/v1/curriculum/MASTER_CURRICULUM.md",
+      "sha256": "37619f60af5b35f38514ab4eb6caa2523ffcfe3a61e2be05c2f0e172d38f4401",
+      "bytes": 9781
+    },
+    {
+      "path": "curriculum/v1/curriculum/MATHEMATICS.md",
+      "sha256": "8b09cf5af71e42d5192f22d8906aff66df2f22835140a7e1073cbbf82bf91219",
+      "bytes": 35409
+    },
+    {
+      "path": "curriculum/v1/curriculum/ML_PLATFORM_ALLOCATION.md",
+      "sha256": "0439b5065d4c5c7764addaf9eb2bb27fc2bd90e405ca4a09bd0dd846708741ba",
+      "bytes": 12599
+    },
+    {
+      "path": "curriculum/v1/curriculum/WORKSHEET_INDEX.md",
+      "sha256": "169d59bfcb7eaaa8c13a830bf4d52c129b8c70d91ba54dd97801168f506b90e3",
+      "bytes": 8234
+    },
+    {
+      "path": "curriculum/v1/governance/CURRICULUM_ADVERSARIAL_AUDIT.md",
+      "sha256": "e684dbec7af495e636891774f3828aad8850581868902a1a87b714011d103b97",
+      "bytes": 12266
+    },
+    {
+      "path": "curriculum/v1/governance/CURRICULUM_CROSSWALK.md",
+      "sha256": "c104ecce08f4446bbcfe0bfbb962617201618521000e3846824e1c524b0a0367",
+      "bytes": 7251
+    },
+    {
+      "path": "curriculum/v1/governance/FINAL_CORRECTION_MANIFEST.md",
+      "sha256": "1ea599cf0e536fc1db33ab69e34148fec04eb55afa0dcd59c41145ab49ed0c53",
+      "bytes": 15728
+    },
+    {
+      "path": "curriculum/v1/governance/INDEPENDENT_AUDIT_BRIEF.md",
+      "sha256": "ce1c3100dbf339c5dd5b10fb0c18d5e297b09f1c974c660596373865822eaec0",
+      "bytes": 5139
+    },
+    {
+      "path": "curriculum/v1/governance/PACKAGE_VALIDATION.md",
+      "sha256": "7d662c3f1cfe8d7e26487175af517c4941405b2ba478bd4ca9fae0ef16ca6d21",
+      "bytes": 10445
+    },
+    {
+      "path": "curriculum/v1/operations/AI_LEARNING_ENGINE.md",
+      "sha256": "fa11199372c94a947fbce5f4782fd987176c2536a944c5486ce8f53f68e7f700",
+      "bytes": 9849
+    },
+    {
+      "path": "curriculum/v1/operations/LEARNING_MASTERY_PROTOCOL.md",
+      "sha256": "96bc35c2fe144adcac5360aea81be6188f2a894d706c68ecc23f346dd033af31",
+      "bytes": 7706
+    },
+    {
+      "path": "curriculum/v1/operations/WEEKLY_DAILY_WORKFLOW.md",
+      "sha256": "e4004b819c0f265a28733fb8235270a46e19f6bfdf83378eddf97d915383b4e3",
+      "bytes": 12866
+    },
+    {
+      "path": "curriculum/v1/provenance/BASELINE_PACKAGE_VALIDATION.md",
+      "sha256": "5d8ea55c16ba18968ade98ae9a3d5040f9f7867904c434c4f9b9704c1f0fec7d",
+      "bytes": 5817
+    },
+    {
+      "path": "curriculum/v1/provenance/CATALOGUE_INVENTORY.md",
+      "sha256": "45a5f131f1509057deba041d0934708ff1f08b3288a30bb959500f68f5862af0",
+      "bytes": 5025
+    },
+    {
+      "path": "curriculum/v1/provenance/RECOVERED_DEEP_RESEARCH_REPORT.md",
+      "sha256": "054d1705ee4661a83cfd7c904a135135bbf3ee82c18f688fe2e27f335d878d0b",
+      "bytes": 21424
+    },
+    {
+      "path": "curriculum/v1/provenance/RECOVERY_PROVENANCE.md",
+      "sha256": "fcf6d8e922f07550f3cbf3e1d2cdc56fc0da8a2a792a236084108d449ac2093f",
+      "bytes": 6163
+    },
+    {
+      "path": "curriculum/v1/provenance/REPORT_CITATION_MAP.md",
+      "sha256": "f7d4e2517badff321377d5bb107da7a78a905898ec1ac2e252b62ab8ae9bd299",
+      "bytes": 5904
+    },
+    {
+      "path": "curriculum/v1/reading/SCIENTIFIC_EVIDENCE_REGISTER.md",
+      "sha256": "f935dd6b2c6f77b1735cfec89921c5a3626311e5a172926b0cebc8c2dda3d35d",
+      "bytes": 24039
+    },
+    {
+      "path": "curriculum/v1/research/COMPETITION_POLICY.md",
+      "sha256": "40c0d245a241555487451b3d71012fbf685def5558167181e5d895e8a8e574f1",
+      "bytes": 6018
+    },
+    {
+      "path": "curriculum/v1/research/RESEARCH_SPECIALISATIONS.md",
+      "sha256": "20d96fa684f4a5634d1f3783680eb14ef1425d6bd381085afefb144403f59c9e",
+      "bytes": 25243
+    },
+    {
+      "path": "curriculum/v1/templates/LEARNER_STATE.md",
+      "sha256": "f17bb0d1aa270e30931f903316b36c2031952ca49ce7c66e8da882934ee0366f",
+      "bytes": 2350
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "5edbe923526538cfa4d8b74921fb850cbaca2f8dbc676528edf78a88ef35d2cd",
+      "bytes": 2623
+    },
+    {
+      "path": "data/approved_package.json",
+      "sha256": "14fc06d110d35d2614b2855dc8fc3eac1155fd616631dedc5211b55ce1e2d4ca",
+      "bytes": 613
+    },
+    {
+      "path": "data/catalogue/README.md",
+      "sha256": "0e3315527cf72920ca294190c30047b5bcd622b6a3562cd5939af00db865de70",
+      "bytes": 3996
+    },
+    {
+      "path": "data/catalogue/inventory.json",
+      "sha256": "1ac62ce71ca01f53f4579ec0c237d66a0131bf112adc3f132e83c2ed77bf5934",
+      "bytes": 1434356
+    },
+    {
+      "path": "data/catalogue/relationships.json",
+      "sha256": "cdb14131795c8fe802ae89ce3199ccf63b2af702fef4fd2c768954502e7eb6f1",
+      "bytes": 1695
+    },
+    {
+      "path": "data/checkpoints.json",
+      "sha256": "e69d3100a9473f56ddeada8cd66e94513469d677b934d56f028ccbd9e70249ab",
+      "bytes": 28351
+    },
+    {
+      "path": "data/curriculum.json",
+      "sha256": "896eea9b9558a3bb66495c56d5df04c7a5ac8ad342b67ad769513144c7d7b5e9",
+      "bytes": 72564
+    },
+    {
+      "path": "data/deep_path.json",
+      "sha256": "34be7375bd48f7556fd3a539e00034acb790cb02767e8b7a7b0d811fac9d08b7",
+      "bytes": 112634
+    },
+    {
+      "path": "data/ioai_2025_scope.json",
+      "sha256": "861d8bc3cfcf4318906f6c024c34764d76a82aa33e9e8df854df4b49c878cee4",
+      "bytes": 20610
+    },
+    {
+      "path": "data/ioai_tasks.json",
+      "sha256": "d0db5e00a456594a60e8c697f8dc189bca1a5f9d59d061f17e13b2b41b3457c3",
+      "bytes": 5848
+    },
+    {
+      "path": "data/lessons.json",
+      "sha256": "d87a0f176b1ce5d897de2e880fd5a27c716e97ee7296f0bf5ae7f966f6f4d6ce",
+      "bytes": 19740
+    },
+    {
+      "path": "data/subcompetencies.json",
+      "sha256": "e2785e5c85869a8064e43c69de20ecc2069c94cb8d07458282d2213c28e96f1f",
+      "bytes": 8612
+    },
+    {
+      "path": "docs/IMPLEMENTATION_REPORT.md",
+      "sha256": "15e554928e23e380abfa100709ab8c8534df700e7050659905b5ea854b13c99e",
+      "bytes": 8069
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "99246af9b7c0d7fb36fca20fbbcf82ac18c8b6773dbc9a1fddeaee26bf4ca6e1",
+      "bytes": 14917
+    },
+    {
+      "path": "docs/activities.json",
+      "sha256": "44e5e18cdb6ee3dcfbf4183f7c1bb7919f79f2a37b6eb90266231b9b2b311af3",
+      "bytes": 234478
+    },
+    {
+      "path": "docs/app.js",
+      "sha256": "6e8b60246ea77b270367b295f27faa183a1f82f2befc3595ae5e11048f9081ba",
+      "bytes": 29094
+    },
+    {
+      "path": "docs/complementary-audit.json",
+      "sha256": "a08ab20b99edbbc2484d866f46cb73881765f4c2b60d251d15448940f23b944f",
+      "bytes": 285253
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "f9e614998e6134bbee148c44fcaa4a13126b2e4745fb5d0cf957f19a0c4bb696",
+      "bytes": 2013
+    },
+    {
+      "path": "docs/model.js",
+      "sha256": "98d952f56cee8a66c02a0813318e8c0a16cc294eba89d795d9661935c2ac3375",
+      "bytes": 13866
+    },
+    {
+      "path": "docs/progress.json",
+      "sha256": "ac2085f11531448156677b392f96788a71b3442c97714988024b172bcbed944c",
+      "bytes": 43
+    },
+    {
+      "path": "docs/qa/acceptance.json",
+      "sha256": "2c83544212ed49331d58a6a6b6a16120b43b92b4b63f553a4d8988687506051a",
+      "bytes": 2409
+    },
+    {
+      "path": "docs/qa/protected-sha256.json",
+      "sha256": "526a95ea2c33fac76dc8e8a07988015b0643479bd22f8312f7b6b777849f9b37",
+      "bytes": 9133
+    },
+    {
+      "path": "docs/resources.json",
+      "sha256": "5ad00add464ad389319c8005b43da06890cf3709039e90ad6cc8062b48d408bd",
+      "bytes": 884459
+    },
+    {
+      "path": "docs/styles.css",
+      "sha256": "1a21f2e6e80f4c690c2a92d8d02ee20971d1dd65b563f750ff7406b6575734f5",
+      "bytes": 15826
+    },
+    {
+      "path": "docs/syllabus.json",
+      "sha256": "a6f9b6dbde12f615715fa187640616f0e4b185e8267544fe9468f932962a393e",
+      "bytes": 265356
+    },
+    {
+      "path": "governance/COMPLETENESS_AUDIT_2026-10-22.md",
+      "sha256": "f55e66d90745d24d29dc2950029e4d3962c2fa0cb980b3f4e93590504b1236ae",
+      "bytes": 7603
+    },
+    {
+      "path": "governance/DEEP_RESEARCH_MISSIONS.md",
+      "sha256": "937db2662f82810417bf9e8f6505cd9ab980ab6facb5c94866d7ee1c97a47c90",
+      "bytes": 7883
+    },
+    {
+      "path": "governance/IMPLEMENTATION_RECORD.md",
+      "sha256": "c737fab1c2d5e90699a42e1b63560d72eb2cd89ad36627e8b14713cb8353fc0c",
+      "bytes": 1072
+    },
+    {
+      "path": "governance/INTEGRATION_PROVENANCE.json",
+      "sha256": "8b5627693fc3ca4e1dcd0f5eca8276b4a6e7a4a97704cf6fbbae36bcc5d54bb1",
+      "bytes": 5112
+    },
+    {
+      "path": "governance/LEARNING_SYSTEM_FREEZE.md",
+      "sha256": "b3c0186f0a0dfff925ecb181b5c6d08c6fdb956cab373e2cb81449493b5a4012",
+      "bytes": 5059
+    },
+    {
+      "path": "learning/ANKI.md",
+      "sha256": "fdaafaa9dcf40ec3f868b77470c790b104c4e79c00c60ea08c22805ffdd63a43",
+      "bytes": 1252
+    },
+    {
+      "path": "learning/CHATGPT_TUTOR.md",
+      "sha256": "910ca5b642b3ad4c075858e416555f0506e8c96e1e8ef5be3410dd2f0cbbcdd9",
+      "bytes": 4090
+    },
+    {
+      "path": "learning/CONTENT_NOTICE.md",
+      "sha256": "566d34b406c2bdedbcedf796a85a1f842d9c7c3f7cd8ba909f9d7eb65d6bb79f",
+      "bytes": 886
+    },
+    {
+      "path": "learning/LESSONS.md",
+      "sha256": "e130aa96c01745ba925563d95217ff41c2285244006e5ba3f3bf5c627ac141ba",
+      "bytes": 9818
+    },
+    {
+      "path": "learning/MASTER_PATH.md",
+      "sha256": "1373a806ad34132394850d7121e60f885cca0298cfb220f1e030a7fd5a9e21ab",
+      "bytes": 26306
+    },
+    {
+      "path": "learning/NOW.md",
+      "sha256": "1ef240e555f58246eec0d16ace23e7357bc3982e8c8f8a3263792e919ec3469e",
+      "bytes": 3727
+    },
+    {
+      "path": "operations/OPERATING_SYSTEM.md",
+      "sha256": "db11470c37217733c487c88a6867485f7b9c882e5eca01d87bb0778ae206bcf0",
+      "bytes": 402
+    },
+    {
+      "path": "operations/legacy/OPERATING_SYSTEM.md",
+      "sha256": "996e38b4674a40e5337871390258c9cb22d1fd277051810210e0a4fa59d5890c",
+      "bytes": 1957
+    },
+    {
+      "path": "practice/ALGORITHMS.md",
+      "sha256": "c14bc7f9ef951ddcf10000beb03c67fe231c991c4d9d7c1b414904cea3caa488",
+      "bytes": 383
+    },
+    {
+      "path": "practice/DEEP_ML.md",
+      "sha256": "9f97a7424251c1282e580ac15d219ceddbbd591e0398d0e83a4cb9cf43e4f400",
+      "bytes": 367
+    },
+    {
+      "path": "practice/PLATFORM_POLICY.md",
+      "sha256": "d8ecefa48d9c3c7d72e3075194a93ad6ce501e77609ab23a457e314971ce3a4d",
+      "bytes": 3930
+    },
+    {
+      "path": "practice/ROSALIND.md",
+      "sha256": "57e1dfc7df889ff592f4bde5dcc39947631b663d923574eff06d7ccb7dd55db1",
+      "bytes": 982
+    },
+    {
+      "path": "practice/legacy/ALGORITHMS.md",
+      "sha256": "7b93a7171110139426f9528571b4981e55aae068a880b50e44df085b2d8fd168",
+      "bytes": 1416
+    },
+    {
+      "path": "practice/legacy/DEEP_ML.md",
+      "sha256": "bdd6692b9086f8d0c297b721d7050a67cfd8670d731bd1a8a3d47c4d35b9da1a",
+      "bytes": 6572
+    },
+    {
+      "path": "reading/BOOKS.md",
+      "sha256": "6608673fa68cada92f9fbb7f296c4f518d117b82db1aeaaac853602e1f455d5b",
+      "bytes": 2866
+    },
+    {
+      "path": "reading/COURSES.md",
+      "sha256": "7e31add2980578613fd6f116de7d1d6cc2877b4cfd2c1e49b193162c96d070bf",
+      "bytes": 2654
+    },
+    {
+      "path": "reading/ESSAYS_AND_DISCOVERY.md",
+      "sha256": "8a912ad4bf7e4b48f8e3c2dd5d24745eddcc9db30421f43e1c04a755ac340c29",
+      "bytes": 1542
+    },
+    {
+      "path": "reading/EVIDENCE.md",
+      "sha256": "0a8bac6318a94ecfda48ae3dba88372af95c1a25a73c4d6ba1b06727bb8a4a98",
+      "bytes": 1518
+    },
+    {
+      "path": "reading/ILYA-30.md",
+      "sha256": "bc06bc130af065eab797af91c8477f13d3dc91a145e0eee70f863fad393eb5ac",
+      "bytes": 1475
+    },
+    {
+      "path": "reading/LEARNING_EVIDENCE_2026.md",
+      "sha256": "22e5eea0a76c1fc9e2cd155aa00ad713b8fccca09bbb0a489a81ca500c3f05ab",
+      "bytes": 1313
+    },
+    {
+      "path": "reading/PAPERS.md",
+      "sha256": "e63d3fae51a98900bcfa3801fc784d62d39058e46ee33414312541b9c3453510",
+      "bytes": 6208
+    },
+    {
+      "path": "reading/REPOSITORIES.md",
+      "sha256": "a8dd65ce1a0ee9c8c15af7f373340e7392cf16dc1887373b96781091f6712ecf",
+      "bytes": 2462
+    },
+    {
+      "path": "reading/VIDEOS.md",
+      "sha256": "05d1ad56bc4bedf6216698cc4fbcff751e938fd7ac9ec8661646646470a6138b",
+      "bytes": 1957
+    },
+    {
+      "path": "research/AGENTIC_ENGINEERING.md",
+      "sha256": "b08d2b6b9fa10f3bd8b38688748f383e055a5954826cd386c7063d8002de5d09",
+      "bytes": 2012
+    },
+    {
+      "path": "research/COMPETITIONS.md",
+      "sha256": "58d122601eb42d2f9d00c7572dca157f71619635d79fdd1f3950c872106d1e6a",
+      "bytes": 377
+    },
+    {
+      "path": "research/LABS_REFERENCE.md",
+      "sha256": "442570363d53a5ed54c897c8901055a2a8cc48df10b399f90657c4842468e2d6",
+      "bytes": 1756
+    },
+    {
+      "path": "research/RESEARCH_SYSTEM.md",
+      "sha256": "2e4827bfe3c9857da107910d50f75c85a51f3530a66bf75c655c73a6f6516a21",
+      "bytes": 1677
+    },
+    {
+      "path": "research/legacy/COMPETITIONS.md",
+      "sha256": "213b7b85eddc57d071ee88d921d4852b13d0e7df13880aa2ff17b8fb47e4f12e",
+      "bytes": 1557
+    },
+    {
+      "path": "scripts/fetch-ioai-originals.py",
+      "sha256": "26cf49006d333fa4f877dd49539f966604de63089ae9e2b6fbe333349ac44a36",
+      "bytes": 2451
+    },
+    {
+      "path": "scripts/progress-batch.cjs",
+      "sha256": "3b275c4510706d369e46268e10337ae73a2fb8a7991e8b8e122574df06f4c26f",
+      "bytes": 1785
+    },
+    {
+      "path": "scripts/simplify-learning.py",
+      "sha256": "6d945255d8aa38dbdf068b56b906ef68eada985533eec5b343aa51132a5a3927",
+      "bytes": 23080
+    },
+    {
+      "path": "scripts/test-learning.cjs",
+      "sha256": "6dded710963fbe4fa7f75072c3050a0db1c2ce54df08aec33d442865ac4fef22",
+      "bytes": 11538
+    },
+    {
+      "path": "templates/EXPERIMENT_TEMPLATE.md",
+      "sha256": "bf5e755799ef3a2e4ea85f3a8eee0787dc923dc7b49814ba4b775a9003583891",
+      "bytes": 576
+    },
+    {
+      "path": "templates/PAPER_REVIEW_TEMPLATE.md",
+      "sha256": "25b7cf43129c24a9e61161b2e6fb886ea08e0d45b15ea27f0fc5a081646c9e51",
+      "bytes": 652
+    },
+    {
+      "path": "tracking/ACTIVITY_LOG_TEMPLATE.md",
+      "sha256": "6a27025bfd66d6c09e92988379c96d1075c538df26c4c6d4339bd2c58cb4ba36",
+      "bytes": 747
+    },
+    {
+      "path": "tracking/CHALLENGE_LOG_TEMPLATE.md",
+      "sha256": "3b9240db1c91b13e87849890ce385e9870084626cfa315b399e839602be05f34",
+      "bytes": 1193
+    },
+    {
+      "path": "tracking/COMPETENCIES.md",
+      "sha256": "6233803df1d6600e8f6dc1ba3123cbafe5d9a6a5fd1db1f45fe3ffe10ec05f37",
+      "bytes": 8548
+    },
+    {
+      "path": "tracking/DEEP_PATH_EVERYTHING.md",
+      "sha256": "f2527260e5095f4d4117a7d0c8f2ea2d809fa726b0095bdf458633dacd3fba9f",
+      "bytes": 14716
+    },
+    {
+      "path": "tracking/LEARNER_STATE_TEMPLATE.md",
+      "sha256": "89f60cc7af47a9bf47260cae34522af43d0bef344d94473565909fd447a0aa38",
+      "bytes": 910
+    },
+    {
+      "path": "tracking/README.md",
+      "sha256": "6dac779ec6512ee7e07bc2320bb60177915b0fc1e365ef4dc96caefb57303632",
+      "bytes": 2289
+    }
+  ]
+}
