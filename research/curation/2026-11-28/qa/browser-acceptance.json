@@ -1,0 +1,26 @@
+{
+  "result": "PARTIAL_ACCEPTANCE",
+  "site": "https://khalwaniev.github.io/zulearn/#bank",
+  "tested_content_commit": "0025e41fe40589dab21a12377557aecd03fac4d3",
+  "observed_desktop_css_width": 1348,
+  "bank_light_overflow": false,
+  "bank_dark_overflow": false,
+  "checks_passed": [
+    "Two primary navigation destinations",
+    "Five actual scientific status counts: 43/76/18/32/7",
+    "Exactly fourteen Deep-Path part controls before filtering",
+    "One foundational branch stages only UNIT-PRACTICE-F",
+    "Zero individual-problem checkboxes",
+    "Committed denominator remains 0/41 while completion is staged",
+    "Staged changes can be reviewed and discarded",
+    "Fraction 6/16 accepted for 3/8; 0.3 rejected",
+    "Verified source URL and collapsed solution available",
+    "New point-in-time native referral visible",
+    "Light and dark rendering visually inspected"
+  ],
+  "narrow_screen_checks": "NOT RUN on the current content. Automated browser provisioning was unavailable; scoped browser APIs did not expose resizing. Automatic review rejected full-desktop capture/native-window controls due unrelated private tabs and a blocked browser route. No claim that current 320/390px acceptance passed.",
+  "pending_question": "Owner asked whether to approve a Zulearn-only temporary browser resize; no permission inferred from elapsed time.",
+  "console_observation": "Browser-extension metadata errors were visible in the scoped log. The actual site loaded and the tested handlers worked. This is not a complete JavaScript error-instrumentation audit.",
+  "progress_changes_committed": false,
+  "followup_fix": "A source-name search failure found in review is corrected by including stable IDs, URLs and locators in the existing search; confirmed practice order now begins at the documented first activity."
+}

@@ -99,7 +99,7 @@ function statusLabel(status) {
 function bankHTML() {
   const themes = [['F','Foundations & mathematical creativity'],['C','Algorithms, programming & formal reasoning'],['M','Research mathematics & uncertainty'],['L','Machine learning & evaluation'],['S','Scientific reasoning & reproducibility'],['R','Frontier AI & interpretability'],['B','AI for Science & domain validity']];
   const counts = M.auditStats(data.audit);
-  const candidates = data.audit.entries.filter(x => !bankSearch || (x.title + ' ' + x.gap + ' ' + (Array.isArray(x.target) ? x.target.join(' ') : x.target) + ' ' + statusLabel(x.status)).toLowerCase().includes(bankSearch.toLowerCase()));
+  const candidates = data.audit.entries.filter(x => !bankSearch || (x.title + ' ' + x.id + ' ' + x.url + ' ' + (x.locator || '') + ' ' + x.gap + ' ' + (Array.isArray(x.target) ? x.target.join(' ') : x.target) + ' ' + statusLabel(x.status)).toLowerCase().includes(bankSearch.toLowerCase()));
   const labels = {confirmed_complementary:'confirmed practice activities', independent_assessment:'optional independent assessments', native_referral:'conditional native referrals', deferred:'deferred activities', unresolved:'unresolved candidates'};
   function retained(rows, status, title, description) {
     const items = rows.filter(x => x.status === status);
@@ -115,7 +115,7 @@ function bankHTML() {
       (confirmed.length ? '<h4>Confirmed complementary practice</h4>' + confirmed.map(exercise).join('') : '') +
       (native.length ? '<h4>Use the original provider resource</h4>' + native.map(a => {
         const x = itemMap().get(a.id) || a;
-        return '<div class="source-referral" id="exercise-' + encodeURIComponent(a.id) + '"><div><strong>' + esc(a.title) + '</strong><p>' + esc(x.task || a.gap) + '</p><p>' + esc(x.purpose || a.why_insufficient) + '</p>' + auditDetails(a) + '</div>' + link(a.url, 'Open ' + (x.platform || 'provider')) + '</div>';
+        return '<div class="source-referral" id="exercise-' + encodeURIComponent(a.id) + '"><div><strong>' + esc(a.title) + '</strong><p>' + esc(x.task || a.gap) + '</p><p>' + esc(x.purpose || a.why_insufficient) + '</p>' + auditDetails(a) + '</div>' + link(a.url, 'Open ' + (x.platform || a.platform || 'provider')) + '</div>';
       }).join('') : '') +
       retained(rows, 'independent_assessment', 'Independent assessments', 'Optional unaided checks after instruction. They are separate from confirmed practice gaps and add no required branch. After viewing a solution, use a fresh task for unseen transfer.') +
       retained(rows, 'deferred', 'Deferred retained practice', 'Preserved historical material. Prefer the selected canonical or native resource; these items add no default workload and do not merge completion records.') +
