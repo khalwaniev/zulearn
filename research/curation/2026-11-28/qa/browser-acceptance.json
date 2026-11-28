@@ -22,5 +22,5 @@
   "pending_question": "Owner asked whether to approve a Zulearn-only temporary browser resize; no permission inferred from elapsed time.",
   "console_observation": "Browser-extension metadata errors were visible in the scoped log. The actual site loaded and the tested handlers worked. This is not a complete JavaScript error-instrumentation audit.",
   "progress_changes_committed": false,
-  "followup_fix": "A source-name search failure found in review is corrected by including stable IDs, URLs and locators in the existing search; confirmed practice order now begins at the documented first activity."
+  "followup_fix": "Stable ID/URL/locator search and documented problem ordering are implemented. Existing and fresh live tabs retained earlier script behavior; explicit cache keys added to the two existing script references. Browser confirmation after cache-key deployment is pending."
 }

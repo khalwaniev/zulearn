@@ -1,0 +1,88 @@
+{
+  "verified_at": "2026-11-28T11:25:56.093892+00:00",
+  "content_commit": "017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+  "method": "Public HTTPS byte comparison with cache-key query; SHA-256 over complete response bodies",
+  "files": [
+    {
+      "path": "docs/index.html",
+      "url": "https://khalwaniev.github.io/zulearn/index.html?verify=017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+      "status": 200,
+      "bytes": 2013,
+      "sha256": "f9e614998e6134bbee148c44fcaa4a13126b2e4745fb5d0cf957f19a0c4bb696",
+      "expected_sha256": "f9e614998e6134bbee148c44fcaa4a13126b2e4745fb5d0cf957f19a0c4bb696",
+      "match": true
+    },
+    {
+      "path": "docs/styles.css",
+      "url": "https://khalwaniev.github.io/zulearn/styles.css?verify=017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+      "status": 200,
+      "bytes": 15826,
+      "sha256": "1a21f2e6e80f4c690c2a92d8d02ee20971d1dd65b563f750ff7406b6575734f5",
+      "expected_sha256": "1a21f2e6e80f4c690c2a92d8d02ee20971d1dd65b563f750ff7406b6575734f5",
+      "match": true
+    },
+    {
+      "path": "docs/app.js",
+      "url": "https://khalwaniev.github.io/zulearn/app.js?verify=017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+      "status": 200,
+      "bytes": 31397,
+      "sha256": "592545c9f8d71ad97c496dc2513f7c37ea4aec834eb2b1b0cf407db40ecb5816",
+      "expected_sha256": "592545c9f8d71ad97c496dc2513f7c37ea4aec834eb2b1b0cf407db40ecb5816",
+      "match": true
+    },
+    {
+      "path": "docs/model.js",
+      "url": "https://khalwaniev.github.io/zulearn/model.js?verify=017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+      "status": 200,
+      "bytes": 16122,
+      "sha256": "73fb0f60f848b3f050584a076f8e66573586049ba86d227f2ae21c8699789818",
+      "expected_sha256": "73fb0f60f848b3f050584a076f8e66573586049ba86d227f2ae21c8699789818",
+      "match": true
+    },
+    {
+      "path": "docs/resources.json",
+      "url": "https://khalwaniev.github.io/zulearn/resources.json?verify=017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+      "status": 200,
+      "bytes": 899579,
+      "sha256": "a791f047f8c68dd300c749e3e60d23eea646bdbc0ad657a84e027e372054b30e",
+      "expected_sha256": "a791f047f8c68dd300c749e3e60d23eea646bdbc0ad657a84e027e372054b30e",
+      "match": true
+    },
+    {
+      "path": "docs/activities.json",
+      "url": "https://khalwaniev.github.io/zulearn/activities.json?verify=017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+      "status": 200,
+      "bytes": 252009,
+      "sha256": "032116e0adeef61fb8c6e1f40690e566fef74f94f7757ea67290b2de083938bc",
+      "expected_sha256": "032116e0adeef61fb8c6e1f40690e566fef74f94f7757ea67290b2de083938bc",
+      "match": true
+    },
+    {
+      "path": "docs/complementary-audit.json",
+      "url": "https://khalwaniev.github.io/zulearn/complementary-audit.json?verify=017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+      "status": 200,
+      "bytes": 454454,
+      "sha256": "352f47f3710b09af072d865234eb042f38e24f63329b558b0a696740bd4c0ff4",
+      "expected_sha256": "352f47f3710b09af072d865234eb042f38e24f63329b558b0a696740bd4c0ff4",
+      "match": true
+    },
+    {
+      "path": "docs/progress.json",
+      "url": "https://khalwaniev.github.io/zulearn/progress.json?verify=017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+      "status": 200,
+      "bytes": 43,
+      "sha256": "ac2085f11531448156677b392f96788a71b3442c97714988024b172bcbed944c",
+      "expected_sha256": "ac2085f11531448156677b392f96788a71b3442c97714988024b172bcbed944c",
+      "match": true
+    }
+  ],
+  "all_match": true,
+  "github_pages_workflow": {
+    "id": 46139758283,
+    "head_sha": "017c496c881ac3d908ae9fa8fc49ec4a1e46e59a",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/khalwaniev/zulearn/actions/runs/46139758283"
+  },
+  "scope_note": "Evidence for this content commit before the subsequent static script cache-key change; not a claim about a later HEAD."
+}

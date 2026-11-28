@@ -65,8 +65,10 @@ def run():
  for path,digest in pairs.items():
   if isinstance(digest,dict):digest=digest['sha256']
   require(hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest,'protected '+path)
- for path in ['docs/progress.json','docs/index.html','docs/styles.css']:
+ for path in ['docs/progress.json','docs/styles.css']:
   require((ROOT/path).read_bytes()==baseline(path),'unchanged '+path)
+ shell=(ROOT/'docs/index.html').read_bytes().replace(b'model.js?v=curation-20261128',b'model.js').replace(b'app.js?v=curation-20261128',b'app.js')
+ require(shell==baseline('docs/index.html'),'approved HTML unchanged except explicit static script cache keys')
  old=json.loads(baseline('docs/activities.json'))
  for k,v in old.items():
   if k!='hierarchy':require(activities[k]==v,'historical activity field '+k)

@@ -19,7 +19,7 @@ The learner can now use the [published Problem Bank](https://khalwaniev.github.i
 | Source retrieval/inspection ledger | 80 source records, with evidence levels and limits |
 | Exact new completion merges | 0 |
 | Default first-level branch records | 41, including 14 Deep-Path parts and one newly activated foundational set |
-| Preserved source integrity | All 83 protected files match; real progress, HTML and CSS unchanged |
+| Preserved source integrity | All 83 protected files match; real progress, layout markup and CSS unchanged; existing script references gain static cache keys |
 
 The eight `gap_id` groups classify instructional targets, including broad F02 and a partially covered extended-power/root subskill. They do **not** mean eight complete subskills or competencies are closed. No independently demonstrated learner outcome was measured. The objective of greater independent competence per focused hour is an operational objective to be measured during learning, not a result established by this curation.
 
@@ -83,7 +83,7 @@ This was a structured adversarial self-review with independently reconstructed c
 
 ## Implementation, acceptance and remaining block
 
-The existing buildless architecture, two navigation pages, three groups, 8/6/4 parent categories, fourteen Deep-Path part checkboxes, all historical canonical identities and actual learner progress remain preserved. HTML/CSS bytes did not change. The renderer/model now validate and display all five dispositions from data; non-native entries are no longer automatically called pending. One scientifically bounded foundational branch is activated. No individual-problem checkbox, framework, database or new application runtime was introduced.
+The existing buildless architecture, two navigation pages, three groups, 8/6/4 parent categories, fourteen Deep-Path part checkboxes, all historical canonical identities and actual learner progress remain preserved. Layout markup and CSS bytes did not change; the two existing script references gained explicit static cache keys after live tabs retained the earlier script. The renderer/model now validate and display all five dispositions from data; non-native entries are no longer automatically called pending. One scientifically bounded foundational branch is activated. No individual-problem checkbox, framework, database or new application runtime was introduced.
 
 The actual production suite passed **222 assertions**; the provenance/schema/exact-mathematics script passed **827 checks**. Receipts and the reusable verification script are present. All 83 protected files, frozen data/curriculum, original activities fields, reserved assessments and committed learner progress pass preservation checks.
 
