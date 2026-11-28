@@ -33,7 +33,7 @@ function selectionForm(b) {
 }
 function branchRow(b) {
   const s = staged(b), r = stagedRecord(b.id), checked = M.done(r?.status), committed = M.done(progress.records[b.id]?.status), pending = !!edits[b.id];
-    const metadata = [b.observed_count, b.trackable ? s.selected ? scopeLabel(s.scope_mode) : 'Optional' : 'Pending complementary verification'];
+    const metadata = [b.observed_count, b.trackable ? s.selected ? scopeLabel(s.scope_mode) : 'Optional' : 'Reviewed · no confirmed practice scope'];
   if (checked) metadata.push(pending ? 'Completion staged' : 'Completed · committed');
   else if (pending) metadata.push('Change staged');
   let controls = '';
@@ -78,10 +78,10 @@ function savePanel() {
     '<label for="batchText">Progress update batch</label><textarea class="batch-text" id="batchText" readonly rows="7" spellcheck="false">' + esc(text) + '</textarea><div class="save-actions"><button type="button" class="primary" data-copy-batch' + (!keys.length ? ' disabled' : '') + '>Copy batch</button><button type="button" data-discard' + (!keys.length ? ' disabled' : '') + '>Discard changes</button><button type="button" data-verify>Verify committed progress</button></div><output id="saveFeedback" class="feedback" aria-live="polite"></output><p class="fine">Publishing requires your explicit authorization. The writer must compare the latest records and scopes, protect against conflicts, preserve unrelated history, and verify the commit. Only theme preference is saved in this browser.</p></div></details>';
 }
 function auditDetails(a) {
-  return '<details><summary>Gap, provenance & verification</summary><dl class="audit-list"><dt>Target skill or competency</dt><dd>' + esc(Array.isArray(a.target) ? a.target.join(', ') : a.target) + '</dd><dt>Candidate gap</dt><dd>' + esc(a.gap) + '</dd><dt>Provider evidence inspected</dt><dd>' + (a.provider_evidence.length ? a.provider_evidence.map(x => link(x.url, x.title) + ' · ' + esc(x.level)).join('<br>') : 'No reliable item-level comparison available.') + '</dd><dt>Coverage decision</dt><dd>' + esc(a.why_insufficient) + ' ' + esc(a.inspection_limit) + '</dd><dt>Exact provenance</dt><dd>' + esc(a.provenance) + '</dd><dt>Evaluation or independent verification</dt><dd>' + esc(a.verification) + '</dd></dl></details>';
+  return '<details><summary>Gap, provenance & verification</summary><dl class="audit-list"><dt>Target skill or competency</dt><dd>' + esc(Array.isArray(a.target) ? a.target.join(', ') : a.target) + '</dd><dt>Candidate gap</dt><dd>' + esc(a.gap) + '</dd><dt>Provider evidence inspected</dt><dd>' + (a.provider_evidence.length ? a.provider_evidence.map(x => link(x.url, x.title || x.url) + ' · ' + esc(x.level) + (x.observation ? ' · ' + esc(x.observation) : '')).join('<br>') : 'No reliable item-level comparison available.') + '</dd><dt>Coverage decision</dt><dd>' + esc(a.why_insufficient) + ' ' + esc(a.inspection_limit) + '</dd><dt>Exact provenance</dt><dd>' + esc(a.provenance) + '</dd><dt>Evaluation or independent verification</dt><dd>' + esc(a.verification) + '</dd>' + (a.prerequisites ? '<dt>Prerequisites & learning depth</dt><dd>' + esc(a.prerequisites.join(', ') || 'Four basic operations; learn the target operation first') + ' · ' + esc(a.difficulty) + ' · ' + esc(a.learning_depth) + '</dd>' : '') + (a.transfer_criterion ? '<dt>Independent transfer</dt><dd>' + esc(a.transfer_criterion) + '</dd>' : '') + '</dl></details>';
 }
 function exercise(a) {
-  const source = itemMap().get(a.id), id = 'exercise-' + encodeURIComponent(a.id);
+  const source = itemMap().get(a.id) || a, id = 'exercise-' + encodeURIComponent(a.id);
   let body = '';
   if (a.kind === 'bank') {
     body = '<p>' + esc(source.prompt) + '</p>' + (source.answer ? '<form class="answer-form" data-exercise="' + esc(a.id) + '"><label>Answer<input name="answer" required autocomplete="off" aria-label="' + esc('Answer for ' + source.title) + '" placeholder="Integer, decimal, or fraction"></label><button type="submit">Check answer</button><output aria-live="polite"></output></form>' : '<p class="fine">Work on paper or in your own editor. Use an independent reviewer for written reasoning.</p>') +
@@ -89,24 +89,40 @@ function exercise(a) {
   } else if (a.kind === 'sheets') {
     body = '<div class="worksheet">' + esc(source.body) + '</div><p>' + link(a.url, 'Open frozen worksheet source') + '</p><p class="fine">Independent review is required; arbitrary proofs and code are not automatically graded.</p>';
   } else {
-    body = '<p>' + esc(source.purpose || source.identity_evidence || a.gap) + '</p><p>' + link(a.url, a.kind === 'assignments' ? source.locator : 'Open original problem') + '</p><p class="fine">Link only. Read and solve at the original source; its rights and licensing apply.</p>';
+    body = '<p>' + esc(a.gap || source.purpose || source.identity_evidence) + '</p><p>' + link(a.url, a.locator || (a.kind === 'assignments' ? source.locator : 'Open original problem')) + '</p><p class="fine">Link only. Read and solve at the original source; its rights and licensing apply.</p>';
   }
-  return '<details class="exercise" id="' + esc(id) + '"><summary>' + esc(a.title) + '</summary><div class="exercise-body"><p class="provenance">Pending complementary verification · optional retained practice</p>' + body + auditDetails(a) + '<p class="provenance">' + esc(a.provenance) + '</p></div></details>';
+  return '<details class="exercise" id="' + esc(id) + '"><summary>' + esc(a.title) + '</summary><div class="exercise-body"><p class="provenance">' + esc(statusLabel(a.status)) + '</p>' + body + (a.kind !== 'bank' ? '<details><summary>Solution / evaluation rubric</summary><p>' + esc(a.verification) + '</p></details>' : '') + auditDetails(a) + '<p class="provenance">' + esc(a.provenance) + '</p></div></details>';
+}
+function statusLabel(status) {
+  return {confirmed_complementary:'Confirmed complementary practice · bounded provider comparison', independent_assessment:'Independent assessment · optional after instruction', native_referral:'Native provider resource · conditional referral', deferred:'Deferred · preserved without added workload', unresolved:'Unresolved · not in the confirmed practice scope'}[status] || status;
 }
 function bankHTML() {
   const themes = [['F','Foundations & mathematical creativity'],['C','Algorithms, programming & formal reasoning'],['M','Research mathematics & uncertainty'],['L','Machine learning & evaluation'],['S','Scientific reasoning & reproducibility'],['R','Frontier AI & interpretability'],['B','AI for Science & domain validity']];
-  const candidates = data.audit.entries.filter(x => !bankSearch || (x.title + ' ' + x.gap).toLowerCase().includes(bankSearch.toLowerCase()));
-  return '<section id="bank" aria-labelledby="bankTitle" hidden><div class="page-intro"><div class="bank-intro"><p class="eyebrow">Practice with a purpose</p><h1 id="bankTitle">Problem Bank</h1><p class="description">Find a missing skill, then choose a meaningful problem.<br>Use existing provider practice before adding more work.</p></div></div><div class="bank-summary"><span><strong>0</strong> confirmed unique gaps</span><span><strong>11</strong> conditional provider referrals</span><span><strong>119</strong> retained candidates pending review</span></div><div class="notice"><p>Complementary verification is still open. The retained exercises and worksheets are available for review, with no claim that they fill a unique gap. They are excluded from the confirmed practice workload.</p></div><div class="toolbar">' + fieldSearch('bankSearch', bankSearch, 'Find a theme or problem…') + '</div><div class="bank-themes">' + themes.map(([key, title]) => {
-    const rows = candidates.filter(x => x.theme === key), native = rows.filter(x => x.status === 'native_referral'), pending = rows.filter(x => x.status !== 'native_referral');
+  const counts = M.auditStats(data.audit);
+  const candidates = data.audit.entries.filter(x => !bankSearch || (x.title + ' ' + x.gap + ' ' + (Array.isArray(x.target) ? x.target.join(' ') : x.target) + ' ' + statusLabel(x.status)).toLowerCase().includes(bankSearch.toLowerCase()));
+  const labels = {confirmed_complementary:'confirmed practice activities', independent_assessment:'optional independent assessments', native_referral:'conditional native referrals', deferred:'deferred activities', unresolved:'unresolved candidates'};
+  function retained(rows, status, title, description) {
+    const items = rows.filter(x => x.status === status);
+    if (!items.length) return '';
+    return '<details class="pending-disclosure" id="' + status + '-theme-' + rows[0].theme + '"><summary>' + esc(title) + ' · ' + items.length + '</summary><p class="fine">' + esc(description) + '</p>' + items.map(exercise).join('') + '</details>';
+  }
+  return '<section id="bank" aria-labelledby="bankTitle" hidden><div class="page-intro"><div class="bank-intro"><p class="eyebrow">Practice with a purpose</p><h1 id="bankTitle">Problem Bank</h1><p class="description">Find a missing skill, then choose a meaningful problem.<br>Use existing provider practice before adding more work.</p></div></div><div class="bank-summary">' + M.auditStatuses.map(status => '<span data-audit-status="' + status + '"><strong>' + counts[status] + '</strong> ' + labels[status] + '</span>').join('') + '</div><div class="notice"><p>Begin with the existing fraction lesson, then OpenStax Try It 4.1. The confirmed bridge supplies elementary practice before Python. Advance by demonstrated understanding; the whole pool is not an entrance requirement. Provider comparisons are bounded by inspected content; complete coverage and global exclusivity remain unresolved.</p></div><div class="toolbar">' + fieldSearch('bankSearch', bankSearch, 'Find a theme or problem…') + '</div><div class="bank-themes">' + themes.map(([key, title]) => {
+    const rows = candidates.filter(x => x.theme === key), native = rows.filter(x => x.status === 'native_referral'), confirmed = rows.filter(x => x.status === 'confirmed_complementary');
     if (!rows.length) return '';
-    return '<details class="bank-theme" id="bank-theme-' + key + '"' + (bankSearch ? ' open' : '') + '><summary><span>' + title + '</span><span class="theme-count">' + (native.length ? native.length + ' provider referrals · ' : '') + pending.length + ' pending candidates</span></summary><div class="bank-theme-body">' +
-      (native.length ? '<h4>Use the original provider task</h4>' + native.map(a => {
-        const x = itemMap().get(a.id);
-        return '<div class="source-referral" id="exercise-' + encodeURIComponent(a.id) + '"><div><strong>' + esc(a.title) + '</strong><p>' + esc(x.task) + '</p><p>' + esc(x.purpose || 'Conditional transfer only; inspect the primary task first.') + '</p></div>' + link(a.url, 'Open TensorTonic') + '</div>';
-      }).join('') : '<p class="fine">No unique complementary gap is confirmed in this theme. Check the native platforms before assigning additional practice.</p>') +
-      (pending.length ? '<details class="pending-disclosure" id="pending-theme-' + key + '"><summary>Review retained practice · pending complementary verification</summary><p class="fine">These source materials are preserved. Use them by choice; they are not confirmed unique complements or required checklist items.</p>' + pending.map(exercise).join('') + '</details>' : '') + '</div></details>';
-  }).join('') + (!candidates.length ? '<p class="empty">No matching problems. Try a broader term.</p>' : '') + '</div><p class="resource-footnote">Sources include MathNet, AoPS, OTIS, MIT, Harvard, Stanford, Putnam, and the original Zulearn registry. External statements and solutions are linked, not copied. ' + link(REPO + '/blob/main/docs/complementary-audit.json', 'Inspect the full complementary audit') + '</p></section>';
+    const n = M.auditStats({entries:rows});
+    const summary = M.auditStatuses.filter(status => n[status]).map(status => n[status] + ' ' + labels[status]).join(' · ');
+    return '<details class="bank-theme" id="bank-theme-' + key + '"' + (bankSearch ? ' open' : '') + '><summary><span>' + title + '</span><span class="theme-count">' + esc(summary) + '</span></summary><div class="bank-theme-body">' +
+      (confirmed.length ? '<h4>Confirmed complementary practice</h4>' + confirmed.map(exercise).join('') : '') +
+      (native.length ? '<h4>Use the original provider resource</h4>' + native.map(a => {
+        const x = itemMap().get(a.id) || a;
+        return '<div class="source-referral" id="exercise-' + encodeURIComponent(a.id) + '"><div><strong>' + esc(a.title) + '</strong><p>' + esc(x.task || a.gap) + '</p><p>' + esc(x.purpose || a.why_insufficient) + '</p>' + auditDetails(a) + '</div>' + link(a.url, 'Open ' + (x.platform || 'provider')) + '</div>';
+      }).join('') : '') +
+      retained(rows, 'independent_assessment', 'Independent assessments', 'Optional unaided checks after instruction. They are separate from confirmed practice gaps and add no required branch. After viewing a solution, use a fresh task for unseen transfer.') +
+      retained(rows, 'deferred', 'Deferred retained practice', 'Preserved historical material. Prefer the selected canonical or native resource; these items add no default workload and do not merge completion records.') +
+      retained(rows, 'unresolved', 'Unresolved candidates', 'Evidence, source access or task specification is incomplete. These candidates are excluded from confirmed practice and cannot activate a checklist scope.') + '</div></details>';
+  }).join('') + (!candidates.length ? '<p class="empty">No matching problems. Try a broader term.</p>' : '') + '</div><p class="resource-footnote">External statements stay at their lawful source. Solutions and rubrics are checked specifications, not evidence of learner mastery. ' + link(REPO + '/tree/main/' + data.audit.evidence_directory, 'Scientific evidence & coverage matrix') + '</p></section>';
 }
+
 function render() {
   const open = new Set([...app.querySelectorAll('details[open][id]')].map(e => e.id));
   const focused = document.activeElement?.id, focusUnit = document.activeElement?.dataset?.unit, cursor = document.activeElement?.selectionStart;

@@ -1,0 +1,25 @@
+{
+  "result": "PASS",
+  "checks": 827,
+  "protected_files": 83,
+  "reviewed_existing_candidates": 119,
+  "confirmed_practice": 43,
+  "status_counts": {
+    "deferred": 32,
+    "independent_assessment": 76,
+    "unresolved": 7,
+    "confirmed_complementary": 43,
+    "native_referral": 18
+  },
+  "whole_competency_counts": {
+    "partial_coverage": 69,
+    "unresolved_coverage": 29,
+    "insufficient_depth": 11
+  },
+  "new_completion_merges": 0,
+  "limitations": [
+    "Finite numeric checks supplement manual proofs; they do not prove universal theorems.",
+    "Empirical study rubrics contain no invented execution results.",
+    "This is an adversarial self-review, not a second independent scientific reviewer or a learner mastery assessment."
+  ]
+}

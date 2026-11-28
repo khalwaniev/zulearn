@@ -8,7 +8,7 @@ const root = path.resolve(__dirname, '..');
 const json = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 function loadData() {
   const s = json(path.join(root,'docs/syllabus.json'));
-  return {curr:s.files['data/curriculum.json'], deep:s.files['data/deep_path.json'], lessons:s.files['data/lessons.json'], checks:s.files['data/checkpoints.json'], subs:s.files['data/subcompetencies.json'], extras:json(path.join(root,'docs/activities.json')), resources:json(path.join(root,'docs/resources.json'))};
+  return {curr:s.files['data/curriculum.json'], deep:s.files['data/deep_path.json'], lessons:s.files['data/lessons.json'], checks:s.files['data/checkpoints.json'], subs:s.files['data/subcompetencies.json'], extras:json(path.join(root,'docs/activities.json')), resources:json(path.join(root,'docs/resources.json')), audit:json(path.join(root,'docs/complementary-audit.json'))};
 }
 if (require.main === module) {
   const args = process.argv.slice(2);

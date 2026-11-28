@@ -662,8 +662,8 @@
       "bytes": 307996,
       "content_type": "text/html; charset=utf-8",
       "id": "SRC-6c02d9aa22bf",
-      "evidence_level": "E0",
-      "observation": "Fetched for discovery only; not used to establish a task-level adequacy claim.",
+      "evidence_level": "E2",
+      "observation": "Distinct-index pair summing to a target, exactly one answer; less-than-quadratic follow-up. Full public statement and constraints inspected.",
       "limitation": "Response hash establishes retrieved bytes, not truth, hidden-grader correctness, complete catalogue access or learner competence."
     },
     {
@@ -675,8 +675,8 @@
       "bytes": 300080,
       "content_type": "text/html; charset=utf-8",
       "id": "SRC-7e1c6ef00168",
-      "evidence_level": "E0",
-      "observation": "Fetched for discovery only; not used to establish a task-level adequacy claim.",
+      "evidence_level": "E2",
+      "observation": "Lowercase letter multiplicity comparison with a Unicode follow-up. Full public statement and constraints inspected.",
       "limitation": "Response hash establishes retrieved bytes, not truth, hidden-grader correctness, complete catalogue access or learner competence."
     },
     {
@@ -688,8 +688,8 @@
       "bytes": 303431,
       "content_type": "text/html; charset=utf-8",
       "id": "SRC-f48d00df3257",
-      "evidence_level": "E0",
-      "observation": "Fetched for discovery only; not used to establish a task-level adequacy claim.",
+      "evidence_level": "E2",
+      "observation": "Bracket type, order and matching constraints, including crossed nesting. Full public statement and constraints inspected.",
       "limitation": "Response hash establishes retrieved bytes, not truth, hidden-grader correctness, complete catalogue access or learner competence."
     },
     {
@@ -701,8 +701,8 @@
       "bytes": 300406,
       "content_type": "text/html; charset=utf-8",
       "id": "SRC-ec455acec907",
-      "evidence_level": "E0",
-      "observation": "Fetched for discovery only; not used to establish a task-level adequacy claim.",
+      "evidence_level": "E2",
+      "observation": "Sorted unique integer input, absent-target sentinel and logarithmic runtime. Full public statement inspected; duplicate-boundary variants are independent extensions, not the original contract.",
       "limitation": "Response hash establishes retrieved bytes, not truth, hidden-grader correctness, complete catalogue access or learner competence."
     },
     {

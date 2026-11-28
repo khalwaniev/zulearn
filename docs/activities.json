@@ -4239,6 +4239,57 @@
         "scope": [],
         "mode": "selected_complementary",
         "completion_scope": "R,D,I: temperature scaling on held-out calibration data; compare proper scores and bin-dependent estimates. Evaluate on an untouched test set; calibration on one distribution need not transfer under shift. Paper reading/derivation is distinct from a provider implementation track."
+      },
+      "UNIT-PRACTICE-F": {
+        "platform": "Zulearn",
+        "category": "Problem Bank",
+        "scope": [
+          "OS-PA2-TI-4.1",
+          "OS-PA2-TI-4.11",
+          "OS-PA2-TI-4.25",
+          "OS-PA2-TI-4.29",
+          "OS-PA2-TI-4.31",
+          "OS-PA2-TI-4.47",
+          "OS-PA2-TI-4.49",
+          "OS-PA2-TI-4.61",
+          "OS-PA2-TI-4.71",
+          "OS-PA2-TI-4.115",
+          "OS-PA2-TI-4.125",
+          "OS-PA2-TI-4.133",
+          "OS-PA2-TI-4.139",
+          "OS-PA2-TI-5.5",
+          "OS-PA2-TI-5.7",
+          "OS-PA2-TI-5.17",
+          "OS-PA2-TI-5.21",
+          "OS-PA2-TI-5.25",
+          "OS-PA2-TI-5.33",
+          "OS-PA2-TI-5.45",
+          "OS-PA2-TI-5.115",
+          "OS-PA2-TI-6.5",
+          "OS-PA2-TI-6.9",
+          "OS-PA2-TI-6.21",
+          "OS-PA2-TI-3.1",
+          "OS-PA2-TI-3.31",
+          "OS-PA2-TI-3.65",
+          "OS-PA2-TI-3.93",
+          "OS-PA2-TI-3.97",
+          "OS-PA2-TI-2.9",
+          "OS-PA2-TI-2.13",
+          "OS-PA2-TI-2.15",
+          "OS-PA2-TI-10.125",
+          "OS-PA2-TI-2.27",
+          "OS-PA2-TI-2.41",
+          "OS-PA2-TI-2.49",
+          "OS-PA2-TI-2.55",
+          "OS-PA2-TI-2.61",
+          "OS-PA2-TI-2.65",
+          "OS-PA2-4.1-6",
+          "OS-PA2-4.1-46",
+          "OS-PA2-4.2-78",
+          "OS-PA2-4.4-254"
+        ],
+        "mode": "selected_complementary",
+        "completion_scope": "Selected OpenStax prerequisite bridge: the 43 named source problems in this branch. Complete the needed operations with drawings/explanations, skip repetitive siblings only after two varied unaided checks, and sample later retention. Record only this bounded branch scope; no constituent or independent-mastery inference."
       }
     },
     "derived": {
@@ -4777,5 +4828,455 @@
         "source": "https://www.deep-ml.com/labs/3d26c3f9-cb73-4ab1-bc4d-86cfab2af6d1"
       }
     }
+  },
+  "curated": [
+    {
+      "id": "OS-PA2-TI-4.1",
+      "title": "OpenStax 4.1 · Read equal-area visual fractions",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id3265087",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_meaning"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.11",
+      "title": "OpenStax 4.11 · Represent an improper fraction",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1752739",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_meaning"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.25",
+      "title": "OpenStax 4.25 · Explain a changed partition",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1956429",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_meaning"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.29",
+      "title": "OpenStax 4.29 · Construct an equivalent fraction",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1717726",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_meaning"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.31",
+      "title": "OpenStax 4.31 · Transfer fractions onto a number line",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1607494",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_meaning"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.47",
+      "title": "OpenStax 4.47 · Model fraction multiplication",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id1358945",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_operations"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.49",
+      "title": "OpenStax 4.49 · Multiply and simplify fractions",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id2951424",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_operations"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.61",
+      "title": "OpenStax 4.61 · Model fraction division",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id1730116",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_operations"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.71",
+      "title": "OpenStax 4.71 · Divide with cancellation",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id2603320",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_operations"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.115",
+      "title": "OpenStax 4.115 · Model fraction subtraction",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-4-add-and-subtract-fractions-with-common-denominators#fs-id1378334",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_operations"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.125",
+      "title": "OpenStax 4.125 · Find a least common denominator",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1566083",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_operations"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.133",
+      "title": "OpenStax 4.133 · Add fractions with different units",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1582076",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_operations"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-4.139",
+      "title": "OpenStax 4.139 · Subtract with a nontrivial common denominator",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1517188",
+      "kind": "curated",
+      "target": [
+        "F01.fraction_operations"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-5.5",
+      "title": "OpenStax 5.5 · Read thousandths",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1730744",
+      "kind": "curated",
+      "target": [
+        "F01.decimals"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-5.7",
+      "title": "OpenStax 5.7 · Connect decimals to exact fractions",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1629545",
+      "kind": "curated",
+      "target": [
+        "F01.decimals"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-5.17",
+      "title": "OpenStax 5.17 · Round using place value",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1983348",
+      "kind": "curated",
+      "target": [
+        "F01.decimals"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-5.21",
+      "title": "OpenStax 5.21 · Align decimal places for addition",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1790869",
+      "kind": "curated",
+      "target": [
+        "F01.decimals"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-5.25",
+      "title": "OpenStax 5.25 · Subtract across zero decimal places",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1988321",
+      "kind": "curated",
+      "target": [
+        "F01.decimals"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-5.33",
+      "title": "OpenStax 5.33 · Scale decimal products",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1301882",
+      "kind": "curated",
+      "target": [
+        "F01.decimals"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-5.45",
+      "title": "OpenStax 5.45 · Divide by a small decimal",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1825643",
+      "kind": "curated",
+      "target": [
+        "F01.decimals"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-5.115",
+      "title": "OpenStax 5.115 · Distinguish an ordered ratio",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate#fs-id4126304",
+      "kind": "curated",
+      "target": [
+        "F01.ratios_percent"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-6.5",
+      "title": "OpenStax 6.5 · Convert percent to a fraction",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1248689",
+      "kind": "curated",
+      "target": [
+        "F01.ratios_percent"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-6.9",
+      "title": "OpenStax 6.9 · Convert percent to a decimal",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1472487",
+      "kind": "curated",
+      "target": [
+        "F01.ratios_percent"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-6.21",
+      "title": "OpenStax 6.21 · Convert fractions and mixed numbers to percent",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1304795",
+      "kind": "curated",
+      "target": [
+        "F01.ratios_percent"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-3.1",
+      "title": "OpenStax 3.1 · Place signed quantities on a number line",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers#fs-id1505758",
+      "kind": "curated",
+      "target": [
+        "F01.signed_numbers"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-3.31",
+      "title": "OpenStax 3.31 · Explain addition of a negative",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-2-add-integers#fs-id1166761472038",
+      "kind": "curated",
+      "target": [
+        "F01.signed_numbers"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-3.65",
+      "title": "OpenStax 3.65 · Explain subtraction of a negative",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-3-subtract-integers#fs-id2472624",
+      "kind": "curated",
+      "target": [
+        "F01.signed_numbers"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-3.93",
+      "title": "OpenStax 3.93 · Apply and explain signed multiplication",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-4-multiply-and-divide-integers#fs-id1544747",
+      "kind": "curated",
+      "target": [
+        "F01.signed_numbers"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-3.97",
+      "title": "OpenStax 3.97 · Apply signed division",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-4-multiply-and-divide-integers#fs-id1581695",
+      "kind": "curated",
+      "target": [
+        "F01.signed_numbers"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.9",
+      "title": "OpenStax 2.9 · Interpret repeated multiplication",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2576757",
+      "kind": "curated",
+      "target": [
+        "F01.powers_order"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.13",
+      "title": "OpenStax 2.13 · Evaluate integer powers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2139130",
+      "kind": "curated",
+      "target": [
+        "F01.powers_order"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.15",
+      "title": "OpenStax 2.15 · Use parentheses and operation order",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2399434",
+      "kind": "curated",
+      "target": [
+        "F01.powers_order"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-10.125",
+      "title": "OpenStax 10.125 · Interpret negative exponents",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/10-5-integer-exponents-and-scientific-notation#fs-id788663",
+      "kind": "curated",
+      "target": [
+        "F01.extended_powers_roots"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.27",
+      "title": "OpenStax 2.27 · Substitute in an expression",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id2761352",
+      "kind": "curated",
+      "target": [
+        "F02"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.41",
+      "title": "OpenStax 2.41 · Combine like terms",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id1611433",
+      "kind": "curated",
+      "target": [
+        "F02"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.49",
+      "title": "OpenStax 2.49 · Translate grouping into algebra",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id1971669",
+      "kind": "curated",
+      "target": [
+        "F02"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.55",
+      "title": "OpenStax 2.55 · Check a proposed solution",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id2352945",
+      "kind": "curated",
+      "target": [
+        "F02"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.61",
+      "title": "OpenStax 2.61 · Preserve equality while solving",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id3003345",
+      "kind": "curated",
+      "target": [
+        "F02"
+      ]
+    },
+    {
+      "id": "OS-PA2-TI-2.65",
+      "title": "OpenStax 2.65 · Undo subtraction with equality",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id1237354",
+      "kind": "curated",
+      "target": [
+        "F02"
+      ]
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/time-based-split-with-gap",
+      "title": "Time-Based Split with a Gap",
+      "url": "https://www.tensortonic.com/problems/time-based-split-with-gap",
+      "kind": "curated",
+      "target": [
+        "L01",
+        "C16"
+      ],
+      "purpose": "Use only when the first primary data-split activity omitted temporal gaps.",
+      "task": "Original indices, exact temporal cutoffs, gap exclusion and empty input."
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/point-in-time-feature-join",
+      "title": "Point-in-Time Feature Join",
+      "url": "https://www.tensortonic.com/problems/point-in-time-feature-join",
+      "kind": "curated",
+      "target": [
+        "C16",
+        "L01"
+      ],
+      "purpose": "Use for a missing available-time join demand, not a second generic split lesson.",
+      "task": "Newest available per-entity features with TTL, missing entities and inclusive boundaries."
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/autograd-l06-shared-path-gradient-accumulation",
+      "title": "Accumulate Shared-Path Gradients",
+      "url": "https://www.tensortonic.com/problems/autograd-l06-shared-path-gradient-accumulation",
+      "kind": "curated",
+      "target": [
+        "C11",
+        "M06"
+      ],
+      "purpose": "Use only if shared-subexpression accumulation remains a gap after the primary autodiff build.",
+      "task": "Manual reverse mode, unordered DAGs, repeated operands, unreachable leaves and immutable inputs."
+    },
+    {
+      "id": "https://www.tensortonic.com/projects/sparse-autoencoder-feature-lab",
+      "title": "Sparse Autoencoder Feature Lab",
+      "url": "https://www.tensortonic.com/projects/sparse-autoencoder-feature-lab",
+      "kind": "curated",
+      "target": [
+        "L24",
+        "R04"
+      ],
+      "purpose": "Prefer the native project for SAE instruction before adding an original correlation/intervention exercise; full notebook access not tested.",
+      "task": "Sparse reconstruction, example inspection, counterexamples and feature interventions."
+    },
+    {
+      "id": "https://www.tensortonic.com/projects/citation-gnn-from-scratch",
+      "title": "Classify Research Papers by Their Citations",
+      "url": "https://www.tensortonic.com/projects/citation-gnn-from-scratch",
+      "kind": "curated",
+      "target": [
+        "L17",
+        "M17"
+      ],
+      "purpose": "Use only for a graph-study need not met by the primary build; chemical/biological semantics remain additional.",
+      "task": "Message passing, normalization and over-smoothing experiments on citation graphs."
+    },
+    {
+      "id": "https://www.tensortonic.com/ml-design/leakage",
+      "title": "Data splits and leakage",
+      "url": "https://www.tensortonic.com/ml-design/leakage",
+      "kind": "curated",
+      "target": [
+        "L01",
+        "S02",
+        "S10"
+      ],
+      "purpose": "Prefer native explanation for generic leakage; domain-specific audit still needs actual data.",
+      "task": "Availability times, entity/time splits, near duplicates, train-only fitting and adaptive test use."
+    },
+    {
+      "id": "https://www.tensortonic.com/research/transformer/transformers-tokenization",
+      "title": "Transformer Tokenization",
+      "url": "https://www.tensortonic.com/research/transformer/transformers-tokenization",
+      "kind": "curated",
+      "target": [
+        "L14",
+        "L15"
+      ],
+      "purpose": "A conditional alternative component; do not repeat a primary tokenizer implementation unless a specific missing contract matters.",
+      "task": "Deterministic word vocabulary, reserved IDs, lowercasing and unknown tokens."
+    }
+  ],
+  "scientific_curation": {
+    "directory": "research/curation/2026-11-28/",
+    "baseline": "6a482af3b8758730ff8662cd4c5b862def219c1f",
+    "status_counts": {
+      "deferred": 32,
+      "independent_assessment": 76,
+      "unresolved": 7,
+      "confirmed_complementary": 43,
+      "native_referral": 18
+    },
+    "boundary": "Whole-competency coverage and learner proficiency are separate from activity availability."
   }
 }

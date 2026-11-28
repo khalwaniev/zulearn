@@ -7687,13 +7687,13 @@
         {
           "id": "dml-math",
           "title": "Math",
-          "url": "https://www.deep-ml.com/math",
+          "url": "https://www.deep-ml.com/math-problems",
           "branches": [
             {
               "id": "UNIT-DML-MATH-A5016834F8DF",
               "title": "Deep Learning Theory",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -9302,7 +9302,7 @@
               "id": "UNIT-DML-MATH-CAB0BF055BF2",
               "title": "Machine Learning Fundamentals",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -9511,7 +9511,7 @@
               "id": "UNIT-DML-MATH-59169E4DC252",
               "title": "Probability and Statistics for Machine Learning",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -9845,7 +9845,7 @@
               "id": "UNIT-DML-MATH-D115C4A70CCA",
               "title": "Statistical Inference",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -9969,7 +9969,7 @@
               "id": "UNIT-DML-MATH-6FA8B80093EE",
               "title": "Experiments and Causal Inference",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -10078,7 +10078,7 @@
               "id": "UNIT-DML-MATH-69DBF44B3D90",
               "title": "Computer Vision",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -10222,7 +10222,7 @@
               "id": "UNIT-DML-MATH-99CE0B20B793",
               "title": "Reinforcement Learning Theory",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -10516,7 +10516,7 @@
               "id": "UNIT-DML-MATH-671CE3B9A680",
               "title": "Reinforcement Learning",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -10620,7 +10620,7 @@
               "id": "UNIT-DML-MATH-0BA46F6FB199",
               "title": "Linear Algebra for Machine Learning",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -10744,7 +10744,7 @@
               "id": "UNIT-DML-MATH-205980C10C7C",
               "title": "Inference Engineering",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -11013,7 +11013,7 @@
               "id": "UNIT-DML-MATH-6C907452D119",
               "title": "Probabilistic Machine Learning",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -11782,7 +11782,7 @@
               "id": "UNIT-DML-MATH-E6E676AA62D0",
               "title": "Calculus for Machine Learning",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -11871,7 +11871,7 @@
               "id": "UNIT-DML-MATH-BCD41373249E",
               "title": "Deep Learning",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -11920,7 +11920,7 @@
               "id": "UNIT-DML-MATH-A29093053F46",
               "title": "ML Compilers",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12034,7 +12034,7 @@
               "id": "UNIT-DML-MATH-CADAF796FC7C",
               "title": "Statistical Modeling",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12178,7 +12178,7 @@
               "id": "UNIT-DML-MATH-678D0D118A2F",
               "title": "Graph Neural Networks",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12247,7 +12247,7 @@
               "id": "UNIT-DML-MATH-BFD5A3040625",
               "title": "Mixture of Experts",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12331,7 +12331,7 @@
               "id": "UNIT-DML-MATH-42F3C039F5F3",
               "title": "GPU Programming",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12380,7 +12380,7 @@
               "id": "UNIT-DML-MATH-F4D88E66DBC6",
               "title": "Probability and Statistics for ML",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12409,7 +12409,7 @@
               "id": "UNIT-DML-MATH-9316CD4D881E",
               "title": "Machine Learning",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12443,7 +12443,7 @@
               "id": "UNIT-DML-MATH-A3E4D9D8B7EB",
               "title": "Quantization",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12477,7 +12477,7 @@
               "id": "UNIT-DML-MATH-D15FE80CEDA9",
               "title": "Bias-variance and L2 penalty",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12506,7 +12506,7 @@
               "id": "UNIT-DML-MATH-76E97ABF866B",
               "title": "Supervised learning setup",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -12535,7 +12535,7 @@
               "id": "UNIT-DML-MATH-AA5C52EE0465",
               "title": "AI Safety",
               "url": null,
-              "source_url": "https://www.deep-ml.com/math",
+              "source_url": "https://www.deep-ml.com/math-problems",
               "link_kind": "category",
               "default_selected": false,
               "selection": "optional_catalogue",
@@ -13903,7 +13903,14 @@
               "complementary_status": "conditional",
               "platform": "TensorTonic",
               "category": "Study Plans & Roadmap",
-              "category_id": "tt-plans"
+              "category_id": "tt-plans",
+              "contents": [
+                {
+                  "title": "Shared-path gradient accumulation · conditional native variation",
+                  "url": "https://www.tensortonic.com/problems/autograd-l06-shared-path-gradient-accumulation",
+                  "scope": "Repeated operand positions and disconnected leaves; this is informational and does not silently expand any completed scope."
+                }
+              ]
             },
             {
               "id": "UNIT-TT-PLAN-ALPHAGO",
@@ -14566,7 +14573,7 @@
               "scope_mode": "provider_full",
               "completion_scope": "Complete the named provider resource and its relevant required work. Confirm the named resource at the provider before reporting completion.",
               "scope_ids": [],
-              "note": "Optional named resource; inspect its controls and scope before selecting.",
+              "note": "Public native project includes sparse reconstruction, example inspection and intervention. Full notebook execution/hardware access not verified; use for a named SAE gap.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": true,
@@ -16004,7 +16011,19 @@
               "complementary_status": "conditional",
               "platform": "TensorTonic",
               "category": "ML System Design",
-              "category_id": "tt-design"
+              "category_id": "tt-design",
+              "contents": [
+                {
+                  "title": "Time-Based Split with a Gap",
+                  "url": "https://www.tensortonic.com/problems/time-based-split-with-gap",
+                  "scope": "Conditional native contract; no constituent completion inferred."
+                },
+                {
+                  "title": "Point-in-Time Feature Join",
+                  "url": "https://www.tensortonic.com/problems/point-in-time-feature-join",
+                  "scope": "Conditional native contract; no constituent completion inferred."
+                }
+              ]
             },
             {
               "id": "UNIT-TT-DESIGN-6050E8A26E2E",
@@ -17184,11 +17203,64 @@
               "url": null,
               "source_url": "#bank",
               "link_kind": "category",
-              "default_selected": false,
-              "selection": "pending_complementary",
+              "default_selected": true,
+              "selection": "selected_complementary",
               "scope_mode": "local_selection",
-              "completion_scope": "Only independently verified complementary items in this thematic set. No confirmed unique gap has yet been established; retained candidates are pending review.",
+              "completion_scope": "Selected OpenStax prerequisite bridge: the 43 named source problems in this branch. Complete the needed operations with drawings/explanations, skip repetitive siblings only after two varied unaided checks, and sample later retention. Record only this bounded branch scope; no constituent or independent-mastery inference.",
               "scope_ids": [
+                "OS-PA2-TI-4.1",
+                "OS-PA2-TI-4.11",
+                "OS-PA2-TI-4.25",
+                "OS-PA2-TI-4.29",
+                "OS-PA2-TI-4.31",
+                "OS-PA2-TI-4.47",
+                "OS-PA2-TI-4.49",
+                "OS-PA2-TI-4.61",
+                "OS-PA2-TI-4.71",
+                "OS-PA2-TI-4.115",
+                "OS-PA2-TI-4.125",
+                "OS-PA2-TI-4.133",
+                "OS-PA2-TI-4.139",
+                "OS-PA2-TI-5.5",
+                "OS-PA2-TI-5.7",
+                "OS-PA2-TI-5.17",
+                "OS-PA2-TI-5.21",
+                "OS-PA2-TI-5.25",
+                "OS-PA2-TI-5.33",
+                "OS-PA2-TI-5.45",
+                "OS-PA2-TI-5.115",
+                "OS-PA2-TI-6.5",
+                "OS-PA2-TI-6.9",
+                "OS-PA2-TI-6.21",
+                "OS-PA2-TI-3.1",
+                "OS-PA2-TI-3.31",
+                "OS-PA2-TI-3.65",
+                "OS-PA2-TI-3.93",
+                "OS-PA2-TI-3.97",
+                "OS-PA2-TI-2.9",
+                "OS-PA2-TI-2.13",
+                "OS-PA2-TI-2.15",
+                "OS-PA2-TI-10.125",
+                "OS-PA2-TI-2.27",
+                "OS-PA2-TI-2.41",
+                "OS-PA2-TI-2.49",
+                "OS-PA2-TI-2.55",
+                "OS-PA2-TI-2.61",
+                "OS-PA2-TI-2.65",
+                "OS-PA2-4.1-6",
+                "OS-PA2-4.1-46",
+                "OS-PA2-4.2-78",
+                "OS-PA2-4.4-254"
+              ],
+              "note": "Verified canonical elementary practice. Begin with fraction visuals; later arithmetic/algebra enters only after its local prerequisites. Native task absence outside the inspected contracts remains unresolved.",
+              "observed_count": null,
+              "identity": "named resource",
+              "trackable": true,
+              "complementary_status": "confirmed_bounded",
+              "platform": "Zulearn",
+              "category": "Problem Bank",
+              "category_id": "zul-bank",
+              "historical_scope_ids": [
                 "ZP-FRA-001",
                 "ZP-FRA-002",
                 "ZP-FRA-003",
@@ -17210,14 +17282,266 @@
                 "ZP-ALG-004",
                 "ZP-ALG-005"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
-              "observed_count": null,
-              "identity": "named resource",
-              "trackable": false,
-              "complementary_status": "pending_verification",
-              "platform": "Zulearn",
-              "category": "Problem Bank",
-              "category_id": "zul-bank"
+              "contents": [
+                {
+                  "id": "OS-PA2-TI-4.1",
+                  "title": "OpenStax 4.1 · Read equal-area visual fractions",
+                  "url": "#item-OS-PA2-TI-4.1",
+                  "scope": "Prerequisites: F01.basic_ops"
+                },
+                {
+                  "id": "OS-PA2-TI-4.11",
+                  "title": "OpenStax 4.11 · Represent an improper fraction",
+                  "url": "#item-OS-PA2-TI-4.11",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.25",
+                  "title": "OpenStax 4.25 · Explain a changed partition",
+                  "url": "#item-OS-PA2-TI-4.25",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.29",
+                  "title": "OpenStax 4.29 · Construct an equivalent fraction",
+                  "url": "#item-OS-PA2-TI-4.29",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.31",
+                  "title": "OpenStax 4.31 · Transfer fractions onto a number line",
+                  "url": "#item-OS-PA2-TI-4.31",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.47",
+                  "title": "OpenStax 4.47 · Model fraction multiplication",
+                  "url": "#item-OS-PA2-TI-4.47",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.49",
+                  "title": "OpenStax 4.49 · Multiply and simplify fractions",
+                  "url": "#item-OS-PA2-TI-4.49",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.61",
+                  "title": "OpenStax 4.61 · Model fraction division",
+                  "url": "#item-OS-PA2-TI-4.61",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.71",
+                  "title": "OpenStax 4.71 · Divide with cancellation",
+                  "url": "#item-OS-PA2-TI-4.71",
+                  "scope": "Prerequisites: F01.fraction_operations"
+                },
+                {
+                  "id": "OS-PA2-TI-4.115",
+                  "title": "OpenStax 4.115 · Model fraction subtraction",
+                  "url": "#item-OS-PA2-TI-4.115",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.125",
+                  "title": "OpenStax 4.125 · Find a least common denominator",
+                  "url": "#item-OS-PA2-TI-4.125",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-4.133",
+                  "title": "OpenStax 4.133 · Add fractions with different units",
+                  "url": "#item-OS-PA2-TI-4.133",
+                  "scope": "Prerequisites: F01.fraction_operations"
+                },
+                {
+                  "id": "OS-PA2-TI-4.139",
+                  "title": "OpenStax 4.139 · Subtract with a nontrivial common denominator",
+                  "url": "#item-OS-PA2-TI-4.139",
+                  "scope": "Prerequisites: F01.fraction_operations"
+                },
+                {
+                  "id": "OS-PA2-TI-5.5",
+                  "title": "OpenStax 5.5 · Read thousandths",
+                  "url": "#item-OS-PA2-TI-5.5",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-TI-5.7",
+                  "title": "OpenStax 5.7 · Connect decimals to exact fractions",
+                  "url": "#item-OS-PA2-TI-5.7",
+                  "scope": "Prerequisites: F01.fraction_operations, F01.signed_numbers"
+                },
+                {
+                  "id": "OS-PA2-TI-5.17",
+                  "title": "OpenStax 5.17 · Round using place value",
+                  "url": "#item-OS-PA2-TI-5.17",
+                  "scope": "Prerequisites: F01.decimals"
+                },
+                {
+                  "id": "OS-PA2-TI-5.21",
+                  "title": "OpenStax 5.21 · Align decimal places for addition",
+                  "url": "#item-OS-PA2-TI-5.21",
+                  "scope": "Prerequisites: F01.decimals"
+                },
+                {
+                  "id": "OS-PA2-TI-5.25",
+                  "title": "OpenStax 5.25 · Subtract across zero decimal places",
+                  "url": "#item-OS-PA2-TI-5.25",
+                  "scope": "Prerequisites: F01.decimals"
+                },
+                {
+                  "id": "OS-PA2-TI-5.33",
+                  "title": "OpenStax 5.33 · Scale decimal products",
+                  "url": "#item-OS-PA2-TI-5.33",
+                  "scope": "Prerequisites: F01.decimals, F01.fraction_operations"
+                },
+                {
+                  "id": "OS-PA2-TI-5.45",
+                  "title": "OpenStax 5.45 · Divide by a small decimal",
+                  "url": "#item-OS-PA2-TI-5.45",
+                  "scope": "Prerequisites: F01.decimals, F01.fraction_operations"
+                },
+                {
+                  "id": "OS-PA2-TI-5.115",
+                  "title": "OpenStax 5.115 · Distinguish an ordered ratio",
+                  "url": "#item-OS-PA2-TI-5.115",
+                  "scope": "Prerequisites: F01.fraction_operations"
+                },
+                {
+                  "id": "OS-PA2-TI-6.5",
+                  "title": "OpenStax 6.5 · Convert percent to a fraction",
+                  "url": "#item-OS-PA2-TI-6.5",
+                  "scope": "Prerequisites: F01.fraction_operations"
+                },
+                {
+                  "id": "OS-PA2-TI-6.9",
+                  "title": "OpenStax 6.9 · Convert percent to a decimal",
+                  "url": "#item-OS-PA2-TI-6.9",
+                  "scope": "Prerequisites: F01.decimals, F01.ratios_percent"
+                },
+                {
+                  "id": "OS-PA2-TI-6.21",
+                  "title": "OpenStax 6.21 · Convert fractions and mixed numbers to percent",
+                  "url": "#item-OS-PA2-TI-6.21",
+                  "scope": "Prerequisites: F01.decimals, F01.fraction_operations, F01.ratios_percent"
+                },
+                {
+                  "id": "OS-PA2-TI-3.1",
+                  "title": "OpenStax 3.1 · Place signed quantities on a number line",
+                  "url": "#item-OS-PA2-TI-3.1",
+                  "scope": "Prerequisites: F01.basic_ops"
+                },
+                {
+                  "id": "OS-PA2-TI-3.31",
+                  "title": "OpenStax 3.31 · Explain addition of a negative",
+                  "url": "#item-OS-PA2-TI-3.31",
+                  "scope": "Prerequisites: F01.signed_numbers"
+                },
+                {
+                  "id": "OS-PA2-TI-3.65",
+                  "title": "OpenStax 3.65 · Explain subtraction of a negative",
+                  "url": "#item-OS-PA2-TI-3.65",
+                  "scope": "Prerequisites: F01.signed_numbers"
+                },
+                {
+                  "id": "OS-PA2-TI-3.93",
+                  "title": "OpenStax 3.93 · Apply and explain signed multiplication",
+                  "url": "#item-OS-PA2-TI-3.93",
+                  "scope": "Prerequisites: F01.signed_numbers"
+                },
+                {
+                  "id": "OS-PA2-TI-3.97",
+                  "title": "OpenStax 3.97 · Apply signed division",
+                  "url": "#item-OS-PA2-TI-3.97",
+                  "scope": "Prerequisites: F01.signed_numbers"
+                },
+                {
+                  "id": "OS-PA2-TI-2.9",
+                  "title": "OpenStax 2.9 · Interpret repeated multiplication",
+                  "url": "#item-OS-PA2-TI-2.9",
+                  "scope": "Prerequisites: F01.basic_ops"
+                },
+                {
+                  "id": "OS-PA2-TI-2.13",
+                  "title": "OpenStax 2.13 · Evaluate integer powers",
+                  "url": "#item-OS-PA2-TI-2.13",
+                  "scope": "Prerequisites: F01.powers_order"
+                },
+                {
+                  "id": "OS-PA2-TI-2.15",
+                  "title": "OpenStax 2.15 · Use parentheses and operation order",
+                  "url": "#item-OS-PA2-TI-2.15",
+                  "scope": "Prerequisites: F01.powers_order"
+                },
+                {
+                  "id": "OS-PA2-TI-10.125",
+                  "title": "OpenStax 10.125 · Interpret negative exponents",
+                  "url": "#item-OS-PA2-TI-10.125",
+                  "scope": "Prerequisites: F01.fraction_operations, F01.powers_order"
+                },
+                {
+                  "id": "OS-PA2-TI-2.27",
+                  "title": "OpenStax 2.27 · Substitute in an expression",
+                  "url": "#item-OS-PA2-TI-2.27",
+                  "scope": "Prerequisites: F01.powers_order"
+                },
+                {
+                  "id": "OS-PA2-TI-2.41",
+                  "title": "OpenStax 2.41 · Combine like terms",
+                  "url": "#item-OS-PA2-TI-2.41",
+                  "scope": "Prerequisites: F02"
+                },
+                {
+                  "id": "OS-PA2-TI-2.49",
+                  "title": "OpenStax 2.49 · Translate grouping into algebra",
+                  "url": "#item-OS-PA2-TI-2.49",
+                  "scope": "Prerequisites: F02"
+                },
+                {
+                  "id": "OS-PA2-TI-2.55",
+                  "title": "OpenStax 2.55 · Check a proposed solution",
+                  "url": "#item-OS-PA2-TI-2.55",
+                  "scope": "Prerequisites: F02"
+                },
+                {
+                  "id": "OS-PA2-TI-2.61",
+                  "title": "OpenStax 2.61 · Preserve equality while solving",
+                  "url": "#item-OS-PA2-TI-2.61",
+                  "scope": "Prerequisites: F02"
+                },
+                {
+                  "id": "OS-PA2-TI-2.65",
+                  "title": "OpenStax 2.65 · Undo subtraction with equality",
+                  "url": "#item-OS-PA2-TI-2.65",
+                  "scope": "Prerequisites: F02"
+                },
+                {
+                  "id": "OS-PA2-4.1-6",
+                  "title": "OpenStax 4.1 #6",
+                  "url": "#item-OS-PA2-4.1-6",
+                  "scope": "Prerequisites: F01.basic_ops"
+                },
+                {
+                  "id": "OS-PA2-4.1-46",
+                  "title": "OpenStax 4.1 #46",
+                  "url": "#item-OS-PA2-4.1-46",
+                  "scope": "Prerequisites: F01.basic_ops"
+                },
+                {
+                  "id": "OS-PA2-4.2-78",
+                  "title": "OpenStax 4.2 #78",
+                  "url": "#item-OS-PA2-4.2-78",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                },
+                {
+                  "id": "OS-PA2-4.4-254",
+                  "title": "OpenStax 4.4 #254",
+                  "url": "#item-OS-PA2-4.4-254",
+                  "scope": "Prerequisites: F01.fraction_meaning"
+                }
+              ]
             },
             {
               "id": "UNIT-PRACTICE-C",
@@ -17242,7 +17566,7 @@
                 "ZP-TCS-003",
                 "ZP-TCS-004"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
+              "note": "Reviewed retained material: 10 deferred, 14 independent assessment. No additional confirmed practice scope is activated.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": false,
@@ -17269,7 +17593,7 @@
                 "ZP-PDE-001",
                 "ZP-NUM-001"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
+              "note": "Reviewed retained material: 1 deferred, 31 independent assessment, 1 unresolved. No additional confirmed practice scope is activated.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": false,
@@ -17295,7 +17619,7 @@
                 "ZP-SCI-004",
                 "ZP-SCI-005"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
+              "note": "Reviewed retained material: 9 independent assessment, 1 unresolved. No additional confirmed practice scope is activated.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": false,
@@ -17317,7 +17641,7 @@
               "scope_ids": [
                 "ZP-RES-001"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
+              "note": "Reviewed retained material: 5 independent assessment, 1 unresolved. No additional confirmed practice scope is activated.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": false,
@@ -17341,7 +17665,7 @@
                 "ZP-BIO-002",
                 "ZP-BIO-003"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
+              "note": "Reviewed retained material: 6 independent assessment, 3 unresolved. No additional confirmed practice scope is activated.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": false,
@@ -17364,7 +17688,7 @@
                 "https://leetcode.com/problems/two-sum/",
                 "https://leetcode.com/problems/valid-anagram/"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
+              "note": "Reviewed retained material: . No additional confirmed practice scope is activated.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": false,
@@ -17386,7 +17710,7 @@
               "scope_ids": [
                 "https://leetcode.com/problems/valid-parentheses/"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
+              "note": "Reviewed retained material: . No additional confirmed practice scope is activated.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": false,
@@ -17408,7 +17732,7 @@
               "scope_ids": [
                 "https://leetcode.com/problems/binary-search/"
               ],
-              "note": "Pending complementary verification. Preserved and discoverable in Problem Bank; no completion obligation.",
+              "note": "Reviewed retained material: . No additional confirmed practice scope is activated.",
               "observed_count": null,
               "identity": "named resource",
               "trackable": false,
@@ -17884,7 +18208,13 @@
     "No cross-platform exact-duplicate pair is verified. Existing canonical URL aliases are preserved.",
     "Deep-ML individual URLs remain unavailable for most snapshot observations. Source-category links are labelled.",
     "TensorTonic project catalogue remains partially identified; release observations are not unique-project counts.",
-    "All local problem candidates remain pending complementary verification; no new original exercises were created."
+    "All local problem candidates remain pending complementary verification; no new original exercises were created.",
+    "2026-11-28 curation confirms a bounded elementary source bridge and additional native references. Whole-competency coverage, hidden paid tasks and actual independent learner performance remain distinct and incomplete."
   ],
-  "selection_policy": "Primary parts and existing curated course/paper/transfer scopes start selected. Other catalogue resources are optional. Selection and completion changes are staged, explicitly authorized, conflict-checked and committed to docs/progress.json; no constituent completion is inferred."
+  "selection_policy": "Primary parts and existing curated course/paper/transfer scopes start selected. Other catalogue resources are optional. Selection and completion changes are staged, explicitly authorized, conflict-checked and committed to docs/progress.json; no constituent completion is inferred.",
+  "scientific_curation": {
+    "directory": "research/curation/2026-11-28/",
+    "coverage_matrix": "research/curation/2026-11-28/provider-coverage-matrix.csv",
+    "primary_preserved": true
+  }
 }

@@ -19,7 +19,7 @@
   }
   function allItems(d) {
     const old = legacyItems(d), ids = new Set(old.map(x => x.id));
-    return [...old, ...branches(d).filter(b => !ids.has(b.id))];
+    return [...old, ...(d.extras.curated || []), ...branches(d).filter(b => !ids.has(b.id))];
   }
   function canonical(value) {
     try {
@@ -37,7 +37,7 @@
     const s = String(value).trim();
     if (allItems(d).some(x => x.id === s)) return s;
     const url = canonical(s);
-    for (const x of [...d.extras.tt, ...d.extras.registered, ...d.extras.papers]) {
+    for (const x of [...d.extras.tt, ...d.extras.registered, ...d.extras.papers, ...(d.extras.curated || [])]) {
       if (x.source_observation === s || x.aliases?.includes(s) || (url && [x.url, ...(x.aliases || [])].some(v => canonical(v) === url))) return x.id;
     }
     return null;
@@ -93,9 +93,28 @@
     if (d.deep.concepts.some(c => !scopeOwners.has(c.id))) return false;
     return h.aliases.every(a => known.has(a.id) && resolveId(d, a.alias) === a.id);
   }
+  const auditStatuses = ['confirmed_complementary', 'independent_assessment', 'native_referral', 'deferred', 'unresolved'];
+  function auditStats(audit) {
+    const counts = Object.fromEntries(auditStatuses.map(s => [s, 0]));
+    for (const entry of audit.entries || []) if (own(counts, entry.status)) counts[entry.status]++;
+    return counts;
+  }
+  function validateAudit(d) {
+    const a = d.audit, known = new Set(allItems(d).map(x => x.id));
+    if (!object(a) || a.schema_version !== 2 || !Array.isArray(a.entries) || !object(a.status_counts)) return false;
+    if (new Set(a.entries.map(x => x.id)).size !== a.entries.length || !equal(a.status_counts, auditStats(a))) return false;
+    if (a.entries.some(x => !known.has(x.id) || !auditStatuses.includes(x.status) || !x.title || !x.gap || !x.provenance || !x.verification || !x.why_insufficient || !x.inspection_limit || !Array.isArray(x.provider_evidence) || !/^https:\/\//.test(x.url))) return false;
+    const confirmed = a.entries.filter(x => x.status === 'confirmed_complementary');
+    if (confirmed.some(x => !x.source_id || !x.gap_id || !Array.isArray(x.prerequisites) || !x.difficulty || !x.learning_depth || !x.lawful_access || !x.transfer_criterion || !x.complementarity_justification)) return false;
+    const counts = auditStats(a);
+    if (a.confirmed_complementary_count !== counts.confirmed_complementary || a.native_referral_count !== counts.native_referral || a.pending_count !== counts.unresolved || a.confirmed_gap_count !== new Set(confirmed.map(x => x.gap_id)).size || a.confirmed_unique_gap_count !== null) return false;
+    // A branch may select confirmed practice only. Assessment availability never
+    // silently activates an additional compulsory practice scope.
+    return branches(d).filter(b => b.complementary_status === 'confirmed_bounded').every(b => b.trackable && b.scope_ids.length > 0 && b.scope_ids.every(id => confirmed.some(x => x.id === id)));
+  }
   function validateRegistry(d) {
     const old = legacyItems(d), ids = old.map(x => x.id);
-    if (new Set(ids).size !== ids.length || d.curr.competencies.length !== 109 || d.deep.concepts.length !== 112) return false;
+    if (new Set(allItems(d).map(x => x.id)).size !== allItems(d).length || new Set(ids).size !== ids.length || d.curr.competencies.length !== 109 || d.deep.concepts.length !== 112) return false;
     const aliases = new Map();
     for (const x of [...d.extras.tt, ...d.extras.registered]) {
       for (const alias of [x.url, x.source_observation, ...(x.aliases || [])].filter(Boolean)) {
@@ -104,7 +123,7 @@
         aliases.set(key, x.id);
       }
     }
-    return validateHierarchy(d);
+    return validateHierarchy(d) && (!d.audit || validateAudit(d));
   }
   function batchDraft(d, p, edits, digest = '') {
     const changes = Object.entries(edits).map(([id, change]) => ({id, previous: p.records[id] || null, previous_selection: p.selections?.[id] || null, ...change}));
@@ -166,8 +185,8 @@
     if (id === 'bank') return {view: 'bank', target: 'bank'};
     const rawKey = id.replace(/^(item-|lesson-)/, '');
     const key = resolveId(d, rawKey) || rawKey;
-    const bank = [...d.extras.bank, ...d.extras.sheets, ...d.extras.assignments, ...d.extras.registered, ...d.extras.tt];
-    if (bank.some(x => x.id === key)) return {view: 'bank', target: 'exercise-' + encodeURIComponent(key), pending: !d.extras.tt.some(x => x.id === key)};
+    const bank = [...d.extras.bank, ...d.extras.sheets, ...d.extras.assignments, ...d.extras.registered, ...d.extras.tt, ...(d.extras.curated || [])];
+    if (bank.some(x => x.id === key)) return {view: 'bank', target: 'exercise-' + encodeURIComponent(key), pending: d.audit ? d.audit.entries.find(x => x.id === key)?.status === 'unresolved' : !d.extras.tt.some(x => x.id === key)};
     const bs = branches(d);
     const b = bs.find(b => b.id === key || 'branch-' + b.id === id || b.scope_ids.includes(key));
     if (b) return {view: 'resources', target: 'branch-' + b.id};
@@ -177,7 +196,7 @@
     if (id.startsWith('category-') || id === 'savePanel' || id === 'legacyNotice') return {view: 'resources', target: id};
     return {view: 'resources', target: 'resources'};
   }
-  const api = {statuses, done, equal, branches, legacyItems, allItems, canonical, resolveId, validRecord, validSelection, validProgress, selection, checklistStats, validateHierarchy, validateRegistry, batchDraft, applyBatch, committedMatches, rational, checkAnswer, viewIds, routeView};
+  const api = {statuses, done, equal, branches, legacyItems, allItems, canonical, resolveId, validRecord, validSelection, validProgress, selection, checklistStats, validateHierarchy, validateRegistry, auditStatuses, auditStats, validateAudit, batchDraft, applyBatch, committedMatches, rational, checkAnswer, viewIds, routeView};
   if (typeof module !== 'undefined') module.exports = api;
   else root.ZulearnModel = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

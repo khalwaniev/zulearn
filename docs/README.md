@@ -2,6 +2,8 @@
 
 This interface supersedes the earlier five-page UI and concept-level checklist. The scientific curriculum and original source materials remain preserved. The reviewed starting commit is `0dd9efc2960ece62712b2df753663197ee7934ac`.
 
+Scientific content was newly reviewed against `6a482af3b8758730ff8662cd4c5b862def219c1f`. See the persistent [scientific curation evidence](../research/curation/2026-11-28/README.md); the inaccessible earlier Deep Research artifacts are not used.
+
 The two primary destinations are **Learning Resources** (the default homepage) and **Problem Bank**. Deep-ML and TensorTonic deliver their own learning content. Zulearn organizes resources, stages self-reported branch completion, and exposes retained practice with honest provenance. It does not schedule learning or infer mastery.
 
 ## Resource hierarchy and checklist
@@ -27,12 +29,12 @@ Only selected, trackable first-level branches receive a completion checkbox. Pro
 | TensorTonic | ML System Design | 58 | 0 |
 | TensorTonic | Articles | 8 thematic groups | 0 |
 | Zulearn | Lessons | 2 chapters | 2 |
-| Zulearn | Problem Bank | 9 candidate thematic sets | 0 |
+| Zulearn | Problem Bank | 9 thematic branches | 1 bounded foundational selection |
 | Zulearn | Selected Courses | 5 bounded selections | 5 |
 | Zulearn | Research Papers | 17 | 17 |
-| **Total** | **18 parent categories** | **561** | **40** |
+| **Total** | **18 parent categories** | **561** | **41** |
 
-The 40 selected units are 14 primary parts and 26 retained complementary selections. These are not 40 compulsory full courses. All nonprimary selections can be removed. There are 512 other selectable catalogue branches and nine pending problem sets; neither adds a default obligation. Counts are named navigation scopes/observations, not a unique-exercise count. Provider categories/observations can overlap.
+The 41 selected units are 14 primary parts and 27 bounded complementary selections, including one newly reviewed foundational practice branch. These are not 40 compulsory full courses. All nonprimary selections can be removed. There are 512 other selectable catalogue branches and eight inactive problem sets; neither adds a default obligation. Counts are named navigation scopes/observations, not a unique-exercise count. Provider categories/observations can overlap.
 
 The inventory is [resources.json](resources.json). Every branch states its title, local identifier, provenance or source URL, source-link type, selection status and completion scope. A local observation identifier is not a provider identifier. Missing direct URLs link to the actual provider category with an explicit label. Large categories disclose the first eight optional rows, then offer “Show all”; search includes the full named inventory. All 1,853 original factual observations remain unchanged in [the source inventory](../data/catalogue/inventory.json), including earlier snapshots. The five recovered TensorTonic project-category listings remain informational inside Projects.
 
@@ -42,11 +44,11 @@ Exactly `UNIT-DP-01` through `UNIT-DP-14` are manual part records. `UNIT-PATH-D`
 
 | Before | Current |
 |---|---|
-| 222 manual units; 31 derived parents | 40 initially selected branch units; one legacy-ID derived Deep-Path parent, plus category/platform summaries calculated directly |
+| 222 manual units; 31 derived parents | 41 initially selected branch units; one legacy-ID derived Deep-Path parent, plus category/platform summaries calculated directly |
 | 112 mandatory Deep-Path concept units | 14 part units; zero mandatory concept units |
 | 11 individual conditional TensorTonic tasks | Two bounded selections containing those tasks informationally |
 | 52 individual worksheets and 14 challenge units in checklist | Candidate practice grouped thematically; independent challenges preserved in GitHub and deferred from this UI |
-| 508 canonical identities | All 508 preserved; 486 additional local resource-scope identities; 994 distinct registry identities |
+| 508 canonical identities | All 508 preserved; 486 additional local resource-scope identities plus 46 new curated activity identities; 1,040 distinct registry identities |
 
 ### Full provider resources and local selections
 
@@ -56,34 +58,33 @@ MIT 18.06, MIT 18.02SC, MIT 6.042J, Harvard Stat 110 and Stanford EE364A have bo
 
 New selections default to a bounded complementary scope. Full-provider completion is a separate explicit choice, available only for resources whose scope permits it. Changing an already completed scope requires a separately reviewed reset; an old record cannot silently certify new work.
 
-## Problem Bank and scientific honesty
+## Problem Bank and scientific evidence
 
-[complementary-audit.json](complementary-audit.json) reviews every retained item, with target skill, candidate gap, relevant provider evidence and its inspection limit, insufficiency decision, exact provenance and verification method:
+[complementary-audit.json](complementary-audit.json) now displays five validated dispositions. The actual 119 existing candidates were reviewed, and the foundational source pool and conditional native referrals were expanded through fresh inspections.
 
-| Retained source | Count | Allocation |
+| Disposition | Current activities | Meaning |
 |---|---:|---|
-| Original Zulearn exercises | 46 | Pending complementary verification |
-| Approved worksheet display copies | 52 | Pending complementary verification |
-| Exact external problem locators | 17 | Pending complementary verification |
-| Conditional LeetCode identities | 4 | Pending complementary verification; three algorithmic sets under Zulearn |
-| Existing TensorTonic task references | 11 | Native conditional referrals; bodies/solutions not recreated |
-| Confirmed unique complementary gaps | **0** | No unsupported exclusivity claim |
+| Confirmed complementary practice | 43 | Exact OpenStax prerequisite problems: 4 retained identities plus 39 new source selections, with checked solutions/rubrics |
+| Independent assessments | 76 | Optional retained proof, algorithm, research and domain checks; no claim of a unique provider gap |
+| Native referrals | 18 | 11 retained and 7 newly inspected TensorTonic references, conditionally selected for named demands |
+| Deferred | 32 | Preserved historical practice adding no default workload |
+| Unresolved | 7 | Incomplete source evidence or insufficiently specified advanced studies; excluded from confirmed practice |
 
-All 119 pending candidates remain behind an explicit “pending complementary verification” disclosure. They are optional preserved practice, excluded from the confirmed complementary workload. Numeric practice still has an exact rational checker; written work has original criteria or an independent-review method. External statements/solutions are linked, not republished. No new original exercise was created. Lesson delivery stays in GitHub; Learning Resources contains no exercise bodies, answer forms, hints or solutions.
+The 119 existing candidates divide into 4 confirmed, 76 assessments, 32 deferred and 7 unresolved. The additional 39 confirmed source problems and 7 native references bring the displayed inventory to 176 activities. The eight confirmed prerequisite demand groups are **not** eight whole mastered competencies. Global provider exclusivity remains unknown; the null global unique-gap value is deliberate.
 
-The bounded current inspections include TensorTonic's bootstrap task, multiple-choice scoring task, and leakage lesson. In particular, entity/time splits, near-duplicates, preprocessing boundaries and repeated test use already appear in the leakage lesson. Generic leakage or statistical reasoning must not be presumed absent from the providers. Deep-ML's split lab exposes its name but not the complete task body to the public reader; its adequacy remains unresolved. The retained Deep-ML Intuition and Math inventories include substantial mathematical/scientific reasoning. Title similarity is neither proof of equivalence nor proof of a unique gap.
+The first action after the existing fraction explanation is **OpenStax Try It 4.1**. The selected pool covers visual fractions, fraction operations, decimals, ratios/percents, signed quantities, powers/order, negative exponents and elementary algebra. Follow local prerequisites and the adaptive stopping rule. The full pool is not an entrance gate. Roots, scientific notation, percentage-change/unit transfer and intermediate algebra still need precisely selected follow-up tasks; their historical teaching sources remain intact.
 
-### Unresolved inventory and deduplication limits
+Only `UNIT-PRACTICE-F` is newly activated, with the 43 named source problems and a bounded completion rule. No individual-problem checkboxes are added. The 76 optional assessments do not create new mandatory branches or silently enlarge any completed scope. A completed branch reports only its selected scope and cannot certify its constituent tasks or independent mastery.
 
-- Deep-ML has 12 retained thematic path names plus Essentials. Current direct path identities and many course/item links remain unresolved. These snapshots are not asserted current provider routes.
-- The TensorTonic project snapshot reports 31 projects in 11 categories. Eight direct named projects and 20 release observations are retained; releases can overlap projects and each other. These are not 28 verified unique projects. Five category destinations are separately informational. The full project index was unavailable during this audit.
-- All 29 paper-track names remain visible, without invented individual URLs. One named lab is recovered; a complete lab count is unavailable.
-- The current article hub and LLM Internals index both show 20 published guides; 31 listed topics include unpublished material. This retrieval resolves the earlier cached 19-versus-20 discrepancy, without reconstructing missing article bodies.
-- The roadmap's 122 visible assignments versus 125 branding remains unresolved. Occurrences across plans, standalone interfaces and snapshots cannot be added as unique problems.
-- Zero cross-platform exact-duplicate pairs are verified. The eleven previously established TensorTonic observation aliases retain their existing canonical identities. Unknown relationships stay unknown; do not merge by title.
-- A candidate can enter the confirmed complementary set only after relevant provider activity contracts are inspected and an actual missing demand, provenance and evaluation are established. If a provider already supplies it, refer to the native activity instead.
+The full evidence lives in [research/curation/2026-11-28](../research/curation/2026-11-28/): the source ledger, all fourteen provider-category inspections, all 119 adjudications, full 109-competency coverage matrix, confirmed bank, resource selections, mathematical verification and frontier benchmark. The seven inaccessible research artifacts and their aggregate claims are excluded, not reconstructed.
 
-No claim equates a checklist, catalogue size, availability, coverage or a completed guided task with independent mastery, a PhD programme or demonstrated frontier research ability.
+Current whole-competency coverage is **69 partial**, **11 insufficient depth**, **29 unresolved**, and **0 fully confirmed** under the strict complete-row definition. Partial content availability is distinct from a learner outcome. No learner mastery or institutional equivalence is asserted.
+
+Public provider bodies are unevenly accessible. Deep-ML Math inner statements and several dynamic project/course/path contents remain unresolved; some TensorTonic plans show subscription notices, and full notebooks/hidden graders were not executed. Native instruction already includes leakage, numerical experiments, graph learning and feature interventions; generic claims of their absence are rejected. The new bridge is a bounded pre-Python allocation for the known entry needs, not a proof of absence everywhere in either platform.
+
+The historical 2023 Putnam problems-only PDF currently contains covers, so the same A1 identity links to the verified MAA problems-and-solutions document. MCS Problems 5.7/5.8 use printed pages 146–147, correcting the historical page-fragment offset. OpenStax §4.2 #78 is fraction simplification. Historical identities and source evidence remain preserved.
+
+Zero new exact cross-platform duplicate pairs or completion merges are verified. Pedagogical equivalence only supports a resource choice; it never fabricates completion. Third-party statements remain at their lawful source, and solutions are hidden behind disclosures. After viewing a solution, use a fresh instance for independent transfer.
 
 ## Authoritative progress and batch publication
 
@@ -117,12 +118,12 @@ This writes a separate validated proposal, refuses existing output paths, and do
 There is no runtime framework, paid API, package install or database. GitHub Pages serves `/docs`. Production reads same-origin JSON, so initial rendering does not depend on cross-origin raw GitHub access. `syllabus.json` is a generated, SHA-256-linked display projection of the unchanged scientific source JSON; it is not a second editable curriculum authority.
 
 ```bash
-python scripts/simplify-learning.py
 node scripts/test-learning.cjs
+python research/curation/2026-11-28/verify_science.py
 ```
 
-The generator always starts from the reviewed baseline, preserving every nonhierarchy activity field. It does not modify frozen sources or real progress. The tests execute the actual production model with actual repository data. They check hierarchy, legacy identities, aliases, scope boundaries, no fabricated completion/mastery, selection, conflicts, authorization, unchanged progress and protected bytes. Current receipt: **207 assertions passed; 83 protected source files byte-identical**. The original 30-file curriculum package, 109 competencies, 112 concepts, 14 independent assessment definitions and 1,853 source observations remain intact.
+The historical `simplify-learning.py` generator recreates the earlier pending snapshot; do not rerun it over the current curated content. No replacement build system is introduced. The original nonhierarchy activity fields, frozen sources and real progress remain unchanged. The tests execute the actual production model with actual repository data. They check hierarchy, legacy identities, aliases, scope boundaries, no fabricated completion/mastery, selection, conflicts, authorization, unchanged progress and protected bytes. Current receipt: **222 production assertions and 827 scientific/provenance checks passed; 83 protected source files byte-identical**. The original 30-file curriculum package, 109 competencies, 112 concepts, 14 independent assessment definitions and 1,853 source observations remain intact.
 
 Actual Chromium rendering was inspected for desktop and **320- and 390-CSS-pixel iframe viewports**, with light/dark inspected at 390 pixels. This is real production rendering and interaction, not a simulated DOM test; it is not a physical-device/touch or full assistive-technology certification. Desktop and narrow screenshots are in [qa/](qa/). The narrow screenshots include the surrounding desktop harness. Both pages had no horizontal content overflow in the inspected narrow viewports (305/375 CSS-pixel client areas with native scrollbars). A 320-pixel toolbar overflow was found and corrected. All 14 part checkboxes measured to the right of their titles. Browser interaction verified staged completion, undo, optional selection, batch preview, discard, search and exact equivalent-fraction checking. Broader live publishing status is reported separately from these preview checks.
 
-Legacy Today/Master Path routes open Learning Resources. Progress/Checklist opens the inline save panel. Old exercises open Problem Bank with their pending status; concept/part links open informational contents of the appropriate part. Tutor/Challenges link to preserved GitHub sources without creating extra pages.
+Legacy Today/Master Path routes open Learning Resources. Progress/Checklist opens the inline save panel. Old exercises open Problem Bank with their current reviewed disposition; concept/part links open informational contents of the appropriate part. Tutor/Challenges link to preserved GitHub sources without creating extra pages.

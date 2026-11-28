@@ -713,11 +713,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F06"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-ALG-002",
@@ -783,11 +786,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-MATH-001",
@@ -853,11 +859,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-TCS-001",
@@ -923,11 +932,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "F06"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-SCI-001",
@@ -962,11 +975,14 @@
       "completion_merge": null,
       "original_provider_evidence": [],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "S02"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-BIO-001",
@@ -1032,11 +1048,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "S02"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-RES-001",
@@ -1102,11 +1121,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C12",
+        "L24"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-FRA-006",
@@ -2433,11 +2456,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-LIN-003",
@@ -2503,11 +2529,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M02"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-GRAPH-001",
@@ -2573,11 +2602,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F06"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-TCS-002",
@@ -2643,11 +2675,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-TCS-003",
@@ -2713,11 +2748,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C05"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-TCS-004",
@@ -2783,11 +2821,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-PDE-001",
@@ -2853,11 +2894,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M07",
+        "M21"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-SCI-002",
@@ -2923,11 +2968,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C03",
+        "S01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-SCI-003",
@@ -2987,11 +3036,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "S01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-SCI-004",
@@ -3057,11 +3109,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "S01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-SCI-005",
@@ -3115,11 +3170,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "S07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-BIO-002",
@@ -3185,11 +3243,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "L12"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-BIO-003",
@@ -3255,11 +3316,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "B01",
+        "S01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ZP-NUM-001",
@@ -3325,11 +3390,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C02",
+        "M01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-ARITH",
@@ -3543,11 +3612,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F02",
+        "F03"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-LIN",
@@ -3616,11 +3689,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "F02"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-CALC",
@@ -3689,11 +3766,16 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "F02",
+        "F03"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-PROOF",
@@ -3755,11 +3837,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-PROB",
@@ -3827,11 +3912,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-PROC",
@@ -3899,11 +3987,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M01",
+        "M07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-INF",
@@ -3972,11 +4064,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F03",
+        "M07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-UNC",
@@ -4046,11 +4142,16 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F01",
+        "L01",
+        "M07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-EXP",
@@ -4120,11 +4221,17 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "L01",
+        "M07",
+        "S02",
+        "S03"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-CAUS",
@@ -4193,11 +4300,16 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "L01",
+        "M07",
+        "S03"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-NUM",
@@ -4267,11 +4379,17 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "F01",
+        "M01",
+        "M05"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-CONVEX",
@@ -4327,11 +4445,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F03",
+        "M01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-SGD",
@@ -4399,11 +4521,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M05",
+        "M07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-INFO",
@@ -4471,11 +4597,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F03",
+        "M07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-BOUND",
@@ -4544,11 +4674,16 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F03",
+        "L01",
+        "M07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-ANALYSIS",
@@ -4682,11 +4817,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-DYN",
@@ -4736,11 +4874,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M01",
+        "M05"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-LOG",
@@ -4880,11 +5022,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M01",
+        "M05"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-TRANSFORM",
@@ -4953,11 +5099,16 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F01",
+        "M01",
+        "M05"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-REC",
@@ -5025,11 +5176,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F03"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-FIX",
@@ -5097,11 +5251,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F03"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-MC",
@@ -5169,11 +5326,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "M07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-VI",
@@ -5241,11 +5402,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M08",
+        "M15"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "MAT-MDL",
@@ -5313,11 +5478,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "M15"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ALG-SOFT",
@@ -5374,11 +5542,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ALG-SEARCH",
@@ -5446,11 +5617,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "C05"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ALG-TCS",
@@ -5506,11 +5681,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "F06"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ALG-SYN",
@@ -5578,11 +5757,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "C19"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ALG-VERIFY",
@@ -5627,11 +5810,17 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "C03",
+        "C19",
+        "F06"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ALG-AMORT",
@@ -5699,11 +5888,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ALG-LANG",
@@ -5755,11 +5947,16 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "C03",
+        "F06"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ALG-SYSTEMS",
@@ -5827,11 +6024,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "RES-QUESTION",
@@ -5881,11 +6081,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "F01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "RES-AGENT",
@@ -5994,11 +6197,14 @@
       "completion_merge": null,
       "original_provider_evidence": [],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "RES-COMM",
@@ -6035,11 +6241,14 @@
       "completion_merge": null,
       "original_provider_evidence": [],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "S01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "RES-EFF",
@@ -6107,11 +6316,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "BIO-FOUND",
@@ -6286,11 +6498,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "B02"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "BIO-STRUCT",
@@ -6430,11 +6645,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "B01",
+        "M17"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "BIO-LEAK",
@@ -6478,11 +6697,14 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "S02"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "RL-R1",
@@ -6553,11 +6775,17 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C01",
+        "F03",
+        "L18",
+        "M07"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ML-GEN",
@@ -6697,11 +6925,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "L01",
+        "L10"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ML-POST",
@@ -6769,11 +7001,15 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "L15",
+        "M05"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "ML-VERIFY",
@@ -6841,11 +7077,16 @@
         }
       ],
       "relationship": "independent_transfer",
-      "prerequisites": [],
+      "prerequisites": [
+        "C08",
+        "C10",
+        "L01"
+      ],
       "difficulty": "conditional on readiness",
       "learning_depth": "independent reasoning and explicit assumptions",
       "transfer_criterion": "Use a fresh instance or held-out task family without AI/hints; keep assistance and delayed retention separate. No worksheet checkbox establishes mastery.",
-      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source."
+      "lawful_access": "Historical original worksheet/exercise stays in its unchanged owning file; external materials stay at their source.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "OS-PA2-4.1-6",
@@ -7233,7 +7474,8 @@
       "learning_depth": "derive, prove and defend",
       "prerequisites": [],
       "transfer_criterion": "Produce a complete unaided argument and a fresh structurally changed application; do not count a familiar instance as unseen.",
-      "lawful_access": "Link to the official/author/identified archive; do not reproduce the statement or copyrighted solution."
+      "lawful_access": "Link to the official/author/identified archive; do not reproduce the statement or copyrighted solution.",
+      "prerequisite_boundary": "Use the needed local operations from these frozen entry prerequisites; a whole parent course is not an entrance gate."
     },
     {
       "id": "AOPS-AMC8-2024-3",

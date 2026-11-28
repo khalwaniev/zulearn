@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "assertions": 222,
+  "protected_files": 83,
+  "legacy_ids": 508,
+  "canonical_ids": 1040,
+  "inventory_branches": 561,
+  "default_manual_units": 41,
+  "deep_path_units": 14,
+  "scientific_status_counts": {
+    "confirmed_complementary": 43,
+    "independent_assessment": 76,
+    "native_referral": 18,
+    "deferred": 32,
+    "unresolved": 7
+  },
+  "global_unique_gaps": null
+}
