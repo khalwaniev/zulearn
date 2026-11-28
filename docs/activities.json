@@ -1953,5 +1953,1747 @@
     },
     "method": "Coverage derived from frozen competency references, explicit exercise skills, concept mappings and reviewed worksheet relevance. Inventory counts are observations, not unique tasks or evidence of equivalence. A linked resource is not sufficient depth or mastery.",
     "laterRule": "Tutor checks actual task constraints, proof, implementation, transfer demands, readiness, prior work and grader before selecting missing work; avoid another general ML coding set. Preserve independent assessments."
+  },
+  "aggregates": [
+    {
+      "id": "UNIT-PATH-F",
+      "title": "Mathematical foundations",
+      "kind": "thematic path",
+      "description": "Fractions, algebra, functions and proof",
+      "scope": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08"
+      ],
+      "url": null,
+      "lane": "F",
+      "platforms": "Zulearn · OpenStax · AoPS · OTIS · MathNet"
+    },
+    {
+      "id": "UNIT-PATH-C",
+      "title": "Programming & algorithms",
+      "kind": "thematic path",
+      "description": "Python, data structures, algorithmic and formal reasoning",
+      "scope": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19"
+      ],
+      "url": null,
+      "lane": "C",
+      "platforms": "Zulearn · Deep-ML · MIT · selective LeetCode/CSES"
+    },
+    {
+      "id": "UNIT-PATH-M",
+      "title": "Research mathematics",
+      "kind": "thematic path",
+      "description": "Linear algebra, calculus, probability, optimization and analysis",
+      "scope": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "M16",
+        "M17",
+        "M18",
+        "M19",
+        "M20",
+        "M21",
+        "M22",
+        "M23",
+        "M24",
+        "M25",
+        "M26",
+        "M27"
+      ],
+      "url": null,
+      "lane": "M",
+      "platforms": "Zulearn · MIT · Harvard · Stanford · Deep-ML"
+    },
+    {
+      "id": "UNIT-PATH-L",
+      "title": "Machine learning",
+      "kind": "thematic path",
+      "description": "Classical ML, deep learning, generative models and evaluation",
+      "scope": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28"
+      ],
+      "url": null,
+      "lane": "L",
+      "platforms": "Deep-ML · TensorTonic · scientific papers"
+    },
+    {
+      "id": "UNIT-PATH-S",
+      "title": "Scientific discovery",
+      "kind": "thematic path",
+      "description": "Experiments, evidence, reproducibility and scientific criticism",
+      "scope": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "url": null,
+      "lane": "S",
+      "platforms": "Zulearn · scientific literature"
+    },
+    {
+      "id": "UNIT-PATH-R",
+      "title": "Frontier AI",
+      "kind": "thematic path",
+      "description": "AGI, recursive self-improvement, reasoning and interpretability",
+      "scope": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05"
+      ],
+      "url": null,
+      "lane": "R",
+      "platforms": "Zulearn · Deep-ML · scientific papers"
+    },
+    {
+      "id": "UNIT-PATH-B",
+      "title": "AI for Science",
+      "kind": "thematic path",
+      "description": "Biological foundations, molecular structure and scientific validation",
+      "scope": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B10"
+      ],
+      "url": null,
+      "lane": "B",
+      "platforms": "Zulearn · scientific literature"
+    },
+    {
+      "id": "UNIT-PATH-D",
+      "title": "Deep-Path Everything",
+      "kind": "thematic path",
+      "description": "The primary ML backbone, from classical learning to research systems",
+      "scope": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "D005",
+        "D006",
+        "D007",
+        "D008",
+        "D009",
+        "D010",
+        "D011",
+        "D012",
+        "D013",
+        "D014",
+        "D015",
+        "D016",
+        "D017",
+        "D018",
+        "D019",
+        "D020",
+        "D021",
+        "D022",
+        "D023",
+        "D024",
+        "D025",
+        "D026",
+        "D027",
+        "D028",
+        "D029",
+        "D030",
+        "D031",
+        "D032",
+        "D033",
+        "D034",
+        "D035",
+        "D036",
+        "D037",
+        "D038",
+        "D039",
+        "D040",
+        "D041",
+        "D042",
+        "D043",
+        "D044",
+        "D045",
+        "D046",
+        "D047",
+        "D048",
+        "D049",
+        "D050",
+        "D051",
+        "D052",
+        "D053",
+        "D054",
+        "D055",
+        "D056",
+        "D057",
+        "D058",
+        "D059",
+        "D060",
+        "D061",
+        "D062",
+        "D063",
+        "D064",
+        "D065",
+        "D066",
+        "D067",
+        "D068",
+        "D069",
+        "D070",
+        "D071",
+        "D072",
+        "D073",
+        "D074",
+        "D075",
+        "D076",
+        "D077",
+        "D078",
+        "D079",
+        "D080",
+        "D081",
+        "D082",
+        "D083",
+        "D084",
+        "D085",
+        "D086",
+        "D087",
+        "D088",
+        "D089",
+        "D090",
+        "D091",
+        "D092",
+        "D093",
+        "D094",
+        "D095",
+        "D096",
+        "D097",
+        "D098",
+        "D099",
+        "D100",
+        "D101",
+        "D102",
+        "D103",
+        "D104",
+        "D105",
+        "D106",
+        "D107",
+        "D108",
+        "D109",
+        "D110",
+        "D111",
+        "D112"
+      ],
+      "url": null,
+      "lane": "D",
+      "platforms": "Deep-ML"
+    },
+    {
+      "id": "UNIT-DP-01",
+      "title": "Classical Machine Learning",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D001",
+        "D002",
+        "D003",
+        "D004",
+        "D005",
+        "D006",
+        "D007",
+        "D008",
+        "D009",
+        "D010",
+        "D011",
+        "D012",
+        "D013",
+        "D014",
+        "D015",
+        "D016",
+        "D017",
+        "D018",
+        "D019",
+        "D020",
+        "D021",
+        "D022",
+        "D023"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 1,
+      "occurrences": 811
+    },
+    {
+      "id": "UNIT-DP-02",
+      "title": "Deep Learning",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D024",
+        "D025",
+        "D026",
+        "D027",
+        "D028",
+        "D029",
+        "D030",
+        "D031",
+        "D032",
+        "D033",
+        "D034",
+        "D035",
+        "D036",
+        "D037",
+        "D038",
+        "D039",
+        "D040",
+        "D041",
+        "D042"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 2,
+      "occurrences": 561
+    },
+    {
+      "id": "UNIT-DP-03",
+      "title": "Large Language Models",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D043",
+        "D044",
+        "D045",
+        "D046",
+        "D047",
+        "D048",
+        "D049",
+        "D050",
+        "D051",
+        "D052",
+        "D053",
+        "D054",
+        "D055",
+        "D056",
+        "D057",
+        "D058",
+        "D059",
+        "D060",
+        "D061",
+        "D062",
+        "D063",
+        "D064",
+        "D065",
+        "D066"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 3,
+      "occurrences": 729
+    },
+    {
+      "id": "UNIT-DP-04",
+      "title": "Generative Modeling: Diffusion and World Models",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D067",
+        "D068"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 4,
+      "occurrences": 100
+    },
+    {
+      "id": "UNIT-DP-05",
+      "title": "Reinforcement Learning (Sutton and Barto)",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D069",
+        "D070",
+        "D071",
+        "D072",
+        "D073",
+        "D074",
+        "D075",
+        "D076",
+        "D077",
+        "D078"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 5,
+      "occurrences": 297
+    },
+    {
+      "id": "UNIT-DP-06",
+      "title": "Graph Neural Networks",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D079",
+        "D080",
+        "D081"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 6,
+      "occurrences": 39
+    },
+    {
+      "id": "UNIT-DP-07",
+      "title": "Inference Engineering",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D082",
+        "D083",
+        "D084",
+        "D085",
+        "D086",
+        "D087",
+        "D088",
+        "D089",
+        "D090",
+        "D091"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 7,
+      "occurrences": 195
+    },
+    {
+      "id": "UNIT-DP-08",
+      "title": "GPU Programming: CUDA and Triton",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D092",
+        "D093",
+        "D094",
+        "D095"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 8,
+      "occurrences": 54
+    },
+    {
+      "id": "UNIT-DP-09",
+      "title": "ML Compilers",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D096",
+        "D097",
+        "D098"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 9,
+      "occurrences": 54
+    },
+    {
+      "id": "UNIT-DP-10",
+      "title": "AI Safety and Governance",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D099"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 10,
+      "occurrences": 11
+    },
+    {
+      "id": "UNIT-DP-11",
+      "title": "Toolbox: SQL and pandas",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D100",
+        "D101",
+        "D102",
+        "D103"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 11,
+      "occurrences": 78
+    },
+    {
+      "id": "UNIT-DP-12",
+      "title": "Toolbox: Algorithms and Data Structures",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D104",
+        "D105",
+        "D106",
+        "D107",
+        "D108"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 12,
+      "occurrences": 150
+    },
+    {
+      "id": "UNIT-DP-13",
+      "title": "Toolbox: Robotics and Control",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D109"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 13,
+      "occurrences": 8
+    },
+    {
+      "id": "UNIT-DP-14",
+      "title": "Toolbox: Math Drills",
+      "kind": "Deep-Path chapter",
+      "description": "Observed concept grouping, not an inferred prerequisite chain.",
+      "scope": [
+        "D110",
+        "D111",
+        "D112"
+      ],
+      "url": "https://www.deep-ml.com/deep-path",
+      "lane": "D",
+      "part": 14,
+      "occurrences": 98
+    },
+    {
+      "id": "UNIT-OPEN-F",
+      "title": "Arithmetic & introductory algebra",
+      "kind": "opening chapter",
+      "description": "Complete the relevant lessons and review local checks; no constituent status is inferred.",
+      "scope": [
+        "FRA-01",
+        "FRA-SIM",
+        "FRA-02",
+        "FRA-03",
+        "DEC-01",
+        "RAT-01",
+        "INT-01",
+        "POW-01",
+        "ALG-01",
+        "ALG-02",
+        "FRA-04",
+        "ARITH-02",
+        "POW-02",
+        "ALG-03"
+      ],
+      "url": null,
+      "lane": "F"
+    },
+    {
+      "id": "UNIT-OPEN-C",
+      "title": "Python foundations",
+      "kind": "opening chapter",
+      "description": "Complete the relevant lessons and review local checks; no constituent status is inferred.",
+      "scope": [
+        "CODE-01",
+        "CODE-02",
+        "CODE-03",
+        "CODE-04",
+        "CODE-05",
+        "CODE-06"
+      ],
+      "url": null,
+      "lane": "C"
+    },
+    {
+      "id": "UNIT-DML-NNET-GPT",
+      "title": "Neural Nets to GPT",
+      "kind": "optional course",
+      "description": "Historical provider snapshot: 15 episodes; 492 question occurrences. Individual course URL not recovered.",
+      "scope": [],
+      "url": "https://www.deep-ml.com/",
+      "lane": "L",
+      "snapshot": true
+    },
+    {
+      "id": "UNIT-DML-POSTTRAIN",
+      "title": "Post-Training",
+      "kind": "optional course",
+      "description": "Historical provider snapshot: 21 episodes; 697 question occurrences. Individual course URL not recovered.",
+      "scope": [],
+      "url": "https://www.deep-ml.com/",
+      "lane": "L",
+      "snapshot": true
+    },
+    {
+      "id": "UNIT-DML-ESSENTIALS",
+      "title": "Deep-Path Essentials",
+      "kind": "optional path",
+      "description": "Earlier snapshot: 71 concepts, 620 steps; inner inventory unavailable. Distinct from Everything; overlap unresolved.",
+      "scope": [],
+      "url": "https://www.deep-ml.com/",
+      "lane": "D",
+      "snapshot": true
+    },
+    {
+      "id": "UNIT-TT-CS336",
+      "title": "Language Modeling from Scratch",
+      "kind": "optional study plan",
+      "description": "Observed: 17 sections, 62 problem occurrences, 17 quizzes. Only selected problems are approved complements.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true
+    },
+    {
+      "id": "UNIT-TT-CS336-01",
+      "title": "Tokenization",
+      "kind": "optional study-plan chapter",
+      "description": "2 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Tokenization",
+      "problemOccurrences": 2
+    },
+    {
+      "id": "UNIT-TT-CS336-02",
+      "title": "PyTorch and einops",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [
+        "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step",
+        "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant"
+      ],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "PyTorch and einops",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-03",
+      "title": "Architectures",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Architectures",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-04",
+      "title": "Attention Alternatives",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Attention Alternatives",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-05",
+      "title": "GPUs and TPUs",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [
+        "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts"
+      ],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "GPUs and TPUs",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-06",
+      "title": "Kernels, Triton, and XLA",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Kernels, Triton, and XLA",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-07",
+      "title": "Parallelism I",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Parallelism I",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-08",
+      "title": "Parallelism II",
+      "kind": "optional study-plan chapter",
+      "description": "3 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Parallelism II",
+      "problemOccurrences": 3
+    },
+    {
+      "id": "UNIT-TT-CS336-09",
+      "title": "Scaling Laws I",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Scaling Laws I",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-10",
+      "title": "Inference",
+      "kind": "optional study-plan chapter",
+      "description": "3 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [
+        "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner"
+      ],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Inference",
+      "problemOccurrences": 3
+    },
+    {
+      "id": "UNIT-TT-CS336-11",
+      "title": "Scaling Laws II",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Scaling Laws II",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-12",
+      "title": "Evaluation",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [
+        "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity",
+        "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood"
+      ],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Evaluation",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-13",
+      "title": "Data Processing",
+      "kind": "optional study-plan chapter",
+      "description": "3 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [
+        "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication"
+      ],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Data Processing",
+      "problemOccurrences": 3
+    },
+    {
+      "id": "UNIT-TT-CS336-14",
+      "title": "Mid-Training and Post-Training",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [
+        "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask"
+      ],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Mid-Training and Post-Training",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-15",
+      "title": "Post-Training with RLVR",
+      "kind": "optional study-plan chapter",
+      "description": "3 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [
+        "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages"
+      ],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Post-Training with RLVR",
+      "problemOccurrences": 3
+    },
+    {
+      "id": "UNIT-TT-CS336-16",
+      "title": "Alignment and Multimodality",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [
+        "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss"
+      ],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Alignment and Multimodality",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-TT-CS336-17",
+      "title": "Guest Lecture with Dan Fu",
+      "kind": "optional study-plan chapter",
+      "description": "4 observed problem occurrences; section link not resolved separately. Use the named section in the plan. Only linked selected tasks below are approved complements; the other plan items are optional.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "section": "Guest Lecture with Dan Fu",
+      "problemOccurrences": 4
+    },
+    {
+      "id": "UNIT-COURSE-MIT1806",
+      "title": "MIT 18.06 · Linear Algebra",
+      "kind": "selected course sections",
+      "description": "Approved linear algebra selections; only assigned selections, not automatic credit for full course.",
+      "scope": [],
+      "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/resources/lecture-videos/",
+      "lane": "M"
+    },
+    {
+      "id": "UNIT-COURSE-MIT1802",
+      "title": "MIT 18.02SC · Multivariable Calculus",
+      "kind": "selected course sections",
+      "description": "Selected multivariable calculus; only assigned selections, not automatic credit for full course.",
+      "scope": [],
+      "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/",
+      "lane": "M"
+    },
+    {
+      "id": "UNIT-COURSE-MIT6042",
+      "title": "MIT 6.042J · Mathematics for Computer Science",
+      "kind": "selected course sections",
+      "description": "Proof and discrete mathematics; only assigned selections, not automatic credit for full course.",
+      "scope": [],
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/",
+      "lane": "M"
+    },
+    {
+      "id": "UNIT-COURSE-STAT110",
+      "title": "Harvard Stat 110",
+      "kind": "selected course sections",
+      "description": "Selected probability; only assigned selections, not automatic credit for full course.",
+      "scope": [],
+      "url": "https://stat110.hsites.harvard.edu/",
+      "lane": "M"
+    },
+    {
+      "id": "UNIT-COURSE-EE364A",
+      "title": "Stanford EE364A · Convex Optimization",
+      "kind": "selected course sections",
+      "description": "Selected convex optimization; only assigned selections, not automatic credit for full course.",
+      "scope": [],
+      "url": "https://web.stanford.edu/class/ee364a/",
+      "lane": "M"
+    },
+    {
+      "id": "UNIT-PRACTICE-F",
+      "title": "Mathematical foundations · practice set",
+      "kind": "thematic problem set",
+      "description": "Original practice; complete the relevant selected set and do not infer individual records.",
+      "scope": [
+        "ZP-FRA-001",
+        "ZP-FRA-002",
+        "ZP-FRA-003",
+        "ZP-FRA-004",
+        "ZP-FRA-005",
+        "ZP-DEC-001",
+        "ZP-RAT-001",
+        "ZP-ALG-001",
+        "ZP-PROOF-001",
+        "ZP-FRA-006",
+        "ZP-FRA-007",
+        "ZP-ARITH-001",
+        "ZP-ARITH-002",
+        "ZP-INT-001",
+        "ZP-POW-001",
+        "ZP-POW-002",
+        "ZP-POW-003",
+        "ZP-ALG-003",
+        "ZP-ALG-004",
+        "ZP-ALG-005"
+      ],
+      "url": null,
+      "lane": "F"
+    },
+    {
+      "id": "UNIT-PRACTICE-C",
+      "title": "Programming & algorithms · practice set",
+      "kind": "thematic problem set",
+      "description": "Original practice; complete the relevant selected set and do not infer individual records.",
+      "scope": [
+        "ZP-ALG-002",
+        "ZP-TCS-001",
+        "ZP-CODE-001",
+        "ZP-CODE-002",
+        "ZP-CODE-003",
+        "ZP-CODE-004",
+        "ZP-CODE-005",
+        "ZP-CODE-006",
+        "ZP-TCS-002",
+        "ZP-TCS-003",
+        "ZP-TCS-004"
+      ],
+      "url": null,
+      "lane": "C"
+    },
+    {
+      "id": "UNIT-PRACTICE-M",
+      "title": "Research mathematics · practice set",
+      "kind": "thematic problem set",
+      "description": "Original practice; complete the relevant selected set and do not infer individual records.",
+      "scope": [
+        "ZP-MATH-001",
+        "ZP-LIN-002",
+        "ZP-LIN-003",
+        "ZP-GRAPH-001",
+        "ZP-PDE-001",
+        "ZP-NUM-001"
+      ],
+      "url": null,
+      "lane": "M"
+    },
+    {
+      "id": "UNIT-PRACTICE-S",
+      "title": "Scientific discovery · practice set",
+      "kind": "thematic problem set",
+      "description": "Original practice; complete the relevant selected set and do not infer individual records.",
+      "scope": [
+        "ZP-SCI-001",
+        "ZP-SCI-002",
+        "ZP-SCI-003",
+        "ZP-SCI-004",
+        "ZP-SCI-005"
+      ],
+      "url": null,
+      "lane": "S"
+    },
+    {
+      "id": "UNIT-PRACTICE-R",
+      "title": "Frontier AI · practice set",
+      "kind": "thematic problem set",
+      "description": "Original practice; complete the relevant selected set and do not infer individual records.",
+      "scope": [
+        "ZP-RES-001"
+      ],
+      "url": null,
+      "lane": "R"
+    },
+    {
+      "id": "UNIT-PRACTICE-B",
+      "title": "AI for Science · practice set",
+      "kind": "thematic problem set",
+      "description": "Original practice; complete the relevant selected set and do not infer individual records.",
+      "scope": [
+        "ZP-BIO-001",
+        "ZP-BIO-002",
+        "ZP-BIO-003"
+      ],
+      "url": null,
+      "lane": "B"
+    },
+    {
+      "id": "UNIT-TT-PLAN-AUTOGRAD",
+      "title": "Build Micrograd from Scratch",
+      "kind": "optional study plan",
+      "description": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/autograd-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "problemOccurrences": 25
+    },
+    {
+      "id": "UNIT-TT-PLAN-ALPHAGO",
+      "title": "Build AlphaGo from Scratch",
+      "kind": "optional study plan",
+      "description": "18 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/alphago-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "problemOccurrences": 18
+    },
+    {
+      "id": "UNIT-TT-PLAN-DIFFUSION",
+      "title": "Build Diffusion Model from Scratch",
+      "kind": "optional study plan",
+      "description": "26 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/diffusion-from-scratch",
+      "lane": "L",
+      "snapshot": true,
+      "problemOccurrences": 26
+    },
+    {
+      "id": "UNIT-TT-PLAN-PANDAS",
+      "title": "Pandas Sheet",
+      "kind": "optional study plan",
+      "description": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/pandas-basics",
+      "lane": "C",
+      "snapshot": true,
+      "problemOccurrences": 25
+    },
+    {
+      "id": "UNIT-TT-PLAN-NUMPY",
+      "title": "NumPy Sheet",
+      "kind": "optional study plan",
+      "description": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/numpy-basics",
+      "lane": "C",
+      "snapshot": true,
+      "problemOccurrences": 25
+    },
+    {
+      "id": "UNIT-TT-PLAN-PYTORCH",
+      "title": "PyTorch Sheet",
+      "kind": "optional study plan",
+      "description": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/pytorch-basics",
+      "lane": "C",
+      "snapshot": true,
+      "problemOccurrences": 30
+    },
+    {
+      "id": "UNIT-TT-PLAN-SQL",
+      "title": "SQL Sheet",
+      "kind": "optional study plan",
+      "description": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/sql-basics",
+      "lane": "C",
+      "snapshot": true,
+      "problemOccurrences": 25
+    },
+    {
+      "id": "UNIT-TT-PLAN-CUDA",
+      "title": "CUDA Kernels",
+      "kind": "optional study plan",
+      "description": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/cuda-basics",
+      "lane": "C",
+      "snapshot": true,
+      "problemOccurrences": 35
+    },
+    {
+      "id": "UNIT-TT-PLAN-TRITON",
+      "title": "Triton Kernels",
+      "kind": "optional study plan",
+      "description": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/triton-basics",
+      "lane": "C",
+      "snapshot": true,
+      "problemOccurrences": 30
+    },
+    {
+      "id": "UNIT-TT-PLAN-INFERENCE",
+      "title": "Inference Engineering",
+      "kind": "optional study plan",
+      "description": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/cracking-inference",
+      "lane": "C",
+      "snapshot": true,
+      "problemOccurrences": 30
+    },
+    {
+      "id": "UNIT-TT-PLAN-JAX",
+      "title": "JAX for ML Systems",
+      "kind": "optional study plan",
+      "description": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/jax-systems",
+      "lane": "C",
+      "snapshot": true,
+      "problemOccurrences": 35
+    },
+    {
+      "id": "UNIT-TT-PLAN-LINEAR",
+      "title": "Linear Algebra",
+      "kind": "optional study plan",
+      "description": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+      "lane": "M",
+      "snapshot": true,
+      "problemOccurrences": 30
+    },
+    {
+      "id": "UNIT-TT-PLAN-PROBABILITY",
+      "title": "Probability & Statistics",
+      "kind": "optional study plan",
+      "description": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/math-probability",
+      "lane": "M",
+      "snapshot": true,
+      "problemOccurrences": 30
+    },
+    {
+      "id": "UNIT-TT-PLAN-CALCULUS",
+      "title": "Calculus for ML",
+      "kind": "optional study plan",
+      "description": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/math-calculus",
+      "lane": "M",
+      "snapshot": true,
+      "problemOccurrences": 30
+    },
+    {
+      "id": "UNIT-TT-PLAN-OPTIMIZATION",
+      "title": "Optimization",
+      "kind": "optional study plan",
+      "description": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/math-optimization",
+      "lane": "M",
+      "snapshot": true,
+      "problemOccurrences": 25
+    },
+    {
+      "id": "UNIT-TT-PLAN-ML",
+      "title": "Cracking ML",
+      "kind": "optional study plan",
+      "description": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/cracking-ml",
+      "lane": "L",
+      "snapshot": true,
+      "problemOccurrences": 35
+    },
+    {
+      "id": "UNIT-TT-PLAN-DL",
+      "title": "Cracking Deep Learning",
+      "kind": "optional study plan",
+      "description": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/cracking-dl",
+      "lane": "L",
+      "snapshot": true,
+      "problemOccurrences": 35
+    },
+    {
+      "id": "UNIT-TT-PLAN-NLP",
+      "title": "Cracking NLP",
+      "kind": "optional study plan",
+      "description": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/cracking-nlp",
+      "lane": "L",
+      "snapshot": true,
+      "problemOccurrences": 35
+    },
+    {
+      "id": "UNIT-TT-PLAN-RL",
+      "title": "Cracking RL",
+      "kind": "optional study plan",
+      "description": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/cracking-rl",
+      "lane": "L",
+      "snapshot": true,
+      "problemOccurrences": 30
+    },
+    {
+      "id": "UNIT-TT-PLAN-CV",
+      "title": "Cracking CV",
+      "kind": "optional study plan",
+      "description": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/study-plans/cracking-cv",
+      "lane": "L",
+      "snapshot": true,
+      "problemOccurrences": 35
+    },
+    {
+      "id": "UNIT-OPT-TT-SAE",
+      "title": "Build a Sparse Autoencoder Feature Lab",
+      "kind": "optional project",
+      "description": "Official project page inspected 2026-11-28: four numbered primitives, feature experiment guidance and an integrated notebook. Compare reconstruction and sparsity, inspect activating examples and test interventions. Actual access/runtime and overlap with Deep-Path remain unresolved.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/projects/sparse-autoencoder-feature-lab",
+      "lane": "R",
+      "snapshot": true
+    },
+    {
+      "id": "UNIT-OPT-TT-WSP",
+      "title": "Weight-Space Programming",
+      "kind": "optional lab",
+      "description": "Official lab page inspected 2026-11-28: five stages from loop measurement through weight intervention and re-evaluation on Qwen3.5-0.8B. Actual access/runtime and overlap remain unresolved. Provider's research claims are not Zulearn validation.",
+      "scope": [],
+      "url": "https://www.tensortonic.com/labs/weight-space-programming",
+      "lane": "R",
+      "snapshot": true
+    },
+    {
+      "id": "UNIT-OPT-DML-LAB-23",
+      "title": "Train a Binary Classifier",
+      "kind": "optional lab",
+      "description": "Official lab listing and destination inspected 2026-11-28: Breast Cancer Wisconsin classification, held-out accuracy target 0.92, NumPy/sklearn allowed. Inner runner loads client-side; complete contract/grader and overlap must be checked before assignment.",
+      "scope": [],
+      "url": "https://www.deep-ml.com/labs/23",
+      "lane": "L",
+      "snapshot": true
+    },
+    {
+      "id": "UNIT-OPT-DML-LAB-SPLIT",
+      "title": "Split the Data Honestly and Beat a Baseline",
+      "kind": "optional lab",
+      "description": "Official listing and destination inspected 2026-11-28: train/validation/test split, train-only fit and held-out MAE target 2.3. Inner runner loads client-side; complete contract/grader and overlap must be checked before assignment.",
+      "scope": [],
+      "url": "https://www.deep-ml.com/labs/3d26c3f9-cb73-4ab1-bc4d-86cfab2af6d1",
+      "lane": "S",
+      "snapshot": true
+    }
+  ],
+  "library": {
+    "themes": [
+      {
+        "id": "F",
+        "title": "Mathematical foundations",
+        "description": "Fractions, algebra, functions and proof",
+        "glyph": "∑",
+        "platforms": "Zulearn · OpenStax · AoPS · OTIS · MathNet"
+      },
+      {
+        "id": "C",
+        "title": "Programming & algorithms",
+        "description": "Python, data structures, algorithmic and formal reasoning",
+        "glyph": "λ",
+        "platforms": "Zulearn · Deep-ML · MIT · selective LeetCode/CSES"
+      },
+      {
+        "id": "M",
+        "title": "Research mathematics",
+        "description": "Linear algebra, calculus, probability, optimization and analysis",
+        "glyph": "∫",
+        "platforms": "Zulearn · MIT · Harvard · Stanford · Deep-ML"
+      },
+      {
+        "id": "L",
+        "title": "Machine learning",
+        "description": "Classical ML, deep learning, generative models and evaluation",
+        "glyph": "∇",
+        "platforms": "Deep-ML · TensorTonic · scientific papers"
+      },
+      {
+        "id": "S",
+        "title": "Scientific discovery",
+        "description": "Experiments, evidence, reproducibility and scientific criticism",
+        "glyph": "⊕",
+        "platforms": "Zulearn · scientific literature"
+      },
+      {
+        "id": "R",
+        "title": "Frontier AI",
+        "description": "AGI, recursive self-improvement, reasoning and interpretability",
+        "glyph": "◇",
+        "platforms": "Zulearn · Deep-ML · scientific papers"
+      },
+      {
+        "id": "B",
+        "title": "AI for Science",
+        "description": "Biological foundations, molecular structure and scientific validation",
+        "glyph": "⌬",
+        "platforms": "Zulearn · scientific literature"
+      },
+      {
+        "id": "D",
+        "title": "Deep-Path Everything",
+        "description": "The primary ML backbone, from classical learning to research systems",
+        "glyph": "▦",
+        "platforms": "Deep-ML"
+      }
+    ],
+    "snapshotDate": "2026-11-27",
+    "summary": {
+      "deepml": {
+        "math_cards": 861,
+        "intuition_puzzles": 130,
+        "labs": 120,
+        "lab_difficulty": {
+          "easy": 9,
+          "medium": 41,
+          "hard": 70
+        },
+        "lab_datasets_advertised": 19,
+        "projects": 157,
+        "project_step_occurrences": 3840,
+        "collections_advertised": {
+          "paper": 86,
+          "book": 5,
+          "video": 28,
+          "library": 10,
+          "role": 6,
+          "topic": 13
+        },
+        "deep_path_essentials": {
+          "concepts": 71,
+          "steps": 620,
+          "source_kind": "earlier_snapshot_summary; inner export unavailable"
+        },
+        "courses": [
+          {
+            "title": "Neural Nets to GPT",
+            "episodes": 15,
+            "question_occurrences": 492
+          },
+          {
+            "title": "Post-Training",
+            "episodes": 21,
+            "question_occurrences": 697
+          }
+        ],
+        "math_difficulty": {
+          "medium": 561,
+          "easy": 188,
+          "hard": 112
+        },
+        "math_category_counts": {
+          "Deep Learning Theory": 317,
+          "Machine Learning Fundamentals": 37,
+          "Probability and Statistics for Machine Learning": 62,
+          "Statistical Inference": 20,
+          "Experiments and Causal Inference": 17,
+          "Computer Vision": 24,
+          "Reinforcement Learning Theory": 54,
+          "Reinforcement Learning": 16,
+          "Linear Algebra for Machine Learning": 20,
+          "Inference Engineering": 49,
+          "Probabilistic Machine Learning": 149,
+          "Calculus for Machine Learning": 13,
+          "Deep Learning": 5,
+          "ML Compilers": 18,
+          "Statistical Modeling": 24,
+          "Graph Neural Networks": 9,
+          "Mixture of Experts": 12,
+          "GPU Programming": 5,
+          "Probability and Statistics for ML": 1,
+          "Machine Learning": 2,
+          "Quantization": 2,
+          "Bias-variance and L2 penalty": 1,
+          "Supervised learning setup": 1,
+          "AI Safety": 3
+        }
+      },
+      "tensortonic": {
+        "source_kind": "retained repository snapshot plus bounded official sample; full raw export not recovered",
+        "source_url": "https://www.tensortonic.com/roadmap",
+        "repository_source": "curriculum/legacy/ML_PLATFORM_AUDIT_2026-11-27.md",
+        "dashboard_problem_count_snapshot": 1551,
+        "study_plans": 21,
+        "study_plan_assignment_occurrences": 651,
+        "study_plan_groups": {
+          "build_from_scratch": 131,
+          "foundations": 105,
+          "systems_gpu": 130,
+          "math": 115,
+          "specializations": 170
+        },
+        "project_categories": 11,
+        "projects": 31,
+        "project_group_counts": {
+          "mechanistic_interpretability": 1,
+          "rl": 6,
+          "systems_gpu": 6,
+          "llm_engineering": 5,
+          "agentic": 3,
+          "graph": 1
+        },
+        "paper_track_entries": 29,
+        "paper_groups": {
+          "transformer_llm": 13,
+          "cnn": 5,
+          "sequence_embedding": 7,
+          "generative": 4
+        },
+        "system_design_topics": 37,
+        "system_design_cases": 21,
+        "math_articles": 67,
+        "llm_internals_articles": 20,
+        "roadmap_modules": 13,
+        "roadmap_visible_assignment_sum": 122,
+        "roadmap_branding": 125,
+        "count_discrepancy": "unresolved; counts are not unique exercises",
+        "language_model_plan": {
+          "url": "https://www.tensortonic.com/study-plans/language-modeling-from-scratch",
+          "sections": 17,
+          "problem_occurrences": 62,
+          "sections_observed": [
+            {
+              "title": "Tokenization",
+              "problem_occurrences": 2
+            },
+            {
+              "title": "PyTorch and einops",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Architectures",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Attention Alternatives",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "GPUs and TPUs",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Kernels, Triton, and XLA",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Parallelism I",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Parallelism II",
+              "problem_occurrences": 3
+            },
+            {
+              "title": "Scaling Laws I",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Inference",
+              "problem_occurrences": 3
+            },
+            {
+              "title": "Scaling Laws II",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Evaluation",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Data Processing",
+              "problem_occurrences": 3
+            },
+            {
+              "title": "Mid-Training and Post-Training",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Post-Training with RLVR",
+              "problem_occurrences": 3
+            },
+            {
+              "title": "Alignment and Multimodality",
+              "problem_occurrences": 4
+            },
+            {
+              "title": "Guest Lecture with Dan Fu",
+              "problem_occurrences": 4
+            }
+          ],
+          "quiz_count": 17,
+          "questions_per_quiz": 10
+        },
+        "visible_beta_lab": "Weight-Space Programming",
+        "filters_observed": [
+          "NumPy",
+          "PyTorch",
+          "JAX",
+          "CUDA",
+          "Triton",
+          "SQL",
+          "Python",
+          "Pandas"
+        ],
+        "newly_preserved_public_problem_titles": 79,
+        "roadmap_groups": [
+          {
+            "title": "Math Foundations for ML",
+            "assignments": 17
+          },
+          {
+            "title": "Data Preprocessing & Feature Engineering",
+            "assignments": 7
+          },
+          {
+            "title": "Optimization, Losses & Activation Functions",
+            "assignments": 18
+          },
+          {
+            "title": "Classical ML",
+            "assignments": 11
+          },
+          {
+            "title": "Metrics & Evaluation",
+            "assignments": 7
+          },
+          {
+            "title": "Neural Networks",
+            "assignments": 8
+          },
+          {
+            "title": "Sequence Models",
+            "assignments": 13
+          },
+          {
+            "title": "NLP & LLM Basics",
+            "assignments": 9
+          },
+          {
+            "title": "Transformer Paper",
+            "assignments": 8
+          },
+          {
+            "title": "BERT Paper",
+            "assignments": 6
+          },
+          {
+            "title": "Word2Vec Paper",
+            "assignments": 6
+          },
+          {
+            "title": "ResNet Paper",
+            "assignments": 6
+          },
+          {
+            "title": "Vision Transformer Paper",
+            "assignments": 6
+          }
+        ]
+      }
+    },
+    "features": {
+      "Deep-ML": [
+        "Deep-Path Everything",
+        "Deep-Path Essentials",
+        "Mathematics",
+        "Intuition",
+        "Problems",
+        "DSA",
+        "Labs",
+        "Projects",
+        "Collections",
+        "Courses",
+        "Learning Paths",
+        "Playlists",
+        "Study Assistant",
+        "Research Papers",
+        "Books",
+        "Videos",
+        "Libraries",
+        "Competitions"
+      ],
+      "TensorTonic": [
+        "Roadmap",
+        "Study Plans",
+        "Problems",
+        "ML Mathematics",
+        "Research Papers",
+        "Projects",
+        "Labs",
+        "ML System Design",
+        "Articles",
+        "Guides",
+        "Interview",
+        "Competitions"
+      ]
+    },
+    "inventoryPath": "data/catalogue/inventory.json",
+    "inventoryCount": 1853,
+    "inventoryKinds": {
+      "Deep-ML · math": 861,
+      "Deep-ML · intuition": 130,
+      "Deep-ML · project": 157,
+      "Deep-ML · lab": 120,
+      "Deep-ML · collection": 24,
+      "TensorTonic · problem": 79,
+      "TensorTonic · quiz": 17,
+      "Deep-ML · historical_path": 10,
+      "Deep-ML · historical_math": 217,
+      "Deep-ML · historical_collection": 77,
+      "Deep-ML · historical_lab": 90,
+      "Deep-ML · historical_project": 71
+    },
+    "providerLinks": {
+      "Deep-ML": [
+        [
+          "Learning paths",
+          "https://www.deep-ml.com/paths"
+        ],
+        [
+          "Deep-Path Everything",
+          "https://www.deep-ml.com/deep-path"
+        ],
+        [
+          "Mathematics",
+          "https://www.deep-ml.com/math"
+        ],
+        [
+          "Intuition",
+          "https://www.deep-ml.com/intuition"
+        ],
+        [
+          "Collections",
+          "https://www.deep-ml.com/collections"
+        ],
+        [
+          "Papers / research",
+          "https://www.deep-ml.com/research"
+        ],
+        [
+          "Projects",
+          "https://www.deep-ml.com/projects"
+        ],
+        [
+          "Labs",
+          "https://www.deep-ml.com/labs"
+        ]
+      ],
+      "TensorTonic": [
+        [
+          "Roadmap",
+          "https://www.tensortonic.com/roadmap"
+        ],
+        [
+          "Study plans",
+          "https://www.tensortonic.com/study-plans"
+        ],
+        [
+          "Problems / roadmap",
+          "https://www.tensortonic.com/roadmap"
+        ],
+        [
+          "Research paper tracks",
+          "https://www.tensortonic.com/research"
+        ],
+        [
+          "Projects",
+          "https://www.tensortonic.com/projects"
+        ],
+        [
+          "Labs",
+          "https://www.tensortonic.com/labs"
+        ],
+        [
+          "ML system design",
+          "https://www.tensortonic.com/ml-design"
+        ],
+        [
+          "ML mathematics",
+          "https://www.tensortonic.com/ml-math"
+        ]
+      ]
+    },
+    "linkEvidence": "Current provider category and 21 plan destination pages checked 2026-11-28; historical inventory counts retained separately. Optional study-plan links are named units, not exact constituent identity claims. Four representative current project/lab destinations inspected; optional whole-unit links only, not asserted equivalent to unresolved snapshot observations."
   }
 }
