@@ -1874,7 +1874,72 @@
       "notice": "Original book link; no copied body."
     }
   ],
-  "registered": [],
+  "registered": [
+    {
+      "id": "https://leetcode.com/problems/two-sum/",
+      "title": "Two Sum",
+      "url": "https://leetcode.com/problems/two-sum/",
+      "platform": "LeetCode",
+      "kind": "conditional algorithm practice",
+      "skills": [
+        "C04",
+        "C05"
+      ],
+      "memberships": [
+        "UNIT-LC-HASH"
+      ],
+      "aliases": [],
+      "identity_evidence": "Official problem 1 and statement inspected 2026-11-28. Hash lookup, distinct indices and expected complexity. Cross-platform equivalence unresolved."
+    },
+    {
+      "id": "https://leetcode.com/problems/valid-anagram/",
+      "title": "Valid Anagram",
+      "url": "https://leetcode.com/problems/valid-anagram/",
+      "platform": "LeetCode",
+      "kind": "conditional algorithm practice",
+      "skills": [
+        "C04",
+        "C05"
+      ],
+      "memberships": [
+        "UNIT-LC-HASH"
+      ],
+      "aliases": [],
+      "identity_evidence": "Official problem 242 and statement inspected 2026-11-28. Frequency invariants and alphabet assumptions. Cross-platform equivalence unresolved."
+    },
+    {
+      "id": "https://leetcode.com/problems/valid-parentheses/",
+      "title": "Valid Parentheses",
+      "url": "https://leetcode.com/problems/valid-parentheses/",
+      "platform": "LeetCode",
+      "kind": "conditional algorithm practice",
+      "skills": [
+        "C04",
+        "C05"
+      ],
+      "memberships": [
+        "UNIT-LC-STACK"
+      ],
+      "aliases": [],
+      "identity_evidence": "Official problem 20 and statement inspected 2026-11-28. Stack invariant and nesting. Cross-platform equivalence unresolved."
+    },
+    {
+      "id": "https://leetcode.com/problems/binary-search/",
+      "title": "Binary Search",
+      "url": "https://leetcode.com/problems/binary-search/",
+      "platform": "LeetCode",
+      "kind": "conditional algorithm practice",
+      "skills": [
+        "C04",
+        "C05"
+      ],
+      "memberships": [
+        "UNIT-LC-SEARCH"
+      ],
+      "aliases": [],
+      "identity_evidence": "Official problem 704 and statement inspected 2026-11-28. Sorted distinct input; duplicate lower-bound behavior needs transfer. Cross-platform equivalence unresolved."
+    }
+  ],
   "curation": {
     "deepml": "All preserved Deep-ML item URLs are null; the 3,185 occurrences remain individually unresolved. Tutor inspects and registers actual source identity before completion.",
     "later": "Exact MathNet, MIT and Stanford locators added. Other archive tasks remain progressive. Original frozen worksheets now embedded as derived display text; source files remain authoritative."
@@ -3256,6 +3321,40 @@
       "url": "https://www.deep-ml.com/labs/3d26c3f9-cb73-4ab1-bc4d-86cfab2af6d1",
       "lane": "S",
       "snapshot": true
+    },
+    {
+      "id": "UNIT-LC-HASH",
+      "title": "Hashing and invariants",
+      "kind": "selective algorithm practice set",
+      "description": "Only when a demonstrated independent transfer or correctness gap warrants it. Use native problem progress.",
+      "scope": [
+        "https://leetcode.com/problems/two-sum/",
+        "https://leetcode.com/problems/valid-anagram/"
+      ],
+      "url": null,
+      "lane": "C"
+    },
+    {
+      "id": "UNIT-LC-STACK",
+      "title": "Stack invariants",
+      "kind": "selective algorithm practice set",
+      "description": "Only when a demonstrated independent transfer or correctness gap warrants it. Use native problem progress.",
+      "scope": [
+        "https://leetcode.com/problems/valid-parentheses/"
+      ],
+      "url": null,
+      "lane": "C"
+    },
+    {
+      "id": "UNIT-LC-SEARCH",
+      "title": "Binary search and boundaries",
+      "kind": "selective algorithm practice set",
+      "description": "Only when a demonstrated independent transfer or correctness gap warrants it. Use native problem progress.",
+      "scope": [
+        "https://leetcode.com/problems/binary-search/"
+      ],
+      "url": null,
+      "lane": "C"
     }
   ],
   "library": {
@@ -3669,8 +3768,8 @@
           "https://www.tensortonic.com/study-plans"
         ],
         [
-          "Problems / roadmap",
-          "https://www.tensortonic.com/roadmap"
+          "Problems",
+          "https://www.tensortonic.com/problems"
         ],
         [
           "Research paper tracks",
@@ -3695,5 +3794,3144 @@
       ]
     },
     "linkEvidence": "Current provider category and 21 plan destination pages checked 2026-11-28; historical inventory counts retained separately. Optional study-plan links are named units, not exact constituent identity claims. Four representative current project/lab destinations inspected; optional whole-unit links only, not asserted equivalent to unresolved snapshot observations."
+  },
+  "hierarchy": {
+    "schema_version": 1,
+    "baseline": "8a7515ee88d7b7876b0442782fc5ce24f9c7ed62",
+    "manual": {
+      "D001": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D002": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D003": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D004": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D005": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D006": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D007": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D008": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D009": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D010": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D011": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D012": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D013": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D014": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D015": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D016": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D017": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D018": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D019": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D020": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D021": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D022": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D023": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D024": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D025": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D026": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D027": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D028": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D029": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D030": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D031": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D032": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D033": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D034": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D035": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D036": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D037": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D038": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D039": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D040": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D041": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D042": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D043": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D044": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D045": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D046": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D047": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D048": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D049": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D050": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D051": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D052": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D053": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D054": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D055": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D056": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D057": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D058": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D059": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D060": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D061": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D062": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D063": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D064": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D065": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D066": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D067": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D068": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D069": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D070": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D071": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D072": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D073": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D074": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D075": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D076": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D077": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D078": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D079": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D080": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D081": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D082": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D083": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D084": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D085": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D086": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D087": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D088": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D089": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D090": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D091": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D092": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D093": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D094": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D095": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D096": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D097": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D098": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D099": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D100": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D101": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D102": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D103": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D104": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D105": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D106": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D107": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D108": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D109": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D110": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D111": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "D112": {
+        "platform": "Deep-ML",
+        "category": "Deep-Path Everything",
+        "scope": [],
+        "mode": "primary",
+        "note": "Account for relevant activities only; no occurrence-level completion inferred."
+      },
+      "UNIT-OPEN-F": {
+        "platform": "Zulearn",
+        "category": "Opening chapters",
+        "scope": [
+          "FRA-01",
+          "FRA-SIM",
+          "FRA-02",
+          "FRA-03",
+          "DEC-01",
+          "RAT-01",
+          "INT-01",
+          "POW-01",
+          "ALG-01",
+          "ALG-02",
+          "FRA-04",
+          "ARITH-02",
+          "POW-02",
+          "ALG-03",
+          "ZP-FRA-001",
+          "ZP-FRA-002",
+          "ZP-FRA-003",
+          "ZP-FRA-004",
+          "ZP-FRA-005",
+          "ZP-DEC-001",
+          "ZP-RAT-001",
+          "ZP-ALG-001",
+          "ZP-FRA-006",
+          "ZP-FRA-007",
+          "ZP-ARITH-001",
+          "ZP-ARITH-002",
+          "ZP-INT-001",
+          "ZP-POW-001",
+          "ZP-POW-002",
+          "ZP-POW-003",
+          "ZP-ALG-003",
+          "ZP-ALG-004",
+          "ZP-ALG-005",
+          "OS-PA2-4.1-6",
+          "OS-PA2-4.1-46",
+          "OS-PA2-4.2-78",
+          "OS-PA2-4.4-254",
+          "AOPS-AMC8-2024-2"
+        ],
+        "mode": "curated",
+        "note": "Relevant lessons, attached practice and local checks; no child status inferred."
+      },
+      "UNIT-OPEN-C": {
+        "platform": "Zulearn",
+        "category": "Opening chapters",
+        "scope": [
+          "CODE-01",
+          "CODE-02",
+          "CODE-03",
+          "CODE-04",
+          "CODE-05",
+          "CODE-06",
+          "ZP-CODE-001",
+          "ZP-CODE-002",
+          "ZP-CODE-003",
+          "ZP-CODE-004",
+          "ZP-CODE-005",
+          "ZP-CODE-006"
+        ],
+        "mode": "curated",
+        "note": "Relevant lessons, attached practice and local checks; no child status inferred."
+      },
+      "UNIT-PRACTICE-F": {
+        "platform": "Zulearn",
+        "category": "Later thematic practice sets",
+        "scope": [
+          "ZP-PROOF-001"
+        ],
+        "mode": "curated",
+        "note": "Only unattached later exercises; opening-linked exercises belong to opening chapters. Original full navigation scope retained. Completion covers only the exact later scope shown, not all items in the historical navigation set."
+      },
+      "UNIT-PRACTICE-C": {
+        "platform": "Zulearn",
+        "category": "Later thematic practice sets",
+        "scope": [
+          "ZP-ALG-002",
+          "ZP-TCS-001",
+          "ZP-TCS-002",
+          "ZP-TCS-003",
+          "ZP-TCS-004"
+        ],
+        "mode": "curated",
+        "note": "Only unattached later exercises; opening-linked exercises belong to opening chapters. Original full navigation scope retained. Completion covers only the exact later scope shown, not all items in the historical navigation set."
+      },
+      "UNIT-PRACTICE-M": {
+        "platform": "Zulearn",
+        "category": "Later thematic practice sets",
+        "scope": [
+          "ZP-MATH-001",
+          "ZP-LIN-002",
+          "ZP-LIN-003",
+          "ZP-GRAPH-001",
+          "ZP-PDE-001",
+          "ZP-NUM-001"
+        ],
+        "mode": "curated",
+        "note": "Only unattached later exercises; opening-linked exercises belong to opening chapters. Original full navigation scope retained. Completion covers only the exact later scope shown, not all items in the historical navigation set."
+      },
+      "UNIT-PRACTICE-S": {
+        "platform": "Zulearn",
+        "category": "Later thematic practice sets",
+        "scope": [
+          "ZP-SCI-001",
+          "ZP-SCI-002",
+          "ZP-SCI-003",
+          "ZP-SCI-004",
+          "ZP-SCI-005"
+        ],
+        "mode": "curated",
+        "note": "Only unattached later exercises; opening-linked exercises belong to opening chapters. Original full navigation scope retained. Completion covers only the exact later scope shown, not all items in the historical navigation set."
+      },
+      "UNIT-PRACTICE-R": {
+        "platform": "Zulearn",
+        "category": "Later thematic practice sets",
+        "scope": [
+          "ZP-RES-001"
+        ],
+        "mode": "curated",
+        "note": "Only unattached later exercises; opening-linked exercises belong to opening chapters. Original full navigation scope retained. Completion covers only the exact later scope shown, not all items in the historical navigation set."
+      },
+      "UNIT-PRACTICE-B": {
+        "platform": "Zulearn",
+        "category": "Later thematic practice sets",
+        "scope": [
+          "ZP-BIO-001",
+          "ZP-BIO-002",
+          "ZP-BIO-003"
+        ],
+        "mode": "curated",
+        "note": "Only unattached later exercises; opening-linked exercises belong to opening chapters. Original full navigation scope retained. Completion covers only the exact later scope shown, not all items in the historical navigation set."
+      },
+      "MAT-ARITH": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-ALG": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-GEO": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-LIN": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-CALC": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-PROOF": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-PROB": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-PROC": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-INF": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-UNC": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-EXP": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-CAUS": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-NUM": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-CONVEX": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-SGD": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-INFO": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-BOUND": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-ANALYSIS": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-SYM": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-DYN": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-LOG": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-TAYLOR": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-TRANSFORM": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-REC": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-FIX": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-MC": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-VI": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "MAT-MDL": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ALG-SOFT": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ALG-SEARCH": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ALG-TCS": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ALG-SYN": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ALG-VERIFY": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ALG-AMORT": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ALG-LANG": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ALG-SYSTEMS": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "RES-QUESTION": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "RES-AGENT": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "RES-ARTIFACT": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "RES-COMM": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "RES-EFF": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "BIO-FOUND": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "BIO-PHYS": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "BIO-REP": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "BIO-STRUCT": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "BIO-ONTO": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "BIO-LEAK": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "RL-R1": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ML-GEN": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ML-SSL": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ML-POST": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "ML-VERIFY": {
+        "platform": "Zulearn",
+        "category": "Worksheets",
+        "scope": [],
+        "mode": "curated",
+        "note": "Frozen worksheet; no inference from related tasks."
+      },
+      "P01": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P02": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P03": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P04": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P05": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P06": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P07": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P08": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P09": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P10": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P11": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P12": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P13": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P14": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P15": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P16": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "P17": {
+        "platform": "Zulearn",
+        "category": "Research papers",
+        "scope": [],
+        "mode": "curated",
+        "note": "Reading/analysis, not equivalent to implementing a paper track."
+      },
+      "ZC-FRA-01": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "ZC-FRA-02": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "ZC-CODE-01": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "IMO-1959-P1": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "IMO-1959-P3": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "IOI-2018-COMBO": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "IOI-2018-SEATS": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "ICPC-2023-E": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "ICPC-2023-F": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "PUTNAM-2024-A1": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "PUTNAM-2024-B1": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "PUTNAM-2024-B4": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "IOAI-2025-DAY1": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "IOAI-2025-DAY2": {
+        "platform": "Zulearn",
+        "category": "Independent assessments",
+        "scope": [],
+        "mode": "assessment",
+        "note": "Reviewed independent attempt required."
+      },
+      "UNIT-COURSE-MIT1806": {
+        "platform": "Zulearn",
+        "category": "Selected university course sections",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Lectures 9–10, 14–17, 21–22, 25, 27, 29, 30–31, 33 as gaps require; selected independent assignments/exams."
+      },
+      "UNIT-COURSE-MIT1802": {
+        "platform": "Zulearn",
+        "category": "Selected university course sections",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Unit 2 Parts A–C; Unit 3 Part A double-integral probability; selected Unit 2 exam."
+      },
+      "UNIT-COURSE-MIT6042": {
+        "platform": "Zulearn",
+        "category": "Selected university course sections",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Propositions, quantifiers, induction, invariants, sets/functions, graphs, counting and selected generating functions."
+      },
+      "UNIT-COURSE-STAT110": {
+        "platform": "Zulearn",
+        "category": "Selected university course sections",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Random variables, expectation, continuous/joint distributions, conditional expectation, inequalities/limit theorems; Markov chains when RL begins."
+      },
+      "UNIT-COURSE-EE364A": {
+        "platform": "Zulearn",
+        "category": "Selected university course sections",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Boyd–Vandenberghe Chapters 2–5 and 9; selected convexity, duality and KKT."
+      },
+      "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Bounded detailed prompt inspection; conditional variation; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Bounded detailed prompt inspection; conditional variation; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Bounded detailed prompt inspection; conditional variation; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Official URL observed; latest full constraints unresolved; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Official URL observed; latest full constraints unresolved; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/bootstrap-mean": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Official URL observed; latest full constraints unresolved; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved; only for a named gap."
+      },
+      "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss": {
+        "platform": "TensorTonic",
+        "category": "Selected complements",
+        "scope": [],
+        "mode": "conditional",
+        "note": "Official prompt inspected; conditional meaningful variation; grader and cross-platform equivalence unresolved; only for a named gap."
+      },
+      "UNIT-LC-HASH": {
+        "platform": "Selective LeetCode",
+        "category": "Thematic gap-driven practice",
+        "scope": [
+          "https://leetcode.com/problems/two-sum/",
+          "https://leetcode.com/problems/valid-anagram/"
+        ],
+        "mode": "conditional",
+        "note": "No per-problem manual requirement."
+      },
+      "UNIT-LC-STACK": {
+        "platform": "Selective LeetCode",
+        "category": "Thematic gap-driven practice",
+        "scope": [
+          "https://leetcode.com/problems/valid-parentheses/"
+        ],
+        "mode": "conditional",
+        "note": "No per-problem manual requirement."
+      },
+      "UNIT-LC-SEARCH": {
+        "platform": "Selective LeetCode",
+        "category": "Thematic gap-driven practice",
+        "scope": [
+          "https://leetcode.com/problems/binary-search/"
+        ],
+        "mode": "conditional",
+        "note": "No per-problem manual requirement."
+      }
+    },
+    "derived": {
+      "UNIT-DP-01": {
+        "children": [
+          "D001",
+          "D002",
+          "D003",
+          "D004",
+          "D005",
+          "D006",
+          "D007",
+          "D008",
+          "D009",
+          "D010",
+          "D011",
+          "D012",
+          "D013",
+          "D014",
+          "D015",
+          "D016",
+          "D017",
+          "D018",
+          "D019",
+          "D020",
+          "D021",
+          "D022",
+          "D023"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-02": {
+        "children": [
+          "D024",
+          "D025",
+          "D026",
+          "D027",
+          "D028",
+          "D029",
+          "D030",
+          "D031",
+          "D032",
+          "D033",
+          "D034",
+          "D035",
+          "D036",
+          "D037",
+          "D038",
+          "D039",
+          "D040",
+          "D041",
+          "D042"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-03": {
+        "children": [
+          "D043",
+          "D044",
+          "D045",
+          "D046",
+          "D047",
+          "D048",
+          "D049",
+          "D050",
+          "D051",
+          "D052",
+          "D053",
+          "D054",
+          "D055",
+          "D056",
+          "D057",
+          "D058",
+          "D059",
+          "D060",
+          "D061",
+          "D062",
+          "D063",
+          "D064",
+          "D065",
+          "D066"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-04": {
+        "children": [
+          "D067",
+          "D068"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-05": {
+        "children": [
+          "D069",
+          "D070",
+          "D071",
+          "D072",
+          "D073",
+          "D074",
+          "D075",
+          "D076",
+          "D077",
+          "D078"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-06": {
+        "children": [
+          "D079",
+          "D080",
+          "D081"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-07": {
+        "children": [
+          "D082",
+          "D083",
+          "D084",
+          "D085",
+          "D086",
+          "D087",
+          "D088",
+          "D089",
+          "D090",
+          "D091"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-08": {
+        "children": [
+          "D092",
+          "D093",
+          "D094",
+          "D095"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-09": {
+        "children": [
+          "D096",
+          "D097",
+          "D098"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-10": {
+        "children": [
+          "D099"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-11": {
+        "children": [
+          "D100",
+          "D101",
+          "D102",
+          "D103"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-12": {
+        "children": [
+          "D104",
+          "D105",
+          "D106",
+          "D107",
+          "D108"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-13": {
+        "children": [
+          "D109"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-DP-14": {
+        "children": [
+          "D110",
+          "D111",
+          "D112"
+        ],
+        "note": "Derived from distinct concepts."
+      },
+      "UNIT-PATH-D": {
+        "children": [
+          "UNIT-DP-01",
+          "UNIT-DP-02",
+          "UNIT-DP-03",
+          "UNIT-DP-04",
+          "UNIT-DP-05",
+          "UNIT-DP-06",
+          "UNIT-DP-07",
+          "UNIT-DP-08",
+          "UNIT-DP-09",
+          "UNIT-DP-10",
+          "UNIT-DP-11",
+          "UNIT-DP-12",
+          "UNIT-DP-13",
+          "UNIT-DP-14"
+        ],
+        "note": "Derived from all 112 concepts, not occurrences."
+      },
+      "UNIT-TT-CS336-02": {
+        "children": [
+          "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step",
+          "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant"
+        ],
+        "note": "Selected complements only, not full provider chapter."
+      },
+      "UNIT-TT-CS336-05": {
+        "children": [
+          "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts"
+        ],
+        "note": "Selected complements only, not full provider chapter."
+      },
+      "UNIT-TT-CS336-10": {
+        "children": [
+          "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner"
+        ],
+        "note": "Selected complements only, not full provider chapter."
+      },
+      "UNIT-TT-CS336-12": {
+        "children": [
+          "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity",
+          "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood"
+        ],
+        "note": "Selected complements only, not full provider chapter."
+      },
+      "UNIT-TT-CS336-13": {
+        "children": [
+          "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication"
+        ],
+        "note": "Selected complements only, not full provider chapter."
+      },
+      "UNIT-TT-CS336-14": {
+        "children": [
+          "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask"
+        ],
+        "note": "Selected complements only, not full provider chapter."
+      },
+      "UNIT-TT-CS336-15": {
+        "children": [
+          "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages"
+        ],
+        "note": "Selected complements only, not full provider chapter."
+      },
+      "UNIT-TT-CS336-16": {
+        "children": [
+          "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss"
+        ],
+        "note": "Selected complements only, not full provider chapter."
+      },
+      "UNIT-TT-CS336": {
+        "children": [
+          "UNIT-TT-CS336-02",
+          "UNIT-TT-CS336-05",
+          "UNIT-TT-CS336-10",
+          "UNIT-TT-CS336-12",
+          "UNIT-TT-CS336-13",
+          "UNIT-TT-CS336-14",
+          "UNIT-TT-CS336-15",
+          "UNIT-TT-CS336-16"
+        ],
+        "note": "Selected complements only; full plan stays optional/native."
+      },
+      "UNIT-PATH-F": {
+        "children": [
+          "UNIT-OPEN-F",
+          "UNIT-PRACTICE-F",
+          "MAT-ARITH",
+          "MAT-ALG",
+          "MAT-GEO",
+          "MAT-PROOF",
+          "MAT-LOG",
+          "MAT-REC"
+        ],
+        "note": "Linked Zulearn units only; cross-platform links are navigation, not extra requirements."
+      },
+      "UNIT-PATH-C": {
+        "children": [
+          "UNIT-OPEN-C",
+          "UNIT-PRACTICE-C",
+          "MAT-NUM",
+          "ALG-SOFT",
+          "ALG-SEARCH",
+          "ALG-TCS",
+          "ALG-SYN",
+          "ALG-VERIFY",
+          "ALG-AMORT",
+          "ALG-LANG",
+          "ALG-SYSTEMS",
+          "P06",
+          "P07",
+          "P09",
+          "P10"
+        ],
+        "note": "Linked Zulearn units only; cross-platform links are navigation, not extra requirements."
+      },
+      "UNIT-PATH-M": {
+        "children": [
+          "UNIT-PRACTICE-M",
+          "MAT-LIN",
+          "MAT-CALC",
+          "MAT-PROB",
+          "MAT-PROC",
+          "MAT-INF",
+          "MAT-UNC",
+          "MAT-EXP",
+          "MAT-CAUS",
+          "MAT-NUM",
+          "MAT-CONVEX",
+          "MAT-SGD",
+          "MAT-INFO",
+          "MAT-BOUND",
+          "MAT-ANALYSIS",
+          "MAT-SYM",
+          "MAT-DYN",
+          "MAT-TAYLOR",
+          "MAT-TRANSFORM",
+          "MAT-FIX",
+          "MAT-MC",
+          "MAT-VI",
+          "MAT-MDL",
+          "RL-R1",
+          "P01",
+          "P03",
+          "P05",
+          "P06",
+          "P07",
+          "P09",
+          "P10",
+          "P11",
+          "P12",
+          "P14",
+          "P17"
+        ],
+        "note": "Linked Zulearn units only; cross-platform links are navigation, not extra requirements."
+      },
+      "UNIT-PATH-L": {
+        "children": [
+          "MAT-LIN",
+          "MAT-CALC",
+          "MAT-UNC",
+          "MAT-BOUND",
+          "RES-AGENT",
+          "RL-R1",
+          "ML-GEN",
+          "ML-SSL",
+          "ML-POST",
+          "ML-VERIFY",
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P08",
+          "P11",
+          "P13",
+          "P14",
+          "P15",
+          "P17"
+        ],
+        "note": "Linked Zulearn units only; cross-platform links are navigation, not extra requirements."
+      },
+      "UNIT-PATH-S": {
+        "children": [
+          "UNIT-PRACTICE-S",
+          "MAT-UNC",
+          "MAT-EXP",
+          "MAT-CAUS",
+          "RES-QUESTION",
+          "RES-ARTIFACT",
+          "RES-COMM",
+          "RES-EFF",
+          "P16"
+        ],
+        "note": "Linked Zulearn units only; cross-platform links are navigation, not extra requirements."
+      },
+      "UNIT-PATH-R": {
+        "children": [
+          "UNIT-PRACTICE-R"
+        ],
+        "note": "Linked Zulearn units only; cross-platform links are navigation, not extra requirements."
+      },
+      "UNIT-PATH-B": {
+        "children": [
+          "UNIT-PRACTICE-B",
+          "BIO-FOUND",
+          "BIO-PHYS",
+          "BIO-REP",
+          "BIO-STRUCT",
+          "BIO-ONTO",
+          "BIO-LEAK",
+          "P13",
+          "P15",
+          "P16"
+        ],
+        "note": "Linked Zulearn units only; cross-platform links are navigation, not extra requirements."
+      }
+    },
+    "scopeAudit": {
+      "UNIT-COURSE-MIT1806": {
+        "state": "named selected scope",
+        "detail": "Lectures 9–10, 14–17, 21–22, 25, 27, 29, 30–31, 33 as gaps require; selected independent assignments/exams.",
+        "source": "curriculum/v1/curriculum/MATHEMATICS.md"
+      },
+      "UNIT-COURSE-MIT1802": {
+        "state": "named selected scope",
+        "detail": "Unit 2 Parts A–C; Unit 3 Part A double-integral probability; selected Unit 2 exam.",
+        "source": "curriculum/v1/curriculum/MATHEMATICS.md"
+      },
+      "UNIT-COURSE-MIT6042": {
+        "state": "named selected scope",
+        "detail": "Propositions, quantifiers, induction, invariants, sets/functions, graphs, counting and selected generating functions.",
+        "source": "curriculum/v1/curriculum/MATHEMATICS.md"
+      },
+      "UNIT-COURSE-STAT110": {
+        "state": "named selected scope",
+        "detail": "Random variables, expectation, continuous/joint distributions, conditional expectation, inequalities/limit theorems; Markov chains when RL begins.",
+        "source": "curriculum/v1/curriculum/MATHEMATICS.md"
+      },
+      "UNIT-COURSE-EE364A": {
+        "state": "named selected scope",
+        "detail": "Boyd–Vandenberghe Chapters 2–5 and 9; selected convexity, duality and KKT.",
+        "source": "curriculum/v1/curriculum/MATHEMATICS.md"
+      },
+      "UNIT-TT-CS336-01": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l01-train-byte-pair-encoding",
+          "tensortonic:problem:cs336-l01-apply-bpe-merge-ranks",
+          "tensortonic:quiz:cs336-l01-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-02": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l02-gradient-accumulation-step",
+          "tensortonic:problem:cs336-l02-einsum-attention-scores",
+          "tensortonic:problem:cs336-l02-training-memory-accountant",
+          "tensortonic:problem:cs336-l02-training-flop-estimator",
+          "tensortonic:quiz:cs336-l02-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-03": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l03-rmsnorm-forward",
+          "tensortonic:problem:cs336-l03-parameter-matched-swiglu",
+          "tensortonic:problem:cs336-l03-rotary-query-key-embeddings",
+          "tensortonic:problem:cs336-l03-causal-grouped-query-attention",
+          "tensortonic:quiz:cs336-l03-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-04": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l04-linear-attention-duality",
+          "tensortonic:problem:cs336-l04-mamba2-gated-state-scan",
+          "tensortonic:problem:cs336-l04-gated-deltanet-scan",
+          "tensortonic:problem:cs336-l04-topk-moe-router",
+          "tensortonic:quiz:cs336-l04-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-05": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l05-gpu-occupancy-calculator",
+          "tensortonic:problem:cs336-l05-shared-memory-bank-conflicts",
+          "tensortonic:problem:cs336-l05-global-memory-coalescing",
+          "tensortonic:problem:cs336-l05-blockwise-online-softmax",
+          "tensortonic:quiz:cs336-l05-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-06": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l06-triton-masked-gelu",
+          "tensortonic:problem:cs336-l06-triton-row-softmax",
+          "tensortonic:problem:cs336-l06-triton-tiled-row-sum",
+          "tensortonic:problem:cs336-l06-triton-matmul-relu",
+          "tensortonic:quiz:cs336-l06-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-07": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l07-simulate-collectives",
+          "tensortonic:problem:cs336-l07-collective-bandwidth",
+          "tensortonic:problem:cs336-l07-data-parallel-gradient-sync",
+          "tensortonic:problem:cs336-l07-column-parallel-mlp",
+          "tensortonic:quiz:cs336-l07-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-08": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l08-zero-memory-accounting",
+          "tensortonic:problem:cs336-l08-pipeline-bubble-utilization",
+          "tensortonic:problem:cs336-l08-topology-aware-parallel-plan",
+          "tensortonic:quiz:cs336-l08-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-09": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l09-fit-data-power-law",
+          "tensortonic:problem:cs336-l09-data-mixture-extrapolation",
+          "tensortonic:problem:cs336-l09-critical-batch-size",
+          "tensortonic:problem:cs336-l09-isoflop-optimal-frontier",
+          "tensortonic:quiz:cs336-l09-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-10": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l10-kv-cache-decode-step",
+          "tensortonic:problem:cs336-l10-kv-cache-capacity-planner",
+          "tensortonic:problem:cs336-l10-speculative-sampling",
+          "tensortonic:quiz:cs336-l10-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-11": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l11-wsd-learning-rate",
+          "tensortonic:problem:cs336-l11-hyperparameter-scaling-fit",
+          "tensortonic:problem:cs336-l11-muon-spectral-update",
+          "tensortonic:problem:cs336-l11-mup-invariant-diagnostics",
+          "tensortonic:quiz:cs336-l11-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-12": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l12-conditional-perplexity",
+          "tensortonic:problem:cs336-l12-multiple-choice-likelihood",
+          "tensortonic:problem:cs336-l12-pairwise-elo-fit",
+          "tensortonic:problem:cs336-l12-judge-length-debiasing",
+          "tensortonic:quiz:cs336-l12-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-13": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l14-stable-exact-deduplication",
+          "tensortonic:problem:cs336-l14-minhash-signatures",
+          "tensortonic:problem:cs336-l14-temperature-data-mixture",
+          "tensortonic:quiz:cs336-l14-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-14": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l15-assistant-only-sft-mask",
+          "tensortonic:problem:cs336-l15-canonical-preference-pairs",
+          "tensortonic:problem:cs336-l15-kl-regularized-policy-objective",
+          "tensortonic:problem:cs336-l15-direct-preference-optimization-loss",
+          "tensortonic:quiz:cs336-l15-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-15": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l16-grpo-group-advantages",
+          "tensortonic:problem:cs336-l16-clipped-grpo-surrogate",
+          "tensortonic:problem:cs336-l16-grpo-length-normalization-audit",
+          "tensortonic:quiz:cs336-l16-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-16": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l17-vision-transformer-patchify",
+          "tensortonic:problem:cs336-l17-symmetric-clip-loss",
+          "tensortonic:problem:cs336-l17-siglip-pairwise-loss",
+          "tensortonic:problem:cs336-l17-multimodal-rope-coordinates",
+          "tensortonic:quiz:cs336-l17-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336-17": {
+        "state": "observed chapter membership",
+        "observationIds": [
+          "tensortonic:problem:cs336-l18-continuous-batching-scheduler",
+          "tensortonic:problem:cs336-l18-kv-prefix-trie",
+          "tensortonic:problem:cs336-l18-cache-aware-prefill-routing",
+          "tensortonic:problem:cs336-l18-kernel-timeline-utilization",
+          "tensortonic:quiz:cs336-l18-quiz"
+        ],
+        "detail": "Observed problem/quiz identities; local progress covers selected complements only. Full chapter progress remains native."
+      },
+      "UNIT-TT-CS336": {
+        "state": "observed plan structure",
+        "chapters": [
+          "UNIT-TT-CS336-01",
+          "UNIT-TT-CS336-02",
+          "UNIT-TT-CS336-03",
+          "UNIT-TT-CS336-04",
+          "UNIT-TT-CS336-05",
+          "UNIT-TT-CS336-06",
+          "UNIT-TT-CS336-07",
+          "UNIT-TT-CS336-08",
+          "UNIT-TT-CS336-09",
+          "UNIT-TT-CS336-10",
+          "UNIT-TT-CS336-11",
+          "UNIT-TT-CS336-12",
+          "UNIT-TT-CS336-13",
+          "UNIT-TT-CS336-14",
+          "UNIT-TT-CS336-15",
+          "UNIT-TT-CS336-16",
+          "UNIT-TT-CS336-17"
+        ],
+        "observationIds": [
+          "tensortonic:problem:cs336-l02-gradient-accumulation-step",
+          "tensortonic:problem:cs336-l12-conditional-perplexity",
+          "tensortonic:problem:cs336-l12-multiple-choice-likelihood",
+          "tensortonic:problem:cs336-l14-stable-exact-deduplication",
+          "tensortonic:problem:cs336-l16-grpo-group-advantages",
+          "tensortonic:problem:cs336-l01-train-byte-pair-encoding",
+          "tensortonic:problem:cs336-l01-apply-bpe-merge-ranks",
+          "tensortonic:problem:cs336-l02-einsum-attention-scores",
+          "tensortonic:problem:cs336-l02-training-memory-accountant",
+          "tensortonic:problem:cs336-l02-training-flop-estimator",
+          "tensortonic:problem:cs336-l03-rmsnorm-forward",
+          "tensortonic:problem:cs336-l03-parameter-matched-swiglu",
+          "tensortonic:problem:cs336-l03-rotary-query-key-embeddings",
+          "tensortonic:problem:cs336-l03-causal-grouped-query-attention",
+          "tensortonic:problem:cs336-l04-linear-attention-duality",
+          "tensortonic:problem:cs336-l04-mamba2-gated-state-scan",
+          "tensortonic:problem:cs336-l04-gated-deltanet-scan",
+          "tensortonic:problem:cs336-l04-topk-moe-router",
+          "tensortonic:problem:cs336-l05-gpu-occupancy-calculator",
+          "tensortonic:problem:cs336-l05-shared-memory-bank-conflicts",
+          "tensortonic:problem:cs336-l05-global-memory-coalescing",
+          "tensortonic:problem:cs336-l05-blockwise-online-softmax",
+          "tensortonic:problem:cs336-l06-triton-masked-gelu",
+          "tensortonic:problem:cs336-l06-triton-row-softmax",
+          "tensortonic:problem:cs336-l06-triton-tiled-row-sum",
+          "tensortonic:problem:cs336-l06-triton-matmul-relu",
+          "tensortonic:problem:cs336-l07-simulate-collectives",
+          "tensortonic:problem:cs336-l07-collective-bandwidth",
+          "tensortonic:problem:cs336-l07-data-parallel-gradient-sync",
+          "tensortonic:problem:cs336-l07-column-parallel-mlp",
+          "tensortonic:problem:cs336-l08-zero-memory-accounting",
+          "tensortonic:problem:cs336-l08-pipeline-bubble-utilization",
+          "tensortonic:problem:cs336-l08-topology-aware-parallel-plan",
+          "tensortonic:problem:cs336-l09-fit-data-power-law",
+          "tensortonic:problem:cs336-l09-data-mixture-extrapolation",
+          "tensortonic:problem:cs336-l09-critical-batch-size",
+          "tensortonic:problem:cs336-l09-isoflop-optimal-frontier",
+          "tensortonic:problem:cs336-l10-kv-cache-decode-step",
+          "tensortonic:problem:cs336-l10-kv-cache-capacity-planner",
+          "tensortonic:problem:cs336-l10-speculative-sampling",
+          "tensortonic:problem:cs336-l11-wsd-learning-rate",
+          "tensortonic:problem:cs336-l11-hyperparameter-scaling-fit",
+          "tensortonic:problem:cs336-l11-muon-spectral-update",
+          "tensortonic:problem:cs336-l11-mup-invariant-diagnostics",
+          "tensortonic:problem:cs336-l12-pairwise-elo-fit",
+          "tensortonic:problem:cs336-l12-judge-length-debiasing",
+          "tensortonic:problem:cs336-l14-minhash-signatures",
+          "tensortonic:problem:cs336-l14-temperature-data-mixture",
+          "tensortonic:problem:cs336-l15-assistant-only-sft-mask",
+          "tensortonic:problem:cs336-l15-canonical-preference-pairs",
+          "tensortonic:problem:cs336-l15-kl-regularized-policy-objective",
+          "tensortonic:problem:cs336-l15-direct-preference-optimization-loss",
+          "tensortonic:problem:cs336-l16-clipped-grpo-surrogate",
+          "tensortonic:problem:cs336-l16-grpo-length-normalization-audit",
+          "tensortonic:problem:cs336-l17-vision-transformer-patchify",
+          "tensortonic:problem:cs336-l17-symmetric-clip-loss",
+          "tensortonic:problem:cs336-l17-siglip-pairwise-loss",
+          "tensortonic:problem:cs336-l17-multimodal-rope-coordinates",
+          "tensortonic:problem:cs336-l18-continuous-batching-scheduler",
+          "tensortonic:problem:cs336-l18-kv-prefix-trie",
+          "tensortonic:problem:cs336-l18-cache-aware-prefill-routing",
+          "tensortonic:problem:cs336-l18-kernel-timeline-utilization",
+          "tensortonic:quiz:cs336-l01-quiz",
+          "tensortonic:quiz:cs336-l02-quiz",
+          "tensortonic:quiz:cs336-l03-quiz",
+          "tensortonic:quiz:cs336-l04-quiz",
+          "tensortonic:quiz:cs336-l05-quiz",
+          "tensortonic:quiz:cs336-l06-quiz",
+          "tensortonic:quiz:cs336-l07-quiz",
+          "tensortonic:quiz:cs336-l08-quiz",
+          "tensortonic:quiz:cs336-l09-quiz",
+          "tensortonic:quiz:cs336-l10-quiz",
+          "tensortonic:quiz:cs336-l11-quiz",
+          "tensortonic:quiz:cs336-l12-quiz",
+          "tensortonic:quiz:cs336-l14-quiz",
+          "tensortonic:quiz:cs336-l15-quiz",
+          "tensortonic:quiz:cs336-l16-quiz",
+          "tensortonic:quiz:cs336-l17-quiz",
+          "tensortonic:quiz:cs336-l18-quiz"
+        ],
+        "detail": "17 sections, 62 problem occurrences, 17 quizzes; only 10 selected complements in local denominator."
+      },
+      "UNIT-TT-PLAN-AUTOGRAD": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-ALPHAGO": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "18 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-DIFFUSION": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "26 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-PANDAS": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-NUMPY": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-PYTORCH": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-SQL": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-CUDA": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-TRITON": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-INFERENCE": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-JAX": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-LINEAR": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-PROBABILITY": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-CALCULUS": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-OPTIMIZATION": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "25 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-ML": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-DL": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-NLP": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-RL": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "30 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-TT-PLAN-CV": {
+        "state": "named provider plan; constituent scope unresolved",
+        "detail": "35 problem occurrences advertised on the official study-plan index, checked 2026-11-28. Optional resource, not a new curriculum requirement; use native progress and assess overlap before choosing work.",
+        "source": "https://www.tensortonic.com/study-plans"
+      },
+      "UNIT-DML-NNET-GPT": {
+        "state": "provider unit or historical description; constituent scope unresolved",
+        "detail": "Historical provider snapshot: 15 episodes; 492 question occurrences. Individual course URL not recovered.",
+        "source": "https://www.deep-ml.com/"
+      },
+      "UNIT-DML-POSTTRAIN": {
+        "state": "provider unit or historical description; constituent scope unresolved",
+        "detail": "Historical provider snapshot: 21 episodes; 697 question occurrences. Individual course URL not recovered.",
+        "source": "https://www.deep-ml.com/"
+      },
+      "UNIT-DML-ESSENTIALS": {
+        "state": "provider unit or historical description; constituent scope unresolved",
+        "detail": "Earlier snapshot: 71 concepts, 620 steps; inner inventory unavailable. Distinct from Everything; overlap unresolved.",
+        "source": "https://www.deep-ml.com/"
+      },
+      "UNIT-OPT-TT-SAE": {
+        "state": "provider unit or historical description; constituent scope unresolved",
+        "detail": "Official project page inspected 2026-11-28: four numbered primitives, feature experiment guidance and an integrated notebook. Compare reconstruction and sparsity, inspect activating examples and test interventions. Actual access/runtime and overlap with Deep-Path remain unresolved.",
+        "source": "https://www.tensortonic.com/projects/sparse-autoencoder-feature-lab"
+      },
+      "UNIT-OPT-TT-WSP": {
+        "state": "provider unit or historical description; constituent scope unresolved",
+        "detail": "Official lab page inspected 2026-11-28: five stages from loop measurement through weight intervention and re-evaluation on Qwen3.5-0.8B. Actual access/runtime and overlap remain unresolved. Provider's research claims are not Zulearn validation.",
+        "source": "https://www.tensortonic.com/labs/weight-space-programming"
+      },
+      "UNIT-OPT-DML-LAB-23": {
+        "state": "provider unit or historical description; constituent scope unresolved",
+        "detail": "Official lab listing and destination inspected 2026-11-28: Breast Cancer Wisconsin classification, held-out accuracy target 0.92, NumPy/sklearn allowed. Inner runner loads client-side; complete contract/grader and overlap must be checked before assignment.",
+        "source": "https://www.deep-ml.com/labs/23"
+      },
+      "UNIT-OPT-DML-LAB-SPLIT": {
+        "state": "provider unit or historical description; constituent scope unresolved",
+        "detail": "Official listing and destination inspected 2026-11-28: train/validation/test split, train-only fit and held-out MAE target 2.3. Inner runner loads client-side; complete contract/grader and overlap must be checked before assignment.",
+        "source": "https://www.deep-ml.com/labs/3d26c3f9-cb73-4ab1-bc4d-86cfab2af6d1"
+      }
+    },
+    "optionalCatalogue": [
+      {
+        "platform": "Deep-ML",
+        "category": "Thematic learning paths",
+        "source": "https://www.deep-ml.com/paths",
+        "note": "All twelve named thematic paths recovered from the learner's 2026-11-27 catalogue report; ten also retained as frozen historical observations. Current public /paths index exposes Deep-Path, not these twelve item links. Counts are occurrences and may overlap Everything. Source: prior learner report plus frozen inventory; no invented provider IDs.",
+        "entries": [
+          {
+            "title": "Math Foundations for Machine Learning",
+            "observation": "deepml:historical20261009:PATH-01",
+            "note": "Learner-supplied 2026-11-27 observation: 85 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "Linear Algebra",
+            "observation": "deepml:historical20261009:PATH-02",
+            "note": "Learner-supplied 2026-11-27 observation: 67 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "Classical Machine Learning Fundamentals",
+            "observation": "deepml:historical20261009:PATH-03",
+            "note": "Learner-supplied 2026-11-27 observation: 123 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "Deep Learning Fundamentals",
+            "observation": "deepml:historical20261009:PATH-04",
+            "note": "Learner-supplied 2026-11-27 observation: 117 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "Computer Vision: From Pixels to Detection and Segmentation",
+            "note": "Learner-supplied 2026-11-27 observation: 114 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "Graph Neural Network Fundamentals",
+            "observation": "deepml:historical20261009:PATH-05",
+            "note": "Learner-supplied 2026-11-27 observation: 33 step occurrences. Frozen October observation: 32; snapshot difference unresolved. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "LLM Basics: Build a Tiny GPT",
+            "observation": "deepml:historical20261009:PATH-06",
+            "note": "Learner-supplied 2026-11-27 observation: 67 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "Inference Engineering",
+            "observation": "deepml:historical20261009:PATH-07",
+            "note": "Learner-supplied 2026-11-27 observation: 52 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "Neural Network Quantization",
+            "observation": "deepml:historical20261009:PATH-08",
+            "note": "Learner-supplied 2026-11-27 observation: 22 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "RL Fine-Tuning for LLMs",
+            "observation": "deepml:historical20261009:PATH-09",
+            "note": "Learner-supplied 2026-11-27 observation: 62 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "Continual Learning: From Catastrophic Forgetting to Continual Pretraining",
+            "note": "Learner-supplied 2026-11-27 observation: 41 step occurrences. Exact provider URL and constituent identities unresolved."
+          },
+          {
+            "title": "AI Safety and Governance",
+            "observation": "deepml:historical20261009:PATH-10",
+            "note": "Learner-supplied 2026-11-27 observation: 47 step occurrences. Exact provider URL and constituent identities unresolved."
+          }
+        ]
+      },
+      {
+        "platform": "Deep-ML",
+        "category": "Essentials and courses",
+        "source": "https://www.deep-ml.com/paths",
+        "note": "Optional alternatives, not extra requirements.",
+        "units": [
+          "UNIT-DML-ESSENTIALS",
+          "UNIT-DML-NNET-GPT",
+          "UNIT-DML-POSTTRAIN"
+        ]
+      },
+      {
+        "platform": "Deep-ML",
+        "category": "Mathematics, intuition, projects, labs and collections",
+        "source": "https://www.deep-ml.com/",
+        "note": "861 math, 130 intuition, 157 project, 120 lab, 24 collection observations; historical observations separately. Browse retained catalogue; individual URLs unresolved.",
+        "units": [
+          "UNIT-OPT-DML-LAB-23",
+          "UNIT-OPT-DML-LAB-SPLIT"
+        ]
+      },
+      {
+        "platform": "TensorTonic",
+        "category": "Study plans",
+        "source": "https://www.tensortonic.com/study-plans",
+        "note": "21 named plans; 651 historical assignment occurrences. Full plan completion native.",
+        "units": [
+          "UNIT-TT-CS336",
+          "UNIT-TT-PLAN-AUTOGRAD",
+          "UNIT-TT-PLAN-ALPHAGO",
+          "UNIT-TT-PLAN-DIFFUSION",
+          "UNIT-TT-PLAN-PANDAS",
+          "UNIT-TT-PLAN-NUMPY",
+          "UNIT-TT-PLAN-PYTORCH",
+          "UNIT-TT-PLAN-SQL",
+          "UNIT-TT-PLAN-CUDA",
+          "UNIT-TT-PLAN-TRITON",
+          "UNIT-TT-PLAN-INFERENCE",
+          "UNIT-TT-PLAN-JAX",
+          "UNIT-TT-PLAN-LINEAR",
+          "UNIT-TT-PLAN-PROBABILITY",
+          "UNIT-TT-PLAN-CALCULUS",
+          "UNIT-TT-PLAN-OPTIMIZATION",
+          "UNIT-TT-PLAN-ML",
+          "UNIT-TT-PLAN-DL",
+          "UNIT-TT-PLAN-NLP",
+          "UNIT-TT-PLAN-RL",
+          "UNIT-TT-PLAN-CV"
+        ]
+      },
+      {
+        "platform": "TensorTonic",
+        "category": "Projects and labs",
+        "source": "https://www.tensortonic.com/projects",
+        "note": "31 projects across 11 categories in retained snapshot. Current project index unavailable to the auditor; seven further direct project destinations inspected. Named release/category observations below are additional discovery, not a claim of 31 resolved identities.",
+        "units": [
+          "UNIT-OPT-TT-SAE",
+          "UNIT-OPT-TT-WSP"
+        ],
+        "entries": [
+          {
+            "title": "Build a Tiny GPT from Scratch",
+            "url": "https://www.tensortonic.com/projects/tiny-gpt-from-scratch",
+            "note": "Official destination observed; inner equivalence unresolved."
+          },
+          {
+            "title": "Build a Tiny Vision Transformer",
+            "url": "https://www.tensortonic.com/projects/tiny-vit-from-scratch",
+            "note": "Official destination observed; inner equivalence unresolved."
+          },
+          {
+            "title": "Build an AlphaZero-Style Game Player",
+            "url": "https://www.tensortonic.com/projects/alphazero-from-scratch",
+            "note": "Official destination observed; inner equivalence unresolved."
+          },
+          {
+            "title": "Build an RL Environment",
+            "url": "https://www.tensortonic.com/projects/rl-environment-from-scratch",
+            "note": "Official destination observed; inner equivalence unresolved."
+          },
+          {
+            "title": "Build a ReAct Agent",
+            "url": "https://www.tensortonic.com/projects/react-agent-from-scratch",
+            "note": "Official destination observed; inner equivalence unresolved."
+          },
+          {
+            "title": "Build a Mixture-of-Experts Language Model",
+            "url": "https://www.tensortonic.com/projects/mixture-of-experts-from-scratch",
+            "note": "Official destination observed; inner equivalence unresolved."
+          },
+          {
+            "title": "Build an LLM Inference Server From Scratch",
+            "url": "https://www.tensortonic.com/projects/llm-inference",
+            "note": "Official destination observed; inner equivalence unresolved."
+          },
+          {
+            "title": "Computer Vision",
+            "url": "https://www.tensortonic.com/projects/sheets/computer-vision",
+            "note": "3 available, 4 upcoming; category listing verified.",
+            "category": "Provider category"
+          },
+          {
+            "title": "Reinforcement Learning",
+            "url": "https://www.tensortonic.com/projects/sheets/reinforcement-learning",
+            "note": "6 available; category listing verified.",
+            "category": "Provider category"
+          },
+          {
+            "title": "Mechanistic Interpretability",
+            "url": "https://www.tensortonic.com/projects/sheets/mechanistic-interpretability",
+            "note": "1 available, 2 upcoming; category listing observed.",
+            "category": "Provider category"
+          },
+          {
+            "title": "Speech and Audio",
+            "url": "https://www.tensortonic.com/projects/sheets/speech-audio",
+            "note": "1 available, 3 upcoming; category listing observed.",
+            "category": "Provider category"
+          },
+          {
+            "title": "Multimodal AI",
+            "url": "https://www.tensortonic.com/projects/sheets/multimodal-ai",
+            "note": "0 available, 4 upcoming; not a learning assignment.",
+            "category": "Provider category"
+          },
+          {
+            "title": "Train a Reasoning Model with GRPO",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Generate Images with Diffusion and Rectified Flow",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Build an LLM Serving Scheduler",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Fit a Model in Less Memory",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Write a Matrix Multiply Kernel in Triton",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Build an Object Detector's Back Half",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Plan with a Learned World Model",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Detect Speech in Noisy Audio",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Detect Heartbeat Problems in ECG",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Forecast Electricity Demand",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Build a Two-Tower Recommender",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Evaluate a Recommender Honestly",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Classify Research Papers by Their Citations",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Build Hybrid Attention for Long Context",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Distributed Training from Scratch",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Write FlashAttention Step by Step",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Train an Agent with PPO",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Align a Language Model with DPO",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Quantize a Language Model to 4 Bits",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          },
+          {
+            "title": "Train a Tiny CLIP from Scratch",
+            "note": "Named official changelog observation; individual URL and equivalence unresolved.",
+            "category": "Release observation"
+          }
+        ],
+        "releaseSource": "https://www.tensortonic.com/changelog"
+      },
+      {
+        "platform": "TensorTonic",
+        "category": "Research paper implementation tracks",
+        "source": "https://www.tensortonic.com/research",
+        "note": "29 names in four categories, current index checked. Reading and implementation are different activities.",
+        "entries": [
+          {
+            "title": "Transformers",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Kimi K3",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "BERT",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Vision Transformer",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "LLaMA",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Gemma 3",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "GPT-2",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "DeepSeek-V3",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Arcee Trinity",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "gpt-oss",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "GLM-4.5",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Qwen4-Max",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Inkling 2",
+            "category": "Transformers and LLMs",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "ResNet",
+            "category": "Convolutional networks",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "DenseNet",
+            "category": "Convolutional networks",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "VGG",
+            "category": "Convolutional networks",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "U-Net",
+            "category": "Convolutional networks",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "AlexNet",
+            "category": "Convolutional networks",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Word2Vec",
+            "category": "Sequence models and embeddings",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "RNN",
+            "category": "Sequence models and embeddings",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "LSTM",
+            "category": "Sequence models and embeddings",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "GRU",
+            "category": "Sequence models and embeddings",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "EmbeddingGemma 2",
+            "category": "Sequence models and embeddings",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Tiny Recursive Model",
+            "category": "Sequence models and embeddings",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "Gated DeltaNet",
+            "category": "Sequence models and embeddings",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "VAE",
+            "category": "Generative models",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "GANs",
+            "category": "Generative models",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "DDPM",
+            "category": "Generative models",
+            "note": "Named provider index entry; direct track identity unresolved."
+          },
+          {
+            "title": "LLaDA",
+            "category": "Generative models",
+            "note": "Named provider index entry; direct track identity unresolved."
+          }
+        ]
+      },
+      {
+        "platform": "TensorTonic",
+        "category": "Systems, mathematics and articles",
+        "source": "https://www.tensortonic.com/articles",
+        "note": "Current index: 37 system-design topics, 21 cases, 67 math lessons across seven modules; article hub cached count 19 LLM internals vs retained 20.",
+        "entries": [
+          {
+            "title": "ML system design",
+            "url": "https://www.tensortonic.com/ml-design"
+          },
+          {
+            "title": "ML mathematics",
+            "url": "https://www.tensortonic.com/ml-math"
+          },
+          {
+            "title": "Articles",
+            "url": "https://www.tensortonic.com/articles"
+          },
+          {
+            "title": "Labs",
+            "url": "https://www.tensortonic.com/labs"
+          },
+          {
+            "title": "Statistics",
+            "category": "ML mathematics module",
+            "note": "15 observed lessons; provider module index, no extra checklist."
+          },
+          {
+            "title": "Probability",
+            "category": "ML mathematics module",
+            "note": "10 observed lessons; provider module index, no extra checklist."
+          },
+          {
+            "title": "Linear Algebra",
+            "category": "ML mathematics module",
+            "note": "11 observed lessons; provider module index, no extra checklist."
+          },
+          {
+            "title": "Calculus",
+            "category": "ML mathematics module",
+            "note": "9 observed lessons; provider module index, no extra checklist."
+          },
+          {
+            "title": "Optimization",
+            "category": "ML mathematics module",
+            "note": "9 observed lessons; provider module index, no extra checklist."
+          },
+          {
+            "title": "Graph Theory",
+            "category": "ML mathematics module",
+            "note": "6 observed lessons; provider module index, no extra checklist."
+          },
+          {
+            "title": "Information Theory",
+            "category": "ML mathematics module",
+            "note": "7 observed lessons; provider module index, no extra checklist."
+          },
+          {
+            "title": "Understanding ML systems",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          },
+          {
+            "title": "Framing the problem",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          },
+          {
+            "title": "Data and labels",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          },
+          {
+            "title": "Features and representations",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          },
+          {
+            "title": "Models and training",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          },
+          {
+            "title": "Evaluation and experiments",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          },
+          {
+            "title": "Serving and scale",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          },
+          {
+            "title": "Monitoring and improvement",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          },
+          {
+            "title": "Interview preparation",
+            "category": "System design section",
+            "note": "Observed provider section; use for relevant gaps only."
+          }
+        ]
+      },
+      {
+        "platform": "Selective LeetCode",
+        "category": "Native problems",
+        "source": "https://leetcode.com/problemset/",
+        "note": "Four official identities inspected; three conditional thematic sets. Other LeetCode/CSES resources remain gap-driven."
+      },
+      {
+        "platform": "Zulearn",
+        "category": "Exact source problems and further reference resources",
+        "source": "https://github.com/khalwaniev/zulearn/blob/main/docs/activities.json",
+        "note": "17 approved source locators remain available in Problem Bank. Those attached to an opening lesson belong to its chapter; all other source tasks are readiness-driven, not a separate compulsory checklist.",
+        "units": [
+          "AOPS-AMC8-2024-3",
+          "MIT6006-S20-PS0-6",
+          "MIT6006-S20-PS0-4",
+          "STAT110-F11-SP1-3",
+          "STAT110-F11-SP1-7",
+          "OTIS-2026-1-8",
+          "PUTNAM-2023-A1-PRACTICE",
+          "MATHNET-ROU-2017-JR2",
+          "MIT6042-2015-5.7",
+          "MIT6042-2015-5.8",
+          "EE364A-2008-2.1",
+          "EE364A-2008-2.7"
+        ]
+      }
+    ],
+    "duplicatePairs": [],
+    "relationshipPolicy": {
+      "exact": "Same provider identity and inspected contract; aliases share record.",
+      "navigation": "Same existing ID in multiple views.",
+      "partial": "Do not merge partial overlap.",
+      "theory": "Retain distinct proofs or derivations.",
+      "implementation": "Retain materially different constraints, backend or oracle.",
+      "retention": "Changed-instance retrieval and unseen transfer are not duplicates.",
+      "unresolved": "Title similarity is insufficient."
+    },
+    "aliases": [
+      {
+        "alias": "tensortonic:problem:cs336-l02-gradient-accumulation-step",
+        "id": "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l12-conditional-perplexity",
+        "id": "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l12-multiple-choice-likelihood",
+        "id": "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l14-stable-exact-deduplication",
+        "id": "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l16-grpo-group-advantages",
+        "id": "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:bootstrap-mean",
+        "id": "https://www.tensortonic.com/problems/bootstrap-mean",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l02-training-memory-accountant",
+        "id": "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l05-shared-memory-bank-conflicts",
+        "id": "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l10-kv-cache-capacity-planner",
+        "id": "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l15-assistant-only-sft-mask",
+        "id": "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      },
+      {
+        "alias": "tensortonic:problem:cs336-l17-symmetric-clip-loss",
+        "id": "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss",
+        "evidence": "Same exact observed provider problem URL, with navigation parameters removed; not a cross-platform duplicate."
+      }
+    ]
   }
 }
