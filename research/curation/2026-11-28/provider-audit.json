@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "dml-everything",
+      "platform": "Deep-ML",
+      "category": "Deep-Path Everything",
+      "source_id": "SRC-89593046abff",
+      "url": "https://www.deep-ml.com/deep-path",
+      "evidence_level": "E0",
+      "retained_branch_observations": 14,
+      "finding": "Current page exposes a JavaScript shell. Retained 112-concept snapshot is usable metadata; current inner contracts and exhaustive identity mapping remain unresolved.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "dml-paths",
+      "platform": "Deep-ML",
+      "category": "Learning Paths",
+      "source_id": "SRC-578aee830c69",
+      "url": "https://www.deep-ml.com/paths",
+      "evidence_level": "E1",
+      "retained_branch_observations": 13,
+      "finding": "Ordered routes combine math, implementation, projects and labs. The public text identifies fourteen Deep-Path parts; inner alternative-path contracts are not exposed.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "dml-labs",
+      "platform": "Deep-ML",
+      "category": "Labs",
+      "source_id": "SRC-4df4277712c7",
+      "url": "https://www.deep-ml.com/labs",
+      "evidence_level": "E2",
+      "retained_branch_observations": 120,
+      "finding": "Public index includes implementable contracts, datasets, resource budgets and scoring targets. Metric success is narrower than a proof or domain-valid research result.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "dml-projects",
+      "platform": "Deep-ML",
+      "category": "Projects",
+      "source_id": "SRC-c4b8b0809cb9",
+      "url": "https://www.deep-ml.com/projects",
+      "evidence_level": "E1",
+      "retained_branch_observations": 157,
+      "finding": "Atomized builds are described publicly; current inner project sequence is not exposed. Retained project titles cannot establish exact overlap.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "dml-collections",
+      "platform": "Deep-ML",
+      "category": "Collections",
+      "source_id": "SRC-6c5d3159bb9d",
+      "url": "https://www.deep-ml.com/collections",
+      "evidence_level": "E1",
+      "retained_branch_observations": 24,
+      "finding": "Topic-oriented curated series are described; retained memberships are metadata. Collection membership does not verify common canonical activity identity.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "dml-courses",
+      "platform": "Deep-ML",
+      "category": "Courses",
+      "source_id": "SRC-d9e3b5fa2bc1",
+      "url": "https://www.deep-ml.com/courses",
+      "evidence_level": "E0",
+      "retained_branch_observations": 2,
+      "finding": "Only navigation/shell retrieved. The two retained course observations are preserved; constituent assignments are unresolved.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "dml-math",
+      "platform": "Deep-ML",
+      "category": "Math",
+      "source_id": "SRC-8a1a2c0cdb6e",
+      "url": "https://www.deep-ml.com/math-problems",
+      "evidence_level": "E1",
+      "retained_branch_observations": 24,
+      "finding": "Worked examples and targeted written practice are advertised. The current reader did not expose their mathematical problem bodies; no global absence conclusion is possible.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "dml-intuition",
+      "platform": "Deep-ML",
+      "category": "Intuition",
+      "source_id": "SRC-4ce1323ceb76",
+      "url": "https://www.deep-ml.com/intuition",
+      "evidence_level": "E2",
+      "retained_branch_observations": 16,
+      "finding": "Inventive Python puzzles expose jobs and iterative counterexample feedback. Fair share has an actual list-to-scalar contract, rather than a pre-Python equal-part drawing requirement.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "tt-plans",
+      "platform": "TensorTonic",
+      "category": "Study Plans & Roadmap",
+      "source_id": "SRC-a861d24df902",
+      "url": "https://www.tensortonic.com/study-plans",
+      "evidence_level": "E1",
+      "retained_branch_observations": 34,
+      "finding": "Plans cover foundations, mathematical computation, architectures and systems. Several public task contracts inspected separately; some mathematical plans display a subscription notice.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "tt-projects",
+      "platform": "TensorTonic",
+      "category": "Projects",
+      "source_id": "SRC-c103453da5bb",
+      "url": "https://www.tensortonic.com/projects",
+      "evidence_level": "E1",
+      "retained_branch_observations": 28,
+      "finding": "Eleven project categories are visible. SAE and citation-GNN projects expose component and experiment routes, including interventions and over-smoothing; not limited to previous eleven referrals.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "tt-papers",
+      "platform": "TensorTonic",
+      "category": "Research Paper Tracks",
+      "source_id": "SRC-2fb0ae585f46",
+      "url": "https://www.tensortonic.com/research",
+      "evidence_level": "E2",
+      "retained_branch_observations": 29,
+      "finding": "Transformer track exposes tokenization through encoder components and a training link. Tokenization explicitly uses a simplified word vocabulary, so guided implementation alone is not a paper-scale reproduction.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "tt-labs",
+      "platform": "TensorTonic",
+      "category": "Labs",
+      "source_id": "SRC-960b67bd0cfc",
+      "url": "https://www.tensortonic.com/labs",
+      "evidence_level": "E1",
+      "retained_branch_observations": 1,
+      "finding": "One public weight-editing lab is advertised. Its walkthrough differs from an independently controlled and held-out replication; advertised performance is not reverified here.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "tt-design",
+      "platform": "TensorTonic",
+      "category": "ML System Design",
+      "source_id": "SRC-076ba01a187e",
+      "url": "https://www.tensortonic.com/ml-design",
+      "evidence_level": "E2",
+      "retained_branch_observations": 58,
+      "finding": "Lessons and designs cover data boundaries, baseline choice, scoring, deployment and monitoring. Leakage lesson includes temporal/entity splits, near duplicates and fitting boundaries.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    },
+    {
+      "id": "tt-articles",
+      "platform": "TensorTonic",
+      "category": "Articles",
+      "source_id": "SRC-0b1f43342e53",
+      "url": "https://www.tensortonic.com/articles",
+      "evidence_level": "E1",
+      "retained_branch_observations": 8,
+      "finding": "Math and LLM internals provide explanations. Coming-soon agent/inference sections are not counted as delivered instruction. Specific proof obligations still require task inspection.",
+      "completion_merges": 0,
+      "adequacy_boundary": "Only inspected objectives/contracts support positive findings. Missing publicly rendered content is unresolved rather than evidence of absence."
+    }
+  ],
+  "classification": [
+    "exact_identity",
+    "pedagogical_equivalence",
+    "partial_overlap",
+    "meaningful_extension",
+    "independent_transfer",
+    "unresolved"
+  ],
+  "verified_exact_pairs": [],
+  "method": "Review all fourteen parent categories, retained observations and accessible actual contracts; inspect objectives, mathematical entry, input/output, edge cases, constraints and visible evaluation. Category/card counts are not unique problem counts."
+}

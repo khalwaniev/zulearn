@@ -1,0 +1,932 @@
+{
+  "schema_version": 1,
+  "primary": "Deep-Path Everything remains the primary ML backbone; no constituent identity or progress inferred.",
+  "entries": [
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Gradient Accumulation Equivalence",
+      "url": "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step?studyPlan=language-modeling-from-scratch",
+      "target": "L11 / C12",
+      "evidence": [
+        {
+          "source_id": "SRC-85e53935f394",
+          "url": "https://www.tensortonic.com/problems/cs336-l02-gradient-accumulation-step?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Unequal microbatch sizes, full-example weighting, PyTorch backward accumulation and input preservation"
+        }
+      ],
+      "scope": "Useful L11/C12 transfer if these conditions were absent from the first training loop",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Compute Conditional Perplexity",
+      "url": "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity?studyPlan=language-modeling-from-scratch",
+      "target": "L15",
+      "evidence": [
+        {
+          "source_id": "SRC-c2ed5718bab0",
+          "url": "https://www.tensortonic.com/problems/cs336-l12-conditional-perplexity?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Response-mask evaluation, correct token aggregation and declared empty-mask convention"
+        }
+      ],
+      "scope": "Useful L15 evaluation task; no need to repeat ordinary unmasked perplexity",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Score Multiple-Choice Continuations",
+      "url": "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood?studyPlan=language-modeling-from-scratch",
+      "target": "L23",
+      "evidence": [
+        {
+          "source_id": "SRC-e254d727a278",
+          "url": "https://www.tensortonic.com/problems/cs336-l12-multiple-choice-likelihood?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Continuation likelihood with explicit length/tie/mask conventions"
+        }
+      ],
+      "scope": "Useful L23 transfer; distinguish the task's scoring convention from universal benchmark correctness",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Perform Stable Exact Deduplication",
+      "url": "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication?studyPlan=language-modeling-from-scratch",
+      "target": "C03 / C16 / L01",
+      "evidence": [
+        {
+          "source_id": "SRC-9e2c0c84f219",
+          "url": "https://www.tensortonic.com/problems/cs336-l14-stable-exact-deduplication?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Stable data deduplication rather than approximate semantic deduplication"
+        }
+      ],
+      "scope": "C03/C16/L01 data-integrity practice if missing; hash collisions must not be treated as equality",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Normalize GRPO Group Advantages",
+      "url": "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages?studyPlan=language-modeling-from-scratch",
+      "target": "L20 / R03",
+      "evidence": [
+        {
+          "source_id": "SRC-91851f779d4c",
+          "url": "https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Within-group standardization and edge-case conventions"
+        }
+      ],
+      "scope": "Later L20/R03 variation, after policy gradients; not a first RL lesson",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/bootstrap-mean",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Bootstrap Mean & Confidence Interval",
+      "url": "https://www.tensortonic.com/problems/bootstrap-mean?roadmap=tt100&step=16",
+      "target": "M09",
+      "evidence": [
+        {
+          "source_id": "SRC-0caf5611d351",
+          "url": "https://www.tensortonic.com/problems/bootstrap-mean?roadmap=tt100&step=16",
+          "level": "E2",
+          "observation": "Repeated resampling under an explicit unit and reproducibility convention"
+        }
+      ],
+      "scope": "Basic M09 implementation; add an original cluster/paired transfer, since ordinary IID bootstrap does not assess dependence-aware science",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Mixed-Precision Training Memory Accountant",
+      "url": "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant?studyPlan=language-modeling-from-scratch",
+      "target": "C13 / C12",
+      "evidence": [
+        {
+          "source_id": "SRC-c0a386220a6f",
+          "url": "https://www.tensortonic.com/problems/cs336-l02-training-memory-accountant?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Exact training bytes including optimizer state, scalar and empty shapes."
+        }
+      ],
+      "scope": "After memory accounting.",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Shared-Memory Bank Conflict Analyzer",
+      "url": "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts?studyPlan=language-modeling-from-scratch",
+      "target": "C14 / C13",
+      "evidence": [
+        {
+          "source_id": "SRC-0b33b033b624",
+          "url": "https://www.tensortonic.com/problems/cs336-l05-shared-memory-bank-conflicts?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Bank mapping and broadcast versus distinct-address conflict."
+        }
+      ],
+      "scope": "After memory layout.",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Plan KV-Cache Capacity",
+      "url": "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner?studyPlan=language-modeling-from-scratch",
+      "target": "C15 / L15",
+      "evidence": [
+        {
+          "source_id": "SRC-5fdda0c4af09",
+          "url": "https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "KV versus query heads; memory and bandwidth capacity model."
+        }
+      ],
+      "scope": "After attention/inference; model not hardware measurement.",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Build an Assistant-Only SFT Loss Mask",
+      "url": "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask?studyPlan=language-modeling-from-scratch",
+      "target": "L27 / C12",
+      "evidence": [
+        {
+          "source_id": "SRC-0f79b80f57a7",
+          "url": "https://www.tensortonic.com/problems/cs336-l15-assistant-only-sft-mask?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Shift targets using both attention positions and target role."
+        }
+      ],
+      "scope": "After SFT; conditional complement.",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Implement Symmetric CLIP Contrastive Loss",
+      "url": "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss?studyPlan=language-modeling-from-scratch",
+      "target": "L26 / L12",
+      "evidence": [
+        {
+          "source_id": "SRC-edceaf35c4c4",
+          "url": "https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss?studyPlan=language-modeling-from-scratch",
+          "level": "E2",
+          "observation": "Two contrastive directions, normalization, zero vectors and ties."
+        }
+      ],
+      "scope": "After contrastive objectives.",
+      "selection_rule": "Native activity already supplies this specific demand; refer to it conditionally instead of creating original duplicate practice.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/time-based-split-with-gap",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Time-Based Split with a Gap",
+      "url": "https://www.tensortonic.com/problems/time-based-split-with-gap",
+      "target": [
+        "L01",
+        "C16"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-f4d91cb8a014",
+          "url": "https://www.tensortonic.com/problems/time-based-split-with-gap",
+          "level": "E2",
+          "observation": "Original indices, exact temporal cutoffs, gap exclusion and empty input."
+        }
+      ],
+      "scope": "Original indices, exact temporal cutoffs, gap exclusion and empty input.",
+      "selection_rule": "Use only when the first primary data-split activity omitted temporal gaps.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/point-in-time-feature-join",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Point-in-Time Feature Join",
+      "url": "https://www.tensortonic.com/problems/point-in-time-feature-join",
+      "target": [
+        "C16",
+        "L01"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-61871b700aa0",
+          "url": "https://www.tensortonic.com/problems/point-in-time-feature-join",
+          "level": "E2",
+          "observation": "Newest available per-entity features with TTL, missing entities and inclusive boundaries."
+        }
+      ],
+      "scope": "Newest available per-entity features with TTL, missing entities and inclusive boundaries.",
+      "selection_rule": "Use for a missing available-time join demand, not a second generic split lesson.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/problems/autograd-l06-shared-path-gradient-accumulation",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Accumulate Shared-Path Gradients",
+      "url": "https://www.tensortonic.com/problems/autograd-l06-shared-path-gradient-accumulation",
+      "target": [
+        "C11",
+        "M06"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-1b5228cb17d6",
+          "url": "https://www.tensortonic.com/problems/autograd-l06-shared-path-gradient-accumulation?studyPlan=autograd-from-scratch",
+          "level": "E2",
+          "observation": "Manual reverse mode, unordered DAGs, repeated operands, unreachable leaves and immutable inputs."
+        }
+      ],
+      "scope": "Manual reverse mode, unordered DAGs, repeated operands, unreachable leaves and immutable inputs.",
+      "selection_rule": "Use only if shared-subexpression accumulation remains a gap after the primary autodiff build.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/projects/sparse-autoencoder-feature-lab",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Sparse Autoencoder Feature Lab",
+      "url": "https://www.tensortonic.com/projects/sparse-autoencoder-feature-lab",
+      "target": [
+        "L24",
+        "R04"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-d73002656183",
+          "url": "https://www.tensortonic.com/projects/sparse-autoencoder-feature-lab",
+          "level": "E1",
+          "observation": "Sparse reconstruction, example inspection, counterexamples and feature interventions."
+        }
+      ],
+      "scope": "Sparse reconstruction, example inspection, counterexamples and feature interventions.",
+      "selection_rule": "Prefer the native project for SAE instruction before adding an original correlation/intervention exercise; full notebook access not tested.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/projects/citation-gnn-from-scratch",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Classify Research Papers by Their Citations",
+      "url": "https://www.tensortonic.com/projects/citation-gnn-from-scratch",
+      "target": [
+        "L17",
+        "M17"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-d220985d042e",
+          "url": "https://www.tensortonic.com/projects/citation-gnn-from-scratch",
+          "level": "E1",
+          "observation": "Message passing, normalization and over-smoothing experiments on citation graphs."
+        }
+      ],
+      "scope": "Message passing, normalization and over-smoothing experiments on citation graphs.",
+      "selection_rule": "Use only for a graph-study need not met by the primary build; chemical/biological semantics remain additional.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/ml-design/leakage",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Data splits and leakage",
+      "url": "https://www.tensortonic.com/ml-design/leakage",
+      "target": [
+        "L01",
+        "S02",
+        "S10"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-c167975b3b64",
+          "url": "https://www.tensortonic.com/ml-design/leakage",
+          "level": "E2",
+          "observation": "Availability times, entity/time splits, near duplicates, train-only fitting and adaptive test use."
+        }
+      ],
+      "scope": "Availability times, entity/time splits, near duplicates, train-only fitting and adaptive test use.",
+      "selection_rule": "Prefer native explanation for generic leakage; domain-specific audit still needs actual data.",
+      "completion_merge": null
+    },
+    {
+      "id": "https://www.tensortonic.com/research/transformer/transformers-tokenization",
+      "platform": "TensorTonic",
+      "status": "native_referral",
+      "title": "Transformer Tokenization",
+      "url": "https://www.tensortonic.com/research/transformer/transformers-tokenization",
+      "target": [
+        "L14",
+        "L15"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-4eec88d44ed3",
+          "url": "https://www.tensortonic.com/research/transformer/transformers-tokenization",
+          "level": "E2",
+          "observation": "Deterministic word vocabulary, reserved IDs, lowercasing and unknown tokens."
+        }
+      ],
+      "scope": "Deterministic word vocabulary, reserved IDs, lowercasing and unknown tokens.",
+      "selection_rule": "A conditional alternative component; do not repeat a primary tokenizer implementation unless a specific missing contract matters.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.1",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.1 · Read equal-area visual fractions",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id3265087",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "source_id": "SRC-75fa76ffb792",
+      "selection_rule": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.11",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.11 · Represent an improper fraction",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1752739",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "source_id": "SRC-75fa76ffb792",
+      "selection_rule": "Elementary prerequisite bridge: Represent an improper fraction. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.25",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.25 · Explain a changed partition",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1956429",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "source_id": "SRC-75fa76ffb792",
+      "selection_rule": "Elementary prerequisite bridge: Explain a changed partition. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.29",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.29 · Construct an equivalent fraction",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1717726",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "source_id": "SRC-75fa76ffb792",
+      "selection_rule": "Elementary prerequisite bridge: Construct an equivalent fraction. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.31",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.31 · Transfer fractions onto a number line",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1607494",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "source_id": "SRC-75fa76ffb792",
+      "selection_rule": "Elementary prerequisite bridge: Transfer fractions onto a number line. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.47",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.47 · Model fraction multiplication",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id1358945",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-8323a910e96b",
+      "selection_rule": "Elementary prerequisite bridge: Model fraction multiplication. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.49",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.49 · Multiply and simplify fractions",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id2951424",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-8323a910e96b",
+      "selection_rule": "Elementary prerequisite bridge: Multiply and simplify fractions. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.61",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.61 · Model fraction division",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id1730116",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-8323a910e96b",
+      "selection_rule": "Elementary prerequisite bridge: Model fraction division. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.71",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.71 · Divide with cancellation",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id2603320",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-8323a910e96b",
+      "selection_rule": "Elementary prerequisite bridge: Divide with cancellation. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.115",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.115 · Model fraction subtraction",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-4-add-and-subtract-fractions-with-common-denominators#fs-id1378334",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-b3a0af36804d",
+      "selection_rule": "Elementary prerequisite bridge: Model fraction subtraction. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.125",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.125 · Find a least common denominator",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1566083",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-cc2b436239ba",
+      "selection_rule": "Elementary prerequisite bridge: Find a least common denominator. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.133",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.133 · Add fractions with different units",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1582076",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-cc2b436239ba",
+      "selection_rule": "Elementary prerequisite bridge: Add fractions with different units. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-4.139",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.139 · Subtract with a nontrivial common denominator",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1517188",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-cc2b436239ba",
+      "selection_rule": "Elementary prerequisite bridge: Subtract with a nontrivial common denominator. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-5.5",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 5.5 · Read thousandths",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1730744",
+      "target": [
+        "F01.decimals"
+      ],
+      "source_id": "SRC-d7ef417e6d32",
+      "selection_rule": "Elementary prerequisite bridge: Read thousandths. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-5.7",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 5.7 · Connect decimals to exact fractions",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1629545",
+      "target": [
+        "F01.decimals"
+      ],
+      "source_id": "SRC-d7ef417e6d32",
+      "selection_rule": "Elementary prerequisite bridge: Connect decimals to exact fractions. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-5.17",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 5.17 · Round using place value",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1983348",
+      "target": [
+        "F01.decimals"
+      ],
+      "source_id": "SRC-d7ef417e6d32",
+      "selection_rule": "Elementary prerequisite bridge: Round using place value. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-5.21",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 5.21 · Align decimal places for addition",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1790869",
+      "target": [
+        "F01.decimals"
+      ],
+      "source_id": "SRC-145f934699b4",
+      "selection_rule": "Elementary prerequisite bridge: Align decimal places for addition. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-5.25",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 5.25 · Subtract across zero decimal places",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1988321",
+      "target": [
+        "F01.decimals"
+      ],
+      "source_id": "SRC-145f934699b4",
+      "selection_rule": "Elementary prerequisite bridge: Subtract across zero decimal places. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-5.33",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 5.33 · Scale decimal products",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1301882",
+      "target": [
+        "F01.decimals"
+      ],
+      "source_id": "SRC-145f934699b4",
+      "selection_rule": "Elementary prerequisite bridge: Scale decimal products. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-5.45",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 5.45 · Divide by a small decimal",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1825643",
+      "target": [
+        "F01.decimals"
+      ],
+      "source_id": "SRC-145f934699b4",
+      "selection_rule": "Elementary prerequisite bridge: Divide by a small decimal. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-5.115",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 5.115 · Distinguish an ordered ratio",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate#fs-id4126304",
+      "target": [
+        "F01.ratios_percent"
+      ],
+      "source_id": "SRC-0849d2d4acd6",
+      "selection_rule": "Elementary prerequisite bridge: Distinguish an ordered ratio. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-6.5",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 6.5 · Convert percent to a fraction",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1248689",
+      "target": [
+        "F01.ratios_percent"
+      ],
+      "source_id": "SRC-a9261bb4d0de",
+      "selection_rule": "Elementary prerequisite bridge: Convert percent to a fraction. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-6.9",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 6.9 · Convert percent to a decimal",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1472487",
+      "target": [
+        "F01.ratios_percent"
+      ],
+      "source_id": "SRC-a9261bb4d0de",
+      "selection_rule": "Elementary prerequisite bridge: Convert percent to a decimal. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-6.21",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 6.21 · Convert fractions and mixed numbers to percent",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1304795",
+      "target": [
+        "F01.ratios_percent"
+      ],
+      "source_id": "SRC-a9261bb4d0de",
+      "selection_rule": "Elementary prerequisite bridge: Convert fractions and mixed numbers to percent. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-3.1",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 3.1 · Place signed quantities on a number line",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers#fs-id1505758",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "source_id": "SRC-c6f2ebf978c4",
+      "selection_rule": "Elementary prerequisite bridge: Place signed quantities on a number line. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-3.31",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 3.31 · Explain addition of a negative",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-2-add-integers#fs-id1166761472038",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "source_id": "SRC-c56827adbaa2",
+      "selection_rule": "Elementary prerequisite bridge: Explain addition of a negative. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-3.65",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 3.65 · Explain subtraction of a negative",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-3-subtract-integers#fs-id2472624",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "source_id": "SRC-52e7c1996867",
+      "selection_rule": "Elementary prerequisite bridge: Explain subtraction of a negative. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-3.93",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 3.93 · Apply and explain signed multiplication",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-4-multiply-and-divide-integers#fs-id1544747",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "source_id": "SRC-a89e2cef2707",
+      "selection_rule": "Elementary prerequisite bridge: Apply and explain signed multiplication. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-3.97",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 3.97 · Apply signed division",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-4-multiply-and-divide-integers#fs-id1581695",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "source_id": "SRC-a89e2cef2707",
+      "selection_rule": "Elementary prerequisite bridge: Apply signed division. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.9",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.9 · Interpret repeated multiplication",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2576757",
+      "target": [
+        "F01.powers_order"
+      ],
+      "source_id": "SRC-fb105c0fe430",
+      "selection_rule": "Elementary prerequisite bridge: Interpret repeated multiplication. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.13",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.13 · Evaluate integer powers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2139130",
+      "target": [
+        "F01.powers_order"
+      ],
+      "source_id": "SRC-fb105c0fe430",
+      "selection_rule": "Elementary prerequisite bridge: Evaluate integer powers. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.15",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.15 · Use parentheses and operation order",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2399434",
+      "target": [
+        "F01.powers_order"
+      ],
+      "source_id": "SRC-fb105c0fe430",
+      "selection_rule": "Elementary prerequisite bridge: Use parentheses and operation order. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-10.125",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 10.125 · Interpret negative exponents",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/10-5-integer-exponents-and-scientific-notation#fs-id788663",
+      "target": [
+        "F01.extended_powers_roots"
+      ],
+      "source_id": "SRC-ea87a2830c4b",
+      "selection_rule": "Elementary prerequisite bridge: Interpret negative exponents. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.27",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.27 · Substitute in an expression",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id2761352",
+      "target": [
+        "F02"
+      ],
+      "source_id": "SRC-0e58461d0309",
+      "selection_rule": "Elementary prerequisite bridge: Substitute in an expression. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.41",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.41 · Combine like terms",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id1611433",
+      "target": [
+        "F02"
+      ],
+      "source_id": "SRC-0e58461d0309",
+      "selection_rule": "Elementary prerequisite bridge: Combine like terms. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.49",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.49 · Translate grouping into algebra",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id1971669",
+      "target": [
+        "F02"
+      ],
+      "source_id": "SRC-0e58461d0309",
+      "selection_rule": "Elementary prerequisite bridge: Translate grouping into algebra. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.55",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.55 · Check a proposed solution",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id2352945",
+      "target": [
+        "F02"
+      ],
+      "source_id": "SRC-6216de4b1ce5",
+      "selection_rule": "Elementary prerequisite bridge: Check a proposed solution. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.61",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.61 · Preserve equality while solving",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id3003345",
+      "target": [
+        "F02"
+      ],
+      "source_id": "SRC-6216de4b1ce5",
+      "selection_rule": "Elementary prerequisite bridge: Preserve equality while solving. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-TI-2.65",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 2.65 · Undo subtraction with equality",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id1237354",
+      "target": [
+        "F02"
+      ],
+      "source_id": "SRC-6216de4b1ce5",
+      "selection_rule": "Elementary prerequisite bridge: Undo subtraction with equality. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-4.1-6",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.1 #6",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "source_id": "SRC-75fa76ffb792",
+      "selection_rule": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-4.1-46",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.1 #46",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "source_id": "SRC-75fa76ffb792",
+      "selection_rule": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-4.2-78",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.2 #78",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-8323a910e96b",
+      "selection_rule": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    },
+    {
+      "id": "OS-PA2-4.4-254",
+      "platform": "OpenStax via Zulearn",
+      "status": "confirmed_complementary",
+      "title": "OpenStax 4.4 #254",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-4-add-and-subtract-fractions-with-common-denominators",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "source_id": "SRC-b3a0af36804d",
+      "selection_rule": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "completion_merge": null
+    }
+  ],
+  "existing_bounded_courses_and_papers": "Five existing course selections and seventeen paper scopes remain unchanged and are not newly certified exhaustive coverage.",
+  "native_referrals": "Eleven retained plus seven newly inspected references; all are conditional, not eighteen new mandatory branches. Overview-only projects retain E1 and access/experiment limits.",
+  "completion_identity": "Zero new completion merges; pedagogical choice is not identity evidence."
+}

@@ -1,0 +1,2570 @@
+{
+  "schema_version": 1,
+  "scope": "Verified canonical prerequisite bridge; selected to support entry, not a universal exclusivity assertion. Advanced independent assessments are in candidate-adjudications.json and remain optional.",
+  "problem_count": 43,
+  "gap_demands": [
+    "F01.decimals",
+    "F01.extended_powers_roots",
+    "F01.fraction_meaning",
+    "F01.fraction_operations",
+    "F01.powers_order",
+    "F01.ratios_percent",
+    "F01.signed_numbers",
+    "F02"
+  ],
+  "entries": [
+    {
+      "id": "OS-PA2-TI-4.1",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.1 · Read equal-area visual fractions",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Read equal-area visual fractions",
+      "gap_id": "F01.fraction_meaning",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id3265087",
+      "locator": "Prealgebra 2e §4, Try It 4.1 (section 4.1)",
+      "source_id": "SRC-75fa76ffb792",
+      "prerequisites": [
+        "F01.basic_ops"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 3/8; (b) 4/9. Count equal pieces against the same reference whole.",
+      "solution": "(a) 3/8; (b) 4/9. Count equal pieces against the same reference whole.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-4.11",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.11 · Represent an improper fraction",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Represent an improper fraction",
+      "gap_id": "F01.fraction_meaning",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1752739",
+      "locator": "Prealgebra 2e §4, Try It 4.11 (section 4.1)",
+      "source_id": "SRC-75fa76ffb792",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Represent an improper fraction. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "One whole and one sixth; each whole uses the same six-part scale.",
+      "solution": "One whole and one sixth; each whole uses the same six-part scale.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-4.25",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.25 · Explain a changed partition",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Explain a changed partition",
+      "gap_id": "F01.fraction_meaning",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1956429",
+      "locator": "Prealgebra 2e §4, Try It 4.25 (section 4.1)",
+      "source_id": "SRC-75fa76ffb792",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Explain a changed partition. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "Two eighths cover one fourth; equal reference length is required.",
+      "solution": "Two eighths cover one fourth; equal reference length is required.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "multiply",
+        "inputs": [
+          "1/4",
+          "8"
+        ],
+        "expected": "2"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.29",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.29 · Construct an equivalent fraction",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Construct an equivalent fraction",
+      "gap_id": "F01.fraction_meaning",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1717726",
+      "locator": "Prealgebra 2e §4, Try It 4.29 (section 4.1)",
+      "source_id": "SRC-75fa76ffb792",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Construct an equivalent fraction. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "18/21; multiply both numerator and denominator by three.",
+      "solution": "18/21; multiply both numerator and denominator by three.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "equal",
+        "inputs": [
+          "6/7"
+        ],
+        "expected": "18/21"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.31",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.31 · Transfer fractions onto a number line",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Transfer fractions onto a number line",
+      "gap_id": "F01.fraction_meaning",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions#fs-id1607494",
+      "locator": "Prealgebra 2e §4, Try It 4.31 (section 4.1)",
+      "source_id": "SRC-75fa76ffb792",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Transfer fractions onto a number line. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "Positions 1/3, 5/4, 7/4, 13/5 and 9/2. The unit interval must stay fixed.",
+      "solution": "Positions 1/3, 5/4, 7/4, 13/5 and 9/2. The unit interval must stay fixed.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-4.47",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.47 · Model fraction multiplication",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Model fraction multiplication",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id1358945",
+      "locator": "Prealgebra 2e §4, Try It 4.47 (section 4.2)",
+      "source_id": "SRC-8323a910e96b",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Model fraction multiplication. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "3/10 of the original whole; partition an area into halves and fifths.",
+      "solution": "3/10 of the original whole; partition an area into halves and fifths.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "multiply",
+        "inputs": [
+          "1/2",
+          "3/5"
+        ],
+        "expected": "3/10"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.49",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.49 · Multiply and simplify fractions",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Multiply and simplify fractions",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id2951424",
+      "locator": "Prealgebra 2e §4, Try It 4.49 (section 4.2)",
+      "source_id": "SRC-8323a910e96b",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Multiply and simplify fractions. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "2/15. Multiply equal-unit fractions and simplify only common factors.",
+      "solution": "2/15. Multiply equal-unit fractions and simplify only common factors.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "multiply",
+        "inputs": [
+          "1/3",
+          "2/5"
+        ],
+        "expected": "2/15"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.61",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.61 · Model fraction division",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Model fraction division",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id1730116",
+      "locator": "Prealgebra 2e §4, Try It 4.61 (section 4.2)",
+      "source_id": "SRC-8323a910e96b",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Model fraction division. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "Two sixth-size pieces fit in one third; division counts those pieces.",
+      "solution": "Two sixth-size pieces fit in one third; division counts those pieces.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "divide",
+        "inputs": [
+          "1/3",
+          "1/6"
+        ],
+        "expected": "2"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.71",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.71 · Divide with cancellation",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Divide with cancellation",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions#fs-id2603320",
+      "locator": "Prealgebra 2e §4, Try It 4.71 (section 4.2)",
+      "source_id": "SRC-8323a910e96b",
+      "prerequisites": [
+        "F01.fraction_operations"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Divide with cancellation. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "4/15. Nonzero divisor; multiply by its reciprocal.",
+      "solution": "4/15. Nonzero divisor; multiply by its reciprocal.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "divide",
+        "inputs": [
+          "7/27",
+          "35/36"
+        ],
+        "expected": "4/15"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.115",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.115 · Model fraction subtraction",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Model fraction subtraction",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-4-add-and-subtract-fractions-with-common-denominators#fs-id1378334",
+      "locator": "Prealgebra 2e §4, Try It 4.115 (section 4.4)",
+      "source_id": "SRC-b3a0af36804d",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Model fraction subtraction. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "3/8; remove four eighths from seven eighths.",
+      "solution": "3/8; remove four eighths from seven eighths.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "subtract",
+        "inputs": [
+          "7/8",
+          "4/8"
+        ],
+        "expected": "3/8"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.125",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.125 · Find a least common denominator",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Find a least common denominator",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1566083",
+      "locator": "Prealgebra 2e §4, Try It 4.125 (section 4.5)",
+      "source_id": "SRC-cc2b436239ba",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Find a least common denominator. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "60: lcm(12,15)=60; numerators do not determine the LCD.",
+      "solution": "60: lcm(12,15)=60; numerators do not determine the LCD.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "lcm",
+        "inputs": [
+          "12",
+          "15"
+        ],
+        "expected": "60"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.133",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.133 · Add fractions with different units",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Add fractions with different units",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1582076",
+      "locator": "Prealgebra 2e §4, Try It 4.133 (section 4.5)",
+      "source_id": "SRC-cc2b436239ba",
+      "prerequisites": [
+        "F01.fraction_operations"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Add fractions with different units. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "7/12, after expressing both amounts in twelfths.",
+      "solution": "7/12, after expressing both amounts in twelfths.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "add",
+        "inputs": [
+          "1/4",
+          "1/3"
+        ],
+        "expected": "7/12"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-4.139",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 4.139 · Subtract with a nontrivial common denominator",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Subtract with a nontrivial common denominator",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-5-add-and-subtract-fractions-with-different-denominators#fs-id1517188",
+      "locator": "Prealgebra 2e §4, Try It 4.139 (section 4.5)",
+      "source_id": "SRC-cc2b436239ba",
+      "prerequisites": [
+        "F01.fraction_operations"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Subtract with a nontrivial common denominator. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "1/96: 52/96 minus 51/96.",
+      "solution": "1/96: 52/96 minus 51/96.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "subtract",
+        "inputs": [
+          "13/24",
+          "17/32"
+        ],
+        "expected": "1/96"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-5.5",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 5.5 · Read thousandths",
+      "target": [
+        "F01.decimals"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Read thousandths",
+      "gap_id": "F01.decimals",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1730744",
+      "locator": "Prealgebra 2e §5, Try It 5.5 (section 5.1)",
+      "source_id": "SRC-d7ef417e6d32",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Read thousandths. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "0.058; zero tenths, five hundredths, eight thousandths.",
+      "solution": "0.058; zero tenths, five hundredths, eight thousandths.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "equal",
+        "inputs": [
+          "58/1000"
+        ],
+        "expected": "0.058"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-5.7",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 5.7 · Connect decimals to exact fractions",
+      "target": [
+        "F01.decimals"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Connect decimals to exact fractions",
+      "gap_id": "F01.decimals",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1629545",
+      "locator": "Prealgebra 2e §5, Try It 5.7 (section 5.1)",
+      "source_id": "SRC-d7ef417e6d32",
+      "prerequisites": [
+        "F01.fraction_operations",
+        "F01.signed_numbers"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Connect decimals to exact fractions. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 53/10; (b) 607/100; (c) -117/500. Negative notation is taught before part (c).",
+      "solution": "(a) 53/10; (b) 607/100; (c) -117/500. Negative notation is taught before part (c).",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-5.17",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 5.17 · Round using place value",
+      "target": [
+        "F01.decimals"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Round using place value",
+      "gap_id": "F01.decimals",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals#fs-id1983348",
+      "locator": "Prealgebra 2e §5, Try It 5.17 (section 5.1)",
+      "source_id": "SRC-d7ef417e6d32",
+      "prerequisites": [
+        "F01.decimals"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Round using place value. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "1.05; the thousandths digit requires increasing the hundredths digit.",
+      "solution": "1.05; the thousandths digit requires increasing the hundredths digit.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-5.21",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 5.21 · Align decimal places for addition",
+      "target": [
+        "F01.decimals"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Align decimal places for addition",
+      "gap_id": "F01.decimals",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1790869",
+      "locator": "Prealgebra 2e §5, Try It 5.21 (section 5.2)",
+      "source_id": "SRC-145f934699b4",
+      "prerequisites": [
+        "F01.decimals"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Align decimal places for addition. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "17.6. Explain alignment by place value.",
+      "solution": "17.6. Explain alignment by place value.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "add",
+        "inputs": [
+          "5.7",
+          "11.9"
+        ],
+        "expected": "17.6"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-5.25",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 5.25 · Subtract across zero decimal places",
+      "target": [
+        "F01.decimals"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Subtract across zero decimal places",
+      "gap_id": "F01.decimals",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1988321",
+      "locator": "Prealgebra 2e §5, Try It 5.25 (section 5.2)",
+      "source_id": "SRC-145f934699b4",
+      "prerequisites": [
+        "F01.decimals"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Subtract across zero decimal places. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "0.42; write ten as 10.00.",
+      "solution": "0.42; write ten as 10.00.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "subtract",
+        "inputs": [
+          "10",
+          "9.58"
+        ],
+        "expected": "0.42"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-5.33",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 5.33 · Scale decimal products",
+      "target": [
+        "F01.decimals"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Scale decimal products",
+      "gap_id": "F01.decimals",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1301882",
+      "locator": "Prealgebra 2e §5, Try It 5.33 (section 5.2)",
+      "source_id": "SRC-145f934699b4",
+      "prerequisites": [
+        "F01.decimals",
+        "F01.fraction_operations"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Scale decimal products. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "0.00348; the product is smaller than both positive factors.",
+      "solution": "0.00348; the product is smaller than both positive factors.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "multiply",
+        "inputs": [
+          "0.04",
+          "0.087"
+        ],
+        "expected": "0.00348"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-5.45",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 5.45 · Divide by a small decimal",
+      "target": [
+        "F01.decimals"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Divide by a small decimal",
+      "gap_id": "F01.decimals",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-2-decimal-operations#fs-id1825643",
+      "locator": "Prealgebra 2e §5, Try It 5.45 (section 5.2)",
+      "source_id": "SRC-145f934699b4",
+      "prerequisites": [
+        "F01.decimals",
+        "F01.fraction_operations"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Divide by a small decimal. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "200. Scaling both dividend and divisor by 100 preserves the quotient.",
+      "solution": "200. Scaling both dividend and divisor by 100 preserves the quotient.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "divide",
+        "inputs": [
+          "6",
+          "0.03"
+        ],
+        "expected": "200"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-5.115",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 5.115 · Distinguish an ordered ratio",
+      "target": [
+        "F01.ratios_percent"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Distinguish an ordered ratio",
+      "gap_id": "F01.ratios_percent",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate#fs-id4126304",
+      "locator": "Prealgebra 2e §5, Try It 5.115 (section 5.6)",
+      "source_id": "SRC-0849d2d4acd6",
+      "prerequisites": [
+        "F01.fraction_operations"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Distinguish an ordered ratio. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 3/8; (b) 3/2. Keep the order of the two quantities; a part-to-part ratio is not a part-of-total fraction.",
+      "solution": "(a) 3/8; (b) 3/2. Keep the order of the two quantities; a part-to-part ratio is not a part-of-total fraction.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-6.5",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 6.5 · Convert percent to a fraction",
+      "target": [
+        "F01.ratios_percent"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Convert percent to a fraction",
+      "gap_id": "F01.ratios_percent",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1248689",
+      "locator": "Prealgebra 2e §6, Try It 6.5 (section 6.1)",
+      "source_id": "SRC-a9261bb4d0de",
+      "prerequisites": [
+        "F01.fraction_operations"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Convert percent to a fraction. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 12/25; (b) 11/10. Percent is per hundred and can exceed a whole.",
+      "solution": "(a) 12/25; (b) 11/10. Percent is per hundred and can exceed a whole.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-6.9",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 6.9 · Convert percent to a decimal",
+      "target": [
+        "F01.ratios_percent"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Convert percent to a decimal",
+      "gap_id": "F01.ratios_percent",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1472487",
+      "locator": "Prealgebra 2e §6, Try It 6.9 (section 6.1)",
+      "source_id": "SRC-a9261bb4d0de",
+      "prerequisites": [
+        "F01.decimals",
+        "F01.ratios_percent"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Convert percent to a decimal. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 0.09; (b) 0.87. Divide the percent number by 100.",
+      "solution": "(a) 0.09; (b) 0.87. Divide the percent number by 100.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-6.21",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 6.21 · Convert fractions and mixed numbers to percent",
+      "target": [
+        "F01.ratios_percent"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Convert fractions and mixed numbers to percent",
+      "gap_id": "F01.ratios_percent",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent#fs-id1304795",
+      "locator": "Prealgebra 2e §6, Try It 6.21 (section 6.1)",
+      "source_id": "SRC-a9261bb4d0de",
+      "prerequisites": [
+        "F01.decimals",
+        "F01.fraction_operations",
+        "F01.ratios_percent"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Convert fractions and mixed numbers to percent. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 62.5%; (b) 275%; (c) 340%. Multiply the quantity, not its numerator alone, by 100.",
+      "solution": "(a) 62.5%; (b) 275%; (c) 340%. Multiply the quantity, not its numerator alone, by 100.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-3.1",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 3.1 · Place signed quantities on a number line",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Place signed quantities on a number line",
+      "gap_id": "F01.signed_numbers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers#fs-id1505758",
+      "locator": "Prealgebra 2e §3, Try It 3.1 (section 3.1)",
+      "source_id": "SRC-c6f2ebf978c4",
+      "prerequisites": [
+        "F01.basic_ops"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Place signed quantities on a number line. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "Locate 1, -1 and -4 with equally spaced units; negatives lie left of zero.",
+      "solution": "Locate 1, -1 and -4 with equally spaced units; negatives lie left of zero.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-3.31",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 3.31 · Explain addition of a negative",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Explain addition of a negative",
+      "gap_id": "F01.signed_numbers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-2-add-integers#fs-id1166761472038",
+      "locator": "Prealgebra 2e §3, Try It 3.31 (section 3.2)",
+      "source_id": "SRC-c56827adbaa2",
+      "prerequisites": [
+        "F01.signed_numbers"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Explain addition of a negative. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "-2; cancel two positive-negative pairs or move four units left from two.",
+      "solution": "-2; cancel two positive-negative pairs or move four units left from two.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "add",
+        "inputs": [
+          "2",
+          "-4"
+        ],
+        "expected": "-2"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-3.65",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 3.65 · Explain subtraction of a negative",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Explain subtraction of a negative",
+      "gap_id": "F01.signed_numbers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-3-subtract-integers#fs-id2472624",
+      "locator": "Prealgebra 2e §3, Try It 3.65 (section 3.3)",
+      "source_id": "SRC-52e7c1996867",
+      "prerequisites": [
+        "F01.signed_numbers"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Explain subtraction of a negative. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "10; removing four negative units adds four to six.",
+      "solution": "10; removing four negative units adds four to six.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold.",
+      "math_check": {
+        "operation": "subtract",
+        "inputs": [
+          "6",
+          "-4"
+        ],
+        "expected": "10"
+      }
+    },
+    {
+      "id": "OS-PA2-TI-3.93",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 3.93 · Apply and explain signed multiplication",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Apply and explain signed multiplication",
+      "gap_id": "F01.signed_numbers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-4-multiply-and-divide-integers#fs-id1544747",
+      "locator": "Prealgebra 2e §3, Try It 3.93 (section 3.4)",
+      "source_id": "SRC-a89e2cef2707",
+      "prerequisites": [
+        "F01.signed_numbers"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Apply and explain signed multiplication. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) -48; (b) 28; (c) -63; (d) 60. Explain signs using the distributive law.",
+      "solution": "(a) -48; (b) 28; (c) -63; (d) 60. Explain signs using the distributive law.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-3.97",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 3.97 · Apply signed division",
+      "target": [
+        "F01.signed_numbers"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Apply signed division",
+      "gap_id": "F01.signed_numbers",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/3-4-multiply-and-divide-integers#fs-id1581695",
+      "locator": "Prealgebra 2e §3, Try It 3.97 (section 3.4)",
+      "source_id": "SRC-a89e2cef2707",
+      "prerequisites": [
+        "F01.signed_numbers"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Apply signed division. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) -7; (b) 39. Check by multiplying the quotient and divisor.",
+      "solution": "(a) -7; (b) 39. Check by multiplying the quotient and divisor.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.9",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.9 · Interpret repeated multiplication",
+      "target": [
+        "F01.powers_order"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Interpret repeated multiplication",
+      "gap_id": "F01.powers_order",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2576757",
+      "locator": "Prealgebra 2e §2, Try It 2.9 (section 2.1)",
+      "source_id": "SRC-fb105c0fe430",
+      "prerequisites": [
+        "F01.basic_ops"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Interpret repeated multiplication. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "41 to the fifth power; five factors, not multiplication by five.",
+      "solution": "41 to the fifth power; five factors, not multiplication by five.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.13",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.13 · Evaluate integer powers",
+      "target": [
+        "F01.powers_order"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Evaluate integer powers",
+      "gap_id": "F01.powers_order",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2139130",
+      "locator": "Prealgebra 2e §2, Try It 2.13 (section 2.1)",
+      "source_id": "SRC-fb105c0fe430",
+      "prerequisites": [
+        "F01.powers_order"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Evaluate integer powers. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 125; (b) 1. Count multiplicative factors.",
+      "solution": "(a) 125; (b) 1. Count multiplicative factors.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.15",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.15 · Use parentheses and operation order",
+      "target": [
+        "F01.powers_order"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Use parentheses and operation order",
+      "gap_id": "F01.powers_order",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra#fs-id2399434",
+      "locator": "Prealgebra 2e §2, Try It 2.15 (section 2.1)",
+      "source_id": "SRC-fb105c0fe430",
+      "prerequisites": [
+        "F01.powers_order"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Use parentheses and operation order. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 2; (b) 14. Explain why the grouping changes which operation occurs first.",
+      "solution": "(a) 2; (b) 14. Explain why the grouping changes which operation occurs first.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-10.125",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 10.125 · Interpret negative exponents",
+      "target": [
+        "F01.extended_powers_roots"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Interpret negative exponents",
+      "gap_id": "F01.extended_powers_roots",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/10-5-integer-exponents-and-scientific-notation#fs-id788663",
+      "locator": "Prealgebra 2e §10, Try It 10.125 (section 10.5)",
+      "source_id": "SRC-ea87a2830c4b",
+      "prerequisites": [
+        "F01.fraction_operations",
+        "F01.powers_order"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Interpret negative exponents. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 1/8; (b) 1/100. Nonzero base; a negative power denotes reciprocal, not a negative result.",
+      "solution": "(a) 1/8; (b) 1/100. Nonzero base; a negative power denotes reciprocal, not a negative result.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.27",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.27 · Substitute in an expression",
+      "target": [
+        "F02"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Substitute in an expression",
+      "gap_id": "F02",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id2761352",
+      "locator": "Prealgebra 2e §2, Try It 2.27 (section 2.2)",
+      "source_id": "SRC-0e58461d0309",
+      "prerequisites": [
+        "F01.powers_order"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Substitute in an expression. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 13; (b) 5. Substitute the value before multiplying and subtracting.",
+      "solution": "(a) 13; (b) 5. Substitute the value before multiplying and subtracting.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.41",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.41 · Combine like terms",
+      "target": [
+        "F02"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Combine like terms",
+      "gap_id": "F02",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id1611433",
+      "locator": "Prealgebra 2e §2, Try It 2.41 (section 2.2)",
+      "source_id": "SRC-0e58461d0309",
+      "prerequisites": [
+        "F02"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Combine like terms. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "16x+17. Variable terms and constants combine separately.",
+      "solution": "16x+17. Variable terms and constants combine separately.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.49",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.49 · Translate grouping into algebra",
+      "target": [
+        "F02"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Translate grouping into algebra",
+      "gap_id": "F02",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions#fs-id1971669",
+      "locator": "Prealgebra 2e §2, Try It 2.49 (section 2.2)",
+      "source_id": "SRC-0e58461d0309",
+      "prerequisites": [
+        "F02"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Translate grouping into algebra. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "(a) 4(p+q); (b) 4p+q. Different grouping changes the function.",
+      "solution": "(a) 4(p+q); (b) 4p+q. Different grouping changes the function.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.55",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.55 · Check a proposed solution",
+      "target": [
+        "F02"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Check a proposed solution",
+      "gap_id": "F02",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id2352945",
+      "locator": "Prealgebra 2e §2, Try It 2.55 (section 2.3)",
+      "source_id": "SRC-6216de4b1ce5",
+      "prerequisites": [
+        "F02"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Check a proposed solution. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "No: the left side is 5, not 16. A proposed value must satisfy the original equality.",
+      "solution": "No: the left side is 5, not 16. A proposed value must satisfy the original equality.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.61",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.61 · Preserve equality while solving",
+      "target": [
+        "F02"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Preserve equality while solving",
+      "gap_id": "F02",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id3003345",
+      "locator": "Prealgebra 2e §2, Try It 2.61 (section 2.3)",
+      "source_id": "SRC-6216de4b1ce5",
+      "prerequisites": [
+        "F02"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Preserve equality while solving. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "x=13. Subtract six from each side and check in the original equation.",
+      "solution": "x=13. Subtract six from each side and check in the original equation.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-TI-2.65",
+      "kind": "curated",
+      "theme": "F",
+      "title": "OpenStax 2.65 · Undo subtraction with equality",
+      "target": [
+        "F02"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Undo subtraction with equality",
+      "gap_id": "F02",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality#fs-id1237354",
+      "locator": "Prealgebra 2e §2, Try It 2.65 (section 2.3)",
+      "source_id": "SRC-6216de4b1ce5",
+      "prerequisites": [
+        "F02"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Undo subtraction with equality. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "New selection from the inspected canonical OpenStax Prealgebra 2e page; not recovered from inaccessible research.",
+      "verification": "x=22. Add nine to each side; substitution gives thirteen.",
+      "solution": "x=22. Add nine to each side; substitution gives thirteen.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-4.1-6",
+      "kind": "assignments",
+      "theme": "F",
+      "title": "OpenStax 4.1 #6",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Visual fraction meaning/equivalence",
+      "gap_id": "F01.fraction_meaning",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+      "locator": "Section exercises #6",
+      "source_id": "SRC-75fa76ffb792",
+      "prerequisites": [
+        "F01.basic_ops"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions · Section exercises #6",
+      "verification": "Draw two fifths with equal-area pieces, using a circle or square.",
+      "solution": "Draw two fifths with equal-area pieces, using a circle or square.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-4.1-46",
+      "kind": "assignments",
+      "theme": "F",
+      "title": "OpenStax 4.1 #46",
+      "target": [
+        "F01.fraction_meaning"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Visual fraction meaning/equivalence",
+      "gap_id": "F01.fraction_meaning",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+      "locator": "Section exercises #46",
+      "source_id": "SRC-75fa76ffb792",
+      "prerequisites": [
+        "F01.basic_ops"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions · Section exercises #46",
+      "verification": "Six eighths equal three fourths; justify by a drawing or equal partition.",
+      "solution": "Six eighths equal three fourths; justify by a drawing or equal partition.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-4.2-78",
+      "kind": "assignments",
+      "theme": "F",
+      "title": "OpenStax 4.2 #78",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Elementary fraction operations",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+      "locator": "Section exercises #78",
+      "source_id": "SRC-8323a910e96b",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions · Section exercises #78",
+      "verification": "1/3: cancel a common factor of eight in 8/24. This task is simplification, not fraction multiplication.",
+      "solution": "1/3: cancel a common factor of eight in 8/24. This task is simplification, not fraction multiplication.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    },
+    {
+      "id": "OS-PA2-4.4-254",
+      "kind": "assignments",
+      "theme": "F",
+      "title": "OpenStax 4.4 #254",
+      "target": [
+        "F01.fraction_operations"
+      ],
+      "status": "confirmed_complementary",
+      "gap": "Elementary fraction operations",
+      "gap_id": "F01.fraction_operations",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/4-4-add-and-subtract-fractions-with-common-denominators",
+      "locator": "Section exercises #254",
+      "source_id": "SRC-b3a0af36804d",
+      "prerequisites": [
+        "F01.fraction_meaning"
+      ],
+      "provider_evidence": [
+        {
+          "source_id": "SRC-d809b42ca3a8",
+          "url": "https://www.deep-ml.com/intuition/fair-share",
+          "level": "E2",
+          "observation": "List-to-scalar Python contract, not equal-part visual construction."
+        },
+        {
+          "source_id": "SRC-9dcb94cbea2d",
+          "url": "https://www.tensortonic.com/study-plans/math-linear-algebra",
+          "level": "E1",
+          "observation": "NumPy prerequisites; not a visual prealgebra curriculum."
+        },
+        {
+          "source_id": "SRC-63772104cf91",
+          "url": "https://www.tensortonic.com/study-plans/math-probability",
+          "level": "E1",
+          "observation": "Python/NumPy and school algebra assumed; no complete beginner arithmetic contract exposed."
+        },
+        {
+          "source_id": "SRC-8a1a2c0cdb6e",
+          "url": "https://www.deep-ml.com/math-problems",
+          "level": "E1",
+          "observation": "Inner problem bodies unresolved; no global absence assertion."
+        }
+      ],
+      "relationship": "meaningful_extension",
+      "why_insufficient": "The inspected native contracts do not deliver this pre-Python representation/operation at the learner’s current entry level. Use the canonical textbook activity instead of authoring another exercise.",
+      "inspection_limit": "Bounded prerequisite allocation, not global exclusivity. Deep-ML Math inner bodies and some paid provider content remain unresolved; replace this assignment if an adequate native beginner task is inspected.",
+      "complementarity_justification": "Elementary prerequisite bridge: Read equal-area visual fractions. No programming or prior mastery of this operation is assumed.",
+      "difficulty": "introductory",
+      "learning_depth": "explain and apply",
+      "lawful_access": "OpenStax official free web text; statement stays at source with its attribution/license.",
+      "provenance": "https://openstax.org/books/prealgebra-2e/pages/4-4-add-and-subtract-fractions-with-common-denominators · Section exercises #254",
+      "verification": "3/5, with five equal-size units in the model.",
+      "solution": "3/5, with five equal-size units in the model.",
+      "transfer_criterion": "After teaching, solve a changed representation or context without hints and explain why the operation is valid. Use a later fresh value after any solution exposure; record help separately.",
+      "stopping_rule": "Do the next activity needed for this subskill. After two varied unaided answers with sound explanations, skip repetitive siblings and sample later retention. This is an adaptive local rule, not a calibrated mastery threshold."
+    }
+  ],
+  "order": "Follow fractions first. Signed notation is taught before negative subparts. Move through prerequisites, not numeric textbook order.",
+  "first_action": "OS-PA2-TI-4.1: after the existing fraction lesson, open its original source and name both shaded fractions without hints.",
+  "dosage": "The selected pool is available practice, not a 43-task entrance gate. Advance after demonstrated operation/explanation; choose fresh sibling practice only for an actual error or retention need.",
+  "unresolved_foundational_scope": "Square-root interpretation, scientific notation, percent changes, unit conversions and intermediate algebra retain their original teaching/assessment pointers; no missing exact source task is fabricated."
+}

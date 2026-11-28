@@ -1,0 +1,2504 @@
+{
+  "schema_version": 1,
+  "registry": "data/curriculum.json",
+  "registry_sha256": "896eea9b9558a3bb66495c56d5df04c7a5ac8ad342b67ad769513144c7d7b5e9",
+  "scope": "All 109 whole registry competencies, not a title-matching score or learner assessment. Confirmed coverage would require every named demand at the declared depth.",
+  "coverage_counts": {
+    "partial_coverage": 69,
+    "unresolved_coverage": 29,
+    "insufficient_depth": 11
+  },
+  "entries": [
+    {
+      "competency_id": "F01",
+      "title": "Four basic operations and arithmetic extensions, scored separately",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Visual fractions and elementary arithmetic bridge verified; Fair share assumes numeric Python input",
+      "remaining_demand": "Square roots, scientific notation and additional mixed/unit/percentage-change transfer need exact follow-up practice; all arithmetic beyond basic operations starts new",
+      "provider_source_ids": [
+        "SRC-d809b42ca3a8",
+        "SRC-9dcb94cbea2d",
+        "SRC-63772104cf91",
+        "SRC-8a1a2c0cdb6e"
+      ],
+      "entry_prerequisites": [],
+      "conditional_depth": "Fractions, decimals, ratios, percentages, negatives, exponents, roots and representation taught as needed; none inferred from basic operations",
+      "frozen_primary_resource": "OpenStax Prealgebra 2e selected §§4.1–4.5,5.1–5.3,5.6,6.1,3.1–3.4,2.1; MAT-ARITH",
+      "independent_performance_criterion": "Only F01.basic_ops assumed by self-report; every extension starts new; local drawings/explanations/calculations after teaching",
+      "selected_problem_ids": [
+        "OS-PA2-TI-4.1",
+        "OS-PA2-TI-4.11",
+        "OS-PA2-TI-4.25",
+        "OS-PA2-TI-4.29",
+        "OS-PA2-TI-4.31",
+        "OS-PA2-TI-4.47",
+        "OS-PA2-TI-4.49",
+        "OS-PA2-TI-4.61",
+        "OS-PA2-TI-4.71",
+        "OS-PA2-TI-4.115",
+        "OS-PA2-TI-4.125",
+        "OS-PA2-TI-4.133",
+        "OS-PA2-TI-4.139",
+        "OS-PA2-TI-5.5",
+        "OS-PA2-TI-5.7",
+        "OS-PA2-TI-5.17",
+        "OS-PA2-TI-5.21",
+        "OS-PA2-TI-5.25",
+        "OS-PA2-TI-5.33",
+        "OS-PA2-TI-5.45",
+        "OS-PA2-TI-5.115",
+        "OS-PA2-TI-6.5",
+        "OS-PA2-TI-6.9",
+        "OS-PA2-TI-6.21",
+        "OS-PA2-TI-3.1",
+        "OS-PA2-TI-3.31",
+        "OS-PA2-TI-3.65",
+        "OS-PA2-TI-3.93",
+        "OS-PA2-TI-3.97",
+        "OS-PA2-TI-2.9",
+        "OS-PA2-TI-2.13",
+        "OS-PA2-TI-2.15",
+        "OS-PA2-TI-10.125",
+        "OS-PA2-4.1-6",
+        "OS-PA2-4.1-46",
+        "OS-PA2-4.2-78",
+        "OS-PA2-4.4-254"
+      ],
+      "assessment_ids": [
+        "AOPS-AMC8-2024-2"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "F02",
+      "title": "Algebra, equations and inequalities",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Canonical substitution, grouping, like terms, solution checking and one-step equality tasks",
+      "remaining_demand": "Distribution, two-sided equations, inequality sign reversal, rational domains and later polynomial proof depth",
+      "provider_source_ids": [
+        "SRC-d809b42ca3a8",
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "F01"
+      ],
+      "conditional_depth": "Teach signed/fraction operations when used; none assumed from the four basic operations",
+      "frozen_primary_resource": "After the opening arithmetic queue: OpenStax Elementary Algebra 2e §§1.2,1.9,2.1–2.3,2.7",
+      "independent_performance_criterion": "Local notation/equality/inequality checks separately; optional DX-A1 after teaching, not DX-A4",
+      "selected_problem_ids": [
+        "OS-PA2-TI-2.27",
+        "OS-PA2-TI-2.41",
+        "OS-PA2-TI-2.49",
+        "OS-PA2-TI-2.55",
+        "OS-PA2-TI-2.61",
+        "OS-PA2-TI-2.65"
+      ],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "F03",
+      "title": "Functions, exponents and logarithms",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Retained function/logarithm teaching scopes exist",
+      "remaining_demand": "Current provider function, composition, inverse and real-domain task contracts not inspected",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-8a1a2c0cdb6e"
+      ],
+      "entry_prerequisites": [
+        "F02"
+      ],
+      "conditional_depth": "F02 equations as used; no logarithm gate before functions",
+      "frozen_primary_resource": "OpenStax College Algebra 2e §3.1, then selected function/exponent/log units",
+      "independent_performance_criterion": "Local function/domain/logarithm checks separately; DX-A2 only when logs are studied",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "F04",
+      "title": "Geometry, coordinates and trigonometry",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "AMC nested-area task has a checked solution",
+      "remaining_demand": "Coordinate geometry, trigonometry and changed geometric reasoning need fuller contracts",
+      "provider_source_ids": [
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "F02"
+      ],
+      "conditional_depth": "F03 for trigonometric functions",
+      "frozen_primary_resource": "MAT-GEO learning sheet",
+      "independent_performance_criterion": "Compute norm, dot product and sine/cosine on a right triangle; explain angle invariance",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-GEO",
+        "AOPS-AMC8-2024-3"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "F05",
+      "title": "Sequences, series, recurrences and generating functions",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Cassini identity supplies actual recurrence/induction proof",
+      "remaining_demand": "Generating-function semantics, convergence and algorithm recurrence transfer",
+      "provider_source_ids": [
+        "SRC-bdbd48dd23a2"
+      ],
+      "entry_prerequisites": [
+        "F03"
+      ],
+      "conditional_depth": "M05 only for analytic series/error proofs; MAT-REC for discrete recurrences",
+      "frozen_primary_resource": "MAT-GEO learning sheet",
+      "independent_performance_criterion": "Solve a recurrence directly and via a generating function; distinguish formal power series from analytic convergence",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-GEO",
+        "MAT-REC",
+        "MIT6042-2015-5.8"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "F06",
+      "title": "Sets, functions, logic and quantifiers",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Frozen logic/set objectives and MIT text reference preserved",
+      "remaining_demand": "Exact native quantifier, implication and function tasks remain uninspected",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-8a1a2c0cdb6e"
+      ],
+      "entry_prerequisites": [
+        "F01"
+      ],
+      "conditional_depth": "F03 function notation when needed",
+      "frozen_primary_resource": "MIT 6.042J selected readings",
+      "independent_performance_criterion": "DX-A3; negate nested quantifiers and construct a counterexample",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-PROOF"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "F07",
+      "title": "Proof construction and discovery",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "MIT induction/error tasks and OTIS invariant extremum are source-verified",
+      "remaining_demand": "Broad proof discovery across unfamiliar families and delayed retention",
+      "provider_source_ids": [
+        "SRC-bdbd48dd23a2",
+        "SRC-d809b42ca3a8"
+      ],
+      "entry_prerequisites": [
+        "F06"
+      ],
+      "conditional_depth": "No additional whole-topic gate; deepen only for the active task",
+      "frozen_primary_resource": "MIT 6.042J proofs/induction",
+      "independent_performance_criterion": "Prove an induction claim, refute a false converse, and explain where the proof idea came from",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-PROOF-001",
+        "MIT6006-S20-PS0-4",
+        "OTIS-2026-1-8",
+        "MIT6042-2015-5.7"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "F08",
+      "title": "Counting and discrete probability",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Harvard path counting and two Pascal proofs have exact locators and checked reasoning",
+      "remaining_demand": "Conditional/unfamiliar counting and probability model validity",
+      "provider_source_ids": [
+        "SRC-63772104cf91"
+      ],
+      "entry_prerequisites": [
+        "F01"
+      ],
+      "conditional_depth": "F06,F02 for formal counting arguments",
+      "frozen_primary_resource": "Stat 110 counting/conditioning",
+      "independent_performance_criterion": "Count constrained arrangements with a justified sample space",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "STAT110-F11-SP1-3",
+        "STAT110-F11-SP1-7"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M01",
+      "title": "Vectors, matrices and linear systems",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native vector/matrix plan and a public dot-product description",
+      "remaining_demand": "Full linear-system contracts and independent dimension/representation transfer",
+      "provider_source_ids": [
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "F02"
+      ],
+      "conditional_depth": "F04 for geometry interpretation; F07 for formal results",
+      "frozen_primary_resource": "MIT 18.06 lectures 1–4,6–8",
+      "independent_performance_criterion": "DX-C1; multiply compatible matrices, solve a singular system and interpret solution sets",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-LIN"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M02",
+      "title": "Spaces, rank, nullspace and linear maps",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Spaces/rank are retained primary objectives; worksheet has a valid nullspace check",
+      "remaining_demand": "Current native rank-nullity/linear-map proof depth and complete source activities",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "M01"
+      ],
+      "conditional_depth": "F07 for proof-level rank/nullity",
+      "frozen_primary_resource": "MIT 18.06 lectures 9–10,30–31",
+      "independent_performance_criterion": "DX-C2; prove a rank/nullity example and distinguish injectivity from surjectivity",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-LIN-002"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M03",
+      "title": "Orthogonality, least squares and QR",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native projection/QR plan; retained least-squares assessment has checked exact residuals",
+      "remaining_demand": "Whole projection theorem and numerical conditioning depth not established by plan titles",
+      "provider_source_ids": [
+        "SRC-9dcb94cbea2d",
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "M01"
+      ],
+      "conditional_depth": "M02 for projection/QR proofs",
+      "frozen_primary_resource": "MIT 18.06 lectures 14–17",
+      "independent_performance_criterion": "Derive normal equations and a projection; compare QR with explicit inverse",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-MATH-001",
+        "MAT-NUM"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M04",
+      "title": "Eigenvalues, PSD matrices and SVD",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Native eigen/SVD plan is visible",
+      "remaining_demand": "Actual decomposition constraints, spectral proofs and numerical edge cases",
+      "provider_source_ids": [
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "M02"
+      ],
+      "conditional_depth": "M03,F07 for spectral/SVD arguments",
+      "frozen_primary_resource": "MIT 18.06 lectures 21–22,25,27,29,33",
+      "independent_performance_criterion": "DX-C3; construct rank-k approximation and explain a PSD quadratic form",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-LIN-003"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M05",
+      "title": "Single-variable calculus and integration",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Putnam A1 requires actual second differentiation with checked answer",
+      "remaining_demand": "Full differentiation/integration and convergence requirements",
+      "provider_source_ids": [
+        "SRC-63772104cf91"
+      ],
+      "entry_prerequisites": [
+        "F03"
+      ],
+      "conditional_depth": "F05 for series and MAT-TAYLOR; not an entry requirement",
+      "frozen_primary_resource": "MAT-CALC sheet plus selected MIT 18.01SC units",
+      "independent_performance_criterion": "DX-D1; differentiate compositions, interpret integral accumulation and check a limit",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-CALC",
+        "PUTNAM-2023-A1-PRACTICE"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M06",
+      "title": "Jacobians, Hessians, matrix calculus and Taylor approximation",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native scalar autodiff/gradient plan; Taylor assessment derivatives checked",
+      "remaining_demand": "Matrix calculus, Hessian/Jacobian conditions and vector remainder theory",
+      "provider_source_ids": [
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [
+        "M01",
+        "M05"
+      ],
+      "conditional_depth": "M04 for curvature/PSD; MAT-TAYLOR and MAT-TRANSFORM for approximation/coordinate depth",
+      "frozen_primary_resource": "MIT 18.02SC Unit 2 A–C",
+      "independent_performance_criterion": "Derive gradient/Jacobian/Hessian with shapes; state smoothness and check Taylor remainder bounds",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-TAYLOR",
+        "MAT-TRANSFORM"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M07",
+      "title": "Finite and continuous probability, conditioning and conditional expectation",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native probability plan and exact finite conditional-expectation assessment",
+      "remaining_demand": "Continuous support/Jacobian and conditional-expectation theory at full scope",
+      "provider_source_ids": [
+        "SRC-63772104cf91"
+      ],
+      "entry_prerequisites": [
+        "F01"
+      ],
+      "conditional_depth": "F08 for counting; M05 for continuous densities; MAT-TRANSFORM for multivariate changes; no calculus before finite probability",
+      "frozen_primary_resource": "Stat 110 selected topics; MAT-PROB",
+      "independent_performance_criterion": "Finite Bayes/expectation first; later total expectation, conditional-density and Jacobian transfer",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-PROB",
+        "MAT-TRANSFORM"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M08",
+      "title": "Likelihood, estimation and Bayesian inference",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native MLE/Bayesian plan and finite conjugacy rubric",
+      "remaining_demand": "Identifiability, prior sensitivity and actual estimator contracts",
+      "provider_source_ids": [
+        "SRC-63772104cf91"
+      ],
+      "entry_prerequisites": [
+        "M07"
+      ],
+      "conditional_depth": "M05 for continuous MLE; M06 for multivariate inference",
+      "frozen_primary_resource": "MML Ch.8–9 selected sections",
+      "independent_performance_criterion": "DX-E3; derive MLE/MAP and distinguish posterior from confidence interval",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-INF"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M09",
+      "title": "Uncertainty, resampling and dependence",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual IID bootstrap task and native leakage instruction",
+      "remaining_demand": "Dependence-aware estimands, paired/cluster validity, label uncertainty",
+      "provider_source_ids": [
+        "SRC-63772104cf91",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "M07"
+      ],
+      "conditional_depth": "M08 for coverage/inference; MAT-UNC for dependence",
+      "frozen_primary_resource": "Inference sheet MAT-UNC",
+      "independent_performance_criterion": "Design cluster bootstrap, justify unit of analysis and compare paired methods",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-UNC"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M10",
+      "title": "Testing, power, multiplicity and selection",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native tests and adaptive-test warning",
+      "remaining_demand": "Power, multiplicity, valid post-selection procedures and actual result uncertainty",
+      "provider_source_ids": [
+        "SRC-63772104cf91",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "M07",
+        "L01"
+      ],
+      "conditional_depth": "M08,M09 for quantitative testing/power",
+      "frozen_primary_resource": "Inference sheet MAT-EXP",
+      "independent_performance_criterion": "DX-G2; expose adaptive tuning bias and specify a controlled confirmatory analysis",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-EXP"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M11",
+      "title": "Convexity, constraints, duality and KKT",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Boyd convex-combination and Voronoi proofs verified",
+      "remaining_demand": "Constraint qualification, duality, strong-duality limits and general KKT derivation",
+      "provider_source_ids": [
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "F03",
+        "M01"
+      ],
+      "conditional_depth": "M06,M04,F07 for KKT, duality and sufficiency proofs",
+      "frozen_primary_resource": "Boyd–Vandenberghe Ch.2–5,9 selected",
+      "independent_performance_criterion": "Derive primal/dual KKT for a small constrained quadratic; explain when conditions suffice",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-CONVEX",
+        "EE364A-2008-2.1",
+        "EE364A-2008-2.7"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M12",
+      "title": "Stochastic and nonconvex optimization",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual microbatch SGD task preserves weighted full-example gradient",
+      "remaining_demand": "Sampling assumptions, stochastic/nonconvex convergence and fair tuning",
+      "provider_source_ids": [
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [
+        "M05",
+        "M07"
+      ],
+      "conditional_depth": "M06,M13 for vector SGD/stability; M11 only for convex guarantees",
+      "frozen_primary_resource": "Optimization sheet MAT-SGD",
+      "independent_performance_criterion": "Derive SGD expectation under stated sampling; diagnose conditioning and biased gradients",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-SGD"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M13",
+      "title": "Floating point, conditioning and stability",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native contracts specify dtype preservation and stable likelihood computations",
+      "remaining_demand": "Conditioning, cancellation and error analysis beyond finite implementation cases",
+      "provider_source_ids": [
+        "SRC-4df4277712c7",
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "F01"
+      ],
+      "conditional_depth": "M01,M05 for conditioning and derivative-error analysis",
+      "frozen_primary_resource": "Numerical sheet MAT-NUM",
+      "independent_performance_criterion": "DX-H1; construct cancellation and ill-conditioned examples; report residual versus error",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-NUM"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M14",
+      "title": "Numerical solvers, factorizations and differentiation",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native decomposition plan; exact QR assessment independently checked",
+      "remaining_demand": "General stable-solver guarantees, rank tolerance and executed comparison",
+      "provider_source_ids": [
+        "SRC-9dcb94cbea2d",
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "M01",
+        "C02"
+      ],
+      "conditional_depth": "M03,M04,M13 for stable factorizations/conditioning",
+      "frozen_primary_resource": "Deep-ML Numerical Linear Algebra project",
+      "independent_performance_criterion": "Implement stable least squares and gradient checks; explain failure near nondifferentiable points",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-NUM-001"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M15",
+      "title": "Entropy, KL and mutual information",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Retained information theory objectives and source projects",
+      "remaining_demand": "Current actual entropy/KL/MI contracts and proofs not fully inspected",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-8a1a2c0cdb6e"
+      ],
+      "entry_prerequisites": [
+        "M07",
+        "F03"
+      ],
+      "conditional_depth": "F07 for KL inequalities; M08 for inference uses",
+      "frozen_primary_resource": "D015 Information Theory",
+      "independent_performance_criterion": "Derive nonnegativity under valid support assumptions; distinguish cross-entropy and entropy",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-INF",
+        "MAT-INFO"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M16",
+      "title": "Markov, Chebyshev, Hoeffding, union bounds and learning guarantees",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Native tests/uncertainty instruction discusses misleading selection",
+      "remaining_demand": "No inspected task establishes concentration hypotheses, proof and adaptive-bound limits",
+      "provider_source_ids": [
+        "SRC-63772104cf91",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "M07"
+      ],
+      "conditional_depth": "F07,L04 for uniform bounds/generalization; MAT-BOUND for explicit assumptions",
+      "frozen_primary_resource": "MAT-BOUND; selected MIT 18.657",
+      "independent_performance_criterion": "Choose a valid bound, state independence/boundedness assumptions, and expose adaptive-selection failure",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-BOUND"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M17",
+      "title": "Graphs, relations and discrete structures",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native citation-GNN adjacency and propagation route",
+      "remaining_demand": "Relations, graph-theoretic proofs and domain-edge semantics beyond aggregation",
+      "provider_source_ids": [
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "F06"
+      ],
+      "conditional_depth": "F07,F08 for graph/counting proofs",
+      "frozen_primary_resource": "MIT 6.042J graphs/state machines",
+      "independent_performance_criterion": "Prove a graph invariant and distinguish adjacency from incidence matrices",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-GRAPH-001"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M18",
+      "title": "Markov chains and stochastic-process basics",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Markov chain objectives and exact two-state rubric preserved",
+      "remaining_demand": "Current native transition/stationarity/convergence contracts not exposed",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "M07",
+        "M01"
+      ],
+      "conditional_depth": "F07 for convergence arguments",
+      "frozen_primary_resource": "Stat 110 Markov-chain material",
+      "independent_performance_criterion": "Find a finite-chain stationary law and test irreducibility; distinguish stationarity from convergence",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-PROC"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M19",
+      "title": "Real analysis and rigorous convergence",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Conditional analysis objective is preserved",
+      "remaining_demand": "Need a selected theorem, integrand and exact proof/counterexample source",
+      "provider_source_ids": [
+        "SRC-8a1a2c0cdb6e"
+      ],
+      "entry_prerequisites": [
+        "M05",
+        "F07"
+      ],
+      "conditional_depth": "No additional whole-topic gate; deepen only for the active task",
+      "frozen_primary_resource": "Analysis sheet MAT-ANALYSIS with a suitable analysis text",
+      "independent_performance_criterion": "Prove a limit statement with quantifiers and identify missing interchange assumptions",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M20",
+      "title": "Groups, symmetry and geometric invariance",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native geometric computation exists and reflection assessment has a valid proof",
+      "remaining_demand": "Group representations, chirality conventions and method-specific equivariance conditions",
+      "provider_source_ids": [
+        "SRC-9dcb94cbea2d",
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "M01"
+      ],
+      "conditional_depth": "M02,F07 for equivariance/group proofs",
+      "frozen_primary_resource": "Geometry sheet MAT-SYM",
+      "independent_performance_criterion": "Prove a rigid-motion invariant; distinguish SO(3), O(3), SE(3), chirality and equivariance",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-SYM"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M21",
+      "title": "ODEs, stability and dynamical systems",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Existing Euler assessment has explicit stability conditions",
+      "remaining_demand": "Actual native ODE/rollout task contracts and observed-model validation",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "M05",
+        "M01"
+      ],
+      "conditional_depth": "M06,M04 for nonlinear/multivariate dynamics",
+      "frozen_primary_resource": "Dynamics sheet MAT-DYN",
+      "independent_performance_criterion": "Solve a linear ODE and test a time-step stability condition",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-DYN"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M22",
+      "title": "SDEs, PDEs and inverse problems",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Existing heat-equation check is mathematically valid",
+      "remaining_demand": "Method-specific SDE/PDE regularity, inverse identifiability and authoritative exact exercises",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "M21",
+        "M07"
+      ],
+      "conditional_depth": "M18,M19 for rigorous stochastic/operator claims as required",
+      "frozen_primary_resource": "Active-paper mathematical prerequisites",
+      "independent_performance_criterion": "Derive the needed operator/sampler and verify a toy case before large computation",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-PDE-001"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M23",
+      "title": "MDL, algorithmic probability, universal search and self-reference",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Native information/model work provides computational context",
+      "remaining_demand": "MDL versus universal semimeasures, uncomputability and self-reference theorem conditions",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-8a1a2c0cdb6e"
+      ],
+      "entry_prerequisites": [
+        "M15"
+      ],
+      "conditional_depth": "C09 for universal semimeasures/uncomputability; C17 for formal self-reference; MDL does not require these to begin",
+      "frozen_primary_resource": "MAT-MDL; OOPS P06 and Gödel machine P07 as relevant",
+      "independent_performance_criterion": "Calculate a two-part codelength; distinguish computable MDL practice from uncomputable universal algorithmic probability",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-MDL"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M24",
+      "title": "Causal inference and identifiability",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native leakage lesson distinguishes temporal information",
+      "remaining_demand": "Causal identification, interventions and unobserved-confounding proofs require deeper sources",
+      "provider_source_ids": [
+        "SRC-c167975b3b64",
+        "SRC-d73002656183"
+      ],
+      "entry_prerequisites": [
+        "M07",
+        "L01"
+      ],
+      "conditional_depth": "M08,M10,F06 for formal identification/experimental claims",
+      "frozen_primary_resource": "Causal sheet MAT-CAUS",
+      "independent_performance_criterion": "Construct observationally equivalent causal models; distinguish prediction from intervention",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-CAUS"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C01",
+      "title": "Python independent programming",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Retained opening lessons begin variables and loops without math gates",
+      "remaining_demand": "Independent construction/debugging and fresh program behavior must be demonstrated",
+      "provider_source_ids": [
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [],
+      "conditional_depth": "No additional whole-topic gate; deepen only for the active task",
+      "frozen_primary_resource": "Python tutorial §3.1 and selected §4; START-01–07",
+      "independent_performance_criterion": "Fresh assignment/loop/function task after instruction; DX-B1/DX-B2 only when dict/list skills are studied",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ALG-SOFT"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C02",
+      "title": "NumPy and tensor/broadcast semantics",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native NumPy vector and tensor tasks and explicit shapes are present",
+      "remaining_demand": "Aliasing, broadcasting edge cases and executed numerical tests across contracts",
+      "provider_source_ids": [
+        "SRC-9dcb94cbea2d",
+        "SRC-edceaf35c4c4"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "M01 for matrix semantics; C03 for checked implementations",
+      "frozen_primary_resource": "D024 Tensor Puzzles",
+      "independent_performance_criterion": "DX-B3; vectorize a calculation and catch a silent broadcast error",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C03",
+      "title": "Testing, debugging, Git and environments",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native exact-text dedup contract and reproducible task examples",
+      "remaining_demand": "Own bug repair, environment/Git provenance and independent re-execution",
+      "provider_source_ids": [
+        "SRC-61871b700aa0",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "No additional whole-topic gate; deepen only for the active task",
+      "frozen_primary_resource": "Software sheet ALG-SOFT",
+      "independent_performance_criterion": "Debug a failing edge case; recreate an environment and trace a result to code/data versions",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ALG-SOFT"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C04",
+      "title": "Correctness, recurrences, worst-case, expected and amortized analysis",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "MIT PS0 requires algorithm, proof and asymptotic analysis",
+      "remaining_demand": "Amortized, expected and worst-case distinctions across unfamiliar structures",
+      "provider_source_ids": [
+        "SRC-bdbd48dd23a2"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "F07 for correctness proofs; M07 for randomized expected bounds; ALG-AMORT for amortized bounds",
+      "frozen_primary_resource": "MIT 6.006 lectures 1–2 and relevant notes",
+      "independent_performance_criterion": "Loop invariant and bound; analyze a geometric-growth array with a potential/aggregate argument",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-ALG-002",
+        "ALG-AMORT",
+        "MIT6006-S20-PS0-6"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C05",
+      "title": "Arrays, hashing, heaps, trees and tries",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Primary data-structure catalogue retained",
+      "remaining_demand": "Actual native hash/heap/tree/trie contracts and operation-specific proofs",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "C04 for guarantees",
+      "frozen_primary_resource": "D104–106 selected task families",
+      "independent_performance_criterion": "Choose a structure for a new workload; justify correctness and memory/time tradeoffs",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-TCS-002"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C06",
+      "title": "Graph traversal and shortest paths",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Primary graph/search catalogue retained",
+      "remaining_demand": "Exact weighted/disconnected/negative-case contracts and correctness proof",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "C05"
+      ],
+      "conditional_depth": "M17,C04 for graph proofs/costs",
+      "frozen_primary_resource": "D107 graph tasks",
+      "independent_performance_criterion": "DX-F2; BFS path correctness, disconnected cases and weighted-edge limitation",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-TCS-003"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C07",
+      "title": "Dynamic programming and sequence alignment",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Primary DP and retained edit-distance assessment exist",
+      "remaining_demand": "Actual native sequence-alignment constraints and changed recurrence task",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "C04,C05 for proof and implementation quality",
+      "frozen_primary_resource": "D107 DP tasks",
+      "independent_performance_criterion": "DX-F3; derive state, recurrence, base cases, reconstruction and complexity",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-TCS-004"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C08",
+      "title": "Search, planning and CSP",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Primary planning/search catalogue retained",
+      "remaining_demand": "Current CSP pruning and A* reopening/completeness contracts",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "C01",
+        "C05"
+      ],
+      "conditional_depth": "C06,C07 for optimal/complete planning; F07 for pruning proofs",
+      "frozen_primary_resource": "Search sheet ALG-SEARCH; D077",
+      "independent_performance_criterion": "Implement bounded search/CSP; explain admissibility and search-space failure",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ALG-SEARCH"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C09",
+      "title": "Formal languages, automata, computability, reductions and complexity",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Native coding/algorithm context exists",
+      "remaining_demand": "Formal languages, decider/recognizer semantics, reductions and bit-complexity proofs",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "F06",
+        "C01"
+      ],
+      "conditional_depth": "F07,C04 for reductions/complexity; ALG-LANG for automata/grammars",
+      "frozen_primary_resource": "TCS sheet ALG-TCS; MIT 6.045 selected notes",
+      "independent_performance_criterion": "Specify a tiny grammar/automaton and distinguish recognition, decidability, NP-hardness and numerical input size",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-TCS-001",
+        "ALG-TCS",
+        "ALG-LANG"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C10",
+      "title": "Program synthesis, typed DSLs and constraint-guided search",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Existing bounded DSL assessment is preserved",
+      "remaining_demand": "Exact native synthesis contracts, search priors and counterexample-guided guarantees",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "C01",
+        "C19"
+      ],
+      "conditional_depth": "C08,C09 for search bounds and language limits; ALG-SYN for DSL/SAT/SMT use",
+      "frozen_primary_resource": "ALG-SYN",
+      "independent_performance_criterion": "Evaluate/enumerate a typed DSL; compare two consistent programs, request a discriminating example, audit solver results",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ALG-SYN",
+        "ALG-VERIFY"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C11",
+      "title": "Autodiff implementation and checks",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual shared-path reverse-mode task specifies repeated parents, leaf reachability and dtype",
+      "remaining_demand": "General autodiff construction, nonsmooth conventions and independent gradient check",
+      "provider_source_ids": [
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [
+        "M05",
+        "C01"
+      ],
+      "conditional_depth": "M06,C02 for vector reverse mode/Jacobians",
+      "frozen_primary_resource": "One Deep-ML autodiff build",
+      "independent_performance_criterion": "Implement reverse mode on a DAG with reused nodes; compare analytic and finite-difference gradients",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-NUM"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C12",
+      "title": "PyTorch training and data pipelines",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual weighted microbatch update, SFT mask and data contracts",
+      "remaining_demand": "Full training pipeline checks, noncontiguous inputs and meaningful held-out tests",
+      "provider_source_ids": [
+        "SRC-c9e6121df019",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "C01",
+        "C02"
+      ],
+      "conditional_depth": "C11,M06 for deriving/verifying gradients",
+      "frozen_primary_resource": "D027,D032",
+      "independent_performance_criterion": "Build train/eval loop with correct masking, seeds, no_grad and checkpoint reload",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C13",
+      "title": "CPU/memory/process literacy, profiling and compute architecture",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual exact-byte memory accountant is available",
+      "remaining_demand": "Processes, memory ownership and real profiling beyond an arithmetic model",
+      "provider_source_ids": [
+        "SRC-c0a386220a6f"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "C02,C04 for tensor cost/performance",
+      "frozen_primary_resource": "ALG-SYSTEMS; D082 profiling basics",
+      "independent_performance_criterion": "Explain data representation/memory/process state, diagnose nondeterminism, and measure one real bottleneck",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ALG-SYSTEMS"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C14",
+      "title": "CUDA and Triton kernel construction",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual shared-bank analyzer handles broadcasts and integer mapping",
+      "remaining_demand": "Real kernel construction and hardware-correct measured end-to-end gains",
+      "provider_source_ids": [
+        "SRC-c0a386220a6f"
+      ],
+      "entry_prerequisites": [
+        "C13",
+        "C01"
+      ],
+      "conditional_depth": "C12 for neural kernels only",
+      "frozen_primary_resource": "D092–095 one relevant kernel family",
+      "independent_performance_criterion": "Correctness against a reference and measured end-to-end speed under fixed conditions",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C15",
+      "title": "Distributed training and inference systems",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual cache-capacity planner distinguishes layout and exact bytes",
+      "remaining_demand": "Distributed correctness, collectives, failures and measured scaling",
+      "provider_source_ids": [
+        "SRC-c0a386220a6f"
+      ],
+      "entry_prerequisites": [
+        "C13",
+        "C12"
+      ],
+      "conditional_depth": "L15 only for LM-specific systems; communication fundamentals first",
+      "frozen_primary_resource": "D053,D082–087 selected",
+      "independent_performance_criterion": "Explain sharding/communication tradeoffs; test one small bottleneck rather than simulate unmeasured speedups",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C16",
+      "title": "SQL/pandas and data provenance",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual point-in-time join and stable text identity contracts",
+      "remaining_demand": "SQL/join cardinality, temporal provenance and independent data-lineage artifact",
+      "provider_source_ids": [
+        "SRC-61871b700aa0"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "C03 for provenance and joins",
+      "frozen_primary_resource": "D100,D103 minimal research subset",
+      "independent_performance_criterion": "Join entity tables without multiplying observations; validate keys and temporal boundaries",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C17",
+      "title": "SAT/SMT, formal specification, verification and trusted bases",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Finite coding/testing is native",
+      "remaining_demand": "Formal specifications, solver theory/trusted base and machine-versus-model semantics",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "F06",
+        "C03"
+      ],
+      "conditional_depth": "F07,C09,C19 for formal proofs and solver/trusted-base limits",
+      "frozen_primary_resource": "ALG-VERIFY; official Z3 logical-modeling guide",
+      "independent_performance_criterion": "Encode a small property; distinguish sat/unsat/unknown/timeout; interpret model/counterexample under stated semantics",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ALG-VERIFY",
+        "ALG-LANG"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C18",
+      "title": "Alternative frameworks and compilers",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Alternative frameworks/compiler catalogue retained",
+      "remaining_demand": "Exact relevant public compiler/semantic contracts and necessity from measured bottleneck",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "C11",
+        "C13"
+      ],
+      "conditional_depth": "No additional whole-topic gate; deepen only for the active task",
+      "frozen_primary_resource": "D028 or D096–098 only after trigger",
+      "independent_performance_criterion": "Port one operation and test semantics; enter only for a measured research blocker",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "C19",
+      "title": "Programming abstractions, recursion, types and semantics",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native graph/operator contracts require recursion and expression structure",
+      "remaining_demand": "Programming effects, AST/grammar semantics and abstraction construction need fresh assessment",
+      "provider_source_ids": [
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "C04 for recursion cost; C09 for formal language limits",
+      "frozen_primary_resource": "ALG-LANG",
+      "independent_performance_criterion": "Explain mutation versus pure functions, recursive base cases, typed AST evaluation and integer versus floating-point semantics",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ALG-LANG"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L01",
+      "title": "Data-generating process, splits and baselines",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual split task and detailed leakage lesson inspect data boundaries",
+      "remaining_demand": "The domain-specific data-generating process, causal target and biological label validity",
+      "provider_source_ids": [
+        "SRC-f4d91cb8a014",
+        "SRC-c167975b3b64",
+        "SRC-61871b700aa0"
+      ],
+      "entry_prerequisites": [
+        "F01"
+      ],
+      "conditional_depth": "M07,C03,C02 for statistical/implemented evaluation",
+      "frozen_primary_resource": "D003 Data, Splits and Baselines; START-07 observation task",
+      "independent_performance_criterion": "Explain training versus new-data evaluation early; later independent split/leakage/uncertainty design",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-UNC"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L02",
+      "title": "Linear and probabilistic regression",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Deep-ML linear-regression lab index exposes NumPy fit/predict and held-out metric",
+      "remaining_demand": "Probabilistic likelihood assumptions, identifiability and independent derivation",
+      "provider_source_ids": [
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "F02",
+        "C01"
+      ],
+      "conditional_depth": "M01,M05,M07 for least-squares derivation, gradients and uncertainty; prediction-first entry needs none of these whole modules",
+      "frozen_primary_resource": "Prediction-first line examples; then D002,D006,D013",
+      "independent_performance_criterion": "Compare fixed line predictions without calculus, then derive/implement least squares and uncertainty at deeper level",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-LIN",
+        "MAT-CALC"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L03",
+      "title": "Classification, metrics and calibration",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Deep-ML classifier/probability-loss contracts expose held-out scoring",
+      "remaining_demand": "Calibration under shift, metric choice and honest untouched evaluation",
+      "provider_source_ids": [
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "L01"
+      ],
+      "conditional_depth": "M08,L02 for model/calibration theory",
+      "frozen_primary_resource": "D010–012",
+      "independent_performance_criterion": "Compute proper scoring metrics, diagnose imbalance, calibrate on held-out validation",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L04",
+      "title": "Regularization and generalization",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Deep-ML regularization lab exposes an explicit overfitting regime",
+      "remaining_demand": "Generalization conditions and source-specific regularizer proof/selection",
+      "provider_source_ids": [
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "L01",
+        "F03"
+      ],
+      "conditional_depth": "M08,L02,M16 for formal generalization claims",
+      "frozen_primary_resource": "D005",
+      "independent_performance_criterion": "Show train/test gap and select regularization without test reuse",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-BOUND"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L05",
+      "title": "Trees and ensembles",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Native tree/ensemble catalogue visible",
+      "remaining_demand": "Actual current branch contracts and independent bias/failure analysis",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "L01",
+        "C01"
+      ],
+      "conditional_depth": "L03,C05 for full implementation/validation",
+      "frozen_primary_resource": "D014,D016",
+      "independent_performance_criterion": "Implement a split and a bagging/boosting comparison with controlled tuning",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L06",
+      "title": "Kernels and Gaussian processes",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Native GP/kernel and RBF plan observations retained",
+      "remaining_demand": "Full probabilistic and kernel assumptions, computational limits and exact contracts",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "L02",
+        "M01"
+      ],
+      "conditional_depth": "M04,M11 for kernel/GP theory",
+      "frozen_primary_resource": "D017; Gaussian Processes project",
+      "independent_performance_criterion": "Derive a kernel prediction on tiny data; diagnose PSD failure and compute cost",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L07",
+      "title": "Clustering, mixtures and density estimation",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Native clustering/density catalogue retained",
+      "remaining_demand": "Exact mixture/density normalization contracts, identifiability and failure modes",
+      "provider_source_ids": [
+        "SRC-89593046abff",
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "M07",
+        "C01"
+      ],
+      "conditional_depth": "M08,M04 for EM/density proofs",
+      "frozen_primary_resource": "D019",
+      "independent_performance_criterion": "Derive one EM step and construct an initialization/identifiability failure",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L08",
+      "title": "PCA and representation compression",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Deep-ML reduction lab specifies reduced dimension and downstream classifier target",
+      "remaining_demand": "Projection objective proof, scientific meaning and independent transfer",
+      "provider_source_ids": [
+        "SRC-4df4277712c7",
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "M01",
+        "C02"
+      ],
+      "conditional_depth": "M04,L01 for SVD/validation mastery",
+      "frozen_primary_resource": "D020",
+      "independent_performance_criterion": "Implement PCA with train-only centering; distinguish variance from task signal",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L09",
+      "title": "Retrieval, ranking and embeddings",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native likelihood and citation representations illustrate scoring",
+      "remaining_demand": "Candidate-set shift, ranking metrics and domain retrieval validation",
+      "provider_source_ids": [
+        "SRC-d220985d042e",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "C01",
+        "L01"
+      ],
+      "conditional_depth": "L03,C05 for metric/indexing depth",
+      "frozen_primary_resource": "D022,D058 selected",
+      "independent_performance_criterion": "Explain top-k metrics and query/candidate shift; evaluate on held-out entities",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L10",
+      "title": "Backpropagation, MLPs and neural computation",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native activation lab and reverse-mode contracts expose neural operations",
+      "remaining_demand": "Independent complete network derivation and controlled failure analysis",
+      "provider_source_ids": [
+        "SRC-4df4277712c7",
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [
+        "M05",
+        "C02"
+      ],
+      "conditional_depth": "M06,C11,L04 for full vector backprop and scientific evaluation",
+      "frozen_primary_resource": "D025–027",
+      "independent_performance_criterion": "DX-H2; derive backward equations, check gradients and fit a small task independently",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L11",
+      "title": "Optimization, normalization and training mechanics",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual gradient accumulation and shared-path constraints inspected",
+      "remaining_demand": "Training dynamics and optimizer comparisons with matched tuning/compute",
+      "provider_source_ids": [
+        "SRC-c9e6121df019",
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "L10",
+        "C12"
+      ],
+      "conditional_depth": "M12,M13 for optimizer theory/numerics",
+      "frozen_primary_resource": "D029–032,D042",
+      "independent_performance_criterion": "Separate initialization, optimizer and regularization effects under controlled tuning",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L12",
+      "title": "CNNs, residual models and scientific vision",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native vision/lab and paired-embedding loss contexts exist",
+      "remaining_demand": "Independent scientific-image validity and required CNN/residual architecture contracts",
+      "provider_source_ids": [
+        "SRC-4df4277712c7",
+        "SRC-edceaf35c4c4"
+      ],
+      "entry_prerequisites": [
+        "L10",
+        "C12"
+      ],
+      "conditional_depth": "L11 for reliable full training; B09 for scientific imaging",
+      "frozen_primary_resource": "D033; D034–035 selected",
+      "independent_performance_criterion": "Implement convolution/residual block; validate independent entities and explain invariances",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L13",
+      "title": "Recurrent networks, BPTT and LSTM",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Recurrent/LSTM catalogue and frozen paper scope retained",
+      "remaining_demand": "Actual BPTT, truncation and long-dependency implementation/proof demands",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "L10"
+      ],
+      "conditional_depth": "M06 for full BPTT",
+      "frozen_primary_resource": "D036; LSTM project",
+      "independent_performance_criterion": "DX-H2; analyze gradient propagation; distinguish original cell from later forget-gate variants",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L14",
+      "title": "Attention and Transformers",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Transformer paper route and deterministic tokenizer are exposed",
+      "remaining_demand": "Attention masks, positional assumptions, complete block construction and complexity",
+      "provider_source_ids": [
+        "SRC-4eec88d44ed3",
+        "SRC-9dcb94cbea2d"
+      ],
+      "entry_prerequisites": [
+        "L10",
+        "M01"
+      ],
+      "conditional_depth": "M03,L11 for attention geometry/training; LSTM completion is not required",
+      "frozen_primary_resource": "D037–038",
+      "independent_performance_criterion": "DX-H3; derive attention dimensions, masking and causality; test a tiny block",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L15",
+      "title": "Tokenization, small LMs and decoding",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual tokenization, conditional perplexity and cache tasks inspected",
+      "remaining_demand": "Model/data split integrity, full decoder behavior and meaningful held-out training",
+      "provider_source_ids": [
+        "SRC-4eec88d44ed3",
+        "SRC-c0a386220a6f"
+      ],
+      "entry_prerequisites": [
+        "L14",
+        "C12"
+      ],
+      "conditional_depth": "M15,L11 for likelihood/evaluation depth",
+      "frozen_primary_resource": "D043–048",
+      "independent_performance_criterion": "Train tiny LM, evaluate proper perplexity and distinguish encoder-decoder from decoder-only",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L16",
+      "title": "Generative objectives, latent models and diffusion",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Generative plan/project titles are retained",
+      "remaining_demand": "Choose actual normalized generative objective and inspect its full loss/sampler contract",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "L10",
+        "M07"
+      ],
+      "conditional_depth": "M08,M15 for latent objectives; L14 only for Transformer-based generators",
+      "frozen_primary_resource": "D039,D067 selected; ML-GEN",
+      "independent_performance_criterion": "Derive a normalized toy generator or ELBO and evaluate generation; SSL is assessed separately in L26",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L17",
+      "title": "GNNs, message passing and limitations",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Citation GNN route includes normalized adjacency and over-smoothing study",
+      "remaining_demand": "Expressivity, permutation proof and chemical/biological graph validity",
+      "provider_source_ids": [
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "M17",
+        "L10"
+      ],
+      "conditional_depth": "M04 for spectral filters; M20 only for geometric equivariance",
+      "frozen_primary_resource": "D079–081",
+      "independent_performance_criterion": "Prove permutation equivariance of aggregation and construct a distinguishing-limit example",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L18",
+      "title": "Bandits, MDPs and Bellman equations",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Finite-MDP primary and exact one-state assessment retained",
+      "remaining_demand": "Current native bandit/Bellman task contracts and exploration assumptions",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "M07",
+        "C01"
+      ],
+      "conditional_depth": "M18,C07 for formal Markov/Bellman/DP arguments",
+      "frozen_primary_resource": "D069–070; Sutton/Barto Ch.2–4",
+      "independent_performance_criterion": "Solve a finite MDP exactly; distinguish exploration, exploitation and off-policy evaluation",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "RL-R1"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L19",
+      "title": "TD, function approximation and off-policy risk",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "TD/off-policy objectives and checked one-step update retained",
+      "remaining_demand": "Actual native approximation/off-policy failure contracts and convergence conditions",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "L18"
+      ],
+      "conditional_depth": "L10,M12 only for neural function approximation; tabular TD starts first",
+      "frozen_primary_resource": "D071 tabular MC/TD first; D072–073 selected later",
+      "independent_performance_criterion": "Hand-compute and implement TD versus exact values before opening function approximation/off-policy failure analysis",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "RL-R1"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L20",
+      "title": "Policy gradients and actor–critic",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual GRPO group-standardization contract inspected",
+      "remaining_demand": "Policy-gradient derivation, estimator validity and actor-critic training instability",
+      "provider_source_ids": [
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [
+        "L18",
+        "M05"
+      ],
+      "conditional_depth": "L19,M06,M12 for actor-critic variance/deep optimization; L10 for neural policies",
+      "frozen_primary_resource": "D075; Sutton/Barto Ch.13",
+      "independent_performance_criterion": "Derive score-function gradient and a baseline identity; test a toy policy",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L21",
+      "title": "Planning, model-based RL and world models",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Native world-model and planning catalogue is retained",
+      "remaining_demand": "Actual true-versus-learned model task, partial observability and rollout controls",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "L18",
+        "C01"
+      ],
+      "conditional_depth": "C08 for advanced search; L13,L16 for learned neural world models; neither blocks tabular Dyna",
+      "frozen_primary_resource": "D074 tabular planning first; D077,D068 selected later",
+      "independent_performance_criterion": "Tabular Dyna/model-error check first; neural rollout and representation controls when those subskills are active",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "RL-R1"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L22",
+      "title": "Continual learning and meta-learning",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Native continual/meta-learning observations retained",
+      "remaining_demand": "Actual adaptation split, replay/forgetting metrics and matched-budget baseline",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "L10",
+        "L01"
+      ],
+      "conditional_depth": "M09 for transfer/forgetting inference; L15 only for LM continual learning",
+      "frozen_primary_resource": "D061; MAML P05",
+      "independent_performance_criterion": "Measure forgetting/transfer with disjoint tasks and matched compute; distinguish tuning from meta-learning",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L23",
+      "title": "Agent/tool-use evaluation and autonomy",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native system-design evaluation and likelihood contracts exist",
+      "remaining_demand": "Agent tool failures, permissions, interruption and held-out task-family evaluation",
+      "provider_source_ids": [
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "C01",
+        "L01"
+      ],
+      "conditional_depth": "L15 for LM internals; C03,C08 for reliable tool/search evaluation",
+      "frozen_primary_resource": "D057,D059,D099 selected",
+      "independent_performance_criterion": "Evaluate tool failures, provenance, permissions, adaptive test leakage and no-agent baseline",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L24",
+      "title": "Mechanistic interpretability foundations",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native SAE route includes activation inspection and intervention",
+      "remaining_demand": "Unique mechanism claims, causal identification, superposition and independent controls",
+      "provider_source_ids": [
+        "SRC-d73002656183"
+      ],
+      "entry_prerequisites": [
+        "L14",
+        "L01"
+      ],
+      "conditional_depth": "M24 for causal identification; R04 for controlled circuit studies",
+      "frozen_primary_resource": "D060",
+      "independent_performance_criterion": "Distinguish a probe correlation from a causal intervention; design controls",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L25",
+      "title": "Predictive uncertainty, shift and robustness",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Deep-ML missing-feature/probabilistic and regularization labs provide relevant regimes",
+      "remaining_demand": "Shift/coverage assumptions, calibration transfer and reliable uncertainty intervals",
+      "provider_source_ids": [
+        "SRC-4df4277712c7",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "L01",
+        "M07"
+      ],
+      "conditional_depth": "L03,M09 for formal calibration/uncertainty",
+      "frozen_primary_resource": "D011,D040 relevant labs",
+      "independent_performance_criterion": "Separate aleatoric/epistemic descriptions, evaluate calibration under shift and state limitations",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S01",
+      "title": "Question formulation and literature criticism",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native design teaches requirements and baselines",
+      "remaining_demand": "A specific literature criticism and discriminating research question remain independent outputs",
+      "provider_source_ids": [
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "F01"
+      ],
+      "conditional_depth": "F06,C03 for rigorous argument/provenance",
+      "frozen_primary_resource": "Research question sheet RES-QUESTION",
+      "independent_performance_criterion": "State a falsifiable question, strongest alternative and a meaningful null result",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "RES-QUESTION"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S02",
+      "title": "Measurement and data-generating process",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native available-time/entity split logic is explicit",
+      "remaining_demand": "Assay/annotation/measurement model and label-selection bias",
+      "provider_source_ids": [
+        "SRC-c167975b3b64",
+        "SRC-61871b700aa0"
+      ],
+      "entry_prerequisites": [
+        "L01"
+      ],
+      "conditional_depth": "M08 for measurement/inference depth",
+      "frozen_primary_resource": "Scientific sheet MAT-UNC",
+      "independent_performance_criterion": "Trace labels/features to measurement; identify selection and construct-validity threats",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-UNC"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S03",
+      "title": "Experimental design and controlled comparisons",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native labs expose held-out metrics and some controlled conditions",
+      "remaining_demand": "Matched tuning/compute, prespecified estimand and confirmatory comparison",
+      "provider_source_ids": [
+        "SRC-4df4277712c7",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "S02"
+      ],
+      "conditional_depth": "M10 for quantitative design/power",
+      "frozen_primary_resource": "Scientific sheet MAT-EXP",
+      "independent_performance_criterion": "Predefine estimand, controls, split, tuning budget and analysis unit",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-SCI-001",
+        "MAT-EXP"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S04",
+      "title": "Ablation, negative controls and causal claims",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "SAE route explicitly includes feature interventions and counterexamples",
+      "remaining_demand": "Distribution-shift controls, rescue, alternatives and scope of mechanism attribution",
+      "provider_source_ids": [
+        "SRC-d73002656183"
+      ],
+      "entry_prerequisites": [
+        "S03"
+      ],
+      "conditional_depth": "M24 for identifying mechanism effects",
+      "frozen_primary_resource": "Causal sheet MAT-CAUS",
+      "independent_performance_criterion": "Construct a confounded ablation and a more discriminating intervention",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-CAUS"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S05",
+      "title": "Effect size, uncertainty and adaptive analysis",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native bootstrap and test-selection lesson exist",
+      "remaining_demand": "Independent-unit uncertainty, effect thresholds and valid adaptive analysis",
+      "provider_source_ids": [
+        "SRC-63772104cf91",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "S03",
+        "M07"
+      ],
+      "conditional_depth": "M09,M10 for intervals and adaptive analysis",
+      "frozen_primary_resource": "Scientific sheet MAT-EXP",
+      "independent_performance_criterion": "Give intervals and practical meaning; disclose selection, multiple testing and failed runs",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-EXP"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S06",
+      "title": "Provenance, licensing and reproducible artifacts",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native available-time data contracts and explicit implementation requirements",
+      "remaining_demand": "Actual license/revision/environment manifest and independent artifact rerun",
+      "provider_source_ids": [
+        "SRC-61871b700aa0"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "C03,S02 for full reproducibility",
+      "frozen_primary_resource": "Artifact sheet RES-ARTIFACT",
+      "independent_performance_criterion": "Recreate a result from config/data/code revision; inspect licenses and missing steps",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "RES-ARTIFACT"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S07",
+      "title": "Scientific communication and oral defense",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Native design includes written-feedback/interview framing",
+      "remaining_demand": "Independent scientific writing, derivation defense and external criticism are not established by task badges",
+      "provider_source_ids": [
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "S01"
+      ],
+      "conditional_depth": "F07 for defending mathematical proofs",
+      "frozen_primary_resource": "Communication sheet RES-COMM",
+      "independent_performance_criterion": "Write an accurate claim/limitations paragraph and defend a derivation aloud",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "RES-COMM"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S08",
+      "title": "Reproduction versus implementation",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native Transformer tokenizer explicitly labels a paper simplification",
+      "remaining_demand": "Claim-specific reproduction needs original protocol, data, baseline and deviations",
+      "provider_source_ids": [
+        "SRC-4eec88d44ed3",
+        "SRC-2e1318b8acdb"
+      ],
+      "entry_prerequisites": [
+        "S01",
+        "C03"
+      ],
+      "conditional_depth": "S03,S06,L10 for a full neural reproduction",
+      "frozen_primary_resource": "Research reproduction contract",
+      "independent_performance_criterion": "Identify exact claim, deviations, compute and evidence; label toy work correctly",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-SCI-002"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S09",
+      "title": "Original hypotheses and creative transfer",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Deep-ML Intuition solicits invention from counterexamples",
+      "remaining_demand": "Original falsifiable scientific hypotheses and independent out-of-family validation",
+      "provider_source_ids": [
+        "SRC-d809b42ca3a8"
+      ],
+      "entry_prerequisites": [
+        "S01"
+      ],
+      "conditional_depth": "S04,F07 for defended discovery",
+      "frozen_primary_resource": "One bounded extension protocol",
+      "independent_performance_criterion": "Generate competing mechanisms and a low-cost discriminating experiment",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-SCI-003"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S10",
+      "title": "Ethics, privacy and benchmark integrity",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native repeated-test/near-duplicate warnings are explicit",
+      "remaining_demand": "Actual competition permissions, privacy/license and benchmark contamination audit",
+      "provider_source_ids": [
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "S01"
+      ],
+      "conditional_depth": "S02,C03 for implementation/data review",
+      "frozen_primary_resource": "Competition and research standards",
+      "independent_performance_criterion": "Find disallowed data/protocol use; document permissions and test boundaries",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-SCI-004"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S11",
+      "title": "Resource accounting and efficiency claims",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native exact-byte/cache accounting and lab budgets are available",
+      "remaining_demand": "Actual end-to-end quality/efficiency measurements with honest focused-time accounting",
+      "provider_source_ids": [
+        "SRC-c0a386220a6f",
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "C01"
+      ],
+      "conditional_depth": "C13,S03 for efficiency comparisons",
+      "frozen_primary_resource": "Efficiency sheet RES-EFF",
+      "independent_performance_criterion": "Report hardware, wall time, memory and tuning budget under comparable conditions",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "RES-EFF"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "S12",
+      "title": "Collaboration and independent criticism",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Provider feedback and code tests exist",
+      "remaining_demand": "External critical review, resolving competing explanations and reproducible collaboration are separate evidence",
+      "provider_source_ids": [
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "S07"
+      ],
+      "conditional_depth": "S08 for substantive reproduction critique",
+      "frozen_primary_resource": "External review checklist",
+      "independent_performance_criterion": "Respond to a substantive counterargument with evidence and record unresolved points",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-SCI-005"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "R01",
+      "title": "AGI, generalization and intelligence measurement",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Primary planning/model catalogues provide relevant components",
+      "remaining_demand": "Acquisition efficiency, held-out task families and fixed priors/budgets need actual studies",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "L21",
+        "L22",
+        "S01"
+      ],
+      "conditional_depth": "C10,S05,M23 as the selected hypothesis requires",
+      "frozen_primary_resource": "P04,P09 selected sequence",
+      "independent_performance_criterion": "Compare acquisition efficiency on held-out task families with fixed priors/compute",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "R02",
+      "title": "RSI and meta-learning theory/experiments",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Meta-learning/optimizer component observations retained",
+      "remaining_demand": "A specified self-change mechanism, trusted evaluator, matched total effort and no human selection leakage",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "L22",
+        "C01"
+      ],
+      "conditional_depth": "C09,M23,C17,S04 for formal RSI guarantees and robust experimental claims",
+      "frozen_primary_resource": "P05–P07",
+      "independent_performance_criterion": "Audit utility/provability assumptions; test iterative improvement against frozen held-out tasks",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "R03",
+      "title": "Mathematical and machine reasoning",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native likelihood scoring and algorithm contexts are available",
+      "remaining_demand": "Independent formal verification, search-budget control and unseen task-family generalization",
+      "provider_source_ids": [
+        "SRC-c9e6121df019",
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "C08",
+        "C10"
+      ],
+      "conditional_depth": "C09,L15,S05 for language-model/synthesis research",
+      "frozen_primary_resource": "P09,P10",
+      "independent_performance_criterion": "Build a tiny synthesis/search solver and separate memorization, search and generalization",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "R04",
+      "title": "Causal circuit analysis",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native SAE intervention route provides a real causal-experiment starting point",
+      "remaining_demand": "Faithfulness/completeness/minimality, matched controls and alternative-path explanations",
+      "provider_source_ids": [
+        "SRC-d73002656183"
+      ],
+      "entry_prerequisites": [
+        "L24",
+        "C12"
+      ],
+      "conditional_depth": "M24,S04 for causal conclusions",
+      "frozen_primary_resource": "P11,P12; D060 induction project",
+      "independent_performance_criterion": "Use matched clean/corrupt inputs, interventions and multiple controls; test off-distribution artifacts",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-RES-001"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "R05",
+      "title": "AI for Science modeling and inverse inference",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Native graphs, uncertainty and image/data methods provide computational tools",
+      "remaining_demand": "Measurement mechanism, inverse identifiability and experimental/domain validation",
+      "provider_source_ids": [
+        "SRC-d220985d042e",
+        "SRC-c167975b3b64"
+      ],
+      "entry_prerequisites": [
+        "L01",
+        "S02"
+      ],
+      "conditional_depth": "L17,L25,M20 and the chosen B-domain nodes as needed; not all science fields",
+      "frozen_primary_resource": "P13–P16 plus active domain",
+      "independent_performance_criterion": "Prespecify scientific target, physical/domain checks, leakage-safe split and uncertainty",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B01",
+      "title": "Molecular/cell biology and evolution",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Historical foundational biology locator retained",
+      "remaining_demand": "Specific molecular/cell/evolution sections and access remain unresolved; no biology instruction inferred from GNNs",
+      "provider_source_ids": [
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "S01"
+      ],
+      "conditional_depth": "F03 for quantitative sequence models",
+      "frozen_primary_resource": "Domain sheet BIO-FOUND with authoritative textbook",
+      "independent_performance_criterion": "Explain sequence→expression→function and limits; distinguish evolutionary from causal explanations",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B02",
+      "title": "Protein chemistry and structure",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Historical structure course pointer retained",
+      "remaining_demand": "Exact protein chemistry and structural examples need verified scope",
+      "provider_source_ids": [
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "B01"
+      ],
+      "conditional_depth": "F04 for geometry/stereochemistry",
+      "frozen_primary_resource": "EMBL-EBI Foundations of Protein Structure",
+      "independent_performance_criterion": "Explain primary–quaternary structure, bonding, chirality, domains and experimental limitations",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B03",
+      "title": "Thermodynamics, kinetics and biophysics",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Historical physical-chemistry objectives retained",
+      "remaining_demand": "Thermodynamics/kinetics/biophysical source and exercises depend on actual scientific question",
+      "provider_source_ids": [
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "B02"
+      ],
+      "conditional_depth": "M05,M07 for quantitative thermodynamics/kinetics",
+      "frozen_primary_resource": "Domain sheet BIO-PHYS and selected physical chemistry",
+      "independent_performance_criterion": "Distinguish energy/free energy, equilibrium/kinetics, conformations and physical validity",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B04",
+      "title": "Sequences, alignment, homology and phylogeny",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Sequence/alignment objectives retained",
+      "remaining_demand": "Homology/phylogeny conventions and current exact source tasks not verified",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "B01",
+        "C01"
+      ],
+      "conditional_depth": "C07,M07 for alignment/statistical depth",
+      "frozen_primary_resource": "Alignment sheet; selected Rosalind task",
+      "independent_performance_criterion": "Compute an alignment; define sequence clusters and detect family leakage",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B05",
+      "title": "Chemical representations and molecular graphs",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native GNN construction supports computational graph foundations",
+      "remaining_demand": "Molecular charge/stereochemistry/state conventions and domain-valid representations",
+      "provider_source_ids": [
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "B02"
+      ],
+      "conditional_depth": "L17,M20 for molecular learning/equivariance",
+      "frozen_primary_resource": "Domain sheet BIO-REP; P13,P14",
+      "independent_performance_criterion": "Check atom/bond/chirality/charge encodings and invariance; separate identical graph from conformer",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "BIO-REP"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B06",
+      "title": "Structural data, confidence and CASP evaluation",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "CASP checkpoint and structure objectives preserved",
+      "remaining_demand": "Exact edition/target score and template/MSA cutoff must be verified before activation",
+      "provider_source_ids": [
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "B02"
+      ],
+      "conditional_depth": "B03,B04,R05 for structure evaluation",
+      "frozen_primary_resource": "P15; official CASP methods",
+      "independent_performance_criterion": "Evaluate structure on held-out families/time; explain lDDT/GDT scope and confidence limits",
+      "selected_problem_ids": [],
+      "assessment_ids": [],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B07",
+      "title": "Function ontologies and CAFA evaluation",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Official GO grouping semantics checked against generic graph aggregation",
+      "remaining_demand": "Edition-specific CAFA scoring, open-world labels and time-delayed evaluation",
+      "provider_source_ids": [
+        "SRC-1cf583157af3",
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "B01",
+        "M17"
+      ],
+      "conditional_depth": "B04,L03 for function prediction/evaluation",
+      "frozen_primary_resource": "P16; official GO/CAFA documentation",
+      "independent_performance_criterion": "Propagate child→ancestor scores without cycles; handle unknown labels and annotation time",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "BIO-ONTO"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B08",
+      "title": "Scientific domain shift and biological leakage",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native time/entity leakage mechanisms provide valid basics",
+      "remaining_demand": "Homology, templates, assays, accessions and annotation acquisition require real dataset evidence",
+      "provider_source_ids": [
+        "SRC-c167975b3b64",
+        "SRC-61871b700aa0"
+      ],
+      "entry_prerequisites": [
+        "S02"
+      ],
+      "conditional_depth": "B04,S05 for homology/inference; B06 for structure projects or B07 for function projects, not both before first leakage lesson",
+      "frozen_primary_resource": "BIO-LEAK",
+      "independent_performance_criterion": "Identify repeated-entity/date leakage from a simple table first; add homolog/template/ontology analysis for the active domain",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-BIO-001",
+        "BIO-LEAK"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B09",
+      "title": "Scientific imaging, 3D and inverse problems",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native image contracts provide computational context",
+      "remaining_demand": "Specimen/site units, 3D acquisition/physics and inverse-problem assumptions",
+      "provider_source_ids": [
+        "SRC-4df4277712c7"
+      ],
+      "entry_prerequisites": [
+        "L12"
+      ],
+      "conditional_depth": "L25,M20,M21 for 3D/inverse tasks",
+      "frozen_primary_resource": "One active imaging method and dataset protocol",
+      "independent_performance_criterion": "Split by patient/specimen/site, compare reconstruction/segmentation metrics and uncertainty",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-BIO-002"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "B10",
+      "title": "Experimental collaboration and domain validation",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Generic model testing supplies computational evidence",
+      "remaining_demand": "Qualified domain review and orthogonal biological validation cannot follow from a model score",
+      "provider_source_ids": [
+        "SRC-d220985d042e"
+      ],
+      "entry_prerequisites": [
+        "S01",
+        "B01"
+      ],
+      "conditional_depth": "R05,S10,S12 for domain validation partnership",
+      "frozen_primary_resource": "Domain validation contract",
+      "independent_performance_criterion": "Distinguish computational prediction from experimentally established biological evidence",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ZP-BIO-003"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M25",
+      "title": "Monte Carlo, importance sampling and effective sampling limits",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Native Monte Carlo plan; finite importance assessment has an exact expectation",
+      "remaining_demand": "Support, finite-sample bias, dependence and executed uncertainty estimates",
+      "provider_source_ids": [
+        "SRC-63772104cf91"
+      ],
+      "entry_prerequisites": [
+        "M07",
+        "C01"
+      ],
+      "conditional_depth": "M08,M09 for posterior/uncertainty interpretation; M05 for continuous integrals",
+      "frozen_primary_resource": "MAT-MC",
+      "independent_performance_criterion": "Estimate a finite expectation exactly and by sampling; verify proposal support, weights and uncertainty limitations",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-MC"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M26",
+      "title": "Variational inference and amortized inference",
+      "coverage_status": "unresolved_coverage",
+      "observed_scope": "Finite ELBO assessment is algebraically checked",
+      "remaining_demand": "Actual native VI/amortization contracts and approximation-family limitations",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "M08",
+        "M15"
+      ],
+      "conditional_depth": "M06,M12 for gradient/amortized optimization",
+      "frozen_primary_resource": "MAT-VI",
+      "independent_performance_criterion": "Derive ELBO plus posterior-KL identity on a tiny latent model; distinguish approximation bias from Monte Carlo error",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-VI"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "M27",
+      "title": "Fixed-point reasoning and iterative solution",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Exact numerical/Bellman fixed-point assessment is specified",
+      "remaining_demand": "General theorem conditions and logical fixed-point distinction require further proof study",
+      "provider_source_ids": [
+        "SRC-89593046abff"
+      ],
+      "entry_prerequisites": [
+        "F03"
+      ],
+      "conditional_depth": "M05 for contraction/error analysis; M18,L18 for Bellman operator; C09,C17 for logical fixed points",
+      "frozen_primary_resource": "MAT-FIX",
+      "independent_performance_criterion": "Find and verify a fixed point, distinguish existence/uniqueness/convergence, and bound error under valid contraction assumptions",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "MAT-FIX",
+        "RL-R1"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L26",
+      "title": "Self-supervised representations and contrastive/predictive objectives",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual symmetric CLIP loss specifies zero rows, masks, ties and stability",
+      "remaining_demand": "Collapse diagnostics, valid augmentations and held-out representation utility",
+      "provider_source_ids": [
+        "SRC-edceaf35c4c4"
+      ],
+      "entry_prerequisites": [
+        "L10",
+        "L01"
+      ],
+      "conditional_depth": "L11 for controlled training; M15 for information-theoretic claims",
+      "frozen_primary_resource": "D039–040 selected; ML-SSL",
+      "independent_performance_criterion": "Define target construction and augmentations; detect collapse/leakage and evaluate held-out representation utility",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ML-SSL"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L27",
+      "title": "LLM post-training, reward modeling and preference optimization",
+      "coverage_status": "partial_coverage",
+      "observed_scope": "Actual assistant-only mask and GRPO primitive contracts are inspected",
+      "remaining_demand": "Reward identifiability, DPO assumptions and fair held-out preference/outcome evaluation",
+      "provider_source_ids": [
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [
+        "L15",
+        "M05"
+      ],
+      "conditional_depth": "L20 only for policy-gradient/PPO/GRPO branch; M12 for optimization; L23 for evaluation",
+      "frozen_primary_resource": "D054–056 selected; ML-POST",
+      "independent_performance_criterion": "Separate SFT, reward-model learning, DPO and RL optimization; derive pairwise logistic/DPO losses and test held-out preference validity",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ML-POST"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    },
+    {
+      "competency_id": "L28",
+      "title": "Verifier-guided reasoning and search-time learning",
+      "coverage_status": "insufficient_depth",
+      "observed_scope": "Likelihood scoring is a real native primitive",
+      "remaining_demand": "Verified reasoning steps, faulty-verifier controls and matched search-time learning are not established by scoring alone",
+      "provider_source_ids": [
+        "SRC-c9e6121df019"
+      ],
+      "entry_prerequisites": [
+        "C08",
+        "C10",
+        "L01"
+      ],
+      "conditional_depth": "L15 for LLM integration; L27 for verifier/reward training; S05 for reliable comparison",
+      "frozen_primary_resource": "ML-VERIFY; D057,D059,D062–063 selected",
+      "independent_performance_criterion": "Distinguish outcome/process feedback and a checked verifier from a learned judge; compare search under matched token/compute budgets",
+      "selected_problem_ids": [],
+      "assessment_ids": [
+        "ML-VERIFY"
+      ],
+      "learner_status": "not assessed by this investigation",
+      "evidence_boundary": "Coverage of an inspected subskill is not coverage of the whole frontier competency. Catalogue-only subskills stay unresolved. Assessment rubrics are not completed research outcomes."
+    }
+  ]
+}
