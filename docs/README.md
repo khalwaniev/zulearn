@@ -1,3 +1,7 @@
+## Checklist discovery and source transparency patch (2026-11-28)
+
+The primary navigation now explicitly says Checklist. The first Deep-Path part opens by default. Master Path starts with provider categories (Deep-ML 8, TensorTonic 6, Zulearn 5; selective LeetCode under Problem Bank for browsing), while the scientific subject cards and all original routes remain available. Provider categories are navigation only, not mandatory tasks. Individual original exercises expose authorship/provenance; the coverage panel links the bounded university crosswalk and explicitly disclaims degree equivalence or demonstrated mastery. Thematic progress labels refer to selected scope, not full scientific-domain completion. This patch does not complete complementary curation, recover missing identities or change any progress records. Actual deployed browser acceptance remains outstanding.
+
 ## Current authoritative UI policy: hierarchical checklist and deduplication audit (2026-11-28)
 
 This section supersedes the earlier flat 80-aggregate checkbox policy below. The static architecture and visual stylesheet are unchanged. The frozen scientific curriculum is not changed.
